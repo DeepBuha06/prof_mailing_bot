@@ -66,7 +66,7 @@ def load_all_faculty_data(folder_path="iitgn_faculty/faculty"):
                         prof["academic_background"] = prof.get("academic_background", "")
                         prof["work_experience"] = prof.get("work_experience", "")
                         prof["selected_publications"] = prof.get("selected_publications", "")
-                        # Ensure research_interests exists in each prof record
+                        # CRITICAL FIX: Ensure research_interests exists
                         prof["research_interests"] = prof.get("research_interests", "")
 
                     all_faculty_data.extend(data)
@@ -76,36 +76,49 @@ def load_all_faculty_data(folder_path="iitgn_faculty/faculty"):
 
     return all_faculty_data
 
+# Load data
 load_all_faculty_data()
 
+# Create DataFrame
 df = pd.DataFrame(all_faculty_data)
 
-# FIX: Ensure research_interests column exists before using it
-if "research_interests" not in df.columns:
-    print("[INFO] research_interests column not found, creating empty column")
+# DEBUG: Print DataFrame info
+print(f"DataFrame shape: {df.shape}")
+print(f"DataFrame columns: {list(df.columns)}")
+
+# CRITICAL FIX: Ensure research_interests column exists
+if df.empty:
+    print("[ERROR] DataFrame is empty! No faculty data loaded.")
+    # Create a minimal DataFrame to prevent crashes
+    df = pd.DataFrame([{
+        "name": "No Data",
+        "department": "No Data", 
+        "research_interests": "",
+        "college_name": "No Data"
+    }])
+elif "research_interests" not in df.columns:
+    print("[WARN] 'research_interests' column missing. Adding empty column.")
     df["research_interests"] = ""
+else:
+    print("[INFO] 'research_interests' column found.")
+
+# Fill NaN values in research_interests
+df["research_interests"] = df["research_interests"].fillna("")
 
 # Remove duplicates
 df = df.drop_duplicates(subset=["name", "department"])
 
-print(df.shape)
+print(f"Final DataFrame shape: {df.shape}")
 
-# FIX: Check if research_interests column exists before factorizing
-if "research_interests" in df.columns:
-    df["tag_id"], _ = pd.factorize(df["research_interests"])
-    df["tagged_research_interests"] = df["tag_id"].astype(str) + " " + df["research_interests"].fillna("")
-    df["tagged_research_interests"] = df["tagged_research_interests"].str.replace(r"\\,", ",", regex=True)
-else:
-    # Fallback: create dummy data if research_interests is missing
-    print("[WARN] research_interests column still missing, creating dummy data")
-    df["research_interests"] = ""
-    df["tag_id"] = range(len(df))  # Create unique IDs
-    df["tagged_research_interests"] = df["tag_id"].astype(str) + " "
+# Now safe to use research_interests column
+df["tag_id"], _ = pd.factorize(df["research_interests"])
+df["tagged_research_interests"] = df["tag_id"].astype(str) + " " + df["research_interests"]
+df["tagged_research_interests"] = df["tagged_research_interests"].str.replace(r"\\,", ",", regex=True)
 
 from langchain_core.documents import Document
 
 raw_documents = [
-    Document(page_content=text)
+    Document(page_content=text if text.strip() else "No research interests available")
     for text in df["tagged_research_interests"].tolist()
 ]
 text_splitter = CharacterTextSplitter(chunk_size=1000000, chunk_overlap=0, separator="\n")
@@ -114,48 +127,65 @@ documents = text_splitter.split_documents(raw_documents)
 import tempfile
 from langchain.vectorstores import Chroma as ChromaBase
 import shutil
-import streamlit as st
 
 CHROMA_PATH = "./.chroma_index"
 
 @st.cache_resource
 def load_vectorstore():
-    if not os.path.exists(CHROMA_PATH):
-        os.makedirs(CHROMA_PATH)
-        chroma = ChromaBase.from_documents(
-            documents=documents,
-            embedding=embedding_model,
-            persist_directory=CHROMA_PATH
-        )
-        chroma.persist()
-    else:
-        chroma = ChromaBase(
-            embedding_function=embedding_model,
-            persist_directory=CHROMA_PATH
-        )
-    return chroma
+    try:
+        if not os.path.exists(CHROMA_PATH):
+            os.makedirs(CHROMA_PATH)
+            chroma = ChromaBase.from_documents(
+                documents=documents,
+                embedding=embedding_model,
+                persist_directory=CHROMA_PATH
+            )
+            chroma.persist()
+        else:
+            chroma = ChromaBase(
+                embedding_function=embedding_model,
+                persist_directory=CHROMA_PATH
+            )
+        return chroma
+    except Exception as e:
+        print(f"[ERROR] Failed to load vectorstore: {e}")
+        # Create a simple fallback
+        return None
 
 db_df = load_vectorstore()
 
 def retrieve_symantic_recommendations(query: str, top_k: int = 10) -> list[dict]:
-    recs = db_df.similarity_search(query, k=top_k * 10)  
+    if db_df is None:
+        print("[WARN] Vectorstore not available, returning empty results")
+        return []
+    
+    try:
+        recs = db_df.similarity_search(query, k=top_k * 10)  
 
-    prof_ids = []
-    seen = set()
+        prof_ids = []
+        seen = set()
 
-    for doc in recs:
-        try:
-            tag = int(doc.page_content.strip('"').split()[0])
-            if tag not in seen:
-                prof_ids.append(tag)
-                seen.add(tag)
-            if len(prof_ids) >= top_k:
-                break
-        except (ValueError, IndexError) as e:
-            print(f"[WARN] Could not parse tag from document: {doc.page_content[:50]}...")
-            continue
+        for doc in recs:
+            try:
+                content = doc.page_content.strip('"')
+                if not content or content == "No research interests available":
+                    continue
+                    
+                tag = int(content.split()[0])
+                if tag not in seen:
+                    prof_ids.append(tag)
+                    seen.add(tag)
+                if len(prof_ids) >= top_k:
+                    break
+            except (ValueError, IndexError) as e:
+                print(f"[WARN] Could not parse tag from document: {doc.page_content[:50]}...")
+                continue
 
-    result_df = df[df["tag_id"].isin(prof_ids)]
-    result_df = result_df.drop(columns=["tag_id", "tagged_research_interests"], errors="ignore")
+        result_df = df[df["tag_id"].isin(prof_ids)]
+        result_df = result_df.drop(columns=["tag_id", "tagged_research_interests"], errors="ignore")
 
-    return result_df.to_dict(orient="records")
+        return result_df.to_dict(orient="records")
+    
+    except Exception as e:
+        print(f"[ERROR] Error in retrieve_symantic_recommendations: {e}")
+        return []
