@@ -44,7 +44,6 @@ def load_all_faculty_data(folder_path="iitgn_faculty/faculty"):
     if all_faculty_data:  # Already loaded
         return all_faculty_data
 
-    # Handle missing directory gracefully
     if not os.path.exists(folder_path):
         print(f"[WARN] Faculty data folder not found: {folder_path}")
         return []
@@ -70,15 +69,13 @@ def load_all_faculty_data(folder_path="iitgn_faculty/faculty"):
                         prof["selected_publications"] = prof.get("selected_publications", "")
                         prof["research_interests"] = prof.get("research_interests", "")
 
-                        all_faculty_data.append(prof)
-
-
-                    all_faculty_data.extend(data)
+                        all_faculty_data.append(prof)  # ✅ Only cleaned ones
 
                 except Exception as e:
                     print(f"Failed to load {file}: {e}")
 
     return all_faculty_data
+
 
 
 
