@@ -66,8 +66,6 @@ def load_all_faculty_data(folder_path="iitgn_faculty/faculty"):
                         prof["academic_background"] = prof.get("academic_background", "")
                         prof["work_experience"] = prof.get("work_experience", "")
                         prof["selected_publications"] = prof.get("selected_publications", "")
-                        # CRITICAL FIX: Ensure research_interests exists
-                        prof["research_interests"] = prof.get("research_interests", "")
 
                     all_faculty_data.extend(data)
 
@@ -76,49 +74,64 @@ def load_all_faculty_data(folder_path="iitgn_faculty/faculty"):
 
     return all_faculty_data
 
-# Load data
+# Load faculty data
 load_all_faculty_data()
 
 # Create DataFrame
 df = pd.DataFrame(all_faculty_data)
 
-# DEBUG: Print DataFrame info
-print(f"DataFrame shape: {df.shape}")
-print(f"DataFrame columns: {list(df.columns)}")
+# COMPREHENSIVE FIX for research_interests column
+def ensure_research_interests_column(df):
+    """Ensure research_interests column exists with meaningful defaults"""
+    
+    if "research_interests" in df.columns:
+        # Column exists, just fill NaN values
+        df["research_interests"] = df["research_interests"].fillna("General Research")
+        print("[INFO] research_interests column found, filled NaN values")
+        return df
+    
+    # Column doesn't exist, try alternatives
+    alternative_fields = [
+        "research_interest", "interests", "research_areas", 
+        "specialization", "research_focus", "expertise", "fields"
+    ]
+    
+    for alt_field in alternative_fields:
+        if alt_field in df.columns:
+            df["research_interests"] = df[alt_field].fillna("General Research")
+            print(f"[INFO] Using '{alt_field}' as research_interests")
+            return df
+    
+    # No alternatives found, create intelligent defaults
+    if "department" in df.columns:
+        df["research_interests"] = df["department"].apply(
+            lambda dept: f"{dept} Research" if pd.notna(dept) and str(dept).strip() != "" else "General Research"
+        )
+        print("[INFO] Created research_interests based on department")
+    else:
+        df["research_interests"] = "General Research"
+        print("[INFO] Created generic research_interests column")
+    
+    return df
 
-# CRITICAL FIX: Ensure research_interests column exists
-if df.empty:
-    print("[ERROR] DataFrame is empty! No faculty data loaded.")
-    # Create a minimal DataFrame to prevent crashes
-    df = pd.DataFrame([{
-        "name": "No Data",
-        "department": "No Data", 
-        "research_interests": "",
-        "college_name": "No Data"
-    }])
-elif "research_interests" not in df.columns:
-    print("[WARN] 'research_interests' column missing. Adding empty column.")
-    df["research_interests"] = ""
-else:
-    print("[INFO] 'research_interests' column found.")
-
-# Fill NaN values in research_interests
-df["research_interests"] = df["research_interests"].fillna("")
+# Apply the fix
+df = ensure_research_interests_column(df)
 
 # Remove duplicates
 df = df.drop_duplicates(subset=["name", "department"])
 
-print(f"Final DataFrame shape: {df.shape}")
+print(f"DataFrame shape: {df.shape}")
+print(f"Sample research_interests: {df['research_interests'].head().tolist()}")
 
-# Now safe to use research_interests column
+# Now safe to proceed with factorization
 df["tag_id"], _ = pd.factorize(df["research_interests"])
-df["tagged_research_interests"] = df["tag_id"].astype(str) + " " + df["research_interests"]
+df["tagged_research_interests"] = df["tag_id"].astype(str) + " " + df["research_interests"].fillna("")
 df["tagged_research_interests"] = df["tagged_research_interests"].str.replace(r"\\,", ",", regex=True)
 
 from langchain_core.documents import Document
 
 raw_documents = [
-    Document(page_content=text if text.strip() else "No research interests available")
+    Document(page_content=text if text.strip() else "General Research")
     for text in df["tagged_research_interests"].tolist()
 ]
 text_splitter = CharacterTextSplitter(chunk_size=1000000, chunk_overlap=0, separator="\n")
@@ -149,7 +162,6 @@ def load_vectorstore():
         return chroma
     except Exception as e:
         print(f"[ERROR] Failed to load vectorstore: {e}")
-        # Create a simple fallback
         return None
 
 db_df = load_vectorstore()
@@ -168,7 +180,7 @@ def retrieve_symantic_recommendations(query: str, top_k: int = 10) -> list[dict]
         for doc in recs:
             try:
                 content = doc.page_content.strip('"')
-                if not content or content == "No research interests available":
+                if not content:
                     continue
                     
                 tag = int(content.split()[0])
