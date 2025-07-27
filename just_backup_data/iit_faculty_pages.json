@@ -1,0 +1,159 @@
+{
+  "IIT Bombay": [
+    "https://www.aero.iitb.ac.in/home/people/faculty",
+    "https://www.bio.iitb.ac.in/people/faculty/",
+    "https://www.cse.iitb.ac.in/people/faculty",
+    "https://www.geos.iitb.ac.in/index.php/current-faculty/",
+    "https://www.hss.iitb.ac.in/people/faculty",
+    "https://www.ieor.iitb.ac.in/people/faculty",
+    "https://www.math.iitb.ac.in/People/faculty.php",
+    "https://www.me.iitb.ac.in/full-time-faculty",
+    "https://www.phy.iitb.ac.in/en/faculty"
+  ],
+  "IIT Delhi": [
+    "https://abudhabi.iitd.ac.in/faculty",
+    "https://beb.iitd.ac.in/faculty.html",
+    "https://cart.iitd.ac.in/faculty",
+    "https://civil.iitd.ac.in/index.php?lmenuid=faculty",
+    "https://dms.iitd.ac.in/all-faculty-members/",
+    "https://ee.iitd.ac.in/faculty",
+    "https://homecse.iitd.ac.in/faculty/",
+    "https://hss.iitd.ac.in/faculty",
+    "https://mse.iitd.ac.in/faculty"
+  ],
+  "IIT Kanpur": [
+    "https://iitk.ac.in/new/iitk-faculty",
+    "https://www.iitk.ac.in/ce/faculty",
+    "https://www.iitk.ac.in/dofa/current-faculty",
+    "https://www.iitk.ac.in/ee/faculty",
+    "https://www.iitk.ac.in/es/index.php/faculty",
+    "https://www.iitk.ac.in/hss/faculty",
+    "https://www.iitk.ac.in/math/index.php/faculty",
+    "https://www.iitk.ac.in/me/people/faculty",
+    "https://www.iitk.ac.in/phy/index.php/people/faculty"
+  ],
+  "IIT Madras": [
+    "https://apm.iitm.ac.in/pages/Faculty",
+    "https://biotech.iitm.ac.in/outerfaculty.php",
+    "https://che.iitm.ac.in/corefaculty.php",
+    "https://chem.iitm.ac.in/faculty/",
+    "https://doe.iitm.ac.in/faculty/",
+    "https://hss.iitm.ac.in/faculty-members/",
+    "https://www.ee.iitm.ac.in/faculty/",
+    "https://www.iitm.ac.in/faculty"
+  ],
+  "IIT Kharagpur": [
+    "http://www.ae.iitkgp.ac.in/aeroweb/navlinks/faculty.php",
+    "http://www.chemistry.iitkgp.ac.in/faculty",
+    "http://www.metal.iitkgp.ac.in/People/allFaculty",
+    "http://www.smst.iitkgp.ac.in/Smst/faculty",
+    "https://ai.iitkgp.ac.in/pages/people/faculty.html",
+    "https://bt.iitkgp.ac.in/faculty.html",
+    "https://cse.iitkgp.ac.in/?faculty.html",
+    "https://ecdept.iitkgp.ac.in/faculty.php",
+    "https://www.iitkgp.ac.in/faclistbydepartment"
+  ],
+  "IIT Guwahati": [
+    "https://iitg.ac.in/chem/page_faculty.php",
+    "https://www.iitg.ac.in/biotech/faculty.php",
+    "https://www.iitg.ac.in/civil/Earth_Sciences_Lab/Faculty.html",
+    "https://www.iitg.ac.in/cse/faculty.php",
+    "https://www.iitg.ac.in/eee/faculty.php",
+    "https://www.iitg.ac.in/hss/faculty_page.php",
+    "https://www.iitg.ac.in/iitg_faculty_all.php",
+    "https://www.iitg.ac.in/sob/faculty.php"
+  ],
+  "IIT Roorkee": [
+    "https://iitr.ac.in/Departments/Chemistry%20Department/People/Faculty/index.html",
+    "https://iitr.ac.in/Departments/Computer%20Science%20and%20Engineering%20Department/People/Faculty/index.html",
+    "https://iitr.ac.in/Departments/Department%20of%20Design/People/Faculty/",
+    "https://iitr.ac.in/Departments/Electrical%20Engineering%20Department/People/Faculty/index.html",
+    "https://iitr.ac.in/Departments/Humanities%20and%20Social%20Sciences%20Department/People/Faculty/",
+    "https://iitr.ac.in/Departments/Humanities%20and%20Social%20Sciences%20Department/People/Faculty/faculties.html",
+    "https://iitr.ac.in/Departments/Management%20Studies%20Department/People/Faculty/index.html",
+    "https://iitr.ac.in/Departments/Mechanical%20and%20Industrial%20Engineering%20Department/People/Faculty/index.html"
+  ],
+  "IIT Hyderabad": [
+    "https://civil.iith.ac.in/people-faculty/index.html",
+    "https://cse.iith.ac.in/people/faculty.html",
+    "https://ee.iith.ac.in/faculty.html",
+    "https://la.iith.ac.in/faculty.html",
+    "https://mae.iith.ac.in/faculty-directory.html",
+    "https://math.iith.ac.in/faculty.php",
+    "https://physics.iith.ac.in/people/faculty/",
+    "https://research.iith.ac.in/faculty-profiles",
+    "https://www.iith.ac.in/people/faculty/"
+  ],
+  "IIT Gandhinagar": [
+    "https://ee.iitgn.ac.in/site/people/faculty/",
+    "https://iitgn.ac.in/faculty",
+    "https://iitgn.ac.in/faculty/bioe",
+    "https://iitgn.ac.in/faculty/cse",
+    "https://iitgn.ac.in/faculty/ee",
+    "https://iitgn.ac.in/faculty/hss",
+    "https://iitgn.ac.in/faculty/me",
+    "https://math.iitgn.ac.in/faculty.php",
+    "https://me.iitgn.ac.in/faculty.php"
+  ],
+  "IIT Indore": [
+    "http://ee.iiti.ac.in/faculty.html",
+    "https://bsbe.iiti.ac.in/main/faculty",
+    "https://ce.iiti.ac.in/faculty.php",
+    "https://cse.iiti.ac.in/faculty.php",
+    "https://hss.iiti.ac.in/main/faculty",
+    "https://math.iiti.ac.in/faculty/",
+    "https://people.iiti.ac.in/~chem/faculty.html",
+    "https://physics.iiti.ac.in/faculty/"
+  ],
+  "IIT Ropar": [
+    "https://mech.iitrpr.ac.in/people/faculty",
+    "https://www.iitrpr.ac.in/cbme/faculty/",
+    "https://www.iitrpr.ac.in/ee/faculty.php",
+    "https://www.iitrpr.ac.in/hss/faculty",
+    "https://www.iitrpr.ac.in/iitrpr-pgcaid/faculty-profiles",
+    "https://www.iitrpr.ac.in/physics/p/faculty",
+    "https://www.iitrpr.ac.in/physics/p/faculty.html?search=R",
+    "https://www.iitrpr.ac.in/physics/p/faculty.html?search=S",
+    "https://www.iitrpr.ac.in/saide/faculty.php"
+  ],
+  "IIT BHU": [
+    "https://iitbhu.ac.in/dept/mec/faculty",
+    "https://www.iitbhu.ac.in/dept/civ/faculty",
+    "https://www.iitbhu.ac.in/dept/cse/faculty",
+    "https://www.iitbhu.ac.in/dept/ece/faculty",
+    "https://www.iitbhu.ac.in/dept/eee/faculty",
+    "https://www.iitbhu.ac.in/dept/hss/faculty",
+    "https://www.iitbhu.ac.in/dept/mat/faculty",
+    "https://www.iitbhu.ac.in/dept/phy/faculty"
+  ],
+  "IIT Dhanbad": [
+    "https://www.iitism.ac.in/all-faculty",
+    "https://www.iitism.ac.in/civil-engineering-faculty",
+    "https://www.iitism.ac.in/computer-science-and-engineering-faculty",
+    "https://www.iitism.ac.in/electrical-engineering-faculty",
+    "https://www.iitism.ac.in/electronics-engineering-faculty",
+    "https://www.iitism.ac.in/management-studies-and-industrial-engineering-faculty",
+    "https://www.iitism.ac.in/mathematics-and-computing-faculty",
+    "https://www.iitism.ac.in/mining-engineering-faculty",
+    "https://www.iitism.ac.in/physics-faculty"
+  ],
+  "IIT Patna": [
+    "https://cet.iitp.ac.in/index.php/faculty",
+    "https://me.iitp.ac.in/faculty.html",
+    "https://www.iitp.ac.in/?option=com_content&amp;view=article&amp;id=184:phy-faculty",
+    "https://www.iitp.ac.in/?option=com_content&amp;view=article&amp;id=357:faculty-2",
+    "https://www.iitp.ac.in/?option=com_content&amp;view=article&amp;id=72:cse-faculty",
+    "https://www.iitp.ac.in/people-dept-menu/faculty",
+    "https://www.iitp.ac.in/people/faculty"
+  ],
+  "IIT Goa": [
+    "https://iitgoa.ac.in/ch-faculty/",
+    "https://iitgoa.ac.in/cs-faculty/",
+    "https://iitgoa.ac.in/ee-faculty/",
+    "https://iitgoa.ac.in/ma-faculty/",
+    "https://iitgoa.ac.in/me-faculty/",
+    "https://iitgoa.ac.in/ph-faculty/",
+    "https://iitgoa.ac.in/shss-faculty/",
+    "https://iitgoa.ac.in/sils-faculty/"
+  ]
+}

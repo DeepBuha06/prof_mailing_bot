@@ -1,0 +1,54 @@
+[
+  {
+    "dept_name": "Astronomy, Astrophysics and Space Engineering",
+    "dept_url": "https://sites.google.com/view/daase/people/faculty"
+  },
+  {
+    "dept_name": "Biosciences and Biomedical Engineering",
+    "dept_url": "https://bsbe.iiti.ac.in/main/faculty"
+  },
+  {
+    "dept_name": "Chemical engineering",
+    "dept_url": "https://chemical.iiti.ac.in/main/core_faculty"
+  },
+  {
+    "dept_name": "Chemistry",
+    "dept_url": "https://chemistry.iiti.ac.in/faculty/"
+  },
+  {
+    "dept_name": "Civil Engineering",
+    "dept_url": "http://ce.iiti.ac.in/faculty.php"
+  },
+  {
+    "dept_name": "Computer Science and Engineering",
+    "dept_url": "http://cse.iiti.ac.in/faculty.php"
+  },
+  {
+    "dept_name": "Electrical Engineering",
+    "dept_url": "http://ee.iiti.ac.in/faculty.html"
+  },
+  {
+    "dept_name": "Humanities and Social Sciences",
+    "dept_url": "https://hss.iiti.ac.in/main/faculty"
+  },
+  {
+    "dept_name": "Mathematics",
+    "dept_url": "https://math.iiti.ac.in/people/faculty"
+  },
+  {
+    "dept_name": "Mechanical Engineering",
+    "dept_url": "https://people.iiti.ac.in/~meiiti/index.php/http-people-iiti-ac-in-meiiti-index-php-dr-sandeep-singh-2/"
+  },
+  {
+    "dept_name": "Metallurgical Engineering and Materials Science",
+    "dept_url": "http://mems.iiti.ac.in/faculty"
+  },
+  {
+    "dept_name": "Physics",
+    "dept_url": "https://physics.iiti.ac.in/faculty/"
+  },
+  {
+    "dept_name": "School of Innovation",
+    "dept_url": "http://facultyaffairs.iiti.ac.in/"
+  }
+]

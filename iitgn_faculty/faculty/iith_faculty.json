@@ -1,0 +1,3332 @@
+[
+  {
+    "name": "Aalok Dinkar Khandekar",
+    "designation": "Associate Professor",
+    "department": "Liberal Arts, Climate Change",
+    "email": "aalok@la.iith.ac.in",
+    "website": null,
+    "research_interests": "Science, technology, and society studies (STS), Environmental sustainability, Urban studies, Cultural anthropology, Climate Change, Energy, Waste Management, Design Innovation, Tangible and Intangible Heritage, Health & Society, Social Sciences",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Aalok-Khandekar.jpg",
+    "profile_url": "https://www.iith.ac.in/la/aalok/"
+  },
+  {
+    "name": "Aardra Surendran",
+    "designation": "Assistant Professor",
+    "department": "Liberal Arts",
+    "email": "aardra@la.iith.ac.in",
+    "website": null,
+    "research_interests": "Labour Studies, Gender Studies, Social Inequality, Development Studies, Public Policy, Social Sciences",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Aardra-Surendran.jpg",
+    "profile_url": "https://www.iith.ac.in/la/aardra/"
+  },
+  {
+    "name": "Abhijit Sau",
+    "designation": "Assistant Professor",
+    "department": "Chemistry",
+    "email": "asau@chy.iith.ac.in",
+    "website": null,
+    "research_interests": "Synthetic Organic Chemistry, Medicinal Chemistry, Glycoscience, Catalysis",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Abhijit-Sau.jpg",
+    "profile_url": "https://www.iith.ac.in/chy/asau/"
+  },
+  {
+    "name": "Abhinav Kumar",
+    "designation": "Professor",
+    "department": "Electrical Engineering, Artificial Intelligence, Engineering Science",
+    "email": "abhinavkumar@ee.iith.ac.in",
+    "website": null,
+    "research_interests": "Resource allocation for 5G, Visible light based communications, Security and Privacy in wireless networks, Cellular operation in the unlicensed spectrum, Wireless Communication & Networks, AI/ML, Climate Change, Cyber Security, Transportation",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Abhinav_Kumar.jpg",
+    "profile_url": "https://www.iith.ac.in/ee/abhinavkumar/"
+  },
+  {
+    "name": "Abhishek Subramanian",
+    "designation": "Assistant Professor",
+    "department": "BioTechnology",
+    "email": "abhisheks@bt.iith.ac.in",
+    "website": null,
+    "research_interests": "Computational Biology, Systems Biology, Omics Data Analyses and Bioinformatics, Mathematical / Statistical Modeling, AI / ML",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Abhishek_Subramanian.jpg",
+    "profile_url": "https://www.iith.ac.in/bt/abhisheks/"
+  },
+  {
+    "name": "Abhishek Kumar",
+    "designation": "Assistant Professor",
+    "department": "Electrical Engineering",
+    "email": "akumar@ee.iith.ac.in",
+    "website": null,
+    "research_interests": "Radio-frequency Integrated Circuit Design, Full-duplex wireless communication, Wide-band frequency synthesis, Transceiver arrays",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/akumar.jpg",
+    "profile_url": "https://www.iith.ac.in/ee/akumar/"
+  },
+  {
+    "name": "Aditya T Siripuram",
+    "designation": "Associate Professor",
+    "department": "Electrical Engineering, Artificial Intelligence",
+    "email": "staditya@ee.iith.ac.in",
+    "website": null,
+    "research_interests": "Fourier analysis, Signal processing and machine learning, Convex and combinatorial optimization, AI/ML, Applied Mathematics",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Aditya_Siripuram.jpg",
+    "profile_url": "https://www.iith.ac.in/ee/staditya/"
+  },
+  {
+    "name": "Aiyappan S",
+    "designation": "Assistant Professor",
+    "department": "Mathematics, Engineering Science",
+    "email": "aiyappan@math.iith.ac.in",
+    "website": null,
+    "research_interests": "Partial differential equations, Homogenizations",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Aiyappan-S.jpg",
+    "profile_url": "https://www.iith.ac.in/math/aiyappan/"
+  },
+  {
+    "name": "Alan Ranjit Jacob",
+    "designation": "Assistant Professor",
+    "department": "Chemical Engineering",
+    "email": "arjacob@che.iith.ac.in",
+    "website": null,
+    "research_interests": "Soft Matter, Colloids and Interfaces, 3D Printing, Rheometry and Rheology, Additive Manufacturing, Fluid Dynamics, Nanoscience & Technology, Soft and Active Matter",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Alan-Ranjit.png",
+    "profile_url": "https://www.iith.ac.in/che/arjacob/"
+  },
+  {
+    "name": "Alok Kumar Pan",
+    "designation": "Associate Professor",
+    "department": "Physics",
+    "email": "akp@phy.iith.ac.in",
+    "website": null,
+    "research_interests": "Quantum Information Theory, Quantum Communication, Quantum Foundations, Quantum Cryptography, Quantum Metrology",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Alok_Kumar_Pan.jpg",
+    "profile_url": "https://www.iith.ac.in/phy/akp/"
+  },
+  {
+    "name": "Althuri Avanthi",
+    "designation": "Assistant Professor",
+    "department": "BioTechnology",
+    "email": "a.avanthi@bt.iith.ac.in",
+    "website": null,
+    "research_interests": "Biofuels, Biochemicals, Bioprocess Technology, Nanobiotechnology, Downstream Processing, Waste Valorisation, Circular Economy, Energy, Waste Management, Bioprocess Technology",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Althuri-Avanthi.jpg",
+    "profile_url": "https://www.iith.ac.in/bt/a.avanthi/"
+  },
+  {
+    "name": "Ambika S",
+    "designation": "Assistant Professor",
+    "department": "Civil Engineering, Climate Change",
+    "email": "ambika@ce.iith.ac.in",
+    "website": null,
+    "research_interests": "Environmental Engineering, Catalysis, Climate Change, Energy, Nanoscience & Technology, Waste Management, Health & Society, Transportation, Materials Processing, Sustainable Infrastructure, Circular Economy",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Ambika.png",
+    "profile_url": "https://www.iith.ac.in/ce/ambika/"
+  },
+  {
+    "name": "Amirtham Rajagopal",
+    "designation": "Professor",
+    "department": "Civil Engineering",
+    "email": "rajagopal@ce.iith.ac.in",
+    "website": null,
+    "research_interests": "Damage Mechanics, Fracture Mechanics, Finite Element and Mesh free methods, Additive Manufacturing, Multiscale Modelling, Nanoscience & Technology, Applied Mathematics",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Amirtham_Rajagopal.jpg",
+    "profile_url": "https://www.iith.ac.in/ce/rajagopal/"
+  },
+  {
+    "name": "Amit Acharyya",
+    "designation": "Professor",
+    "department": "Electrical Engineering, Artificial Intelligence",
+    "email": "amit_acharyya@ee.iith.ac.in",
+    "website": null,
+    "research_interests": "VLSI systems resource-constrained applications, Low Power Design Techniques, Machine learning hardware design, Signal Processing Algorithm and VLSI Architectures, Digital Arithmetic, Biomedical Devices, AI/ML, Nanoscience & Technology",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Amit_Acharyya.jpg",
+    "profile_url": "https://www.iith.ac.in/ee/amit_acharyya/"
+  },
+  {
+    "name": "Amit Tripathi",
+    "designation": "Assistant Professor",
+    "department": "Mathematics",
+    "email": "amittr@math.iith.ac.in",
+    "website": null,
+    "research_interests": "Algebraic Geometry, Commutative Algebra",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Amit_Tripathi.jpg",
+    "profile_url": "https://www.iith.ac.in/math/amittr/"
+  },
+  {
+    "name": "Amrita Deb",
+    "designation": "Associate Professor",
+    "department": "Liberal Arts",
+    "email": "amrita@la.iith.ac.in",
+    "website": null,
+    "research_interests": "Positive psychology, Clinical psychology, Personality psychology, Social Sciences",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Amrita_Deb.jpg",
+    "profile_url": "https://www.iith.ac.in/la/amrita/"
+  },
+  {
+    "name": "Amrita Datta",
+    "designation": "Assistant Professor",
+    "department": "Liberal Arts",
+    "email": "amritadatta@la.iith.ac.in",
+    "website": null,
+    "research_interests": "Development studies, Migration and development, Gender and development, Village and longitudinal studies, Social Sciences",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Amrita-Datta.jpg",
+    "profile_url": "https://www.iith.ac.in/la/amritadatta/"
+  },
+  {
+    "name": "Anamika Bhargava",
+    "designation": "Head (BT) & Professor",
+    "department": "BioTechnology",
+    "email": "abhargava@bt.iith.ac.in",
+    "website": null,
+    "research_interests": "Voltage-gated calcium channels, Electrophysiology, Channelopathies, Imaging of ion channels, Zebrafish animal model, Disease/Toxicity Mechanisms, Drug Discovery/Drug Target Validation and Preclinical Testing/Molecular Virology, Health & Society",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Anamika_Bhargava.jpg",
+    "profile_url": "https://www.iith.ac.in/bt/abhargava/"
+  },
+  {
+    "name": "Anand Mohan",
+    "designation": "Professor",
+    "department": "Chemical Engineering",
+    "email": "anandm@che.iith.ac.in",
+    "website": null,
+    "research_interests": "Cardiovascular Mechanics, Complex Fluid Rheology, Biomedical Devices, First Principle Calculations, Multiscale Modelling, AI/ML, Fluid Dynamics, High Performance Computing (HPC), Disease/Toxicity Mechanisms, Applied Mathematics",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Anand_Mohan.jpg",
+    "profile_url": "https://www.iith.ac.in/che/anandm/"
+  },
+  {
+    "name": "Anandita Pan",
+    "designation": "Assistant Professor",
+    "department": "Liberal Arts",
+    "email": "anandita@la.iith.ac.in",
+    "website": null,
+    "research_interests": "Gender studies, South Asian Literature, Intersectionality, Feminist Standpoint Theory",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Anandita-P.jpg",
+    "profile_url": "https://www.iith.ac.in/la/anandita/"
+  },
+  {
+    "name": "Aneesh Sobhanan",
+    "designation": "Assistant Professor",
+    "department": "Electrical Engineering",
+    "email": "aneesh@ee.iith.ac.in",
+    "website": null,
+    "research_interests": "Fiber Optic Communication, Optical Signal Processing, Photonic Computing, Semiconductor Optical Amplifiers (SOAs)",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/AneeshSobhanan.png",
+    "profile_url": "https://www.iith.ac.in/ee/aneesh/"
+  },
+  {
+    "name": "Anil Agarwal",
+    "designation": "Associate Professor",
+    "department": "Civil Engineering",
+    "email": "anil@ce.iith.ac.in",
+    "website": null,
+    "research_interests": "Structural fire engineering, High-temperature testing, Large-scale testing, Collapse prevention, Structural design for extreme conditions, Design Innovation, Transportation",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/anil.png",
+    "profile_url": "https://www.iith.ac.in/ce/anil/"
+  },
+  {
+    "name": "Anindita Majumdar",
+    "designation": "Associate Professor",
+    "department": "Liberal Arts",
+    "email": "anindita@la.iith.ac.in",
+    "website": null,
+    "research_interests": "Medical anthropology, Kinship, Reproduction, Infertility, Biomedical Materials, Social Sciences",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Anindita-Majumdar.jpg",
+    "profile_url": "https://www.iith.ac.in/la/anindita/"
+  },
+  {
+    "name": "Anindya Roy",
+    "designation": "Professor",
+    "department": "BioTechnology",
+    "email": "anindya@bt.iith.ac.in",
+    "website": null,
+    "research_interests": "DNA repair, Sensors, Waste Management, Disease/Toxicity Mechanisms, Drug Discovery/Drug Target Validation and Preclinical Testing/Molecular Virology",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Anindya_Roy.jpg",
+    "profile_url": "https://www.iith.ac.in/bt/anindya/"
+  },
+  {
+    "name": "Anirban Naskar",
+    "designation": "Assistant Professor",
+    "department": "Mechanical & Aerospace Engineering",
+    "email": "anaskar@mae.iith.ac.in",
+    "website": null,
+    "research_interests": "Surface Engineering, Surface Finishing, Numerical Modelling of Surface Finishing Processes",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Anirban_Naskar.jpg",
+    "profile_url": "https://www.iith.ac.in/mae/anaskar/"
+  },
+  {
+    "name": "Anjan Kumar Giri",
+    "designation": "Professor",
+    "department": "Physics",
+    "email": "giria@phy.iith.ac.in",
+    "website": null,
+    "research_interests": "Flavor Physics and CP violation, Neutrino Physics, BSM, High Energy Physics",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Anjan_Kumar_Giri.jpg",
+    "profile_url": "https://www.iith.ac.in/phy/giria/"
+  },
+  {
+    "name": "Anjana A M",
+    "designation": "Assistant Professor",
+    "department": "Electrical Engineering",
+    "email": "anjana.am@ee.iith.ac.in",
+    "website": null,
+    "research_interests": "Intersection of coding theory, Wireless Communication",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/anjana_a_m.jpg",
+    "profile_url": "https://www.iith.ac.in/ee/anjana.am/"
+  },
+  {
+    "name": "Ankita Roy",
+    "designation": "Assistant Professor",
+    "department": "Design",
+    "email": "aroy@des.iith.ac.in",
+    "website": null,
+    "research_interests": "Publication and Book Design, Ancient Scripts, Tessellations & Geometrical patterns, Kufic Calligraphy, Design Pedagogy, Design Innovation, Virtual Reality and Augmented Reality, Tangible and Intangible Heritage, Communication Design, Data and Information Visualistion, HCI/ Interaction Design",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/ankita.jpg",
+    "profile_url": "https://www.iith.ac.in/des/aroy/"
+  },
+  {
+    "name": "Ankush Kumar Jaiswal",
+    "designation": "Assistant Professor",
+    "department": "Mechanical & Aerospace Engineering",
+    "email": "ankush@mae.iith.ac.in",
+    "website": null,
+    "research_interests": "Human exposure to extreme heat, Thermal comfort, Desalination, Thermal systems",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Ankush.png",
+    "profile_url": "https://www.iith.ac.in/mae/ankush/"
+  },
+  {
+    "name": "Annadhasan M",
+    "designation": "Assistant Professor",
+    "department": "Chemistry",
+    "email": "annadhasan@chy.iith.ac.in",
+    "website": null,
+    "research_interests": "Nanomaterials, Organic/inorganic Materials",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Annadhasan.jpg",
+    "profile_url": "https://www.iith.ac.in/chy/annadhasan/"
+  },
+  {
+    "name": "Antony Franklin",
+    "designation": "Head (CSE) & Professor",
+    "department": "Computer Science & Engineering",
+    "email": "antony.franklin@cse.iith.ac.in",
+    "website": null,
+    "research_interests": "Wireless Networks, Mobile Networks, 5G Network and Systems, Low Latency transport protocol, Wireless Communication & Networks, Cyber Security",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Antony-Franklin.jpg",
+    "profile_url": "https://www.iith.ac.in/cse/antony.franklin/"
+  },
+  {
+    "name": "Anuj Goyal",
+    "designation": "Assistant Professor",
+    "department": "Materials Science And Metallurgical Engineering",
+    "email": "anujgoyal@msme.iith.ac.in",
+    "website": null,
+    "research_interests": "Computational Material Science, Electronic structure theory, Defects thermodynamics, Point defects, dislocations and interfaces, Metals and semiconductors (oxides, nitrides, chalcogenides, halides), Semiconducting Devices, First Principle Calculations, Multiscale Modelling, AI/ML, Energy, High Performance Computing (HPC)",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/anujgoyal.jpg",
+    "profile_url": "https://www.iith.ac.in/msme/anujgoyal/"
+  },
+  {
+    "name": "Anup Bhunia",
+    "designation": "Assistant Professor",
+    "department": "Chemistry",
+    "email": "abhunia@chy.iith.ac.in",
+    "website": null,
+    "research_interests": "Organic Synthesis, Electrochemistry, Mechanochemistry",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Anup_Bhunia.png",
+    "profile_url": "https://www.iith.ac.in/chy/abhunia/"
+  },
+  {
+    "name": "Anupam Gupta",
+    "designation": "Assistant Professor",
+    "department": "Physics",
+    "email": "agupta@phy.iith.ac.in",
+    "website": null,
+    "research_interests": "Soft-matter, Biophysics, Complex Systems, Fluid Turbulence, Biomedical Devices, Multiscale Modelling, AI/ML, Fluid Dynamics, Soft and Active Matter",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/AnupamGupta.png",
+    "profile_url": "https://www.iith.ac.in/phy/agupta/"
+  },
+  {
+    "name": "Anurag Tripathi",
+    "designation": "Associate Professor",
+    "department": "Physics",
+    "email": "tripathi@phy.iith.ac.in",
+    "website": null,
+    "research_interests": "High Energy Physics, Perturbative Quantum Chromodynamics, Infrared Structure of Gauge Field Theories, High Energy Physics",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Anurag_Tripathi.jpg",
+    "profile_url": "https://www.iith.ac.in/phy/tripathi/"
+  },
+  {
+    "name": "Anurup Datta",
+    "designation": "Assistant Professor",
+    "department": "Mechanical & Aerospace Engineering, Engineering Science",
+    "email": "anurup.datta@mae.iith.ac.in",
+    "website": null,
+    "research_interests": "Process Monitoring of Manufacturing Processes, Laser based Micro and Nano-Nanufacturing, Applications of subwavelength laser spot using nanoscale optical antenna, Sensors, Nanoscience & Technology, Additive Manufacturing, Optics/Photonics/Spectroscopy, Materials Processing",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Anurup_Datta.jpg",
+    "profile_url": "https://www.iith.ac.in/mae/anurup.datta/"
+  },
+  {
+    "name": "Anusmita Das",
+    "designation": "Assistant Professor",
+    "department": "Design",
+    "email": "anusmita@des.iith.ac.in",
+    "website": null,
+    "research_interests": "Design Thinking, User Experience Design, Visual Culture, Visual Identity, Urban Semantics, Cultural Heritage",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Anusmita_Das.png",
+    "profile_url": "https://www.iith.ac.in/des/anusmita/"
+  },
+  {
+    "name": "Arabinda Haldar",
+    "designation": "Associate Professor",
+    "department": "Physics",
+    "email": "arabinda@phy.iith.ac.in",
+    "website": null,
+    "research_interests": "Magnonics, Microwave magnetics, Nanomagnetic devices, Micromagnetics, Nanofabrication, Sensors, Wireless Communication & Networks, Nanoscience & Technology, Optics/Photonics/Spectroscopy",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Arabinda_Haldar.jpg",
+    "profile_url": "https://www.iith.ac.in/phy/arabinda/"
+  },
+  {
+    "name": "Aravind N.R.",
+    "designation": "Associate Professor",
+    "department": "Computer Science & Engineering",
+    "email": "aravind@cse.iith.ac.in",
+    "website": null,
+    "research_interests": "Algorithms, Graph theory, Combinatorics, Theoretical Computer Science",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/N-R-Aravind.jpg",
+    "profile_url": "https://www.iith.ac.in/cse/aravind/"
+  },
+  {
+    "name": "Aravind Kumar Rengan",
+    "designation": "Associate Professor",
+    "department": "Biomedical Engineering, Engineering Science",
+    "email": "aravind@bme.iith.ac.in",
+    "website": null,
+    "research_interests": "Nanomedicine, Bio-Nanotechnology, Photothermal Therapy, Nanotoxicology, Cancer Theranostics, Biomedical Materials, Biomedical Devices, Biophysics/Medical Physics, Sensors, Nanoscience & Technology, Disease/Toxicity Mechanisms, Drug Discovery/Drug Target Validation and Preclinical Testing/Molecular Virology, Heritage Science & Technology",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Aravind-Kumar-Rengan.jpg",
+    "profile_url": "https://www.iith.ac.in/bme/aravind/"
+  },
+  {
+    "name": "Archak Purkayastha",
+    "designation": "Assistant Professor",
+    "department": "Physics",
+    "email": "archak.p@phy.iith.ac.in",
+    "website": null,
+    "research_interests": "Driven dissipative quantum many-body systems, Far-from-equilibrium quantum statistical physics, Quantum transport and thermodynamics, Quantum devices and technology, Condensed matter physics",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Archak_Purkayastha.jpg",
+    "profile_url": "https://www.iith.ac.in/phy/archak.p/"
+  },
+  {
+    "name": "Arunabha Majumdar",
+    "designation": "Assistant Professor",
+    "department": "Mathematics",
+    "email": "arun.majum@math.iith.ac.in",
+    "website": null,
+    "research_interests": "Statistical genetics, Biostatistics, Computational statistics, Statistics",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Arunabha-Majumdar.jpeg",
+    "profile_url": "https://www.iith.ac.in/math/arun.majum/"
+  },
+  {
+    "name": "Arup Mahata",
+    "designation": "Assistant Professor",
+    "department": "Chemistry",
+    "email": "arup@chy.iith.ac.in",
+    "website": null,
+    "research_interests": "Perovskites Optoelectronics, Surface Catalysis, Energy Storage, Porous Materials, Spintronics, First Principle Calculations, Catalysis, Energy, Nanoscience & Technology",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Arup-Mahata.jpg",
+    "profile_url": "https://www.iith.ac.in/chy/arup/"
+  },
+  {
+    "name": "Ashish Mishra",
+    "designation": "Assistant Professor",
+    "department": "Computer Science & Engineering",
+    "email": "mishraashish@cse.iith.ac.in",
+    "website": null,
+    "research_interests": "Program Verification, Program Synthesis, Programming Languages, Neurosymbolic Programming",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Ashish-Mishra.jpg",
+    "profile_url": "https://www.iith.ac.in/cse/mishraashish/"
+  },
+  {
+    "name": "Ashish Misra",
+    "designation": "Assistant Professor",
+    "department": "BioTechnology",
+    "email": "ashishmisra@bt.iith.ac.in",
+    "website": null,
+    "research_interests": "Genomics, Epitranscriptomics, Cancer, RNA Biology, Alternative splicing, AI/ML, Nanoscience & Technology, Disease/Toxicity Mechanisms, Drug Discovery/Drug Target Validation and Preclinical Testing/Molecular Virology",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/ashish-misra.jpg",
+    "profile_url": "https://www.iith.ac.in/bt/ashishmisra/"
+  },
+  {
+    "name": "Ashok Kamaraj",
+    "designation": "Assistant Professor",
+    "department": "Materials Science And Metallurgical Engineering",
+    "email": "ashokk@msme.iith.ac.in",
+    "website": null,
+    "research_interests": "Inclusion Engineering, Alloy Steel Development, AI/ML, Fluid Dynamics, Waste Management, Materials Processing, Extractive/Process Metallurgy",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Ashok-K.jpg",
+    "profile_url": "https://www.iith.ac.in/msme/ashokk/"
+  },
+  {
+    "name": "Ashok Kumar Pandey",
+    "designation": "Head (MAE) & Professor",
+    "department": "Mechanical & Aerospace Engineering",
+    "email": "ashok@mae.iith.ac.in",
+    "website": null,
+    "research_interests": "Linear and Nonlinear Vibration, MEMS, Vehicle Dynamics, Sensors, Multiscale Modelling, Nanoscience & Technology",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Ashok_Kumar_Pandey.jpg",
+    "profile_url": "https://www.iith.ac.in/mae/ashok/"
+  },
+  {
+    "name": "Ashudeb Dutta",
+    "designation": "Professor",
+    "department": "Electrical Engineering",
+    "email": "asudeb_dutta@ee.iith.ac.in",
+    "website": null,
+    "research_interests": "Analog and Radio Frequency VLSI chip design Receiver, Phase Locked Loop, Low noise amplifier, Energy Harvesting, Semiconducting Devices, Wireless Communication & Networks",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Ashudeb_Dutta.jpg",
+    "profile_url": "https://www.iith.ac.in/ee/asudeb_dutta/"
+  },
+  {
+    "name": "Ashutosh Kumar Mishra",
+    "designation": "Associate Professor",
+    "department": "Chemistry",
+    "email": "akm@chy.iith.ac.in",
+    "website": null,
+    "research_interests": "Bioorganic Chemistry, Sensors, Nanoscience & Technology",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Ashutosh_Mishra.png",
+    "profile_url": "https://www.iith.ac.in/chy/akm/"
+  },
+  {
+    "name": "Asif Qureshi",
+    "designation": "Head (CC) & Professor",
+    "department": "Civil Engineering, Climate Change",
+    "email": "asif@ce.iith.ac.in",
+    "website": null,
+    "research_interests": "Environmental Science, Public Health, Climate Change, Health & Society",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Asif.png",
+    "profile_url": "https://www.iith.ac.in/ce/asif/"
+  },
+  {
+    "name": "Atanu Rajak",
+    "designation": "Assistant Professor",
+    "department": "Physics",
+    "email": "atanu@phy.iith.ac.in",
+    "website": null,
+    "research_interests": "Study of Topological Systems",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/atanu.jpg",
+    "profile_url": "https://www.iith.ac.in/phy/atanu/"
+  },
+  {
+    "name": "Atul Suresh Deshpande",
+    "designation": "Associate Professor",
+    "department": "Materials Science And Metallurgical Engineering",
+    "email": "atuldeshpande@msme.iith.ac.in",
+    "website": null,
+    "research_interests": "Energy storage materials (batteries and supercapacitors), High entropy oxides, Superhydrophobic materials, Nanomaterial synthesis, Carbon based materials",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Atul photo 2022.jpg",
+    "profile_url": "https://www.iith.ac.in/msme/atuldeshpande/"
+  },
+  {
+    "name": "Avinash Eranki",
+    "designation": "Assistant Professor",
+    "department": "Biomedical Engineering",
+    "email": "aeranki@bme.iith.ac.in",
+    "website": null,
+    "research_interests": "Medical Ultrasound Techniques & Devices, Diagnosis & Therapy of Cancer, Preclinical & Clinical Trials, Biomedical Devices, Biophysics/Medical Physics, Sensors, Nanoscience & Technology, Design Innovation",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/AvinashEranki.jpg",
+    "profile_url": "https://www.iith.ac.in/bme/aeranki/"
+  },
+  {
+    "name": "Badri Narayan Rath",
+    "designation": "Professor",
+    "department": "Liberal Arts",
+    "email": "badri@la.iith.ac.in",
+    "website": null,
+    "research_interests": "Economic Growth, Industrial Economics, International Economics, Energy Economics, Applied Econometrics, Energy, Social Sciences",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Badri-LA.jpg",
+    "profile_url": "https://www.iith.ac.in/la/badri/"
+  },
+  {
+    "name": "Balaji Iyer Vaidyanathan Shantha",
+    "designation": "Head (CH) & Associate Professor",
+    "department": "Chemical Engineering",
+    "email": "balaji@che.iith.ac.in",
+    "website": null,
+    "research_interests": "Biomimetics, Polymer Brushes, Structure-Property Relations, Biological Soft Matter, Multiscale Simulations, Multiscale Modelling, Nanoscience & Technology",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Balaji_Iyer.jpg",
+    "profile_url": "https://www.iith.ac.in/che/balaji/"
+  },
+  {
+    "name": "Balasubramaniam Jayaram",
+    "designation": "Professor",
+    "department": "Mathematics, Artificial Intelligence",
+    "email": "jbala@math.iith.ac.in",
+    "website": null,
+    "research_interests": "Approximate reasoning, Connectives in multi-valued logic, AI/ML, Applied Mathematics",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Balasubramaniam_jayaram.jpg",
+    "profile_url": "https://www.iith.ac.in/math/jbala/"
+  },
+  {
+    "name": "Basant Kumar Patel",
+    "designation": "Professor",
+    "department": "BioTechnology",
+    "email": "basantkpatel@bt.iith.ac.in",
+    "website": null,
+    "research_interests": "Protein misfolding in neurodegenerative diseases, Disease/Toxicity Mechanisms, Drug Discovery/Drug Target Validation and Preclinical Testing/Molecular Virology",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Basant_Kumar_Patel.jpg",
+    "profile_url": "https://www.iith.ac.in/bt/basantkpatel/"
+  },
+  {
+    "name": "Bhabani Shankar Mallik",
+    "designation": "Professor",
+    "department": "Chemistry",
+    "email": "bhabani@chy.iith.ac.in",
+    "website": null,
+    "research_interests": "Computational Chemistry, Molecular Dynamics, Statistical Mechanics, First Principle Calculations, Catalysis, Multiscale Modelling, Energy, High Performance Computing (HPC), Optics/Photonics/Spectroscopy",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Bhabani_Shankar_Mallik.jpg",
+    "profile_url": "https://www.iith.ac.in/chy/bhabani/"
+  },
+  {
+    "name": "Bhakti Bhusan Manna",
+    "designation": "Associate Professor",
+    "department": "Mathematics",
+    "email": "bbmanna@math.iith.ac.in",
+    "website": null,
+    "research_interests": "Partial Differential Equations, Pure Mathematics, Applied Mathematics",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Bhakti_Bhusan_Manna.jpg",
+    "profile_url": "https://www.iith.ac.in/math/bbmanna/"
+  },
+  {
+    "name": "Bharat Bhooshan Panigrahi",
+    "designation": "Professor",
+    "department": "Materials Science And Metallurgical Engineering",
+    "email": "bharat@msme.iith.ac.in",
+    "website": null,
+    "research_interests": "Powder Metallurgy, Sintering, Nanocrystalline Materials, High Entropy Alloys, MAX Phase and MXene, Additive Manufacturing, Materials Processing, Composites (MMC, CMC, PMC), Advanced Ceramics, Wear and Tribology, Coating and Surface Engineering",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Bharat_Bhushan_Panigrahi.jpg",
+    "profile_url": "https://www.iith.ac.in/msme/bharat/"
+  },
+  {
+    "name": "Bheemarjuna Reddy Tamma",
+    "designation": "Professor",
+    "department": "Computer Science & Engineering",
+    "email": "tbr@cse.iith.ac.in",
+    "website": null,
+    "research_interests": "Converged Cloud Radio Access Networks, 5G, SDN/NFV, IoT/M2M and Network Security, Wireless Communication & Networks, Cyber Security",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Bheemarjuna-Reddy-Tamma.jpg",
+    "profile_url": "https://www.iith.ac.in/cse/tbr/"
+  },
+  {
+    "name": "Bhuvanesh Ramakrishna",
+    "designation": "Head (ES) & Professor",
+    "department": "Physics, Engineering Science",
+    "email": "bhuvan@phy.iith.ac.in",
+    "website": null,
+    "research_interests": "Laser plasma Interaction, Optics/Photonics/Spectroscopy",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/bhuvanesh-r.jpg",
+    "profile_url": "https://www.iith.ac.in/phy/bhuvan/"
+  },
+  {
+    "name": "Biswarup Bhattacharyya",
+    "designation": "Assistant Professor",
+    "department": "Civil Engineering",
+    "email": "biswarup@ce.iith.ac.in",
+    "website": null,
+    "research_interests": "Uncertainty Quantification, Reliability Analysis, Global Sensitivity Analysis, Physics-Informed Machine Learning, Stochastic Dynamical Systems",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/biswarup.png",
+    "profile_url": "https://www.iith.ac.in/ce/biswarup/"
+  },
+  {
+    "name": "C Malla Reddy",
+    "designation": "Professor",
+    "department": "Chemistry",
+    "email": "cmreddy@chy.iith.ac.in",
+    "website": null,
+    "research_interests": "Crystal Engineering, Solid-state Pharmaceutical chemistry, Mechanically Flexible and Self-healing Organic Functional Crystals",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Malla Reddy.png",
+    "profile_url": "https://www.iith.ac.in/chy/cmreddy/"
+  },
+  {
+    "name": "C. Krishna Mohan",
+    "designation": "Professor",
+    "department": "Computer Science & Engineering, Artificial Intelligence",
+    "email": "ckm@cse.iith.ac.in",
+    "website": null,
+    "research_interests": "Video Content Analysis, Machine Learning, Sparsity Based Methods, Deep Learning, AI/ML",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/prof_krishna_mohan.jpeg",
+    "profile_url": "https://www.iith.ac.in/cse/ckm/"
+  },
+  {
+    "name": "Chandan Bose",
+    "designation": "Assistant Professor",
+    "department": "Liberal Arts",
+    "email": "chandanbose@la.iith.ac.in",
+    "website": null,
+    "research_interests": "Ethnography, Historiography, Visual anthropology, Artisanal communities and production, Critical heritage studies, Social Sciences",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Chandan-Bose.jpg",
+    "profile_url": "https://www.iith.ac.in/la/chandanbose/"
+  },
+  {
+    "name": "Chandra Prakash",
+    "designation": "Assistant Professor",
+    "department": "Mechanical & Aerospace Engineering",
+    "email": "cprakashj@mae.iith.ac.in",
+    "website": null,
+    "research_interests": "Materials Under Extreme Environment, Nano/Micro-scale Experimental Mechanics, Shock, Spallation, Fracture, Damage, Multiscale/Multiphysics Modeling, Multifunctional Materials, Sensors, Additive Manufacturing, Multiscale Modelling, AI/ML, Energy, Nanoscience & Technology, High Performance Computing (HPC), Optics/Photonics/Spectroscopy, Materials Processing",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Chandra_Prakash.jpg",
+    "profile_url": "https://www.iith.ac.in/mae/cprakashj/"
+  },
+  {
+    "name": "Chandra Shekhar Sharma",
+    "designation": "Professor",
+    "department": "Chemical Engineering",
+    "email": "cssharma@che.iith.ac.in",
+    "website": null,
+    "research_interests": "Polymer and Carbon Nanomaterials, Carbon-MEMS, Electrospun Nanofibers, Nature inspired Functional Surfaces, Drug Delivery, Biomedical Materials, Sensors, First Principle Calculations, Energy, Nanoscience & Technology, Waste Management",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/css_Profile_picture.jpg",
+    "profile_url": "https://www.iith.ac.in/che/cssharma/"
+  },
+  {
+    "name": "Chandrasekhar Murapaka",
+    "designation": "Associate Professor",
+    "department": "Materials Science And Metallurgical Engineering, Engineering Science",
+    "email": "mchandrasekhar@msme.iith.ac.in",
+    "website": null,
+    "research_interests": "Nanomagnetic Materials, Spintronic based memory and logic devices, Sensors, Semiconducting Devices, Wireless Communication & Networks, Multiscale Modelling, Energy, Nanoscience & Technology",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Chandrasekhar_Murapaka.jpg",
+    "profile_url": "https://www.iith.ac.in/msme/mchandrasekhar/"
+  },
+  {
+    "name": "Chandrika Prakash Vyasarayani",
+    "designation": "Professor",
+    "department": "Mechanical & Aerospace Engineering",
+    "email": "vcprakash@mae.iith.ac.in",
+    "website": null,
+    "research_interests": "Nonlinear Dynamics and Control, AI/ML, Applied Mathematics",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/C_P_Vyasarayani.jpg",
+    "profile_url": "https://www.iith.ac.in/mae/vcprakash/"
+  },
+  {
+    "name": "Chetankumar Jalihal",
+    "designation": "Assistant Professor",
+    "department": "Climate Change",
+    "email": "chetankumar.jalihal@cc.iith.ac.in",
+    "website": null,
+    "research_interests": "Paleomonsoons, Moist static energy budgets, Climate modeling, Model-proxy comparisons",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/chetankumar_jalihal.jpg",
+    "profile_url": "https://www.iith.ac.in/cc/chetankumar.jalihal/"
+  },
+  {
+    "name": "Debaprasad Shee",
+    "designation": "Associate Professor",
+    "department": "Chemical Engineering",
+    "email": "dshee@che.iith.ac.in",
+    "website": null,
+    "research_interests": "Catalysis over supported metals and metal oxides, Structure property correlations, Fuels and chemicals from renewable sources, Reaction Kinetics, Catalysis, Climate Change, Energy, Waste Management",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/dps.jpeg",
+    "profile_url": "https://www.iith.ac.in/che/dshee/"
+  },
+  {
+    "name": "Debasish Koner",
+    "designation": "Assistant Professor",
+    "department": "Chemistry",
+    "email": "debasishkoner@chy.iith.ac.in",
+    "website": null,
+    "research_interests": "Machine Learning in Chemistry, Machine Learning in Chemical Physics and Medical Diagnosis, Chemical Reaction Dynamics, Spectroscopy, AI/ML, High Performance Computing (HPC), Atomic Molecular and Optical Physics (AMO)",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Debasish_Koner.jpg",
+    "profile_url": "https://www.iith.ac.in/chy/debasishkoner/"
+  },
+  {
+    "name": "Debraj Bhattacharyya",
+    "designation": "Professor",
+    "department": "Civil Engineering, Climate Change",
+    "email": "debrajb@ce.iith.ac.in",
+    "website": null,
+    "research_interests": "Water & Wastewater Treatment, Solid Waste Management, Renewable Energy (Biofuel), Energy, Waste Management",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Debraj.png",
+    "profile_url": "https://www.iith.ac.in/ce/debrajb/"
+  },
+  {
+    "name": "Deepa M.",
+    "designation": "Professor",
+    "department": "Chemistry",
+    "email": "mdeepa@chy.iith.ac.in",
+    "website": null,
+    "research_interests": "Applied Electrochemistry, Energy, Nanoscience & Technology",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/M_Deepa.jpg",
+    "profile_url": "https://www.iith.ac.in/chy/mdeepa/"
+  },
+  {
+    "name": "Deepak John Mathew",
+    "designation": "Professor",
+    "department": "Design",
+    "email": "djm@des.iith.ac.in",
+    "website": null,
+    "research_interests": "Photography, Elements of design, Aesthetics, History of Design, Design Innovation, Virtual Reality and Augmented Reality, Tangible and Intangible Heritage, Industrial Design, Communication Design",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/deepak.jpg",
+    "profile_url": "https://www.iith.ac.in/des/djm/"
+  },
+  {
+    "name": "Deepak Kumar Pradhan",
+    "designation": "Assistant Professor",
+    "department": "Mathematics",
+    "email": "dkpradhan@math.iith.ac.in",
+    "website": null,
+    "research_interests": "Pure Mathematics",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Deepak_Kumar_Pradhan.jpg",
+    "profile_url": "https://www.iith.ac.in/math/dkpradhan/"
+  },
+  {
+    "name": "Deepu J Babu",
+    "designation": "Assistant Professor",
+    "department": "Materials Science And Metallurgical Engineering, Climate Change",
+    "email": "deepu.babu@msme.iith.ac.in",
+    "website": null,
+    "research_interests": "Nanoporous Materials, Adsorption, Membranes, Carbon nanomaterials (CNT, graphene), Metal-organic Frameworks, Chemical Vapor Deposition, Climate Change, Energy, Nanoscience & Technology",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/deepu-j-babu.png",
+    "profile_url": "https://www.iith.ac.in/msme/deepu.babu/"
+  },
+  {
+    "name": "Delwyn Jude Remedios",
+    "designation": "Assistant Professor",
+    "department": "Design",
+    "email": "delwyn@des.iith.ac.in",
+    "website": null,
+    "research_interests": "Animation, Graphic Novels, e Learning, Climate Change, Design Innovation, Virtual Reality and Augmented Reality, Tangible and Intangible Heritage, Graphic Narratives and Comics, Illustration, Filmmaking and Animation, Communication Design, Data and Information Visualistion, HCI/ Interaction Design, Gender Studies, Creative Arts and Design Theory, Sustainability",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/delwyn.jpg",
+    "profile_url": "https://www.iith.ac.in/des/delwyn/"
+  },
+  {
+    "name": "Devarai Santhosh Kumar",
+    "designation": "Associate Professor",
+    "department": "Chemical Engineering",
+    "email": "devarai@che.iith.ac.in",
+    "website": null,
+    "research_interests": "Biochemical and bioprocess development of therapeutic enzymes, Industrial Fermentation Engineering, Production of Industrial Medicinal and Nutritive Enzymes, Biomedical Materials, Biomedical Devices, Sensors",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/devarai.jpg",
+    "profile_url": "https://www.iith.ac.in/che/devarai/"
+  },
+  {
+    "name": "Dhriti Sundar Patra",
+    "designation": "Assistant Professor",
+    "department": "Mathematics",
+    "email": "dhriti@math.iith.ac.in",
+    "website": null,
+    "research_interests": "Differential Geometry, Riemannian Geometry",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Dhriti-Sundar-Patra.jpg",
+    "profile_url": "https://www.iith.ac.in/math/dhriti/"
+  },
+  {
+    "name": "Digvijay S. Pawar",
+    "designation": "Associate Professor",
+    "department": "Civil Engineering, Engineering Science",
+    "email": "dspawar@ce.iith.ac.in",
+    "website": null,
+    "research_interests": "Driver and pedestrian behavioral modeling, Traffic safety and accident analysis, Traffic operation and simulation, Intelligent transportation systems, Statistical Modelling and Classification Technique, Climate Change, Transportation",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Digvijay.png",
+    "profile_url": "https://www.iith.ac.in/ce/dspawar/"
+  },
+  {
+    "name": "Dinabandhu Sethi",
+    "designation": "Assistant Professor",
+    "department": "Liberal Arts",
+    "email": "dinabandhu@la.iith.ac.in",
+    "website": null,
+    "research_interests": "Monetary Economics, Public Economics, State Finances and Time Series Analysis",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Dinabandhu-Sethi.jpg",
+    "profile_url": "https://www.iith.ac.in/la/dinabandhu/"
+  },
+  {
+    "name": "Divya Sachdeva",
+    "designation": "Assistant Professor",
+    "department": "Physics",
+    "email": "divyasachdeva@phy.iith.ac.in",
+    "website": null,
+    "research_interests": "Beyond the Standard Model",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/divyasachdeva.png",
+    "profile_url": "https://www.iith.ac.in/phy/divyasachdeva/"
+  },
+  {
+    "name": "Faiz Ahmed Khan",
+    "designation": "Professor",
+    "department": "Chemistry",
+    "email": "faiz@chy.iith.ac.in",
+    "website": null,
+    "research_interests": "Transition Metal-mediated reactions in organic synthesis, Discovery of New Methodologies, Control of Stereochemistry in organic, Catalysis",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Faiz_Ahmed_Khan.jpg",
+    "profile_url": "https://www.iith.ac.in/chy/faiz/"
+  },
+  {
+    "name": "Falguni Pati",
+    "designation": "Head (Biomed) & Associate Professor",
+    "department": "Biomedical Engineering",
+    "email": "falguni@bme.iith.ac.in",
+    "website": null,
+    "research_interests": "Biomaterials, Tissue Engineering, 3D Bioprinting, In Vitro Tissue/Organ Models, Biomedical Materials, Biomedical Devices, Additive Manufacturing",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Falguni_Pati.jpg",
+    "profile_url": "https://www.iith.ac.in/bme/falguni/"
+  },
+  {
+    "name": "G Thulsiram",
+    "designation": "Assistant Professor",
+    "department": "Mechanical & Aerospace Engineering",
+    "email": "thulsiramg@mae.iith.ac.in",
+    "website": null,
+    "research_interests": "Nondestructive Evaluation, Materials Characterization, Wave Propagation, Ultrasonic Imaging, Applied Machine Learning",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Tulasiram.png",
+    "profile_url": "https://www.iith.ac.in/mae/thulsiramg/"
+  },
+  {
+    "name": "G V V Sharma",
+    "designation": "Associate Professor",
+    "department": "Electrical Engineering",
+    "email": "gadepall@ee.iith.ac.in",
+    "website": null,
+    "research_interests": "Wireless Communications, Physical layer modulation, Synchronization techniques, Channel coding techniques, Wireless Communication & Networks, AI/ML, Energy",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/GVV.jpg",
+    "profile_url": "https://www.iith.ac.in/ee/gadepall/"
+  },
+  {
+    "name": "G. Narahari Sastry",
+    "designation": "Professor",
+    "department": "BioTechnology",
+    "email": "gnsastry@bt.iith.ac.in",
+    "website": null,
+    "research_interests": "Computational Chemistry, Computational Biology, Drug Discovery, Non-Covalent Interactions",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Prof_G_Narahari_Sastry.jpg",
+    "profile_url": "https://www.iith.ac.in/bt/gnsastry/"
+  },
+  {
+    "name": "Gajendranath Chaudhury CH.",
+    "designation": "Associate Professor",
+    "department": "Electrical Engineering",
+    "email": "gajendranath@ee.iith.ac.in",
+    "website": null,
+    "research_interests": "Analog and Mixed Signal Circuit Design, Energy, Nanoscience & Technology",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Gajendranath_Chaudhury.jpeg",
+    "profile_url": "https://www.iith.ac.in/ee/gajendranath/"
+  },
+  {
+    "name": "Gande Vamsi Vikram",
+    "designation": "Assistant Professor",
+    "department": "Chemical Engineering",
+    "email": "vamsigande@che.iith.ac.in",
+    "website": null,
+    "research_interests": "e-Waste Recycling",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/gande_vamsi_vikram.jpg",
+    "profile_url": "https://www.iith.ac.in/che/vamsigande/"
+  },
+  {
+    "name": "Ganesh Ghalme",
+    "designation": "Head (AI) & Assistant Professor",
+    "department": "Artificial Intelligence",
+    "email": "ganeshghalme@ai.iith.ac.in",
+    "website": null,
+    "research_interests": "Game Theory",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Ganesh-Ghalme.jpg",
+    "profile_url": "https://www.iith.ac.in/ai/ganeshghalme/"
+  },
+  {
+    "name": "Ganesh M. P.",
+    "designation": "Associate Professor",
+    "department": "Liberal Arts, Entrepreneurship and Management, Climate Change",
+    "email": "mpganesh@la.iith.ac.in",
+    "website": null,
+    "research_interests": "Cross-cultural virtual teams, Workplace bullying, Cross-cultural collaborations, Climate Change, Waste Management, Virtual Reality and Augmented Reality, Social Sciences",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/M-P-Ganesh.jpg",
+    "profile_url": "https://www.iith.ac.in/la/mpganesh/"
+  },
+  {
+    "name": "Gangadharan Raju",
+    "designation": "Professor",
+    "department": "Mechanical & Aerospace Engineering",
+    "email": "gangadharanr@mae.iith.ac.in",
+    "website": null,
+    "research_interests": "Composite Structures, Buckling and Post-buckling analysis, Variable angle tow composite plates, Damage modeling in composite structures, Non-Destructive Evaluation, Structural Health Monitoring, Sensors, Additive Manufacturing, Multiscale Modelling, Energy",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Gangadharan_Raju.jpg",
+    "profile_url": "https://www.iith.ac.in/mae/gangadharanr/"
+  },
+  {
+    "name": "Gaurav Sharma",
+    "designation": "Assistant Professor",
+    "department": "BioTechnology",
+    "email": "sharmag@bt.iith.ac.in",
+    "website": null,
+    "research_interests": "Microbial Genomics, Microbial Evolution, Medicinal Plant genomics, Plant-Microbe interactions, Metagenomics, Microbiome, Computational Biology, High Performance Computing (HPC), Disease/Toxicity Mechanisms, Drug Discovery/Drug Target Validation and Preclinical Testing/Molecular Virology",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/gaurav_sharma.jpg",
+    "profile_url": "https://www.iith.ac.in/bt/sharmag/"
+  },
+  {
+    "name": "Gaurav Dhamija",
+    "designation": "Assistant Professor",
+    "department": "Liberal Arts",
+    "email": "gauravdhamija@la.iith.ac.in",
+    "website": null,
+    "research_interests": "Health Economics, Gender Economics, Applied Microeconomics, Health & Society, Social Sciences",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Gaurav-Dhamija.jpg",
+    "profile_url": "https://www.iith.ac.in/la/gauravdhamija/"
+  },
+  {
+    "name": "Giridhar Madras",
+    "designation": "Professor",
+    "department": "Chemical Engineering",
+    "email": "giridhar@che.iith.ac.in",
+    "website": null,
+    "research_interests": "Development of Novel Materials for Energy, Environmental Applications, Catalysis, Energy",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Giridhar_Madras.jpg",
+    "profile_url": "https://www.iith.ac.in/che/giridhar/"
+  },
+  {
+    "name": "Gnanaprakash K",
+    "designation": "Assistant Professor",
+    "department": "Mechanical & Aerospace Engineering",
+    "email": "gnan@mae.iith.ac.in",
+    "website": null,
+    "research_interests": "Solid Fuels and Metal Combustion, Thermal sciences, Oscillatory combustion, Electrolytic Decomposition, Energetic Materials, Energy",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Gnanaprakash.jpg",
+    "profile_url": "https://www.iith.ac.in/mae/gnan/"
+  },
+  {
+    "name": "Gunjan Mehta",
+    "designation": "Assistant Professor",
+    "department": "BioTechnology",
+    "email": "gunjanmehta@bt.iith.ac.in",
+    "website": null,
+    "research_interests": "Transcription Regulation, Single-Molecule Imaging, Cell Division and Chromosome Dynamics, Developmental Disorders and Cancers, Optics/Photonics/Spectroscopy, Disease/Toxicity Mechanisms",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/gunjan-mehta.jpeg",
+    "profile_url": "https://www.iith.ac.in/bt/gunjanmehta/"
+  },
+  {
+    "name": "Harikrishnan Narayanan Unni",
+    "designation": "Associate Professor",
+    "department": "Biomedical Engineering",
+    "email": "harikrishnan@bme.iith.ac.in",
+    "website": null,
+    "research_interests": "Lab on Chip Microfluidics and Nanofluidics, Biophysics, Biomechanic, Biomedical Devices, Multiscale Modelling",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Harikrishnan_Narayanan_Unni.jpg",
+    "profile_url": "https://www.iith.ac.in/bme/harikrishnan/"
+  },
+  {
+    "name": "Haripriya Narasimhan",
+    "designation": "Associate Professor",
+    "department": "Liberal Arts, Climate Change",
+    "email": "haripriya@la.iith.ac.in",
+    "website": null,
+    "research_interests": "Media, Gender, Health, India, Biomedical Devices, Climate Change, Health & Society, Social Sciences",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Haripriya-Narasimhan.jpg",
+    "profile_url": "https://www.iith.ac.in/la/haripriya/"
+  },
+  {
+    "name": "Harish Nagaraj Dixit",
+    "designation": "Associate Professor",
+    "department": "Mechanical & Aerospace Engineering",
+    "email": "hdixit@mae.iith.ac.in",
+    "website": null,
+    "research_interests": "Interfacial flows - moving contact lines, drop, bubbles and thin films, Hydrodynamic stability theory, Fluid Dynamics, Applied Mathematics, Soft and Active Matter",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Harish_N_Dixit.jpg",
+    "profile_url": "https://www.iith.ac.in/mae/hdixit/"
+  },
+  {
+    "name": "Hemam Rachna Devi",
+    "designation": "Assistant Professor",
+    "department": "Materials Science And Metallurgical Engineering",
+    "email": "rachnahemam@msme.iith.ac.in",
+    "website": null,
+    "research_interests": "Green Hydrogen, Photocatalysis, Photoelectrocatalysis",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/HemamRachnaDevi.png",
+    "profile_url": "https://www.iith.ac.in/msme/rachnahemam/"
+  },
+  {
+    "name": "Himabindu Allaka",
+    "designation": "Assistant Professor",
+    "department": "Mechanical & Aerospace Engineering",
+    "email": "himabindu.allaka@mae.iith.ac.in",
+    "website": null,
+    "research_interests": "Multi-domain unmanned systems, Marine hydrodynamics, Subsea robotics",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Himabindu-A.jpg",
+    "profile_url": "https://www.iith.ac.in/mae/himabindu.allaka/"
+  },
+  {
+    "name": "Himanshu Joshi",
+    "designation": "Assistant Professor",
+    "department": "BioTechnology, Engineering Science",
+    "email": "hjoshi@bt.iith.ac.in",
+    "website": null,
+    "research_interests": "Assembly and Dynamics of membrane-DNA systems, Biomimetic Materials, Nanopore sequencing, DNA nanotechnology, Computational Virology, Biomedical Materials, Biomedical Devices, Biophysics/Medical Physics, First Principle Calculations, Multiscale Modelling, Nanoscience & Technology, Disease/Toxicity Mechanisms, Drug Discovery/Drug Target Validation and Preclinical Testing/Molecular Virology, Statistics, Soft and Active Matter",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/himanshu-joshi.jpg",
+    "profile_url": "https://www.iith.ac.in/bt/hjoshi/"
+  },
+  {
+    "name": "Indira Jalli",
+    "designation": "Associate Professor",
+    "department": "Liberal Arts",
+    "email": "indiraj@la.iith.ac.in",
+    "website": null,
+    "research_interests": "Nation, Culture, Humanities",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Indira_Jalli.jpg",
+    "profile_url": "https://www.iith.ac.in/la/indiraj/"
+  },
+  {
+    "name": "Indranil Malik",
+    "designation": "Assistant Professor",
+    "department": "BioTechnology",
+    "email": "indranil@bt.iith.ac.in",
+    "website": null,
+    "research_interests": "RNA Biology, Neurodegenerative Diseases",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/indranil.png",
+    "profile_url": "https://www.iith.ac.in/bt/indranil/"
+  },
+  {
+    "name": "J. Saketha Nath",
+    "designation": "Associate Professor",
+    "department": "Computer Science & Engineering",
+    "email": "saketha@cse.iith.ac.in",
+    "website": null,
+    "research_interests": "Machine Learning, AI/ML",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/J_Saketha_Nath.jpg",
+    "profile_url": "https://www.iith.ac.in/cse/saketha/"
+  },
+  {
+    "name": "Jai Prakash",
+    "designation": "Associate Professor",
+    "department": "Chemistry",
+    "email": "jaiprakash@chy.iith.ac.in",
+    "website": null,
+    "research_interests": "Inorganic Chemistry, Crystallography, Metal Chalcogenides, Intermetallics, Energy, Nanoscience & Technology",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Jai_Prakash.png",
+    "profile_url": "https://www.iith.ac.in/chy/jaiprakash/"
+  },
+  {
+    "name": "Jaladhar Neelavalli",
+    "designation": "Associate Professor",
+    "department": "Biomedical Engineering",
+    "email": "drjaladhar.n@bme.iith.ac.in",
+    "website": null,
+    "research_interests": "Developing novel Magnetic Resonance Imaging (MRI) methods for pre-clinical, clinical and/or medical applications",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Jaladhar Neelavalli.png",
+    "profile_url": "https://www.iith.ac.in/bme/drjaladhar.n/"
+  },
+  {
+    "name": "Janaki Ram G. D",
+    "designation": "Professor",
+    "department": "Materials Science And Metallurgical Engineering",
+    "email": "jram@msme.iith.ac.in",
+    "website": null,
+    "research_interests": "Welding and Materials Joining, Additive Manufacturing, Metallurgical failure analysis, Materials Processing",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/janaki-ram.jpg",
+    "profile_url": "https://www.iith.ac.in/msme/jram/"
+  },
+  {
+    "name": "Jayshree Patnaik",
+    "designation": "Assistant Professor",
+    "department": "Entrepreneurship and Management",
+    "email": "jpatnaik@em.iith.ac.in",
+    "website": null,
+    "research_interests": "Appropriate Technology, Frugal Innovation, Design Thinking, Social Entrepreneurship",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Jayshree1.jpg",
+    "profile_url": "https://www.iith.ac.in/em/jpatnaik/"
+  },
+  {
+    "name": "Jose Titus",
+    "designation": "Assistant Professor",
+    "department": "Electrical Engineering",
+    "email": "jtitus@ee.iith.ac.in",
+    "website": null,
+    "research_interests": "Electric Machine Design, Medium Voltage Drives, Sensorless Control Techniques for Motor drives, Energy",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Jose-Titus.jpg",
+    "profile_url": "https://www.iith.ac.in/ee/jtitus/"
+  },
+  {
+    "name": "Jyothi Vedurada",
+    "designation": "Assistant Professor",
+    "department": "Computer Science & Engineering",
+    "email": "jyothiv@cse.iith.ac.in",
+    "website": null,
+    "research_interests": "Program Analysis, Program Understanding, Automated Concurrency Testing, High Performance Computing (HPC), Parallel Processing",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Jyothi-Vedurada.jpg",
+    "profile_url": "https://www.iith.ac.in/cse/jyothiv/"
+  },
+  {
+    "name": "Jyoti Ranjan Mohanty",
+    "designation": "Professor",
+    "department": "Physics",
+    "email": "jmohanty@phy.iith.ac.in",
+    "website": null,
+    "research_interests": "Nanomagnetism, Magnetic Microscopy, Ultrafast Magnetism, Multiferroics, Data Storage, Tera-Hertz Spectroscopy, Sensors, Semiconducting Devices, Multiscale Modelling, Energy, Nanoscience & Technology",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/jyoti-r-m.jpg",
+    "profile_url": "https://www.iith.ac.in/phy/jmohanty/"
+  },
+  {
+    "name": "Jyotirmoy Rana",
+    "designation": "Assistant Professor",
+    "department": "Mathematics",
+    "email": "jrana@math.iith.ac.in",
+    "website": null,
+    "research_interests": "Bio-Fluid Mechanics, Solute dispersion, Quantum Mechanics, Homotopy Analysis Method, Fluid Dynamics",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Jyotirmoy-Rana.jpg",
+    "profile_url": "https://www.iith.ac.in/math/jrana/"
+  },
+  {
+    "name": "Jyotsnendu Giri",
+    "designation": "Professor",
+    "department": "Biomedical Engineering",
+    "email": "jgiri@bme.iith.ac.in",
+    "website": null,
+    "research_interests": "Nanomedicine, Regenerative medicine, Drug delivery, Therapeutics and diagnostics, Biomedical Materials, Biomedical Devices, Additive Manufacturing, Nanoscience & Technology",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Jyotsnendu_Giri.jpg",
+    "profile_url": "https://www.iith.ac.in/bme/jgiri/"
+  },
+  {
+    "name": "K Siva Kumar",
+    "designation": "Head (EE) & Professor",
+    "department": "Electrical Engineering",
+    "email": "ksiva@ee.iith.ac.in",
+    "website": null,
+    "research_interests": "PPM Induction motor drives, Multi-level Inverters, Micro-grids, Energy",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/K_Siva_Kumar.jpg",
+    "profile_url": "https://www.iith.ac.in/ee/ksiva/"
+  },
+  {
+    "name": "Kanchana V",
+    "designation": "Professor",
+    "department": "Physics",
+    "email": "kanchana@phy.iith.ac.in",
+    "website": null,
+    "research_interests": "Condensed Matter Theory (Thermoelectric Properties), Fermi Surface Topology, Optical Properties, Topological Materials, Magnetic Properties, First Principle Calculations, Energy, Nanoscience & Technology",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/kanchana.jpg",
+    "profile_url": "https://www.iith.ac.in/phy/kanchana/"
+  },
+  {
+    "name": "Kapil Jainwal",
+    "designation": "Assistant Professor",
+    "department": "Electrical Engineering",
+    "email": "kapiljainwal@ee.iith.ac.in",
+    "website": null,
+    "research_interests": "Analog/Digital IC Design, CMOS Image Sensors, SoC cameras, 2D/3D imaging, Event-based cameras",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/kapiljainwal.jpg",
+    "profile_url": "https://www.iith.ac.in/ee/kapiljainwal/"
+  },
+  {
+    "name": "Karri Badarinath",
+    "designation": "Associate Professor",
+    "department": "Mechanical & Aerospace Engineering",
+    "email": "badarinath@mae.iith.ac.in",
+    "website": null,
+    "research_interests": "Experimental fluid mechanics, High-speed imaging, Cavitation, Bubble dynamics, Fluid Dynamics",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Badarinath_Karri.jpg",
+    "profile_url": "https://www.iith.ac.in/mae/badarinath/"
+  },
+  {
+    "name": "Karthik P. N.",
+    "designation": "Assistant Professor",
+    "department": "Artificial Intelligence",
+    "email": "pnkarthik@ai.iith.ac.in",
+    "website": null,
+    "research_interests": "Probability Theory, Detection and Estimation Theory, Markov Decision Processes",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/KarthikPN.png",
+    "profile_url": "https://www.iith.ac.in/ai/pnkarthik/"
+  },
+  {
+    "name": "Kaushik Nayak",
+    "designation": "Associate Professor",
+    "department": "Electrical Engineering, Climate Change, Engineering Science",
+    "email": "knayak@ee.iith.ac.in",
+    "website": null,
+    "research_interests": "Electron Devices Physics, Mesoscopic Electronics, Earth System Science, Planetary Physics, Semiconducting Devices, Climate Change, Nanoscience & Technology, Optics/Photonics/Spectroscopy",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Kaushik_Nayak.jpg",
+    "profile_url": "https://www.iith.ac.in/ee/knayak/"
+  },
+  {
+    "name": "Ketan P. Detroja",
+    "designation": "Associate Professor",
+    "department": "Artificial Intelligence, Electrical Engineering",
+    "email": "ketan@ee.iith.ac.in",
+    "website": null,
+    "research_interests": "Control Theory, State Estimation, Fault Diagnosis, AI/ML",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Ketan_Detroja.jpg",
+    "profile_url": "https://www.iith.ac.in/ee/ketan/"
+  },
+  {
+    "name": "Kiran Kumar Kuchi",
+    "designation": "Professor",
+    "department": "Electrical Engineering",
+    "email": "kkuchi@ee.iith.ac.in",
+    "website": null,
+    "research_interests": "Wireless communications, Signal processing, 5G testbed development, Development of global standards, Wireless Communication & Networks",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Kiran_Kumar_Kuchi.jpg",
+    "profile_url": "https://www.iith.ac.in/ee/kkuchi/"
+  },
+  {
+    "name": "Kirit Makwana",
+    "designation": "Assistant Professor",
+    "department": "Physics",
+    "email": "kdmakwana@phy.iith.ac.in",
+    "website": null,
+    "research_interests": "Asic plasma physics, Space plasmas, Plasma astrophysics, High Performance Computing (HPC), Multiscale Modelling, Fluid Dynamics, Parallel Processing",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/kirit-m.jpg",
+    "profile_url": "https://www.iith.ac.in/phy/kdmakwana/"
+  },
+  {
+    "name": "Kirti Chandra Sahu",
+    "designation": "Professor",
+    "department": "Chemical Engineering",
+    "email": "ksahu@che.iith.ac.in",
+    "website": null,
+    "research_interests": "Bubbles and drops, Multiphase flows, Flow instability, Fluid Dynamics",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Kirti_Sahu.jpg",
+    "profile_url": "https://www.iith.ac.in/che/ksahu/"
+  },
+  {
+    "name": "Kishalay Mitra",
+    "designation": "Professor",
+    "department": "Artificial Intelligence, Chemical Engineering, Climate Change",
+    "email": "kishalay@che.iith.ac.in",
+    "website": null,
+    "research_interests": "Optimal control under uncertainity, Bioenergy supply chain design, Surrogate multi-objective optimization, Data science in biology, Biomedical Devices, Additive Manufacturing, Catalysis, Multiscale Modelling, AI/ML, Fluid Dynamics, Climate Change, Energy, Nanoscience & Technology, Waste Management, High Performance Computing (HPC), Sustainability",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Kishalay_Mitra.jpg",
+    "profile_url": "https://www.iith.ac.in/che/kishalay/"
+  },
+  {
+    "name": "Kishore Natte",
+    "designation": "Assistant Professor",
+    "department": "Chemistry",
+    "email": "kishore.natte@chy.iith.ac.in",
+    "website": null,
+    "research_interests": "Drug Discovery, Catalysis, Climate Change, Energy, Nanoscience & Technology, Waste Management, Drug Discovery/Drug Target Validation and Preclinical Testing/Molecular Virology, Circular Economy",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Kishore-Natte.jpg",
+    "profile_url": "https://www.iith.ac.in/chy/kishore.natte/"
+  },
+  {
+    "name": "Konda Reddy Mopuri",
+    "designation": "Assistant Professor",
+    "department": "Artificial Intelligence",
+    "email": "krmopuri@ai.iith.ac.in",
+    "website": null,
+    "research_interests": "Artificial Intelligence, Machine learning (specifically Deep Learning), Data Science and Engineering, Computer Vision, AI/ML",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Konda_Reddy_Mopuri.jpg",
+    "profile_url": "https://www.iith.ac.in/ai/krmopuri/"
+  },
+  {
+    "name": "Kotaro Kataoka",
+    "designation": "Professor",
+    "department": "Computer Science & Engineering",
+    "email": "kotaro@cse.iith.ac.in",
+    "website": null,
+    "research_interests": "Internet over Broadcast Media, Ipv6 Multicast, Post-Disaster Networking, Cyber Security, Blockchains and Distributed Computing",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/KotaroKataoka.jpg",
+    "profile_url": "https://www.iith.ac.in/cse/kotaro/"
+  },
+  {
+    "name": "Kousik Sarathy Sridharan",
+    "designation": "Head (HST) & Assistant Professor",
+    "department": "Biomedical Engineering, Heritage Science & Technology",
+    "email": "kousiksarathy@bme.iith.ac.in",
+    "website": null,
+    "research_interests": "Interventions for neurological and psychiatric disorders, Invasive and non-invasive neuromodulation, Neuroimaging of the healthy and diseased brain, Neuromonitoring at point of care, Bioinstrumentation, Biomedical Devices, Design Innovation, Virtual Reality and Augmented Reality, Tangible and Intangible Heritage, Heritage Science & Technology",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Kausik_Sarathy_Sridharan.jpg",
+    "profile_url": "https://www.iith.ac.in/bme/kousiksarathy/"
+  },
+  {
+    "name": "Koyel Banerjee Ghosh",
+    "designation": "Assistant Professor",
+    "department": "Chemistry",
+    "email": "koyel@chy.iith.ac.in",
+    "website": null,
+    "research_interests": "Molecular Electronics, Surface Chemistry, Electrochemistry, Electron Transfer through Proteins, Catalysis, Energy, Nanoscience & Technology",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Koyel-Banerjee-Ghosh.jpg",
+    "profile_url": "https://www.iith.ac.in/chy/koyel/"
+  },
+  {
+    "name": "Krishna Gavvala",
+    "designation": "Assistant Professor",
+    "department": "Chemistry",
+    "email": "kgavvala@chy.iith.ac.in",
+    "website": null,
+    "research_interests": "Physical Chemsitry, Biophysics/Medical Physics, Optics/Photonics/Spectroscopy, Drug Discovery/Drug Target Validation and Preclinical Testing/Molecular Virology",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/krishna_gavvala.jpg",
+    "profile_url": "https://www.iith.ac.in/chy/kgavvala/"
+  },
+  {
+    "name": "Lakshmana Dora Chandrala",
+    "designation": "Assistant Professor",
+    "department": "Mechanical & Aerospace Engineering",
+    "email": "lchandrala@mae.iith.ac.in",
+    "website": null,
+    "research_interests": "Experimental fluid dynamics, Development of optical-based flow diagnostic techniques, Oil spills, Marine aerosols, Impact of aerosols on the human respiratory system, Fluid Dynamics",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Lakshmana_Chandrala.jpg",
+    "profile_url": "https://www.iith.ac.in/mae/lchandrala/"
+  },
+  {
+    "name": "Lakshmi Narayana P A",
+    "designation": "Professor",
+    "department": "Mathematics",
+    "email": "ananth@math.iith.ac.in",
+    "website": null,
+    "research_interests": "Fluid mechanics, Convection in porous media, Linear and non-linear stability analysis, Fluid Dynamics, Applied Mathematics",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/P_A_Lakshmi_Narayana.jpg",
+    "profile_url": "https://www.iith.ac.in/math/ananth/"
+  },
+  {
+    "name": "Lakshmi Prasad Natarajan",
+    "designation": "Associate Professor",
+    "department": "Electrical Engineering, Artificial Intelligence",
+    "email": "lakshminatarajan@ee.iith.ac.in",
+    "website": null,
+    "research_interests": "Coding for distributed computation and storage, Index coding with side information, Network coding for wireless systems, Space-time codes, Wireless Communication & Networks, Applied Mathematics",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Lakshmi_Prasad_Natarajan.jpg",
+    "profile_url": "https://www.iith.ac.in/ee/lakshminatarajan/"
+  },
+  {
+    "name": "Lohithaksha Maniraj Maiyar",
+    "designation": "Assistant Professor",
+    "department": "Entrepreneurship and Management",
+    "email": "l.maiyar@em.iith.ac.in",
+    "website": null,
+    "research_interests": "AI/ML, Climate Change, Waste Management, Transportation, Entrepreneurship and Management",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Lohithaksha_Maniraj_Maiyar.jpg",
+    "profile_url": "https://www.iith.ac.in/em/l.maiyar/"
+  },
+  {
+    "name": "Lopamudra Giri",
+    "designation": "Associate Professor",
+    "department": "Chemical Engineering",
+    "email": "giril@che.iith.ac.in",
+    "website": null,
+    "research_interests": "Bioimaging, Systems Biology, Confocal microscopy, Live cell imaging, Neuroscience, Biomedical Materials, Biomedical Devices, Additive Manufacturing",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Lopamudra_Giri.jpg",
+    "profile_url": "https://www.iith.ac.in/che/giril/"
+  },
+  {
+    "name": "M.V. Panduranga Rao",
+    "designation": "Professor",
+    "department": "Computer Science & Engineering, Artificial Intelligence",
+    "email": "mvp@cse.iith.ac.in",
+    "website": null,
+    "research_interests": "Theoretical Computer Science, Cyber Security",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Panduranga-Rao.jpg",
+    "profile_url": "https://www.iith.ac.in/cse/mvp/"
+  },
+  {
+    "name": "Mahati Chittem",
+    "designation": "Professor",
+    "department": "Liberal Arts",
+    "email": "mahati@la.iith.ac.in",
+    "website": null,
+    "research_interests": "Chronic disease management, Health behaviours, Biomedical Materials, Biomedical Devices, Health & Society, Social Sciences",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Mahati-Chittem.jpg",
+    "profile_url": "https://www.iith.ac.in/la/mahati/"
+  },
+  {
+    "name": "Mahendrakumar Madhavan",
+    "designation": "Professor",
+    "department": "Civil Engineering",
+    "email": "mkm@ce.iith.ac.in",
+    "website": null,
+    "research_interests": "Affordable Housing, Sustainable materials, Cold-formed Steel, Structural Steel Design, Cold-Formed Steel Wall Panels, Additive Manufacturing, Materials Processing, Sustainable Infrastructure, Circular Economy, Affordable Housing",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/madhavan.png",
+    "profile_url": "https://www.iith.ac.in/ce/mkm/"
+  },
+  {
+    "name": "Mahesh Ganesan",
+    "designation": "Assistant Professor",
+    "department": "Chemical Engineering",
+    "email": "maheshg@che.iith.ac.in",
+    "website": null,
+    "research_interests": "Structure and rheology of soft matter, Colloidal assemblies, Polymer complex fluids, Rheometry and scattering, Fluid Dynamics, Nanoscience & Technology, Statistics, Soft and Active Matter",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Mahesh_Profile_Photo_IITH.jpg",
+    "profile_url": "https://www.iith.ac.in/che/maheshg/"
+  },
+  {
+    "name": "Mahesh M S",
+    "designation": "Associate Professor",
+    "department": "Mechanical & Aerospace Engineering",
+    "email": "mahesh@mae.iith.ac.in",
+    "website": null,
+    "research_interests": "Vibroacoustics, Aeroelasticity, Computational Mechanics, Aerodynamics, Aeroacoustics, Fluid Dynamics, High Performance Computing (HPC)",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/mahesh-m-s.jpg",
+    "profile_url": "https://www.iith.ac.in/mae/mahesh/"
+  },
+  {
+    "name": "Mahesh Peddigari",
+    "designation": "Assistant Professor",
+    "department": "Physics",
+    "email": "mahesh.p@phy.iith.ac.in",
+    "website": null,
+    "research_interests": "Relaxor Ferroelectrics, Magnetoelectrics, Energy Harvesting, Sensors, Energy, Materials Processing, Advanced Ceramics",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Mahesh-Peddigari.jpg",
+    "profile_url": "https://www.iith.ac.in/phy/mahesh.p/"
+  },
+  {
+    "name": "Maheswaran R.",
+    "designation": "Assistant Professor",
+    "department": "Civil Engineering, Climate Change",
+    "email": "rmaheswaran@ce.iith.ac.in",
+    "website": null,
+    "research_interests": "Stochastic Hydrology, Hydrologic Forecasting, Multiscale Processes and modelling, Multiscale Modelling, AI/ML, Climate Change",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Maheswaran.png",
+    "profile_url": "https://www.iith.ac.in/ce/rmaheswaran/"
+  },
+  {
+    "name": "Manish Singh",
+    "designation": "Associate Professor",
+    "department": "Computer Science & Engineering, Heritage Science & Technology, Artificial Intelligence, Engineering Science",
+    "email": "msingh@cse.iith.ac.in",
+    "website": null,
+    "research_interests": "Databases, Data Mining, HCI, Information Retrieval, Information Visualization, AI/ML, Health & Society",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Manish_Singh.jpg",
+    "profile_url": "https://www.iith.ac.in/cse/msingh/"
+  },
+  {
+    "name": "Manish K. Niranjan",
+    "designation": "Head (PHY) & Professor",
+    "department": "Physics",
+    "email": "manish@phy.iith.ac.in",
+    "website": null,
+    "research_interests": "Theoretical condensed matter Physics, Electronic Structure, Surface and interface Physics, Quantum Transport, First Principle Calculations, Multiscale Modelling, Nanoscience & Technology",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Photo_mkn.jpg",
+    "profile_url": "https://www.iith.ac.in/phy/manish/"
+  },
+  {
+    "name": "Manisha Thakurathi",
+    "designation": "Assistant Professor",
+    "department": "Physics",
+    "email": "mthakurathi@phy.iith.ac.in",
+    "website": null,
+    "research_interests": "Superconductivity, Topological phases of matter and quantum phase transition",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Manisha_Thakurathi.png",
+    "profile_url": "https://www.iith.ac.in/phy/mthakurathi/"
+  },
+  {
+    "name": "Maria Francis",
+    "designation": "Assistant Professor",
+    "department": "Computer Science & Engineering",
+    "email": "mariaf@cse.iith.ac.in",
+    "website": null,
+    "research_interests": "Computational Algebra, Symbolic Computation, Lattice Cryptography, Theoretical Computer Science, Cyber Security, Blockchains and Distributed Computing",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Maria-Francis.jpg",
+    "profile_url": "https://www.iith.ac.in/cse/mariaf/"
+  },
+  {
+    "name": "Maunendra Sankar Desarkar",
+    "designation": "Associate Professor",
+    "department": "Computer Science & Engineering, Artificial Intelligence",
+    "email": "maunendra@cse.iith.ac.in",
+    "website": null,
+    "research_interests": "Recommender Systems, Information Retrieval, Machine Learning, Data Mining, AI/ML",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Maunendra-Sankar-Desarkar.jpg",
+    "profile_url": "https://www.iith.ac.in/cse/maunendra/"
+  },
+  {
+    "name": "Mayukh Pahari",
+    "designation": "Assistant Professor",
+    "department": "Physics",
+    "email": "mayukh@phy.iith.ac.in",
+    "website": null,
+    "research_interests": "Black Hole Astrophysics, UV/optical/X-ray Astronomy, Active Galactic Nuclei, Relativistic Simulations, High Energy Physics",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/mayukh-p.jpg",
+    "profile_url": "https://www.iith.ac.in/phy/mayukh/"
+  },
+  {
+    "name": "Mayur Vaidya",
+    "designation": "Assistant Professor",
+    "department": "Materials Science And Metallurgical Engineering",
+    "email": "vaidyam@msme.iith.ac.in",
+    "website": null,
+    "research_interests": "Diffusion-deformation correlation in materials, Diffusion in multicomponent alloys, Nanoscience & Technology, Materials Processing, Powder Metallurgy, Diffusion in Materials, High Entropy Alloys, Oxidation",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/mayur.jpg",
+    "profile_url": "https://www.iith.ac.in/msme/vaidyam/"
+  },
+  {
+    "name": "Meenakshi",
+    "designation": "Assistant Professor",
+    "department": "Civil Engineering",
+    "email": "meenakshi@ce.iith.ac.in",
+    "website": null,
+    "research_interests": "Concrete Mechanics, Sustainable Cementitious Binders, Durability and Repair of Concrete Structures, Multiscale Modelling, Climate Change, Waste Management",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/meenakshi.png",
+    "profile_url": "https://www.iith.ac.in/ce/meenakshi/"
+  },
+  {
+    "name": "Mohan Raghavan",
+    "designation": "Associate Professor",
+    "department": "Artificial Intelligence, Biomedical Engineering, Heritage Science & Technology",
+    "email": "mohanr@bme.iith.ac.in",
+    "website": null,
+    "research_interests": "Computational Neuroscience, Motor system, Spinal cord, Bionics, Assistive devices, Rehabilitation, Biomedical Devices, First Principle Calculations, Multiscale Modelling, AI/ML, Virtual Reality and Augmented Reality, Heritage Science & Technology",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Mohan_Raghavan.jpg",
+    "profile_url": "https://www.iith.ac.in/bme/mohanr/"
+  },
+  {
+    "name": "Mrinmoy Datta",
+    "designation": "Assistant Professor",
+    "department": "Mathematics",
+    "email": "mrinmoy.datta@math.iith.ac.in",
+    "website": null,
+    "research_interests": "Algebraic Geometry, Pure Mathematics",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Mrinmoy-Datta.png",
+    "profile_url": "https://www.iith.ac.in/math/mrinmoy.datta/"
+  },
+  {
+    "name": "Mudrika Khandelwal",
+    "designation": "Associate Professor",
+    "department": "Materials Science And Metallurgical Engineering",
+    "email": "mudrika@msme.iith.ac.in",
+    "website": null,
+    "research_interests": "Cellulose composites, Drug delivery, In situ modifications, Food packaging, Biomedical Materials, Energy, Nanoscience & Technology",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Mudrika_Khandelwal.jpg",
+    "profile_url": "https://www.iith.ac.in/msme/mudrika/"
+  },
+  {
+    "name": "Munwar B. Basha",
+    "designation": "Professor",
+    "department": "Civil Engineering, Engineering Science",
+    "email": "basha@ce.iith.ac.in",
+    "website": null,
+    "research_interests": "Unsaturated soil mechanics, Reliability Based Design, Geotechnical & Geoenvironmental Engineering, Unsaturated soil mechanics, Computational Geomechanics, Waste Management, Statistics, Sustainability, Disaster Mitigation/Landslides, Probability and Reliability-Based Optimum Design, Geoenvironmental Engineering, Computational Geomechanics Clay Science Unsaturated Soil Mechanics",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/basha.jpg",
+    "profile_url": "https://www.iith.ac.in/ce/basha/"
+  },
+  {
+    "name": "Murty B. S.",
+    "designation": "Professor",
+    "department": "Materials Science And Metallurgical Engineering",
+    "email": "bsm@iith.ac.in",
+    "website": null,
+    "research_interests": "Nanocrystalline materials, High entropy alloys, Bulk metallic glasses",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/murty-bs.jpg",
+    "profile_url": "https://www.iith.ac.in/msme/bsm/"
+  },
+  {
+    "name": "Muvvala Gopinath",
+    "designation": "Assistant Professor",
+    "department": "Mechanical & Aerospace Engineering",
+    "email": "mgopinath@mae.iith.ac.in",
+    "website": null,
+    "research_interests": "Additive Manufacturing, Laser Material Processing, Under Water laser material processing, Solid state welding (Friction stir welding), Materials Processing",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Gopinath_Muvvala.jpg",
+    "profile_url": "https://www.iith.ac.in/mae/mgopinath/"
+  },
+  {
+    "name": "Myna Vajha",
+    "designation": "Assistant Professor",
+    "department": "Electrical Engineering",
+    "email": "mynav@ee.iith.ac.in",
+    "website": null,
+    "research_interests": "",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Myna-Vajha.jpeg",
+    "profile_url": "https://www.iith.ac.in/ee/mynav/"
+  },
+  {
+    "name": "N. Venkata Reddy",
+    "designation": "Professor",
+    "department": "Mechanical & Aerospace Engineering",
+    "email": "nvr@mae.iith.ac.in",
+    "website": null,
+    "research_interests": "Predictive modeling for Digital Fabrication (including Additive Manufacturing), Analysis (Numerical as well as Experimental) of Manufacturing processes, Design and Development of Rapid response and Resource Saving Manufacturing Processes, Development of Integrated Product and Process Design Systems (IPPDS) for various manufacturing processes including Hybrid/Additive/Layered Manufacturing",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Venkat_Reddy.jpg",
+    "profile_url": "https://www.iith.ac.in/mae/nvr/"
+  },
+  {
+    "name": "Nagarajan Ganapathy",
+    "designation": "Assistant Professor",
+    "department": "Biomedical Engineering",
+    "email": "gnagarajan@bme.iith.ac.in",
+    "website": null,
+    "research_interests": "Artificial Intelligence, Deep Learning, Affective Computing, Computer vision, Internet of Medical Things, Edge Analytics, Wearable and Smart sensors, Signal and Image analytics, Big data in Medicine, Drug repurposing, Federated Learning",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Nagarajan.png",
+    "profile_url": "https://www.iith.ac.in/bme/gnagarajan/"
+  },
+  {
+    "name": "Nakul Parameswar",
+    "designation": "Head (EM) & Assistant Professor",
+    "department": "Entrepreneurship and Management",
+    "email": "nakul@em.iith.ac.in",
+    "website": null,
+    "research_interests": "Dynamics in strategic alliances, Competitive strategy, Start-up management, Entrepreneurship and Management",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Nakul-Parameswar.jpg",
+    "profile_url": "https://www.iith.ac.in/em/nakul/"
+  },
+  {
+    "name": "Narasimha Mangadoddy",
+    "designation": "Professor",
+    "department": "Chemical Engineering",
+    "email": "narasimha@che.iith.ac.in",
+    "website": null,
+    "research_interests": "Mineral Processing, CFD, Multiphase Flows, Fluidization, Particulate Technology, Fluid Dynamics, Energy, High Performance Computing (HPC)",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/nm.jpg",
+    "profile_url": "https://www.iith.ac.in/che/narasimha/"
+  },
+  {
+    "name": "Narendra Kurra",
+    "designation": "Assistant Professor",
+    "department": "Chemistry",
+    "email": "narendra@chy.iith.ac.in",
+    "website": null,
+    "research_interests": "Materials (electro)chemistry, Two-dimensional materials, Energy Storage, Energy, Nanoscience & Technology, Materials Processing",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Narendra_Kurra.jpg",
+    "profile_url": "https://www.iith.ac.in/chy/narendra/"
+  },
+  {
+    "name": "Narendra Sahu",
+    "designation": "Professor",
+    "department": "Physics",
+    "email": "nsahu@phy.iith.ac.in",
+    "website": null,
+    "research_interests": "Physics (Elementary Particle), High Energy Physics",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/narendra-s.jpg",
+    "profile_url": "https://www.iith.ac.in/phy/nsahu/"
+  },
+  {
+    "name": "Naresh Kumar Emani",
+    "designation": "Associate Professor",
+    "department": "Electrical Engineering",
+    "email": "naresh@ee.iith.ac.in",
+    "website": null,
+    "research_interests": "Nanophotonics, Photovoltaics, Optoelectronic devices, Nanofabrication, Sensors, Semiconducting Devices, Nanoscience & Technology, Optics/Photonics/Spectroscopy",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Naresh_Emani.jpg",
+    "profile_url": "https://www.iith.ac.in/ee/naresh/"
+  },
+  {
+    "name": "Neelakantan P K",
+    "designation": "Assistant Professor",
+    "department": "Design",
+    "email": "neel@des.iith.ac.in",
+    "website": null,
+    "research_interests": "Architectural Design, Early stage design process, Aesthetics, Experiential installations, Urban planning, Design Innovation, Industrial Design",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Neelkantan.jpg",
+    "profile_url": "https://www.iith.ac.in/des/neel/"
+  },
+  {
+    "name": "Neeraj Kumar",
+    "designation": "Assistant Professor",
+    "department": "Liberal Arts, Engineering Science",
+    "email": "neeraj.kumar@la.iith.ac.in",
+    "website": null,
+    "research_interests": "Sensorimotor Learning, Motor Memory, Non-invasive Brain Stimulation, Stroke Rehabilitation, Biomedical Devices, Health & Society",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Neeraj-Kumar.jpg",
+    "profile_url": "https://www.iith.ac.in/la/neeraj.kumar/"
+  },
+  {
+    "name": "Neeraj Kumar",
+    "designation": "Associate Professor",
+    "department": "Mathematics",
+    "email": "neeraj@math.iith.ac.in",
+    "website": null,
+    "research_interests": "Commutative Algebra",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Neeraj_Kumar.jpg",
+    "profile_url": "https://www.iith.ac.in/math/neeraj/"
+  },
+  {
+    "name": "Neetu Tiwari",
+    "designation": "Assistant Professor",
+    "department": "Mechanical & Aerospace Engineering",
+    "email": "neetu.tiwari@mae.iith.ac.in",
+    "website": null,
+    "research_interests": "Data Driven Methods for Fluid Flows, Real Flow Simulations and Experimental Fluid Mechanics",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/NeetuTiwari.png",
+    "profile_url": "https://www.iith.ac.in/mae/neetu.tiwari/"
+  },
+  {
+    "name": "Niranjan Shrinivas Ghaisas",
+    "designation": "Assistant Professor",
+    "department": "Mechanical & Aerospace Engineering, Climate Change",
+    "email": "nghaisas@mae.iith.ac.in",
+    "website": null,
+    "research_interests": "Subgrid-scale modeling for buoyancy-driven flows, Mechanical Engineering, Fluid Dynamics, Climate Change, Energy, High Performance Computing (HPC)",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Niranjan_S_Ghaisas.jpg",
+    "profile_url": "https://www.iith.ac.in/mae/nghaisas/"
+  },
+  {
+    "name": "Nishanth Dongari",
+    "designation": "Associate Professor",
+    "department": "Mechanical & Aerospace Engineering",
+    "email": "nishanth@mae.iith.ac.in",
+    "website": null,
+    "research_interests": "Microfluidics, Rarefied Gas Dynamics, Compressible Gas Flows, Thin Film Coatings, Molecular Dynamics",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Nishanth_Dongari.jpg",
+    "profile_url": "https://www.iith.ac.in/mae/nishanth/"
+  },
+  {
+    "name": "Nithyanandan Kanagaraj",
+    "designation": "Assistant Professor",
+    "department": "Physics",
+    "email": "nithyan@phy.iith.ac.in",
+    "website": null,
+    "research_interests": "Sensors, Semiconducting Devices, Additive Manufacturing, Wireless Communication & Networks, AI/ML, Fluid Dynamics, Energy, Virtual Reality and Augmented Reality, Theoretical Computer Science, High Performance Computing (HPC), Optics/Photonics/Spectroscopy, Applied Mathematics, Industrial Design, Materials Processing, Fibre Optics",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/nithyanandan-k.jpg",
+    "profile_url": "https://www.iith.ac.in/phy/nithyan/"
+  },
+  {
+    "name": "Nitin Saurabh",
+    "designation": "Assistant Professor",
+    "department": "Computer Science & Engineering",
+    "email": "nitin@cse.iith.ac.in",
+    "website": null,
+    "research_interests": "Theoretical Computer Science, Especially in Complexity Theory, Analysis of Boolean Functions, Circuit Complexity and Algorithms",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Nitin-Saurabh.jpg",
+    "profile_url": "https://www.iith.ac.in/cse/nitin/"
+  },
+  {
+    "name": "Oves Badami",
+    "designation": "Assistant Professor",
+    "department": "Electrical Engineering",
+    "email": "oves.badami@ee.iith.ac.in",
+    "website": null,
+    "research_interests": "Semiconductors physics, Computational nanoelectronics, TCAD tool development, Semiconducting Devices, Multiscale Modelling, Nanoscience & Technology",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/badami.png",
+    "profile_url": "https://www.iith.ac.in/ee/oves.badami/"
+  },
+  {
+    "name": "Pankaj Sharadchandra Kolhe",
+    "designation": "Professor",
+    "department": "Mechanical & Aerospace Engineering",
+    "email": "psk@mae.iith.ac.in",
+    "website": null,
+    "research_interests": "IC Engines, Gas Turbine Engines, Alternative Fuels, Combustion and Spray Diagnostics, Sprays in Smart Farming, Fluid Dynamics, Energy, Energy",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Pankaj_Kolhe.jpg",
+    "profile_url": "https://www.iith.ac.in/mae/psk/"
+  },
+  {
+    "name": "Parag D. Pawar",
+    "designation": "Associate Professor",
+    "department": "Chemical Engineering",
+    "email": "parag@che.iith.ac.in",
+    "website": null,
+    "research_interests": "Bacterial infections, Biofilms, Cellular automata, Antibiotic resistance, Multiscale Modelling",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/paragdp.jpg",
+    "profile_url": "https://www.iith.ac.in/che/parag/"
+  },
+  {
+    "name": "Pechetti Sasi",
+    "designation": "Assistant Professor",
+    "department": "Electrical Engineering",
+    "email": "psvinay@ee.iith.ac.in",
+    "website": null,
+    "research_interests": "Wireless Communications, MIMO Signal Processing, Joint Radar and Communications, High Mobility Communications",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/PSasi.png",
+    "profile_url": "https://www.iith.ac.in/ee/psvinay/"
+  },
+  {
+    "name": "Phanindra Varma Jampana",
+    "designation": "Associate Professor",
+    "department": "Chemical Engineering",
+    "email": "pjampana@che.iith.ac.in",
+    "website": null,
+    "research_interests": "Compressed Sensing, Electrical Resistance Tomography, Control and Identification",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/jphanindra.jpg",
+    "profile_url": "https://www.iith.ac.in/che/pjampana/"
+  },
+  {
+    "name": "Phanindra K.B.V.N.",
+    "designation": "Head (CE) & Professor",
+    "department": "Civil Engineering",
+    "email": "phanindra@ce.iith.ac.in",
+    "website": null,
+    "research_interests": "Groundwater modeling, Soil-water-plant interactions, Remote sensing & GIS, Eco-hydrological processes, Climate Change",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Phanindra.png",
+    "profile_url": "https://www.iith.ac.in/ce/phanindra/"
+  },
+  {
+    "name": "Pinaki Prasad Bhattacharjee",
+    "designation": "Professor",
+    "department": "Materials Science And Metallurgical Engineering",
+    "email": "pinakib@msme.iith.ac.in",
+    "website": null,
+    "research_interests": "High entropy alloys, Thermo-mechanical processing, Crystallographic texture, Mechanical properties, Additive Manufacturing, Catalysis, Energy, Nanoscience & Technology, Materials Processing",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Pinaki_Prasad_Bhattcharjee.jpg",
+    "profile_url": "https://www.iith.ac.in/msme/pinakib/"
+  },
+  {
+    "name": "Prabhat Kumar",
+    "designation": "Assistant Professor",
+    "department": "Mechanical & Aerospace Engineering",
+    "email": "pkumar@mae.iith.ac.in",
+    "website": null,
+    "research_interests": "Topology Optimization, Structural Optimization, Compliant Mechanisms, Inverse Problems, Computational contact mechanics, Additive Manufacturing, Multiscale Modelling, AI/ML, Design Innovation, Design/Structural/Topology Optimization",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/prabhat-kumar.jpg",
+    "profile_url": "https://www.iith.ac.in/mae/pkumar/"
+  },
+  {
+    "name": "Prabheesh K.P.",
+    "designation": "Professor",
+    "department": "Liberal Arts",
+    "email": "prabheesh@la.iith.ac.in",
+    "website": null,
+    "research_interests": "Macroeconomics, International Finance, Applied Econometrics, Social Sciences",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/K-P-Prabheesh.png",
+    "profile_url": "https://www.iith.ac.in/la/prabheesh/"
+  },
+  {
+    "name": "Prabusankar G.",
+    "designation": "Professor",
+    "department": "Chemistry",
+    "email": "prabu@chy.iith.ac.in",
+    "website": null,
+    "research_interests": "Organometallic Synthesis, Late Transition Metal Chemistry, Heavier Main Group P-Block Chemistry, Molecular Activation, Molecules to Materials, Biomedical Materials, Sensors, Additive Manufacturing, Catalysis, Energy, Nanoscience & Technology",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/G_Prabusankar_v2.jpg",
+    "profile_url": "https://www.iith.ac.in/chy/prabu/"
+  },
+  {
+    "name": "Pradeep Kumar Yemula",
+    "designation": "Associate Professor",
+    "department": "Electrical Engineering",
+    "email": "ypradeep@ee.iith.ac.in",
+    "website": null,
+    "research_interests": "Smart Grids, Power System Control Centers, Information Technology Architectures, Ontologies for Power System Events, Common Information Model (CIM), Interoperability and Standards, Energy",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Pradeep_Kumar_Yemula.jpg",
+    "profile_url": "https://www.iith.ac.in/ee/ypradeep/"
+  },
+  {
+    "name": "Pradipto Banerjee",
+    "designation": "Associate Professor",
+    "department": "Mathematics",
+    "email": "pradipto@math.iith.ac.in",
+    "website": null,
+    "research_interests": "Number Theory, Pure Mathematics",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Pradipto_Banerjee.jpg",
+    "profile_url": "https://www.iith.ac.in/math/pradipto/"
+  },
+  {
+    "name": "Prakash Chandra Mondal",
+    "designation": "Associate Professor",
+    "department": "Liberal Arts",
+    "email": "prakashmondal@la.iith.ac.in",
+    "website": null,
+    "research_interests": "Theoretical linguistics, Language and computation, Language and biology, Philosophy of language and mind, Theoretical/ Mathematical Linguistics, Cognitive Science",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Prakash-Mondal.jpg",
+    "profile_url": "https://www.iith.ac.in/la/prakashmondal/"
+  },
+  {
+    "name": "Prakhar Gupta",
+    "designation": "Assistant Professor",
+    "department": "Mechanical & Aerospace Engineering, Engineering Science",
+    "email": "prakharg@mae.iith.ac.in",
+    "website": null,
+    "research_interests": "Multiscale Modeling, Electromechanics, Biomechanics, Sensors, Multiscale Modelling, Energy, Nanoscience & Technology, Applied Mathematics",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/prakhar-gupta.jpg",
+    "profile_url": "https://www.iith.ac.in/mae/prakharg/"
+  },
+  {
+    "name": "Prasad S Onkar",
+    "designation": "Associate Professor",
+    "department": "Design",
+    "email": "psonkar@des.iith.ac.in",
+    "website": null,
+    "research_interests": "Product Design, Computer Aided Conceptual Design, 3D Sketching, Virtual reality, Haptics, Additive Manufacturing, Design Innovation, Virtual Reality and Augmented Reality, Tangible and Intangible Heritage, Industrial Design, Communication Design, HCI/ Interaction Design",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/prasad.jpg",
+    "profile_url": "https://www.iith.ac.in/des/psonkar/"
+  },
+  {
+    "name": "Prasanna R",
+    "designation": "Assistant Professor",
+    "department": "Civil Engineering",
+    "email": "prasanna@ce.iith.ac.in",
+    "website": null,
+    "research_interests": "Soil liquefaction, Geotechnical earthquake engineering, Experimental soil mechanics, Critical state soil mechanics, Underground structures",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/prasanna-r.jpg",
+    "profile_url": "https://www.iith.ac.in/ce/prasanna/"
+  },
+  {
+    "name": "Prasanth Kumar R.",
+    "designation": "Professor",
+    "department": "Mechanical & Aerospace Engineering, Artificial Intelligence",
+    "email": "rpkumar@mae.iith.ac.in",
+    "website": null,
+    "research_interests": "Multibody dynamics, Robotics, Control systems, AI/ML",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Prasanth_Kumar_R.jpg",
+    "profile_url": "https://www.iith.ac.in/mae/rpkumar/"
+  },
+  {
+    "name": "Praveen Tammana",
+    "designation": "Assistant professor",
+    "department": "Computer Science & Engineering",
+    "email": "praveent@cse.iith.ac.in",
+    "website": null,
+    "research_interests": "Systems and Networking, Network Security, Software-Defined Networking, ML for Networks, Wireless Communication & Networks, High Performance Computing (HPC), Cyber Security",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Praveen-Tammana.jpg",
+    "profile_url": "https://www.iith.ac.in/cse/praveent/"
+  },
+  {
+    "name": "Prem Pal",
+    "designation": "Professor",
+    "department": "Physics",
+    "email": "prem@phy.iith.ac.in",
+    "website": null,
+    "research_interests": "MEMS Technology, Silicon Micromachining, MEMS-based sensors, Thin films, Solar cell, Sensors, Energy",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/prem.jpg",
+    "profile_url": "https://www.iith.ac.in/phy/prem/"
+  },
+  {
+    "name": "Pritha Chatterjee",
+    "designation": "Associate Professor",
+    "department": "Civil Engineering, Climate Change",
+    "email": "pritha@ce.iith.ac.in",
+    "website": null,
+    "research_interests": "Waste Treatment, Resource recovery from waste, Bioenergy, Bioelectrochemical systems, Anaerobic digestion, Climate Change, Energy, Waste Management",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Pritha.png",
+    "profile_url": "https://www.iith.ac.in/ce/pritha/"
+  },
+  {
+    "name": "Priyadarshi Chakraborty",
+    "designation": "Assistant Professor",
+    "department": "Chemistry",
+    "email": "priyadarshi@chy.iith.ac.in",
+    "website": null,
+    "research_interests": "Conductive Polymers, Tissue Engineering, Peptide Self-assembly, Rheology and Drug Delivery, Energy Storage, Biomedical Materials, Catalysis, Nanoscience & Technology",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Priyadarshi_Chakraborty.jpg",
+    "profile_url": "https://www.iith.ac.in/chy/priyadarshi/"
+  },
+  {
+    "name": "Priyotosh Bandyopadhyay",
+    "designation": "Associate Professor",
+    "department": "Physics",
+    "email": "bpriyo@phy.iith.ac.in",
+    "website": null,
+    "research_interests": "LHC, Higgs Physics, Supersymmetry, Neutrino, Collider Physics, High Energy Physics, High Performance Computing (HPC)",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/priyotosh.jpg",
+    "profile_url": "https://www.iith.ac.in/phy/bpriyo/"
+  },
+  {
+    "name": "Raghavendra Nidhanapati K",
+    "designation": "Associate Professor",
+    "department": "BioTechnology",
+    "email": "raghunk@bt.iith.ac.in",
+    "website": null,
+    "research_interests": "HIV-1 biology, Drug Discovery/Drug Target Validation and Preclinical Testing/Molecular Virology",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Raghavendra_Nidhanapati_K.png",
+    "profile_url": "https://www.iith.ac.in/bt/raghunk/"
+  },
+  {
+    "name": "Raghavendra Srikanth Hundi",
+    "designation": "Assistant Professor",
+    "department": "Physics",
+    "email": "rshundi@phy.iith.ac.in",
+    "website": null,
+    "research_interests": "Physics beyond standard model, Neutrino masses, High Energy Physics",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Raghavendra_Srikanth_Hundi.jpeg",
+    "profile_url": "https://www.iith.ac.in/phy/rshundi/"
+  },
+  {
+    "name": "Rahul Kumar",
+    "designation": "Assistant Professor",
+    "department": "BioTechnology",
+    "email": "rahulk@bt.iith.ac.in",
+    "website": null,
+    "research_interests": "Bioinformatics, Cancer Genomics, Computational Biology, AI/ML, Disease/Toxicity Mechanisms, Drug Discovery/Drug Target Validation and Preclinical Testing/Molecular Virology, Bioinformatics",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Rahul_BT.jpg",
+    "profile_url": "https://www.iith.ac.in/bt/rahulk/"
+  },
+  {
+    "name": "Raja Banerjee",
+    "designation": "Professor",
+    "department": "Mechanical & Aerospace Engineering",
+    "email": "rajabanerjee@mae.iith.ac.in",
+    "website": null,
+    "research_interests": "Multiphase Flow, Heat and Mass Transfer, Thermodynamics, CFD, Fluid Dynamics, Energy, High Performance Computing (HPC)",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Raja_Banerjee.jpg",
+    "profile_url": "https://www.iith.ac.in/mae/rajabanerjee/"
+  },
+  {
+    "name": "Rajakumara Eerappa",
+    "designation": "Professor",
+    "department": "BioTechnology",
+    "email": "eraj@bt.iith.ac.in",
+    "website": null,
+    "research_interests": "Structural Biology, X-ray Crystallography, Epigenetic and DNA repair, Protein/enzyme engineering for application in organic or pharmaceutical industry, Structure based drug design, Biomedical Materials, Catalysis, Nanoscience & Technology, Disease/Toxicity Mechanisms, Drug Discovery/Drug Target Validation and Preclinical Testing/Molecular Virology",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Rajakumar_Eerappa.jpg",
+    "profile_url": "https://www.iith.ac.in/bt/eraj/"
+  },
+  {
+    "name": "Rajalakshmi P.",
+    "designation": "Professor",
+    "department": "Electrical Engineering, Artificial Intelligence",
+    "email": "raji@ee.iith.ac.in",
+    "website": null,
+    "research_interests": "Internet of Intelligent Things, Artificial Intelligence, Computer Aided Diagnosis, Intelligent and Autonomous Transportation, Biomedical Devices, Sensors, Wireless Communication & Networks, AI/ML, Transportation",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/rajalakshmi_p.jpg",
+    "profile_url": "https://www.iith.ac.in/ee/raji/"
+  },
+  {
+    "name": "Rajesh Kedia",
+    "designation": "Assistant professor",
+    "department": "Computer Science & Engineering",
+    "email": "rkedia@cse.iith.ac.in",
+    "website": null,
+    "research_interests": "Computer Architecture, Embedded Systems, VLSI Design Automation, AI/ML, High Performance Computing (HPC), Embedded Systems and Design Automation",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Rajesh_Kedia.jpg",
+    "profile_url": "https://www.iith.ac.in/cse/rkedia/"
+  },
+  {
+    "name": "Rajesh Kannan",
+    "designation": "Assistant Professor",
+    "department": "Mathematics",
+    "email": "rajeshkannan@math.iith.ac.in",
+    "website": null,
+    "research_interests": "Combinatorics, Spectral Graph Theory, Matrix Theory, Functional Analysis, Pure Mathematics",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/rajesh_k.jpg",
+    "profile_url": "https://www.iith.ac.in/math/rajeshkannan/"
+  },
+  {
+    "name": "Rajesh Korla",
+    "designation": "Associate Professor",
+    "department": "Materials Science And Metallurgical Engineering",
+    "email": "rajeshk@msme.iith.ac.in",
+    "website": null,
+    "research_interests": "Deformation behavior of materials at room temperature and high temperature, Additive Manufacturing, Materials Processing",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Rajesh_Korla.jpg",
+    "profile_url": "https://www.iith.ac.in/msme/rajeshk/"
+  },
+  {
+    "name": "Rajesh Ittamalla",
+    "designation": "Assistant Professor",
+    "department": "Entrepreneurship and Management",
+    "email": "rajeshittamalla@em.iith.ac.in",
+    "website": null,
+    "research_interests": "Health & Society, Social Sciences, Entrepreneurship and Management",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Rajesh_Ittamalla.jpg",
+    "profile_url": "https://www.iith.ac.in/em/rajeshittamalla/"
+  },
+  {
+    "name": "Rakesh Venkat",
+    "designation": "Assistant Professor",
+    "department": "Computer Science & Engineering",
+    "email": "rakesh@cse.iith.ac.in",
+    "website": null,
+    "research_interests": "Theoretical Computer Science",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Rakesh-Venkat.jpg",
+    "profile_url": "https://www.iith.ac.in/cse/rakesh/"
+  },
+  {
+    "name": "Ramakrishna Upadrasta",
+    "designation": "Associate Professor",
+    "department": "Computer Science & Engineering, Heritage Science & Technology",
+    "email": "ramakrishna@cse.iith.ac.in",
+    "website": null,
+    "research_interests": "Domain Specific Programming Languages for Parallelization, LLVM Optimizations, Improvement of Scalability of Tools in Polyhedral Compilation, Abstract Interpretation and sub-polyhedral approximation, AI/ML, High Performance Computing (HPC), Cyber Security, Parallel Processing",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Ramakrishna_Upadrasta.jpg",
+    "profile_url": "https://www.iith.ac.in/cse/ramakrishna/"
+  },
+  {
+    "name": "Ramesh G",
+    "designation": "Head (MA) & Professor",
+    "department": "Mathematics",
+    "email": "rameshg@math.iith.ac.in",
+    "website": null,
+    "research_interests": "Functional analysis, Operator theory, Pure Mathematics",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/G_Ramesh.jpg",
+    "profile_url": "https://www.iith.ac.in/math/rameshg/"
+  },
+  {
+    "name": "Rameshwar Pratap",
+    "designation": "Associate Professor",
+    "department": "Computer Science & Engineering",
+    "email": "rameshwar@cse.iith.ac.in",
+    "website": null,
+    "research_interests": "Algorithms in Machine Learning, Theoretical Computer Science",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/rameshwar_image.jpeg",
+    "profile_url": "https://www.iith.ac.in/cse/rameshwar/"
+  },
+  {
+    "name": "Ramji M",
+    "designation": "Professor",
+    "department": "Mechanical & Aerospace Engineering",
+    "email": "ramji_mano@mae.iith.ac.in",
+    "website": null,
+    "research_interests": "Composite Structures and Repair, Fundamental Fracture Mechanics, Material Characterisation, Computational Fracture and Damage Mechanics, Experimental Mechanics, Materials Processing",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Ramji_M.jpg",
+    "profile_url": "https://www.iith.ac.in/mae/ramji_mano/"
+  },
+  {
+    "name": "Ramkarn Patne",
+    "designation": "Assistant Professor",
+    "department": "Chemical Engineering",
+    "email": "ramkarn@che.iith.ac.in",
+    "website": null,
+    "research_interests": "Hydrodynamic Stability, Biofluid Mechanics, Pattern Formation, Thermocapillarity, Buoyancy, Additive Manufacturing",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Ramkarn-Patne.jpg",
+    "profile_url": "https://www.iith.ac.in/che/ramkarn/"
+  },
+  {
+    "name": "Ramya Sri Mullapudi",
+    "designation": "Assistant Professor",
+    "department": "Civil Engineering",
+    "email": "ramyamullapudi@ce.iith.ac.in",
+    "website": null,
+    "research_interests": "Pavement Materials, Analysis and Design of Pavements, Evaluation and Rehabilitation of Pavements, Pavement Management Systems (PMS), Transportation",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Ramya.png",
+    "profile_url": "https://www.iith.ac.in/ce/ramyamullapudi/"
+  },
+  {
+    "name": "RanaPratap Maradana",
+    "designation": "Assistant Professor",
+    "department": "Entrepreneurship and Management",
+    "email": "ranapratap@em.iith.ac.in",
+    "website": null,
+    "research_interests": "Venture Capital Investments, Energy Finance, Financial Markets",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/RanaPratap.jpg",
+    "profile_url": "https://www.iith.ac.in/em/ranapratap/"
+  },
+  {
+    "name": "Ranabir Dey",
+    "designation": "Assistant Professor",
+    "department": "Mechanical & Aerospace Engineering",
+    "email": "ranabir@mae.iith.ac.in",
+    "website": null,
+    "research_interests": "Active soft matter, Capillarity and wetting, Low Reynolds number hydrodynamics, Biomedical Devices, Fluid Dynamics, Soft and Active Matter",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Ranabir_Dey.jpg",
+    "profile_url": "https://www.iith.ac.in/mae/ranabir/"
+  },
+  {
+    "name": "Ranajit Mondal",
+    "designation": "Assistant Professor",
+    "department": "Chemical Engineering",
+    "email": "ranajit@che.iith.ac.in",
+    "website": null,
+    "research_interests": "Colloidal and Interfacial Science, Droplet Drying, Desiccation Cracks, Rheology of Complex Fluids, Porous Materials, Fluid Dynamics, Nanoscience & Technology, Soft and Active Matter",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Ranajit.jpg",
+    "profile_url": "https://www.iith.ac.in/che/ranajit/"
+  },
+  {
+    "name": "Ranjith Ramadurai",
+    "designation": "Professor",
+    "department": "Materials Science And Metallurgical Engineering",
+    "email": "ranjith@msme.iith.ac.in",
+    "website": null,
+    "research_interests": "Multifunctional thin films, Piezoresponse force microscopy, Hybrid piezoelectrics, Piezoelectric sensors and actuators, Biomedical Materials, Sensors, Semiconducting Devices, Energy, Nanoscience & Technology",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Ranjith_Ramadurai.jpg",
+    "profile_url": "https://www.iith.ac.in/msme/ranjith/"
+  },
+  {
+    "name": "Rashmi Singh",
+    "designation": "Assistant Professor",
+    "department": "Liberal Arts",
+    "email": "rashmi.singh@la.iith.ac.in",
+    "website": null,
+    "research_interests": "Environmental justice, Complex human-wildlife relationships, Global climate change and adaptations",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Rashmi-Singh.jpg",
+    "profile_url": "https://www.iith.ac.in/la/rashmi.singh/"
+  },
+  {
+    "name": "Rathinavelan Thenmalarchelvi",
+    "designation": "Professor",
+    "department": "BioTechnology",
+    "email": "tr@bt.iith.ac.in",
+    "website": null,
+    "research_interests": "Bacterial Glycobiology, Transition State Structures of Proteins, DNA-protein Interaction, DNA Structure and Dynamics, Multiscale Modelling, AI/ML, Optics/Photonics/Spectroscopy, Disease/Toxicity Mechanisms, Drug Discovery/Drug Target Validation and Preclinical Testing/Molecular Virology",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Thenmalarchelvi_Rathinavelan.jpg",
+    "profile_url": "https://www.iith.ac.in/bt/tr/"
+  },
+  {
+    "name": "Ravikumar Bhimasingu",
+    "designation": "Professor",
+    "department": "Electrical Engineering",
+    "email": "ravikumar@ee.iith.ac.in",
+    "website": null,
+    "research_interests": "Computer-aided power system analysis and modeling, Integration of Renewable Energy Sources, AI techniques applications for power systems security improvement, Power System protection and optimization, Distribution system automation, Energy",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Ravikumar_Bhimasingu.jpg",
+    "profile_url": "https://www.iith.ac.in/ee/ravikumar/"
+  },
+  {
+    "name": "Rekha Raja",
+    "designation": "Assistant Professor",
+    "department": "Artificial Intelligence",
+    "email": "rekha.raja@ai.iith.ac.in",
+    "website": null,
+    "research_interests": "Robotics, Agricultural Robotics, Robot Learning, Motion Planning, Computer Vision, AI Algorithms",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Rekha-Raja.jpg",
+    "profile_url": "https://www.iith.ac.in/ai/rekha.raja/"
+  },
+  {
+    "name": "Renu John",
+    "designation": "Professor",
+    "department": "Biomedical Engineering",
+    "email": "renujohn@bme.iith.ac.in",
+    "website": null,
+    "research_interests": "Biomedical imaging, Optical coherence imaging and microscopy, Nanoparticles and target-specific imaging, Biomedical Devices, Biophysics/Medical Physics, Sensors, AI/ML, Nanoscience & Technology, Optics/Photonics/Spectroscopy",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Renu_John.jpg",
+    "profile_url": "https://www.iith.ac.in/bme/renujohn/"
+  },
+  {
+    "name": "Rogers Mathew",
+    "designation": "Associate professor",
+    "department": "Computer Science & Engineering",
+    "email": "rogers@cse.iith.ac.in",
+    "website": null,
+    "research_interests": "Graph theory, Combinatorics, Graph algorithms, Theoretical Computer Science",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Rogers-Mathew.jpg",
+    "profile_url": "https://www.iith.ac.in/cse/rogers/"
+  },
+  {
+    "name": "Roshan Khan .M",
+    "designation": "Assistant Professor",
+    "department": "Civil Engineering",
+    "email": "roshan@ce.iith.ac.in",
+    "website": null,
+    "research_interests": "Virtual Reality and Augmented Reality, Transportation, Geoenvironmental Engineering, Computational Geomechanics Clay Science Unsaturated Soil Mechanics, Railway Engineering High-Speed Railways",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Roshan.png",
+    "profile_url": "https://www.iith.ac.in/ce/roshan/"
+  },
+  {
+    "name": "Rupesh Ganpatrao Wandhare",
+    "designation": "Associate Professor",
+    "department": "Electrical Engineering",
+    "email": "rupesh@ee.iith.ac.in",
+    "website": null,
+    "research_interests": "Power Electronics, Electric Drives, Renewable Energy Sources, Distributed Energy Generation, Standalone and Hybrid Energy Generation, Energy",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Rupesh_Wandhare.jpg",
+    "profile_url": "https://www.iith.ac.in/ee/rupesh/"
+  },
+  {
+    "name": "S K Karthick",
+    "designation": "Assistant Professor",
+    "department": "Mechanical & Aerospace Engineering",
+    "email": "skkarthick@mae.iith.ac.in",
+    "website": null,
+    "research_interests": "Experimental Gas Dynamics, Jet Aeroacoustics, Hypersonic Aerothermodynamics, Optical Flow Diagnostics, Fluidic/Energy-Conversion Devices",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/skkarthick.jpg",
+    "profile_url": "https://www.iith.ac.in/mae/skkarthick/"
+  },
+  {
+    "name": "Sachidananda Behera",
+    "designation": "Assistant Professor",
+    "department": "Mechanical & Aerospace Engineering",
+    "email": "sbehera@mae.iith.ac.in",
+    "website": null,
+    "research_interests": "Turbulence, Fluid Dynamics",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Sachidananda-Behera.jpg",
+    "profile_url": "https://www.iith.ac.in/mae/sbehera/"
+  },
+  {
+    "name": "Safvan Palathingal",
+    "designation": "Assistant Professor",
+    "department": "Mechanical & Aerospace Engineering",
+    "email": "safvan@mae.iith.ac.in",
+    "website": null,
+    "research_interests": "Nonlinear mechanics of slender structures, Compliant mechanisms, Optimization, Biomechanics, MEMS, Multiscale Modelling",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Safvan_Palathingal.jpg",
+    "profile_url": "https://www.iith.ac.in/mae/safvan/"
+  },
+  {
+    "name": "Sai Sidhardh",
+    "designation": "Assistant Professor",
+    "department": "Mechanical & Aerospace Engineering",
+    "email": "sidhardh@mae.iith.ac.in",
+    "website": null,
+    "research_interests": "Micromechanics of Materials, Elastodynamics, Composite Mechanics, Nonlinear Solid Mechanics, Vibrational Control, Sensors, Multiscale Modelling, AI/ML, Energy, Nanoscience & Technology",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Sai_Sidhardh.jpg",
+    "profile_url": "https://www.iith.ac.in/mae/sidhardh/"
+  },
+  {
+    "name": "Sai Rama Krishna Malladi",
+    "designation": "Assistant Professor",
+    "department": "Materials Science And Metallurgical Engineering",
+    "email": "srkm@msme.iith.ac.in",
+    "website": null,
+    "research_interests": "In situ Transmission Electron Microscopy, Phase transformations in materials, Electrochemsitry and Corrosion, Graphene based super capacitors, Materials for Energy Applications, Energy, Nanoscience & Technology, Design Innovation, Materials Processing",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Sairama_Krishna_Malladi.jpg",
+    "profile_url": "https://www.iith.ac.in/msme/srkm/"
+  },
+  {
+    "name": "Sai Santosh Kumar Raavi",
+    "designation": "Professor",
+    "department": "Physics, Climate Change",
+    "email": "sskraavi@phy.iith.ac.in",
+    "website": null,
+    "research_interests": "Optics and Spectroscopy of Energy Conversion Materials, Sensors, Semiconducting Devices, Climate Change, Energy, Nanoscience & Technology, Optics/Photonics/Spectroscopy",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/sskr.jpg",
+    "profile_url": "https://www.iith.ac.in/phy/sskraavi/"
+  },
+  {
+    "name": "Saket Asthana",
+    "designation": "Professor",
+    "department": "Physics",
+    "email": "asthanas@phy.iith.ac.in",
+    "website": null,
+    "research_interests": "Ferroelectrics, Energy storage, Piezoelectrics, Multiferroics, Piezoluminisence, Sensors, Catalysis, Energy, Nanoscience & Technology, Materials Processing",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Saket_Asthana.jpg",
+    "profile_url": "https://www.iith.ac.in/phy/asthanas/"
+  },
+  {
+    "name": "Sameen Naqvi",
+    "designation": "Assistant Professor",
+    "department": "Mathematics",
+    "email": "sameen@math.iith.ac.in",
+    "website": null,
+    "research_interests": "Reliability theory, Stochastic orders, Applied Statistics, Risk Theory, Statistics",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Sameen_Naqvi.jpg",
+    "profile_url": "https://www.iith.ac.in/math/sameen/"
+  },
+  {
+    "name": "Sandipan Ray",
+    "designation": "Assistant Professor",
+    "department": "BioTechnology",
+    "email": "sandipan.ray@bt.iith.ac.in",
+    "website": null,
+    "research_interests": "Circadian clocks and sleep, Infectious diseases, Mechanism of drug action, Mass spectrometry and quantitative proteomics, Biomedical Materials, Disease/Toxicity Mechanisms, Drug Discovery/Drug Target Validation and Preclinical Testing/Molecular Virology",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Sandipan_Ray.jpg",
+    "profile_url": "https://www.iith.ac.in/bt/sandipan.ray/"
+  },
+  {
+    "name": "Sangkha Borah",
+    "designation": "Assistant Professor",
+    "department": "Physics",
+    "email": "sangkha.borah@phy.iith.ac.in",
+    "website": null,
+    "research_interests": "Machine Learning in Physics, Quantum Control, Quantum Computing, Neuromorphic Computing",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/sangkha-b.jpg",
+    "profile_url": "https://www.iith.ac.in/phy/sangkha.borah/"
+  },
+  {
+    "name": "Saptarshi Majumdar",
+    "designation": "Professor",
+    "department": "Chemical Engineering",
+    "email": "saptarshi@che.iith.ac.in",
+    "website": null,
+    "research_interests": "Multiscale Modelling, Bio-materials Design, Industrial Process Analysis, Nanoscience & Technology",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/majumdar.jpg",
+    "profile_url": "https://www.iith.ac.in/che/saptarshi/"
+  },
+  {
+    "name": "Saranya Ghosh",
+    "designation": "Assistant Professor",
+    "department": "Physics",
+    "email": "saranya.ghosh@phy.iith.ac.in",
+    "website": null,
+    "research_interests": "Experimental High Energy Physics, Sensors, AI/ML, High Energy Physics, High Performance Computing (HPC)",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Saranya_Ghosh.jpg",
+    "profile_url": "https://www.iith.ac.in/phy/saranya.ghosh/"
+  },
+  {
+    "name": "Saravanan B",
+    "designation": "Professor",
+    "department": "Mechanical & Aerospace Engineering",
+    "email": "saravananb@mae.iith.ac.in",
+    "website": null,
+    "research_interests": "Combustion, Laser diagnostics, Fluid Mechanics, IC Engines, Gas Turbines, Energy",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Saravanan_Balusamy.jpeg",
+    "profile_url": "https://www.iith.ac.in/mae/saravananb/"
+  },
+  {
+    "name": "Saswata Bhattacharya",
+    "designation": "Head (MS) & Professor",
+    "department": "Materials Science And Metallurgical Engineering",
+    "email": "saswata@msme.iith.ac.in",
+    "website": null,
+    "research_interests": "Phase-field modeling of microstructural evolution in alloys and oxides, Phase transformations, Micromechanical modeling, Multiscale Modelling, AI/ML, High Performance Computing (HPC), Materials Processing",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Saswata_Bhattacharya.jpg",
+    "profile_url": "https://www.iith.ac.in/msme/saswata/"
+  },
+  {
+    "name": "Sathya Peri",
+    "designation": "Professor",
+    "department": "Computer Science & Engineering, Artificial Intelligence, Climate Change",
+    "email": "sathya_p@cse.iith.ac.in",
+    "website": null,
+    "research_interests": "Parallel Computing, Distributed Systems, Algorithm analysis, Networking algorithms, Multiscale Modelling, AI/ML, Fluid Dynamics, Climate Change, High Performance Computing (HPC), Cyber Security, Blockchains and Distributed Computing, Parallel Processing",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Sathya-Peri.jpg",
+    "profile_url": "https://www.iith.ac.in/cse/sathya_p/"
+  },
+  {
+    "name": "Satish Kumar Regonda",
+    "designation": "Associate Professor",
+    "department": "Civil Engineering, Climate Change",
+    "email": "satishr@ce.iith.ac.in",
+    "website": null,
+    "research_interests": "Urban and Rural Flood Modeling, Climate Sciences, Data Sciences, Statistical Modeling Techniques, Ensemble Forecasting, Multiscale Modelling, AI/ML, Climate Change",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Satish.png",
+    "profile_url": "https://www.iith.ac.in/ce/satishr/"
+  },
+  {
+    "name": "Satish Laxman Shinde",
+    "designation": "Assistant Professor",
+    "department": "Physics",
+    "email": "shindesl@phy.iith.ac.in",
+    "website": null,
+    "research_interests": "Nanophotonics, Energy materials, Photothermal energy harvesting, Photocatalysis, Sensors, Semiconducting Devices, Catalysis, Energy, Nanoscience & Technology, Optics/Photonics/Spectroscopy",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Satish-Laxman-Shinde.jpg",
+    "profile_url": "https://www.iith.ac.in/phy/shindesl/"
+  },
+  {
+    "name": "Satyanarayana G.",
+    "designation": "Professor",
+    "department": "Chemistry",
+    "email": "gvsatya@chy.iith.ac.in",
+    "website": null,
+    "research_interests": "Transition-metal catalysis, Development of new methodology and Total synthesis and drug diversity oriented synthesis, Biomedical Materials, Sensors, Catalysis, Nanoscience & Technology",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/G_Satyaranarayana.jpg",
+    "profile_url": "https://www.iith.ac.in/chy/gvsatya/"
+  },
+  {
+    "name": "Satyavrata Samavedi",
+    "designation": "Associate Professor",
+    "department": "Chemical Engineering",
+    "email": "samavedi@che.iith.ac.in",
+    "website": null,
+    "research_interests": "Polymeric biomaterials, Electrospinning & nanofibers, Controlled drug & protein release, Amorphous drug formulations, Combination drug therapy, Inflammation & Immunomodulation",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/samavedi_satya.jpg",
+    "profile_url": "https://www.iith.ac.in/che/samavedi/"
+  },
+  {
+    "name": "Saurabh Kumar",
+    "designation": "Assistant Professor",
+    "department": "Computer Science & Engineering",
+    "email": "saurabhkr@cse.iith.ac.in",
+    "website": null,
+    "research_interests": "Cybersecurity, Android Security, Malware Analysis, Digital Forensics",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Saurabh-Kumar.png",
+    "profile_url": "https://www.iith.ac.in/cse/saurabhkr/"
+  },
+  {
+    "name": "Saurabh Sandilya",
+    "designation": "Assistant Professor",
+    "department": "Physics",
+    "email": "saurabh@phy.iith.ac.in",
+    "website": null,
+    "research_interests": "Belle & Belle II Experiments, HEP Detectors & Instrumentations, Neutrino Physics, Biomedical Devices, Sensors, Semiconducting Devices, AI/ML, High Energy Physics",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/saurabh-s.jpg",
+    "profile_url": "https://www.iith.ac.in/phy/saurabh/"
+  },
+  {
+    "name": "Saurabh Kumar Singh",
+    "designation": "Assistant Professor",
+    "department": "Chemistry",
+    "email": "sksingh@chy.iith.ac.in",
+    "website": null,
+    "research_interests": "Computational Inorganic Chemistry, Molecular Magnetism, Electronic Structure Theory, HeavyElement Chemistry, Reaction Modelling, Molecular Spectroscopy, First Principle Calculations, Catalysis, Nanoscience & Technology, High Performance Computing (HPC)",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/saurab.png",
+    "profile_url": "https://www.iith.ac.in/chy/sksingh/"
+  },
+  {
+    "name": "Saurav Khuttiya Deori",
+    "designation": "Assistant Professor",
+    "department": "Design",
+    "email": "skhuttiyadeori@des.iith.ac.in",
+    "website": null,
+    "research_interests": "Visual Ethnography Research, Heritage Preservation, Branding-identity Designs, Design Innovation, Tangible and Intangible Heritage, Illustration, Communication Design, Data and Information Visualistion",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Saurav_Khuttiya_Deori.jpg",
+    "profile_url": "https://www.iith.ac.in/des/skhuttiyadeori/"
+  },
+  {
+    "name": "Savita Devi",
+    "designation": "Assistant Professor",
+    "department": "BioTechnology",
+    "email": "savitadevi@bt.iith.ac.in",
+    "website": null,
+    "research_interests": "Innate Immunity, Inflammation and Inflammasomes",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Savita_Devi.jpg",
+    "profile_url": "https://www.iith.ac.in/bt/savitadevi/"
+  },
+  {
+    "name": "Sayak Banerjee",
+    "designation": "Associate Professor",
+    "department": "Mechanical & Aerospace Engineering, Climate Change",
+    "email": "sayakb@mae.iith.ac.in",
+    "website": null,
+    "research_interests": "Experimental and Numerical Combustion Kinetics, Kinetic Model Reduction, Bio-fuel Combustion and Emission, Combustion Diagnostics, Fluid Dynamics, Climate Change, Energy, Transportation, Sustainability",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Sayak_Banerjee.jpg",
+    "profile_url": "https://www.iith.ac.in/mae/sayakb/"
+  },
+  {
+    "name": "Sayantee Jana",
+    "designation": "Assistant Professor",
+    "department": "Mathematics",
+    "email": "sayantee.jana@math.iith.ac.in",
+    "website": null,
+    "research_interests": "Data mining for Big Data, Spatio-temporal Modelling & Maps, AI/ML in finance and Precision Medicine, Bayesian Statistics, Multivariate, skewed and volatile distributions, Statistics",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Sayantee-Jana.jpg",
+    "profile_url": "https://www.iith.ac.in/math/sayantee.jana/"
+  },
+  {
+    "name": "Seema Krishnakumar",
+    "designation": "Assistant Professor",
+    "department": "Design",
+    "email": "seema@des.iith.ac.in",
+    "website": null,
+    "research_interests": "Information Design & Data visualisation, Storytelling, Interactive media, Photojournalism, Design Innovation, Tangible and Intangible Heritage, Industrial Design, Data and Information Visualistion, Communication Design, HCI/ Interaction Design",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/seema.jpg",
+    "profile_url": "https://www.iith.ac.in/des/seema/"
+  },
+  {
+    "name": "Seetha N.",
+    "designation": "Associate Professor",
+    "department": "Civil Engineering",
+    "email": "seetha@ce.iith.ac.in",
+    "website": null,
+    "research_interests": "Porous Media, Colloids, Flow, Transport, Multi-Scale Modeling, upscaling, Multiscale Modelling, Health & Society, Nanoscience & Technology",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Seetha.png",
+    "profile_url": "https://www.iith.ac.in/ce/seetha/"
+  },
+  {
+    "name": "Seshadri Sravan Kumar V.",
+    "designation": "Associate Professor",
+    "department": "Electrical Engineering",
+    "email": "seshadri@ee.iith.ac.in",
+    "website": null,
+    "research_interests": "Grid Connected Renewable Energy Systems, Micro Grids, Voltage Stability, Electric Vehicles, Energy",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Seshadri_Sravan_Kumar.jpg",
+    "profile_url": "https://www.iith.ac.in/ee/seshadri/"
+  },
+  {
+    "name": "Shahid Mohammad",
+    "designation": "Assistant Professor",
+    "department": "Design",
+    "email": "mohammad.shahid@des.iith.ac.in",
+    "website": null,
+    "research_interests": "Typography, Design Research, Visual Branding, Identity Design, Design Innovation, Tangible and Intangible Heritage, Communication Design",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/shahid.png",
+    "profile_url": "https://www.iith.ac.in/des/mohammad.shahid/"
+  },
+  {
+    "name": "Shantanu Desai",
+    "designation": "Professor",
+    "department": "Physics, Artificial Intelligence",
+    "email": "shantanud@phy.iith.ac.in",
+    "website": null,
+    "research_interests": "Galaxy clusters and cosmology, Pulsars, Astrostatistics and Data Mining, Gravitational Wave Searches, Multiscale Modelling, AI/ML, High Energy Physics, High Performance Computing (HPC)",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/shantanu-d.jpg",
+    "profile_url": "https://www.iith.ac.in/phy/shantanud/"
+  },
+  {
+    "name": "Shashank Vatedka",
+    "designation": "Assistant Professor",
+    "department": "Electrical Engineering",
+    "email": "shashankvatedka@ee.iith.ac.in",
+    "website": null,
+    "research_interests": "Electrical Communication Engineering, Wireless Communication & Networks, AI/ML, Applied Mathematics",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Shashank.jpg",
+    "profile_url": "https://www.iith.ac.in/ee/shashankvatedka/"
+  },
+  {
+    "name": "Shashidhar T",
+    "designation": "Professor",
+    "department": "Civil Engineering",
+    "email": "shashidhar@ce.iith.ac.in",
+    "website": null,
+    "research_interests": "Bioremediation, Contaminant Hydrology, Hydraulic Transients, Hydroclimate, Hazardous Waste Management, Fluid Dynamics, Climate Change, Waste Management, Disease/Toxicity Mechanisms, Health & Society",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/T_Shashidhar_2024.jpg",
+    "profile_url": "https://www.iith.ac.in/ce/shashidhar/"
+  },
+  {
+    "name": "Shelaka Gupta",
+    "designation": "Assistant Professor",
+    "department": "Chemical Engineering",
+    "email": "shelaka@che.iith.ac.in",
+    "website": null,
+    "research_interests": "Heterogeneous catalysis, Biomass, Density Functional Theory, First Principle Calculations, Catalysis",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Shelaka-Gupta.png",
+    "profile_url": "https://www.iith.ac.in/che/shelaka/"
+  },
+  {
+    "name": "Shirshendu Das",
+    "designation": "Assistant Professor",
+    "department": "Computer Science & Engineering",
+    "email": "shirshendu@cse.iith.ac.in",
+    "website": null,
+    "research_interests": "Computer Architecture, Hardware Security, Emerging Memory Technologies",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Shirshendu_Das.jpg",
+    "profile_url": "https://www.iith.ac.in/cse/shirshendu/"
+  },
+  {
+    "name": "Shishir Kumar",
+    "designation": "Assistant Professor",
+    "department": "Electrical Engineering",
+    "email": "shishirk@ee.iith.ac.in",
+    "website": null,
+    "research_interests": "Micro-nanofluidics, Nanopores, 2D Materials, Bio-chemical Sensors, Biomedical Devices, Sensors, AI/ML, Nanoscience & Technology",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Shishir_Kumar.jpg",
+    "profile_url": "https://www.iith.ac.in/ee/shishirk/"
+  },
+  {
+    "name": "Shiv Govind Singh",
+    "designation": "Professor",
+    "department": "Electrical Engineering",
+    "email": "sgsingh@ee.iith.ac.in",
+    "website": null,
+    "research_interests": "Wireless Communications, MIMO decoding, Commensal Radar, CPS security, Dynamic Spectrum Allocation, Biomedical Materials, Biomedical Devices, Sensors, Semiconducting Devices, AI/ML, Energy, Nanoscience & Technology",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Shiv_Govind_Singh.jpg",
+    "profile_url": "https://www.iith.ac.in/ee/sgsingh/"
+  },
+  {
+    "name": "Shiva Ji",
+    "designation": "Head (Design) & Associate Professor",
+    "department": "Design, Climate Change, Heritage Science & Technology",
+    "email": "shivaji@des.iith.ac.in",
+    "website": null,
+    "research_interests": "Architecture & Design, Design for Sustainability, Digital Heritage, Sustainability Assessment, LCA, Architecture Theory Innovation by System Design, New Age Products/Services, Climate Change, Design Innovation, Virtual Reality and Augmented Reality, Tangible and Intangible Heritage, Industrial Design",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/ShivaJi.jpeg",
+    "profile_url": "https://www.iith.ac.in/des/shivaji/"
+  },
+  {
+    "name": "Shourya Dutta Gupta",
+    "designation": "Associate Professor",
+    "department": "Materials Science And Metallurgical Engineering",
+    "email": "shourya@msme.iith.ac.in",
+    "website": null,
+    "research_interests": "Plasmonics, Nanophotonics, Biosensing, Raman spectroscopy, Nanofabrication, Biomedical Devices, Sensors, Semiconducting Devices, Multiscale Modelling, Nanoscience & Technology, Optics/Photonics/Spectroscopy",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Sourya_Dutta_Gupta.jpg",
+    "profile_url": "https://www.iith.ac.in/msme/shourya/"
+  },
+  {
+    "name": "Shruti Upadhyaya",
+    "designation": "Assistant Professor",
+    "department": "Civil Engineering",
+    "email": "shrutiau@ce.iith.ac.in",
+    "website": null,
+    "research_interests": "Satellite Hydro-Meteorology",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Shruti.png",
+    "profile_url": "https://www.iith.ac.in/ce/shrutiau/"
+  },
+  {
+    "name": "Shubha Ranganathan",
+    "designation": "Associate Professor",
+    "department": "Liberal Arts",
+    "email": "shubha@la.iith.ac.in",
+    "website": null,
+    "research_interests": "Culture and mental health, Qualitative research methods, Gender, Critical psychology, Chronicity and care-giving, Health & Society, Social Sciences, Mental Health",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Shubha-Ranganathan.jpg",
+    "profile_url": "https://www.iith.ac.in/la/shubha/"
+  },
+  {
+    "name": "Shubhadeep Bhattacharjee",
+    "designation": "Assistant Professor",
+    "department": "Electrical Engineering",
+    "email": "shubhadeep@ee.iith.ac.in",
+    "website": null,
+    "research_interests": "Physics & engineering of semiconductor devices (experiments and theory), Neuromorphic hardware for AI/ML computing, Cleanroom nanofabrication and characterization, 2D materials, oxide and organic semiconductors",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Shubhadeep-Bhattacharjee.jpg",
+    "profile_url": "https://www.iith.ac.in/ee/shubhadeep/"
+  },
+  {
+    "name": "Shubho Ranjan Roy",
+    "designation": "Associate Professor",
+    "department": "Physics",
+    "email": "sroy@phy.iith.ac.in",
+    "website": null,
+    "research_interests": "Nonperturbative String and Quantum Field theory, AdS/CFT, Quantum Black Holes, High Energy Physics, Quantum Fields, Strings, Gravity theory",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/shubho-r-d.jpg",
+    "profile_url": "https://www.iith.ac.in/phy/sroy/"
+  },
+  {
+    "name": "Shuhita Bhattacharjee",
+    "designation": "Assistant Professor",
+    "department": "Liberal Arts",
+    "email": "shuhita@la.iith.ac.in",
+    "website": null,
+    "research_interests": "Nineteenth-century literature and culture, Religion and the post-secular, Gender and sexuality studies, Postcolonial studies, Graphic novels, Tangible and Intangible Heritage, Health & Society, Humanities, Social Sciences, Gender Studies, Creative Arts and Design Theory",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Shuhita-Bhattacharjee.jpg",
+    "profile_url": "https://www.iith.ac.in/la/shuhita/"
+  },
+  {
+    "name": "Shwetabh Yadav",
+    "designation": "Assistant Professor",
+    "department": "Civil Engineering",
+    "email": "shwetabh@ce.iith.ac.in",
+    "website": null,
+    "research_interests": "Experimental solid mechanics, Rock mechanics, Mechanics of large strain deformation, In situ measurement techniques, Fracture mechanics, Materials Processing",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Shwetabh.png",
+    "profile_url": "https://www.iith.ac.in/ce/shwetabh/"
+  },
+  {
+    "name": "Sireesh S.",
+    "designation": "Professor",
+    "department": "Civil Engineering",
+    "email": "sireesh@ce.iith.ac.in",
+    "website": null,
+    "research_interests": "Pavement Geotechnics, Geosynthetics, Recycled Materials, Ground Improvement, Sensors, AI/ML, Waste Management, Transportation, Sustainability, Molecular",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Sireesh.png",
+    "profile_url": "https://www.iith.ac.in/ce/sireesh/"
+  },
+  {
+    "name": "Siva Rama Krishna Vanjari",
+    "designation": "Professor",
+    "department": "Electrical Engineering",
+    "email": "svanjari@ee.iith.ac.in",
+    "website": null,
+    "research_interests": "Biosensors, Electrochemistry, MEMS, 3D-IC, Biomedical Materials, Biomedical Devices, Sensors",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Siva_Rama_Krishna_Vanjari.jpg",
+    "profile_url": "https://www.iith.ac.in/ee/svanjari/"
+  },
+  {
+    "name": "Sivakumar Vaidyanathan",
+    "designation": "Associate Professor",
+    "department": "Chemistry",
+    "email": "vsiva@chy.iith.ac.in",
+    "website": null,
+    "research_interests": "Organic Electronics, Lanthanide Luminescence, Light Emitting Diodes",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Sivakumar_Vaidyanathan.jpg",
+    "profile_url": "https://www.iith.ac.in/chy/vsiva/"
+  },
+  {
+    "name": "Sk Zeeshan Ali",
+    "designation": "Assistant Professor",
+    "department": "Civil Engineering",
+    "email": "zeeshan@ce.iith.ac.in",
+    "website": null,
+    "research_interests": "Hydraulics, Water Resources Engineering, Fluid Dynamics",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/zeeshan.png",
+    "profile_url": "https://www.iith.ac.in/ce/zeeshan/"
+  },
+  {
+    "name": "Sobhan Babu",
+    "designation": "Associate Professor",
+    "department": "Computer Science & Engineering",
+    "email": "sobhan@cse.iith.ac.in",
+    "website": null,
+    "research_interests": "Big Data Analytics, Graph Theory, Algorithms, AI/ML",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/sobhan.jpg",
+    "profile_url": "https://www.iith.ac.in/cse/sobhan/"
+  },
+  {
+    "name": "Somnath Maji",
+    "designation": "Associate Professor",
+    "department": "Chemistry, Climate Change",
+    "email": "smaji@chy.iith.ac.in",
+    "website": null,
+    "research_interests": "Synthetic Coordination/Bio-Inorganic/ Organometallic Chemistry, Metal catalyzed Water Splitting/Carbon Dioxide Reduction/ Hydrogen Generation, Catalysis, Energy",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Somnath_Maji.png",
+    "profile_url": "https://www.iith.ac.in/chy/smaji/"
+  },
+  {
+    "name": "Sonali Srivastav",
+    "designation": "Assistant Professor",
+    "department": "Design",
+    "email": "sonali.srivastav@des.iith.ac.in",
+    "website": null,
+    "research_interests": "Audio Visual Art Forms, Film Studies, Media Formats, Storytelling, Visual Cultures",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Sonali_Srivastav.png",
+    "profile_url": "https://www.iith.ac.in/des/sonali.srivastav/"
+  },
+  {
+    "name": "Soumya Jana",
+    "designation": "Professor",
+    "department": "Electrical Engineering, Artificial Intelligence",
+    "email": "jana@ee.iith.ac.in",
+    "website": null,
+    "research_interests": "Biomedical image and signal analysis, Air quality analysis, Network information theory, Computer vision, Artificial Intelligence, AI/ML, Climate Change",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/soumya_jana_ee.jpg",
+    "profile_url": "https://www.iith.ac.in/ee/jana/"
+  },
+  {
+    "name": "Sourav Das",
+    "designation": "Assistant Professor",
+    "department": "Civil Engineering",
+    "email": "sourav.das@ce.iith.ac.in",
+    "website": null,
+    "research_interests": "Wind Energy and Aerodynamics, Energy Harvesting, Reliability Engineering, Uncertainty Quantification, Machine Learning",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/SouravDas.png",
+    "profile_url": "https://www.iith.ac.in/ce/sourav.das/"
+  },
+  {
+    "name": "Srabani Kar",
+    "designation": "Assistant Professor",
+    "department": "Physics",
+    "email": "srabani@phy.iith.ac.in",
+    "website": null,
+    "research_interests": "Time-resolved terahertz spectroscopy of low-dimensional materials, Contactless conductivity measurements, Optoelectronics of layered materials, Applications of ultrafast hot carriers for biomedical research, Random lasers, Micro-lasing patterns",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/srabani-kar.jpg",
+    "profile_url": "https://www.iith.ac.in/phy/srabani/"
+  },
+  {
+    "name": "Sri Rama Murty Kodukula",
+    "designation": "Professor",
+    "department": "Electrical Engineering, Artificial Intelligence",
+    "email": "ksrm@ee.iith.ac.in",
+    "website": null,
+    "research_interests": "Signal Processing, Speech Analysis, Recognition & Synthesis, Machine Learning, AI/ML",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/sriramamurty.jpg",
+    "profile_url": "https://www.iith.ac.in/ee/ksrm/"
+  },
+  {
+    "name": "Srijith P.K",
+    "designation": "Associate Professor",
+    "department": "Computer Science & Engineering, Artificial Intelligence",
+    "email": "srijith@cse.iith.ac.in",
+    "website": null,
+    "research_interests": "Probabilistic machine learning, Bayesian learning, Deep learning, AI/ML, Theoretical Computer Science",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/srijith.jpeg",
+    "profile_url": "https://www.iith.ac.in/cse/srijith/"
+  },
+  {
+    "name": "Srikar A V R",
+    "designation": "Assistant Professor",
+    "department": "Design",
+    "email": "srikaravr@des.iith.ac.in",
+    "website": null,
+    "research_interests": "Product design, Materials and processes, Workplace design and ethnography, Additive Manufacturing, Climate Change, Design Innovation, Virtual Reality and Augmented Reality, Health & Society, Transportation, Industrial Design, Materials Processing",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Srikar.png",
+    "profile_url": "https://www.iith.ac.in/des/srikaravr/"
+  },
+  {
+    "name": "Srirupa Chatterjee",
+    "designation": "Head (LA) & Associate Professor",
+    "department": "Liberal Arts",
+    "email": "srirupa@la.iith.ac.in",
+    "website": null,
+    "research_interests": "American literature, Body studies, Gender studies, Literary theory, Health & Society, Humanities",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Srirupa-Chatterjee.jpg",
+    "profile_url": "https://www.iith.ac.in/la/srirupa/"
+  },
+  {
+    "name": "Subha Narayan Rath",
+    "designation": "Professor",
+    "department": "Biomedical Engineering",
+    "email": "subharath@bme.iith.ac.in",
+    "website": null,
+    "research_interests": "Tissue engineering, Characterization and application of novel biomaterials, Stem cell research, In vitro and in vivo testing of biomaterials, Biomedical Materials, Biomedical Devices, Additive Manufacturing, Nanoscience & Technology",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Subha_Narayan_Rath.jpg",
+    "profile_url": "https://www.iith.ac.in/bme/subharath/"
+  },
+  {
+    "name": "Subhradeep Chatterjee",
+    "designation": "Associate Professor",
+    "department": "Materials Science And Metallurgical Engineering",
+    "email": "subhradeep@msme.iith.ac.in",
+    "website": null,
+    "research_interests": "Phase Transformations, Electron Microscopy, Welding and Solidification Processing, Microstructural Modelling, Additive Manufacturing, Materials Processing",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Subhradeep_Chatterjee.jpg",
+    "profile_url": "https://www.iith.ac.in/msme/subhradeep/"
+  },
+  {
+    "name": "Subrahmanya Sastry Challa",
+    "designation": "Professor",
+    "department": "Mathematics, Artificial Intelligence",
+    "email": "csastry@math.iith.ac.in",
+    "website": null,
+    "research_interests": "Wavelets, Inverse problems, Sparse representation theory, AI/ML, Applied Mathematics",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/CSSastry.jpg",
+    "profile_url": "https://www.iith.ac.in/math/csastry/"
+  },
+  {
+    "name": "Subrahmanyam Kalyanasundaram",
+    "designation": "Professor",
+    "department": "Computer Science & Engineering",
+    "email": "subruk@cse.iith.ac.in",
+    "website": null,
+    "research_interests": "Theoretical Computer Science",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Subrahmanyam-Kalyanasundaram.jpg",
+    "profile_url": "https://www.iith.ac.in/cse/subruk/"
+  },
+  {
+    "name": "Subrahmanyam Ch.",
+    "designation": "Professor",
+    "department": "Chemistry",
+    "email": "csubbu@chy.iith.ac.in",
+    "website": null,
+    "research_interests": "Catalysis, Nanomaterials, Energy Systems, Biomedical Devices, Catalysis, Climate Change, Energy, Nanoscience & Technology, Waste Management",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Ch_Subrahmanyam.jpg",
+    "profile_url": "https://www.iith.ac.in/chy/csubbu/"
+  },
+  {
+    "name": "Subramaniam Kolluru V.L.",
+    "designation": "Professor",
+    "department": "Civil Engineering",
+    "email": "kvls@ce.iith.ac.in",
+    "website": null,
+    "research_interests": "Concrete Material and Structures, Structural Health Monitoring, Material Characterization, Sensors, Additive Manufacturing",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/KVL.png",
+    "profile_url": "https://www.iith.ac.in/ce/kvls/"
+  },
+  {
+    "name": "Sudarsanam Putla",
+    "designation": "Assistant Professor",
+    "department": "Chemistry",
+    "email": "sudarsanam.putla@chy.iith.ac.in",
+    "website": null,
+    "research_interests": "Heterogeneous Catalysis, Catalysis, Energy, Nanoscience & Technology, Materials Processing",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Sudarsanam-Putla.jpg",
+    "profile_url": "https://www.iith.ac.in/chy/sudarsanam.putla/"
+  },
+  {
+    "name": "Suhail Rizvi Mohd",
+    "designation": "Assistant Professor",
+    "department": "Biomedical Engineering, Heritage Science & Technology",
+    "email": "suhailr@bme.iith.ac.in",
+    "website": null,
+    "research_interests": "Biomechanics, Biophysics, Systems Biology, Biomedical Materials, Biophysics/Medical Physics, First Principle Calculations, Multiscale Modelling, AI/ML, Fluid Dynamics, Nanoscience & Technology, High Performance Computing (HPC), Applied Mathematics, Soft and Active Matter",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/rizvi.jpg",
+    "profile_url": "https://www.iith.ac.in/bme/suhailr/"
+  },
+  {
+    "name": "Suhanya Duraiswamy",
+    "designation": "Assistant Professor",
+    "department": "Chemical Engineering",
+    "email": "suhanya@che.iith.ac.in",
+    "website": null,
+    "research_interests": "Microfluidics, Biomedical Materials, Biomedical Devices, Sensors, Additive Manufacturing, Fluid Dynamics, Nanoscience & Technology",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/suhanya_duraiswamy.jpg",
+    "profile_url": "https://www.iith.ac.in/che/suhanya/"
+  },
+  {
+    "name": "Suhash Ranjan Dey",
+    "designation": "Professor",
+    "department": "Materials Science And Metallurgical Engineering, Climate Change",
+    "email": "suhash@msme.iith.ac.in",
+    "website": null,
+    "research_interests": "Multi-Component Alloys, Titanium Alloys, CIGS/CZTS Solar Cells, Electrodeposition, Biomaterials, Biomedical Materials, Biomedical Devices, Sensors, Additive Manufacturing, Catalysis, Climate Change, Energy, Nanoscience & Technology, Waste Management, Materials Processing",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Suhash_Ranjan_Dey.png",
+    "profile_url": "https://www.iith.ac.in/msme/suhash/"
+  },
+  {
+    "name": "Sukumar D",
+    "designation": "Professor",
+    "department": "Mathematics",
+    "email": "suku@math.iith.ac.in",
+    "website": null,
+    "research_interests": "Functional Analysis, Banach Algebra, Pure Mathematics",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Sukumar_D.jpg",
+    "profile_url": "https://www.iith.ac.in/math/suku/"
+  },
+  {
+    "name": "Sumohana S Channappayya",
+    "designation": "Professor",
+    "department": "Electrical Engineering, Artificial Intelligence",
+    "email": "sumohana@ee.iith.ac.in",
+    "website": null,
+    "research_interests": "Image and Video Quality Assessment, Biomedical Image Processing, Machine Learning, AI/ML",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Sumohana_Channappayya.jpg",
+    "profile_url": "https://www.iith.ac.in/ee/sumohana/"
+  },
+  {
+    "name": "Sundaram Vanka",
+    "designation": "Associate Professor",
+    "department": "Electrical Engineering",
+    "email": "sundar.vanka@ee.iith.ac.in",
+    "website": null,
+    "research_interests": "Wireless Communication & Networks",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Sundaram-Vanka.jpeg",
+    "profile_url": "https://www.iith.ac.in/ee/sundar.vanka/"
+  },
+  {
+    "name": "Sunil Kumar Maity",
+    "designation": "Professor",
+    "department": "Chemical Engineering",
+    "email": "sunil_maity@che.iith.ac.in",
+    "website": null,
+    "research_interests": "Biofuels, Bioenergy, Biorefinery, Heterogeneous catalysis, Catalysis, Energy",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/maitysunil.jpg",
+    "profile_url": "https://www.iith.ac.in/che/sunil_maity/"
+  },
+  {
+    "name": "Surajit Maity",
+    "designation": "Associate Professor",
+    "department": "Chemistry",
+    "email": "surajitmaity@chy.iith.ac.in",
+    "website": null,
+    "research_interests": "Physical Chemistry, Spectroscopy and Dynamics of molecules, ions and radicals, High Performance Computing (HPC), Optics/Photonics/Spectroscopy",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Surajit_Maity.png",
+    "profile_url": "https://www.iith.ac.in/chy/surajitmaity/"
+  },
+  {
+    "name": "Surendra Kumar Martha",
+    "designation": "Head (Chemistry) & Professor",
+    "department": "Chemistry",
+    "email": "martha@chy.iith.ac.in",
+    "website": null,
+    "research_interests": "Materials Electrochemistry with special emphasis on Lead-acid, Li-ion, Sodium ion batteries, Supercapacitors, Energy, Nanoscience & Technology, Waste Management",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Surendra_Kumar_Martha.jpg",
+    "profile_url": "https://www.iith.ac.in/chy/martha/"
+  },
+  {
+    "name": "Surendra Nadh Somala",
+    "designation": "Associate Professor",
+    "department": "Civil Engineering, Heritage Science & Technology",
+    "email": "surendra@ce.iith.ac.in",
+    "website": null,
+    "research_interests": "ML & DL, Seismic Isolation and anti-seismic devices, Seismic Resilience, Induced Microseismicity, Structural Health Monitoring, Sensors, Additive Manufacturing, Multiscale Modelling, AI/ML, Climate Change, Energy, Nanoscience & Technology, Design Innovation, Virtual Reality and Augmented Reality, Tangible and Intangible Heritage, High Performance Computing (HPC), Heritage Science & Technology, Transportation, Applied Mathematics, Design/Structural/Topology Optimization, HCI/ Interaction Design",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Surendra.png",
+    "profile_url": "https://www.iith.ac.in/ce/surendra/"
+  },
+  {
+    "name": "Suresh Perumal",
+    "designation": "Assistant Professor",
+    "department": "Materials Science And Metallurgical Engineering",
+    "email": "suresh@msme.iith.ac.in",
+    "website": null,
+    "research_interests": "Thermoelectric Materials & Devices, Thermoelectric Metrology, Magnetic Refrigeration, Powder Metallurgy",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/SURESH_PERUMAL.jpg",
+    "profile_url": "https://www.iith.ac.in/msme/suresh/"
+  },
+  {
+    "name": "Suresh Kumar Garlapati",
+    "designation": "Assistant Professor",
+    "department": "Materials Science And Metallurgical Engineering",
+    "email": "gsuresh@msme.iith.ac.in",
+    "website": null,
+    "research_interests": "Printed and Flexible Electronics, Oxide Semiconductors, Electrolyte Gating, Organic Electronics, Gas Sensors, Memristors, Sensors, Semiconducting Devices, Additive Manufacturing, Nanoscience & Technology",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/suresh-g.png",
+    "profile_url": "https://www.iith.ac.in/msme/gsuresh/"
+  },
+  {
+    "name": "Suriya S. Prakash",
+    "designation": "Professor",
+    "department": "Civil Engineering",
+    "email": "suriyap@ce.iith.ac.in",
+    "website": null,
+    "research_interests": "Precast Systems, Prestressed Concrete, Structural Concrete Behavior, Structural Strengthening, Sensors, Design Innovation",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Suriya.png",
+    "profile_url": "https://www.iith.ac.in/ce/suriyap/"
+  },
+  {
+    "name": "Surya kumar S.",
+    "designation": "Professor",
+    "department": "Mechanical & Aerospace Engineering, Artificial Intelligence",
+    "email": "ssurya@mae.iith.ac.in",
+    "website": null,
+    "research_interests": "Metal Additive Manufacturing, 3D Printing, CAD/CAM, Additive Manufacturing, Materials Processing",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/ssuryakumar.jpg",
+    "profile_url": "https://www.iith.ac.in/mae/ssurya/"
+  },
+  {
+    "name": "Suryanarayana Jammalamadaka",
+    "designation": "Professor",
+    "department": "Physics",
+    "email": "surya@phy.iith.ac.in",
+    "website": null,
+    "research_interests": "Magnetic materials, Device physics, Spintronics, Data storage, Non volatile memory, Biomedical Materials, Biomedical Devices, Sensors, Semiconducting Devices, Multiscale Modelling, Energy, Nanoscience & Technology",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/suryanarayana-j.jpg",
+    "profile_url": "https://www.iith.ac.in/phy/surya/"
+  },
+  {
+    "name": "Sushmee Badhulika",
+    "designation": "Professor",
+    "department": "Electrical Engineering",
+    "email": "sbadh@ee.iith.ac.in",
+    "website": null,
+    "research_interests": "Flexible and wearable nanoelectronics, Nanomaterials based devices and circuits, Eco-friendly electronics, Paper electronics, Electrochemical sensors and supercapacitors, Biomedical Materials, Biomedical Devices, Sensors, Semiconducting Devices, Energy, Nanoscience & Technology",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Sushmee_Badhulika.jpg",
+    "profile_url": "https://www.iith.ac.in/ee/sbadh/"
+  },
+  {
+    "name": "Syed Nizamuddin Khaderi",
+    "designation": "Associate Professor",
+    "department": "Mechanical & Aerospace Engineering",
+    "email": "snk@mae.iith.ac.in",
+    "website": null,
+    "research_interests": "Solid mechanics, Impact mechanics, Fluid-structure interaction, Lattice materials, Metal foams, Solid Fluids",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Nizamuddin_Khaderi_Syed.jpg",
+    "profile_url": "https://www.iith.ac.in/mae/snk/"
+  },
+  {
+    "name": "Tanmoy Paul",
+    "designation": "Associate Professor",
+    "department": "Mathematics",
+    "email": "tanmoy@math.iith.ac.in",
+    "website": null,
+    "research_interests": "Functional Analysis, Pure Mathematics",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Tanmoy_Paul.jpg",
+    "profile_url": "https://www.iith.ac.in/math/tanmoy/"
+  },
+  {
+    "name": "Tarali Devi",
+    "designation": "Assistant Professor",
+    "department": "Chemistry",
+    "email": "taralidevi@chy.iith.ac.in",
+    "website": null,
+    "research_interests": "Bioinspired Bioinorganic Chemistry",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Tarali_Devi.png",
+    "profile_url": "https://www.iith.ac.in/chy/taralidevi/"
+  },
+  {
+    "name": "Tarun Kanti Panda",
+    "designation": "Professor",
+    "department": "Chemistry",
+    "email": "tpanda@chy.iith.ac.in",
+    "website": null,
+    "research_interests": "Main group chemistry, Coordination chemistry, Lanthanide chemistry, Homogeneous catalysis, X-ray Crystallography and structure analysis, Catalysis, Energy",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Tarun_Kanti_Panda.png",
+    "profile_url": "https://www.iith.ac.in/chy/tpanda/"
+  },
+  {
+    "name": "Umashankar B.",
+    "designation": "Professor",
+    "department": "Civil Engineering",
+    "email": "buma@ce.iith.ac.in",
+    "website": null,
+    "research_interests": "Foundation Engineering, Reinforced Soil, Soil-Structure Interaction, Recyclable Materials in Geotechnics, Waste Management",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/umashankar.png",
+    "profile_url": "https://www.iith.ac.in/ce/buma/"
+  },
+  {
+    "name": "Vandana Sharma",
+    "designation": "Professor",
+    "department": "Physics",
+    "email": "vsharma@phy.iith.ac.in",
+    "website": null,
+    "research_interests": "Intense laser field interation with micro to nano particles, Table-top hard X-ray generation, Ultrafast imaging of small to complex molecules, Biomedical Devices, Optics/Photonics/Spectroscopy",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/vandana-s.jpg",
+    "profile_url": "https://www.iith.ac.in/phy/vsharma/"
+  },
+  {
+    "name": "Vaskar Sarkar",
+    "designation": "Professor",
+    "department": "Electrical Engineering",
+    "email": "vaskar@ee.iith.ac.in",
+    "website": null,
+    "research_interests": "Flexible Power Point Tracking of PV Systems, Grid Integration of Renewables, Microgrid, Power System Stability and Optimization",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Vaskar_photo.jpg",
+    "profile_url": "https://www.iith.ac.in/ee/vaskar/"
+  },
+  {
+    "name": "Venkata Rao Kotagiri",
+    "designation": "Associate Professor",
+    "department": "Chemistry, Engineering Science",
+    "email": "kvrao@chy.iith.ac.in",
+    "website": null,
+    "research_interests": "Functional Organic Materials, Supramolecular Chemistry, Organic Semiconductors, Sensors, Energy, Nanoscience & Technology",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Venkata_Rao_Kotagiri.png",
+    "profile_url": "https://www.iith.ac.in/chy/kvrao/"
+  },
+  {
+    "name": "Venkata Ganapathi Narasimha Kumar Ch",
+    "designation": "Professor",
+    "department": "Mathematics",
+    "email": "narasimha@math.iith.ac.in",
+    "website": null,
+    "research_interests": "Number Theory, Pure Mathematics",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Narasimha_Kumar.jpg",
+    "profile_url": "https://www.iith.ac.in/math/narasimha/"
+  },
+  {
+    "name": "Venkatasubbaiah K.",
+    "designation": "Professor",
+    "department": "Mechanical & Aerospace Engineering",
+    "email": "kvenkat@mae.iith.ac.in",
+    "website": null,
+    "research_interests": "Computational Heat Transfer, Hypersonic Flows, Fluid Dynamics",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Venkatasubbaiah_K.jpg",
+    "profile_url": "https://www.iith.ac.in/mae/kvenkat/"
+  },
+  {
+    "name": "Venkatesham B.",
+    "designation": "Professor",
+    "department": "Mechanical & Aerospace Engineering",
+    "email": "venkatesham@mae.iith.ac.in",
+    "website": null,
+    "research_interests": "Acoustics & Vibration, Transportation",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Venkatesham_B.jpg",
+    "profile_url": "https://www.iith.ac.in/mae/venkatesham/"
+  },
+  {
+    "name": "Venku Naidu Dogga",
+    "designation": "Professor",
+    "department": "Mathematics",
+    "email": "venku@math.iith.ac.in",
+    "website": null,
+    "research_interests": "Harmonic Analysis, Functional Analysis, Pure Mathematics",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Venku_Naidu.jpg",
+    "profile_url": "https://www.iith.ac.in/math/venku/"
+  },
+  {
+    "name": "Vikas Krishnamurthy",
+    "designation": "Assistant Professor",
+    "department": "Mathematics",
+    "email": "vikas.sk@math.iith.ac.in",
+    "website": null,
+    "research_interests": "Applied Mathematics, Fluid Dynamics",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Vikas-Krishnamurthy.jpg",
+    "profile_url": "https://www.iith.ac.in/math/vikas.sk/"
+  },
+  {
+    "name": "Vineeth N Balasubramanian",
+    "designation": "Professor",
+    "department": "Computer Science & Engineering, Artificial Intelligence",
+    "email": "vineethnb@cse.iith.ac.in",
+    "website": null,
+    "research_interests": "Deep Learning, Machine Learning, Computer Vision, Optimization, Real-world Applications, AI/ML",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Vineeth_N_Balasubramanian.jpg",
+    "profile_url": "https://www.iith.ac.in/cse/vineethnb/"
+  },
+  {
+    "name": "Vinod M Janardhanan",
+    "designation": "Professor",
+    "department": "Chemical Engineering",
+    "email": "vj@che.iith.ac.in",
+    "website": null,
+    "research_interests": "Heterogeneous Catalysis, Fuel Cells, Catalysis, Multiscale Modelling, Energy",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/vinodj.jpg",
+    "profile_url": "https://www.iith.ac.in/che/vj/"
+  },
+  {
+    "name": "Vishal Sawant",
+    "designation": "Assistant Professor",
+    "department": "Electrical Engineering",
+    "email": "vishalsawant@ee.iith.ac.in",
+    "website": null,
+    "research_interests": "Multi-agent Systems, Optimal Control, Autonomous Motion Planning, Cyber-Physical Security",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Vishal Sawant.png",
+    "profile_url": "https://www.iith.ac.in/ee/vishalsawant/"
+  },
+  {
+    "name": "Vishnu R Unni",
+    "designation": "Assistant Professor",
+    "department": "Mechanical & Aerospace Engineering",
+    "email": "vishnu.runni@mae.iith.ac.in",
+    "website": null,
+    "research_interests": "",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Vishnu-R-Unni.jpg",
+    "profile_url": "https://www.iith.ac.in/mae/vishnu.runni/"
+  },
+  {
+    "name": "Viswanath R R S R Chinthapenta",
+    "designation": "Associate Professor",
+    "department": "Mechanical & Aerospace Engineering",
+    "email": "viswanath@mae.iith.ac.in",
+    "website": null,
+    "research_interests": "Computational Solid Mechanics, First Principle Calculations, Multiscale Modelling, Nanoscience & Technology",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Viswanath_Chinthapenta.jpg",
+    "profile_url": "https://www.iith.ac.in/mae/viswanath/"
+  },
+  {
+    "name": "Yogesh Kumar Srivastava",
+    "designation": "Assistant Professor",
+    "department": "Physics",
+    "email": "yogesh.srivastava@phy.iith.ac.in",
+    "website": null,
+    "research_interests": "Terahertz Spectroscopy, Active/Passive Metamaterials, Ultrafast Quantum Photonic Devices, Sensors, Optics/Photonics/Spectroscopy",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Yogesh_Kumar_Srivastava.jpg",
+    "profile_url": "https://www.iith.ac.in/phy/yogesh.srivastava/"
+  },
+  {
+    "name": "Zafar Ali Khan Mohammed",
+    "designation": "Professor",
+    "department": "Electrical Engineering",
+    "email": "zafar@ee.iith.ac.in",
+    "website": null,
+    "research_interests": "Wireless Communications, MIMO decoding, Commensal Radar, CPS security, Dynamic Spectrum Allocation, Wireless Communication & Networks, AI/ML",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/zafar_ali_khan.jpg",
+    "profile_url": "https://www.iith.ac.in/ee/zafar/"
+  },
+  {
+    "name": "Aravind Reddy Talla",
+    "designation": "Visiting Assistant Professor",
+    "department": "Artificial Intelligence",
+    "email": "arareddy@ai.iith.ac.in",
+    "website": null,
+    "research_interests": "Machine Learning, Approximation Algorithms",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/DrAravindReddyTalla.jpg",
+    "profile_url": "https://www.iith.ac.in/ai/arareddy/"
+  },
+  {
+    "name": "Dr. Uday B. Desai",
+    "designation": "Emeritus Professor",
+    "department": "Electrical Engineering",
+    "email": "ubdesai@iith.ac.in",
+    "website": null,
+    "research_interests": "Wireless Communication, Cognitive Radio, Wireless Sensor Networks and Statistical Signal Processing, Multimedia, Image and Video Processing, Artificial Neural Networks",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Uday_B_Desai.jpg",
+    "profile_url": "https://www.iith.ac.in/ee/ubdesai/"
+  },
+  {
+    "name": "Dr. Vinayak Eswaran",
+    "designation": "Emeritus Professor",
+    "department": "Electrical Engineering",
+    "email": "eswar@mae.iith.ac.in",
+    "website": null,
+    "research_interests": "Computational Fluid Mechanics, Heat Transfer",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/Dr_Vinayak_Eswaran.jpg",
+    "profile_url": "https://www.iith.ac.in/mae/eswar/"
+  },
+  {
+    "name": "Prof. C Siva Ram Murthy",
+    "designation": "Honorary Professor",
+    "department": "Computer Science & Engineering",
+    "email": "murthy@iitm.ac.in",
+    "website": null,
+    "research_interests": "Wireless Networks, Lightwave Networks, Real-Time Systems",
+    "photo": "https://www.iith.ac.in/assets/images/profiles/csrm7.jpg",
+    "profile_url": "https://www.iith.ac.in/cse/murthy/"
+  }
+]

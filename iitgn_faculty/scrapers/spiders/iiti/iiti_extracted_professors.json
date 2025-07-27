@@ -1,0 +1,2232 @@
+[
+  {
+    "name": "Prof. Abhirup Datta",
+    "designation": "Dean R & D, Professor",
+    "email": "abhirup.datta@iiti.ac.in",
+    "website": "https://sites.google.com/iiti.ac.in/abhirupdatta/",
+    "research_interests": "Radio Astronomy",
+    "department": "Astronomy, Astrophysics and Space Engineering",
+    "photo_url": "https://aase.iiti.ac.in/wp-content/uploads/2022/02/AD_Profile.jpeg",
+    "profile_url": "https://sites.google.com/view/daase/people/faculty"
+  },
+  {
+    "name": "Dr. Siddhart Malu",
+    "designation": "Associate Professor",
+    "email": "siddharth@iiti.ac.in",
+    "website": "https://www.iiti.ac.in/people/~siddharth/",
+    "research_interests": "CMB",
+    "department": "Astronomy, Astrophysics and Space Engineering",
+    "photo_url": "https://aase.iiti.ac.in/wp-content/uploads/2022/01/2.png",
+    "profile_url": "https://sites.google.com/view/daase/people/faculty"
+  },
+  {
+    "name": "Dr. Bhargav Vaidya",
+    "designation": "Associate Professor",
+    "email": "bvaidya@iiti.ac.in",
+    "website": "http://people.iiti.ac.in/~bvaidya/",
+    "research_interests": "Solar Physics & AGNs",
+    "department": "Astronomy, Astrophysics and Space Engineering",
+    "photo_url": "https://aase.iiti.ac.in/wp-content/uploads/2022/01/mypic.jpg",
+    "profile_url": "https://sites.google.com/view/daase/people/faculty"
+  },
+  {
+    "name": "Dr. Suman Majumdar",
+    "designation": "Associate Professor",
+    "email": "suman.majumdar@iiti.ac.in",
+    "website": "http://people.iiti.ac.in/~sumanm/",
+    "research_interests": "Cosmology",
+    "department": "Astronomy, Astrophysics and Space Engineering",
+    "photo_url": "https://aase.iiti.ac.in/wp-content/uploads/2022/01/4.png",
+    "profile_url": "https://sites.google.com/view/daase/people/faculty"
+  },
+  {
+    "name": "Dr. Saurabh Das",
+    "designation": "HOD, Associate Professor",
+    "email": "saurabh.das@iiti.ac.in",
+    "website": "http://people.iiti.ac.in/~saurabh.das/",
+    "research_interests": "Atmospheric Science",
+    "department": "Astronomy, Astrophysics and Space Engineering",
+    "photo_url": "https://aase.iiti.ac.in/wp-content/uploads/2022/01/10.jpg",
+    "profile_url": "https://sites.google.com/view/daase/people/faculty"
+  },
+  {
+    "name": "Dr. Manoneeta Chakraborty",
+    "designation": "Associate Professor",
+    "email": "manoneeta@iiti.ac.in",
+    "website": "http://people.iiti.ac.in/~manoneeta/",
+    "research_interests": "Compact Objects",
+    "department": "Astronomy, Astrophysics and Space Engineering",
+    "photo_url": "https://aase.iiti.ac.in/wp-content/uploads/2022/01/MC.png",
+    "profile_url": "https://sites.google.com/view/daase/people/faculty"
+  },
+  {
+    "name": "Dr. Amit Shukla",
+    "designation": "Associate Professor",
+    "email": "amit.shukla@iiti.ac.in",
+    "website": "https://sites.google.com/iiti.ac.in/welcome/home",
+    "research_interests": "High Energy Astrophysics",
+    "department": "Astronomy, Astrophysics and Space Engineering",
+    "photo_url": "https://aase.iiti.ac.in/wp-content/uploads/2022/01/Amit_Shukla-300x260.jpg",
+    "profile_url": "https://sites.google.com/view/daase/people/faculty"
+  },
+  {
+    "name": "Dr. Narendra Nath Patra",
+    "designation": "Assistant Professor",
+    "email": "naren@iiti.ac.in",
+    "website": "http://people.iiti.ac.in/~naren/index.html",
+    "research_interests": "Radio Astronomy",
+    "department": "Astronomy, Astrophysics and Space Engineering",
+    "photo_url": "https://aase.iiti.ac.in/wp-content/uploads/2022/01/patra-sir.jpg",
+    "profile_url": "https://sites.google.com/view/daase/people/faculty"
+  },
+  {
+    "name": "Dr. Unmesh Khati",
+    "designation": "Assistant Professor",
+    "email": "unmesh.khati@iiti.ac.in",
+    "website": "http://people.iiti.ac.in/~unmesh.khati/",
+    "research_interests": "Remote Sensing",
+    "department": "Astronomy, Astrophysics and Space Engineering",
+    "photo_url": "https://aase.iiti.ac.in/wp-content/uploads/2022/01/FB-1.jpg",
+    "profile_url": "https://sites.google.com/view/daase/people/faculty"
+  },
+  {
+    "name": "Dr. Priyanka Singh",
+    "designation": "Assistant Professor",
+    "email": "psingh@iiti.ac.in",
+    "website": "https://sites.google.com/iiti.ac.in/priyanka-singh/home",
+    "research_interests": "CMB & Cosmology",
+    "department": "Astronomy, Astrophysics and Space Engineering",
+    "photo_url": "https://aase.iiti.ac.in/wp-content/uploads/2023/07/me2-1-edited.jpg",
+    "profile_url": "https://sites.google.com/view/daase/people/faculty"
+  },
+  {
+    "name": "Dr. Soumavo Ghosh",
+    "designation": "Assistant Professor",
+    "email": "soumavo@iiti.ac.in",
+    "website": "https://sites.google.com/view/drsoumavoghosh",
+    "research_interests": "Galaxy dynamics & evolution",
+    "department": "Astronomy, Astrophysics and Space Engineering",
+    "photo_url": "https://aase.iiti.ac.in/wp-content/uploads/2024/09/317295b-1-210x270.jpg",
+    "profile_url": "https://sites.google.com/view/daase/people/faculty"
+  },
+  {
+    "name": "Dr. Prakash Suryakant Gaikwad",
+    "designation": "Assistant Professor",
+    "email": "gaikwad@iiti.ac.in",
+    "website": "https://scholar.google.com/citations?user=00RA_t8AAAAJ&hl=en",
+    "research_interests": "Cosmology, Intergalactic Medium",
+    "department": "Astronomy, Astrophysics and Space Engineering",
+    "photo_url": "https://aase.iiti.ac.in/wp-content/uploads/2024/09/Prakash_Gaikwad_Photo_500kb-200x270.jpg",
+    "profile_url": "https://sites.google.com/view/daase/people/faculty"
+  },
+  {
+    "name": "Dr. Deepika Bollimpalli",
+    "designation": "Assistant Professor",
+    "email": "dbollimpalli@iiti.ac.in",
+    "website": "https://anandadeepika28.wixsite.com/my-site",
+    "research_interests": "Relativistic astrophysics",
+    "department": "Astronomy, Astrophysics and Space Engineering",
+    "photo_url": "https://aase.iiti.ac.in/wp-content/uploads/2024/09/deepika.jpeg",
+    "profile_url": "https://sites.google.com/view/daase/people/faculty"
+  },
+  {
+    "name": "Prof. Hari Hablani",
+    "designation": "Visiting Professor",
+    "email": null,
+    "website": "http://iiti.ac.in/people/~hbhablani/",
+    "research_interests": "Spaceflight vehicles guidance, navigation and control",
+    "department": "Astronomy, Astrophysics and Space Engineering",
+    "photo_url": "https://aase.iiti.ac.in/wp-content/uploads/2022/01/hablani-sir.png",
+    "profile_url": "https://sites.google.com/view/daase/people/faculty"
+  },
+  {
+    "name": "Prof. Sudhir Kamle",
+    "designation": "Visiting Professor",
+    "email": "kamle@iiti.ac.in",
+    "website": null,
+    "research_interests": "Smart materials & structures",
+    "department": "Astronomy, Astrophysics and Space Engineering",
+    "photo_url": "https://aase.iiti.ac.in/wp-content/uploads/2023/09/skamle_photo2-210x270.jpg",
+    "profile_url": "https://sites.google.com/view/daase/people/faculty"
+  },
+  {
+    "name": "Prof. Biman B. Nath",
+    "designation": "Visiting Distinguished Professor",
+    "email": "biman@rri.res.in",
+    "website": "https://wwws.rri.res.in/~biman/",
+    "research_interests": "Evolution of galaxies. Cosmic Rays",
+    "department": "Astronomy, Astrophysics and Space Engineering",
+    "photo_url": "https://www.rri.res.in/sites/default/files/2022-05/Prof.biman_.jpg",
+    "profile_url": "https://sites.google.com/view/daase/people/faculty"
+  },
+  {
+    "name": "Dr. Amit Kumar",
+    "designation": "Professor",
+    "email": "amitk@iiti.ac.in",
+    "website": "https://iiti.ac.in/people/~amitk/",
+    "research_interests": "Molecular Structural Biology, NMR Spectroscopy, Target Identification and Drug discovery for different diseases",
+    "department": "Biosciences and Biomedical Engineering",
+    "photo_url": "https://bsbe.iiti.ac.in/files_upload/faculty_images/c9c580ed7e5cb47b59773504c7f1944b.jpeg",
+    "profile_url": "https://bsbe.iiti.ac.in/main/faculty"
+  },
+  {
+    "name": "Dr. Prashant Kodgire",
+    "designation": "Professor",
+    "email": "pkodgire@iiti.ac.in",
+    "website": "https://sites.google.com/iiti.ac.in/pkodgire",
+    "research_interests": "Molecular Biology, Molecular Immunology",
+    "department": "Biosciences and Biomedical Engineering",
+    "photo_url": "https://bsbe.iiti.ac.in/files_upload/faculty_images/df0ba55ee06ca47be3d55973e02fe01a.jpeg",
+    "profile_url": "https://bsbe.iiti.ac.in/main/faculty"
+  },
+  {
+    "name": "Dr. Sharad Gupta",
+    "designation": "Professor",
+    "email": "shgupta@iiti.ac.in",
+    "website": "https://sguptaucr.wixsite.com/iitindore",
+    "research_interests": "Non-Invasive Characterization and Disease Diagnosis",
+    "department": "Biosciences and Biomedical Engineering",
+    "photo_url": "https://bsbe.iiti.ac.in/files_upload/faculty_images/eeb2a04f36a033862a0fb673d92b2c91.jpeg",
+    "profile_url": "https://bsbe.iiti.ac.in/main/faculty"
+  },
+  {
+    "name": "Dr. Kiran Bala",
+    "designation": "Professor",
+    "email": "kiranb@iiti.ac.in",
+    "website": "https://sites.google.com/view/aetsiiti",
+    "research_interests": "Biodiesel Production, Carbon Sequestration, Bioremediation",
+    "department": "Biosciences and Biomedical Engineering",
+    "photo_url": "https://bsbe.iiti.ac.in/files_upload/faculty_images/3db722d715946d9990191dbcc46b9de5.jpeg",
+    "profile_url": "https://bsbe.iiti.ac.in/main/faculty"
+  },
+  {
+    "name": "Dr. Mirza S. Baig",
+    "designation": "Professor",
+    "email": "msb.iit@iiti.ac.in",
+    "website": "https://msblab.in/",
+    "research_interests": "Chronic Inflammation, Cancer, and Drug Discovery",
+    "department": "Biosciences and Biomedical Engineering",
+    "photo_url": "https://bsbe.iiti.ac.in/files_upload/faculty_images/4f8d750ab68de33fce5f9a54ea93f934.jpg",
+    "profile_url": "https://bsbe.iiti.ac.in/main/faculty"
+  },
+  {
+    "name": "Dr. Hem Chandra Jha",
+    "designation": "Associate Professor",
+    "email": "hemcjha@iiti.ac.in",
+    "website": "https://sites.google.com/view/infectionbioengineering",
+    "research_interests": "COVID-19 biology, Host-pathogen interaction- Epstein-Barr virus and Helicobacter pylori associated co-infection in cancer progression, Epigenetic regulation- Pathogens derived pathogenesis in cancer, Pathogens burden during viral infection of Gastric Cancer, Head and Neck Cancer and Multiple Sclerosis, Drug discovery in cancer and infectious agents derived diseases, Genetic Engineering",
+    "department": "Biosciences and Biomedical Engineering",
+    "photo_url": "https://bsbe.iiti.ac.in/files_upload/faculty_images/3c843cd36b6c5eab029a14afb510540b.jpeg",
+    "profile_url": "https://bsbe.iiti.ac.in/main/faculty"
+  },
+  {
+    "name": "Dr. Parimal Kar",
+    "designation": "HOD and Associate Professor",
+    "email": "hodbsbe@iiti.ac.in ; parimal@iiti.ac.in",
+    "website": "https://iitibsbeparimalkar.wixsite.com/biophysics",
+    "research_interests": "Structure and dynamics of proteins and nucleic acids via multiscale coarse-grained/all-atom simulations, Molecular dynamics simulations of glycans and protein-glycan complexes, Multiscale modeling of biomolecular recognitions, Protein-membrane interactions via Molecular Dynamics simulations",
+    "department": "Biosciences and Biomedical Engineering",
+    "photo_url": "https://bsbe.iiti.ac.in/files_upload/faculty_images/6ceffa20cbdb8266ef20b30b2961bc4e.jpeg",
+    "profile_url": "https://bsbe.iiti.ac.in/main/faculty"
+  },
+  {
+    "name": "Dr. Abhijeet Joshi",
+    "designation": "Associate Professor",
+    "email": "abhijeet.joshi@iiti.ac.in",
+    "website": "https://abhijeetniper.wixsite.com/therasens-lab",
+    "research_interests": "Biosensors, Biomaterials, Drug Delivery, Diagnostics, Theranostics",
+    "department": "Biosciences and Biomedical Engineering",
+    "photo_url": "https://bsbe.iiti.ac.in/files_upload/faculty_images/3748f5eab94c0bc9a552ee3986033aab.jpeg",
+    "profile_url": "https://bsbe.iiti.ac.in/main/faculty"
+  },
+  {
+    "name": "Dr. Avinash Sonawane",
+    "designation": "Professor",
+    "email": "asonawane@iiti.ac.in",
+    "website": "https://asonawane.wixsite.com/iitibsbe",
+    "research_interests": "Role of Mycobacterium tuberculosis glycoproteins and glycolipoproteins in modulation of host immune responses, Epigenomics of stem cells during M. tuberculosis infection, Host antimicrobial peptides in anti-mycobacterial immunity, Drug delivery, Development of L-asparaginase based therapy for the treatment of primary and relapse acute lymphatic leukemia",
+    "department": "Biosciences and Biomedical Engineering",
+    "photo_url": "https://bsbe.iiti.ac.in/files_upload/faculty_images/665a3256830b7f42516e6d241fbcba45.jpeg",
+    "profile_url": "https://bsbe.iiti.ac.in/main/faculty"
+  },
+  {
+    "name": "Dr. G. S. Murthy",
+    "designation": "Professor",
+    "email": "ganti.murthy@iiti.ac.in",
+    "website": "https://gantimurthy.wixsite.com/stlab",
+    "research_interests": "Bioprocess development and scaleup for production of value added bioproducts and biofuels, Biological and bioprocess modeling, control and multicriteria optimization, Systems analysis using technoeconomic analysis, life cycle assessment and resource assessment, Resilience and sustainability at the nexus of nutrient-energy-water-land",
+    "department": "Biosciences and Biomedical Engineering",
+    "photo_url": "https://bsbe.iiti.ac.in/files_upload/faculty_images/52de492c6efa38cfa122222fc9a3cc7c.jpeg",
+    "profile_url": "https://bsbe.iiti.ac.in/main/faculty"
+  },
+  {
+    "name": "Dr. Sivaraj Mohana Sundaram",
+    "designation": "Assistant Professor",
+    "email": "sivarajms@iiti.ac.in",
+    "website": "https://sites.google.com/view/smslabpageiiti/home",
+    "research_interests": "Brain metabolism, Brain developmental disorder, Autism spectrum disorder, Hormonal regulation in the nervous system",
+    "department": "Biosciences and Biomedical Engineering",
+    "photo_url": "https://bsbe.iiti.ac.in/files_upload/faculty_images/330e58ec3f3662d0522f7057efe845d5.jpg",
+    "profile_url": "https://bsbe.iiti.ac.in/main/faculty"
+  },
+  {
+    "name": "Dr. Lokesh Basavarajappa",
+    "designation": "Assistant Professor",
+    "email": "lokeshb@iiti.ac.in",
+    "website": "https://sites.google.com/view/lokesh-b/home",
+    "research_interests": "Ultrasound imaging, Beamforming, Elastography, Multi-parametric ultrasound for liver imaging, and Ultrasound-mediated drug delivery",
+    "department": "Biosciences and Biomedical Engineering",
+    "photo_url": "https://bsbe.iiti.ac.in/files_upload/faculty_images/aba93b808d245462eb2b9f3ceee659fb.jpg",
+    "profile_url": "https://bsbe.iiti.ac.in/main/faculty"
+  },
+  {
+    "name": "Dr. Hitendra Kumar",
+    "designation": "Assistant Professor",
+    "email": "hitendra@iiti.ac.in",
+    "website": "https://sites.google.com/iiti.ac.in/hk-lab/",
+    "research_interests": "Biofabrication, Biomaterials development, Microfluidics, Organ-on-a-chip, Diagnostic platforms, Wearable sensing",
+    "department": "Biosciences and Biomedical Engineering",
+    "photo_url": "https://bsbe.iiti.ac.in/files_upload/faculty_images/3510b98cf9610cb5a18cc7927055d9fe.jpg",
+    "profile_url": "https://bsbe.iiti.ac.in/main/faculty"
+  },
+  {
+    "name": "Dr. Sourav Chandra",
+    "designation": "Assistant Professor",
+    "email": "schandra@iiti.ac.in",
+    "website": "https://sites.google.com/iiti.ac.in/bsbe-nrl",
+    "research_interests": "Neuro Robotics, Neuro-rehabilitation technology, Brain machine interface, Haptics. BioMedical Instrumentation, Signal processing, Mathematical modelling of physiological systems, Wearable Devices",
+    "department": "Biosciences and Biomedical Engineering",
+    "photo_url": "https://bsbe.iiti.ac.in/files_upload/faculty_images/8fd2a6a67f4cf7e79d95fe16c246b529.jpeg",
+    "profile_url": "https://bsbe.iiti.ac.in/main/faculty"
+  },
+  {
+    "name": "Dr. ABHILASHA MAHESHWARI",
+    "designation": "Assistant Professor",
+    "email": "abhilasham@iiti.ac.in",
+    "website": "https://sites.google.com/iiti.ac.in/spselab/home",
+    "research_interests": "Process Systems Engineering,Water Distribution Networks,Smart Water Infrastructure,Water chemistry,Water-energy-food Nexus,Net-zero carbon pathways,Sustainability,AI and ML for Environmental and Chemical Systems,Digital twins for operational Excellence,Hybrid modeling,Large-scale optimization",
+    "department": "Chemical engineering",
+    "photo_url": "https://chemical.iiti.ac.in/files_upload/faculty_images/6546c89d9bd375f821378765af1548cd.png",
+    "profile_url": "https://chemical.iiti.ac.in/main/core_faculty"
+  },
+  {
+    "name": "Dr. GAURAV CHAUHAN",
+    "designation": "Assistant Professor",
+    "email": "gaurav@iiti.ac.in",
+    "website": "https://sites.google.com/view/chauhan-lab/home",
+    "research_interests": "Understanding the role of phase separation of associative polymers (proteins and RNA) on biochemical reactions, using theory and computer simulations. Computational enzyme design for biofuel production.",
+    "department": "Chemical engineering",
+    "photo_url": "https://chemical.iiti.ac.in/files_upload/faculty_images/c0a59bf7943074219f4602227f0ab539.png",
+    "profile_url": "https://chemical.iiti.ac.in/main/core_faculty"
+  },
+  {
+    "name": "Dr. JACOB JOHN",
+    "designation": "Assistant Professor",
+    "email": "jacob@iiti.ac.in",
+    "website": "https://scholar.google.com/citations?user=-fH7jhgAAAAJ&amp;hl=en",
+    "research_interests": "Rheology and microstructure of complex fluids, Biofilm formation, mechanics, and antimicrobial resistance,Collective behaviors in bacterial populations,Colloids and interfaces,Active colloids in complex and heterogeneous environments",
+    "department": "Chemical engineering",
+    "photo_url": "https://chemical.iiti.ac.in/files_upload/faculty_images/700dc56fd41a5e7c28b52475821a05ba.jpg",
+    "profile_url": "https://chemical.iiti.ac.in/main/core_faculty"
+  },
+  {
+    "name": "Dr. SRAVANA CHAITHANYA",
+    "designation": "Assistant Professor",
+    "email": "chaithanyakvs@iiti.ac.in",
+    "website": "https://sites.google.com/view/chaithanyakvs/",
+    "research_interests": "Microhydrodynamics,Complex fluids,Multiphase flows,Active nematics,Tissue mechanics,Vertex models,Lattice Boltzmann simulations",
+    "department": "Chemical engineering",
+    "photo_url": "https://chemical.iiti.ac.in/files_upload/faculty_images/9e245d54155732a2cfa9d27c315753f4.jpg",
+    "profile_url": "https://chemical.iiti.ac.in/main/core_faculty"
+  },
+  {
+    "name": "Dr. R. KAILASHAM",
+    "designation": "Assistant Professor",
+    "email": "rkailasham@iiti.ac.in",
+    "website": "https://scholar.google.com/citations?user=PPv41igAAAAJ&amp;hl=en",
+    "research_interests": "Computational Soft matter,Polymer physics,rheology,active matter,nonequilibrium statistical mechanics,Brownian dynamics simulations,stochastic thermodynamics,colloidal hydrodynamics",
+    "department": "Chemical engineering",
+    "photo_url": "https://chemical.iiti.ac.in/files_upload/faculty_images/8774580065af01908a937ba211c3723a.jpg",
+    "profile_url": "https://chemical.iiti.ac.in/main/core_faculty"
+  },
+  {
+    "name": "Dr. PREETIKA KARNAL",
+    "designation": "Assistant Professor",
+    "email": "karnal@iiti.ac.in",
+    "website": "https://scholar.google.com/citations?user=csVZYykAAAAJ&amp;hl=en&amp;oi=ao",
+    "research_interests": "Soft materials,Interfacial mechanics,Adhesion,Instabilities",
+    "department": "Chemical engineering",
+    "photo_url": "https://chemical.iiti.ac.in/files_upload/faculty_images/a4bc93dcad4bf6734a20fde5f05dbedd.png",
+    "profile_url": "https://chemical.iiti.ac.in/main/core_faculty"
+  },
+  {
+    "name": "Dr. RAJAN SINGH",
+    "designation": "Assistant Professor",
+    "email": "rsingh@iiti.ac.in",
+    "website": "https://sites.google.com/iiti.ac.in/crest-lab/home",
+    "research_interests": "Heterogeneous catalyst,Reaction kinetics and reactor design,CO2 capture and conversion,Hydrogen production,thermochemical water splitting",
+    "department": "Chemical engineering",
+    "photo_url": "https://chemical.iiti.ac.in/files_upload/faculty_images/bc106de318440c85723e038c72ecbd2e.png",
+    "profile_url": "https://chemical.iiti.ac.in/main/core_faculty"
+  },
+  {
+    "name": "Prof. Suman Mukhopadhyay",
+    "designation": "Senior Professor",
+    "email": null,
+    "website": null,
+    "research_interests": null,
+    "department": "Chemistry",
+    "photo_url": "https://chemistry.iiti.ac.in/storage/faculty/1741855083_profile.jpg",
+    "profile_url": "https://chemistry.iiti.ac.in/faculty/prof-suman-mukhopadhyay"
+  },
+  {
+    "name": "Prof. Sanjay Kumar Singh",
+    "designation": "Professor",
+    "email": null,
+    "website": null,
+    "research_interests": null,
+    "department": "Chemistry",
+    "photo_url": "https://chemistry.iiti.ac.in/storage/faculty/Prof__Sanjay_Kumar_Singh_.jpeg",
+    "profile_url": "https://chemistry.iiti.ac.in/faculty/prof-sanjay-kumar-singh"
+  },
+  {
+    "name": "Prof Shaikh M. Mobin",
+    "designation": "Professor",
+    "email": null,
+    "website": null,
+    "research_interests": null,
+    "department": "Chemistry",
+    "photo_url": "https://chemistry.iiti.ac.in/storage/faculty/1741853076_profile.jpg",
+    "profile_url": "https://chemistry.iiti.ac.in/faculty/prof-shaikh-m-mobin"
+  },
+  {
+    "name": "Dr. Amrendra K. Singh",
+    "designation": "Associate Professor",
+    "email": null,
+    "website": null,
+    "research_interests": null,
+    "department": "Chemistry",
+    "photo_url": "https://chemistry.iiti.ac.in/storage/faculty/1741853122_profile.jpg",
+    "profile_url": "https://chemistry.iiti.ac.in/faculty/dr-amrendra-k-singh"
+  },
+  {
+    "name": "Dr. Abhinav Raghuvanshi",
+    "designation": "Assistant Professor",
+    "email": null,
+    "website": null,
+    "research_interests": null,
+    "department": "Chemistry",
+    "photo_url": "https://chemistry.iiti.ac.in/storage/faculty/1741854802_profile.jpg",
+    "profile_url": "https://chemistry.iiti.ac.in/faculty/dr-abhinav-raghuvanshi"
+  },
+  {
+    "name": "Dr. Dipak Kumar Roy",
+    "designation": "Assistant Professor",
+    "email": null,
+    "website": null,
+    "research_interests": null,
+    "department": "Chemistry",
+    "photo_url": "https://chemistry.iiti.ac.in/storage/faculty/1741854864_profile.jpg",
+    "profile_url": "https://chemistry.iiti.ac.in/faculty/dr-dipak-kumar-roy"
+  },
+  {
+    "name": "Dr. Tridib Kumar Sarma",
+    "designation": "Associate Professor",
+    "email": null,
+    "website": null,
+    "research_interests": null,
+    "department": "Chemistry",
+    "photo_url": "https://chemistry.iiti.ac.in/storage/faculty/1741852322_profile.jpg",
+    "profile_url": "https://chemistry.iiti.ac.in/faculty/dr-tridib-kumar-sarma"
+  },
+  {
+    "name": "Prof. Anjan Chakraborty",
+    "designation": "Professor",
+    "email": null,
+    "website": null,
+    "research_interests": null,
+    "department": "Chemistry",
+    "photo_url": "https://chemistry.iiti.ac.in/storage/faculty/1741852423_profile.jpg",
+    "profile_url": "https://chemistry.iiti.ac.in/faculty/prof-anjan-chakraborty"
+  },
+  {
+    "name": "Prof. Tushar Kanti Mukherjee",
+    "designation": "Professor & Head of the Department",
+    "email": null,
+    "website": null,
+    "research_interests": null,
+    "department": "Chemistry",
+    "photo_url": "https://chemistry.iiti.ac.in/storage/faculty/1741852758_profile.jpg",
+    "profile_url": "https://chemistry.iiti.ac.in/faculty/prof-tushar-kanti-mukherjee"
+  },
+  {
+    "name": "Dr. Pravarthana Dhanapal",
+    "designation": "Assistant Professor",
+    "email": null,
+    "website": null,
+    "research_interests": null,
+    "department": "Chemistry",
+    "photo_url": "https://chemistry.iiti.ac.in/storage/faculty/1741855038_profile.jpg",
+    "profile_url": "https://chemistry.iiti.ac.in/faculty/dr-pravarthana-dhanapal"
+  },
+  {
+    "name": "Prof. Rajneesh Misra",
+    "designation": "Professor",
+    "email": null,
+    "website": null,
+    "research_interests": null,
+    "department": "Chemistry",
+    "photo_url": "https://chemistry.iiti.ac.in/storage/faculty/1741850126_profile.jpg",
+    "profile_url": "https://chemistry.iiti.ac.in/faculty/prof-rajneesh-misra"
+  },
+  {
+    "name": "Prof. Apurba K. Das",
+    "designation": "Professor",
+    "email": null,
+    "website": null,
+    "research_interests": null,
+    "department": "Chemistry",
+    "photo_url": "https://chemistry.iiti.ac.in/storage/faculty/1749196030_profile.jpg",
+    "profile_url": "https://chemistry.iiti.ac.in/faculty/prof-apurba-k-das"
+  },
+  {
+    "name": "Prof. Sampak Samanta",
+    "designation": "Professor",
+    "email": null,
+    "website": null,
+    "research_interests": null,
+    "department": "Chemistry",
+    "photo_url": "https://chemistry.iiti.ac.in/storage/faculty/1741852065_profile.jpg",
+    "profile_url": "https://chemistry.iiti.ac.in/faculty/prof-sampak-samanta"
+  },
+  {
+    "name": "Prof. Chelvam Venkatesh",
+    "designation": "Professor",
+    "email": null,
+    "website": null,
+    "research_interests": null,
+    "department": "Chemistry",
+    "photo_url": "https://chemistry.iiti.ac.in/storage/faculty/1741853347_profile.jpg",
+    "profile_url": "https://chemistry.iiti.ac.in/faculty/prof-chelvam-venkatesh"
+  },
+  {
+    "name": "Dr. Debayan Sarkar",
+    "designation": "Associate Professor",
+    "email": null,
+    "website": null,
+    "research_interests": null,
+    "department": "Chemistry",
+    "photo_url": "https://chemistry.iiti.ac.in/storage/faculty/1741853394_profile.jpg",
+    "profile_url": "https://chemistry.iiti.ac.in/faculty/dr-debayan-sarkar"
+  },
+  {
+    "name": "Dr. Selvakumar Sermadurai",
+    "designation": "Assistant Professor",
+    "email": null,
+    "website": null,
+    "research_interests": null,
+    "department": "Chemistry",
+    "photo_url": "https://chemistry.iiti.ac.in/storage/faculty/1741854935_profile.jpg",
+    "profile_url": "https://chemistry.iiti.ac.in/faculty/dr-selvakumar-sermadurai"
+  },
+  {
+    "name": "Dr. Umesh A. Kshirsagar",
+    "designation": "Associate Professor",
+    "email": null,
+    "website": null,
+    "research_interests": null,
+    "department": "Chemistry",
+    "photo_url": "https://chemistry.iiti.ac.in/storage/faculty/1741854993_profile.jpg",
+    "profile_url": "https://chemistry.iiti.ac.in/faculty/dr-umesh-a-kshirsagar"
+  },
+  {
+    "name": "Prof. Biswarup Pathak",
+    "designation": "Professor",
+    "email": null,
+    "website": null,
+    "research_interests": null,
+    "department": "Chemistry",
+    "photo_url": "https://chemistry.iiti.ac.in/storage/faculty/1741852157_profile.jpg",
+    "profile_url": "https://chemistry.iiti.ac.in/faculty/prof-biswarup-pathak"
+  },
+  {
+    "name": "Prof. Satya S. Bulusu",
+    "designation": "Professor",
+    "email": null,
+    "website": null,
+    "research_interests": null,
+    "department": "Chemistry",
+    "photo_url": "https://chemistry.iiti.ac.in/storage/faculty/1741852934_profile.jpg",
+    "profile_url": "https://chemistry.iiti.ac.in/faculty/prof-satya-s-bulusu"
+  },
+  {
+    "name": "Dr. Abhishek Rajput",
+    "designation": "Associate Professor & Head",
+    "email": "abhishekrajput @ iiti.ac.in",
+    "website": null,
+    "research_interests": "Behavior of concrete and metals under projectile impact and blast loading, Finite element modelling and simulations, Large deformations of concrete at low, medium and high strain rates, Structural crash-worthiness, Influence of corrosion on the mechanical properties of structural steel",
+    "department": "Civil Engineering",
+    "photo_url": "http://ce.iiti.ac.in/faculty_pics/abhishekrajput.jpg",
+    "profile_url": "http://people.iiti.ac.in/~abhishekrajput"
+  },
+  {
+    "name": "Dr. Sandeep Chaudhary",
+    "designation": "Professor (HAG)",
+    "email": "schaudhary @ iiti.ac.in",
+    "website": "https://sandeepiiti.in/",
+    "research_interests": "Structural Engineering, Sustainable Construction Practices, Composite Bridges, Novel Bricks and Blocks, Microstructure and Durability of Concrete, Advanced Characterisation Techniques",
+    "department": "Civil Engineering",
+    "photo_url": "http://ce.iiti.ac.in/faculty_pics/Professor Sandeep.jpg",
+    "profile_url": "https://sandeepiiti.in/"
+  },
+  {
+    "name": "Dr. Neelima Satyam D",
+    "designation": "Professor",
+    "email": "neelima.satyam @ iiti.ac.in",
+    "website": null,
+    "research_interests": "Geotechnical Earthquake Engineering, Dynamic Soil Structure Interaction Analysis, Liquefaction Hazard and Mitigation, Environmental Geotechnics, Landslide Research, Rock Mechanics and Underground Structures",
+    "department": "Civil Engineering",
+    "photo_url": "http://ce.iiti.ac.in/faculty_pics/neelime.jpeg",
+    "profile_url": "http://people.iiti.ac.in/~neelima.satyam"
+  },
+  {
+    "name": "Dr. Lalit Borana",
+    "designation": "Associate Professor",
+    "email": "lalitborana @ iiti.ac.in",
+    "website": "https://sites.google.com/site/lalitborana/",
+    "research_interests": "Unsaturated Soil Mechanics, Geotechnical health monitoring,, Soil-Structure Interaction, Soft Soil and Creep, Ground Improvement Technics, Environmental Geotechnics",
+    "department": "Civil Engineering",
+    "photo_url": "http://ce.iiti.ac.in/faculty_pics/Lalit_Borana.jpg",
+    "profile_url": "https://sites.google.com/site/lalitborana/"
+  },
+  {
+    "name": "Dr. Manish Kumar Goyal (Chair Professor- BIS Standardization)",
+    "designation": "Professor",
+    "email": "mkgoyal @ iiti.ac.in",
+    "website": "https://sites.google.com/view/mkg1/home",
+    "research_interests": "Resilience of River Basins and Hydrological Modeling, Hydro-climatology and Statistical Downscaling, Irrigation Management and Crop Modeling Applications, Multivariate Statistical Analysis, Machine Learning Models and Data Mining",
+    "department": "Civil Engineering",
+    "photo_url": "http://ce.iiti.ac.in/faculty_pics/mkgoyal.jpg",
+    "profile_url": "https://sites.google.com/view/mkg1/home"
+  },
+  {
+    "name": "Dr. Mohd. Farooq AZAM",
+    "designation": "Associate Professor",
+    "email": "farooqazam @ iiti.ac.in",
+    "website": "https://sites.google.com/view/mohdfarooqazam/home",
+    "research_interests": "Hydro-Meteorological monitoring, Glacier Mass and Dynamic studies, Energy Balance of Glacier and Snow Cover, Hydrological modelling of Himalayan Watersheds, Climate Change impacts on Himalayan Water Resources",
+    "department": "Civil Engineering",
+    "photo_url": "http://ce.iiti.ac.in/faculty_pics/Photo-Farooq.jpg",
+    "profile_url": "https://sites.google.com/view/mohdfarooqazam/home"
+  },
+  {
+    "name": "Dr. Kaustav Bakshi",
+    "designation": "Assistant Professor",
+    "email": "kaustav.bakshi @ iiti.ac.in",
+    "website": "https://sites.google.com/view/kaustavbakshi/home",
+    "research_interests": "Static and dynamic studies on laminated composite shell roofs, First and progressive ply failure studies, Finite element method; Geometric nonlinearity, Hygrothermal analysis of laminated composites, Shear deformations in laminated composites, Nonlinear buckling analysis",
+    "department": "Civil Engineering",
+    "photo_url": "http://ce.iiti.ac.in/faculty_pics/Kaustav.png",
+    "profile_url": "https://sites.google.com/view/kaustavbakshi/home"
+  },
+  {
+    "name": "Dr. Guru Prakash",
+    "designation": "Assistant Professor",
+    "email": "guruprakash @ iiti.ac.in",
+    "website": "https://sites.google.com/view/guruprakash/home?authuser=0",
+    "research_interests": "Stochastic degradation modeling using condition monitoring data, Bayesian reliability assessment, Damage detection and prognosis, Fatigue reliability",
+    "department": "Civil Engineering",
+    "photo_url": "http://ce.iiti.ac.in/faculty_pics/GuruFinal.jpg",
+    "profile_url": "https://sites.google.com/view/guruprakash/home?authuser=0"
+  },
+  {
+    "name": "Dr. Gourab Sil",
+    "designation": "Assistant Professor",
+    "email": "gourabsil @ iiti.ac.in",
+    "website": "https://sites.google.com/view/gourabsil/",
+    "research_interests": "Performance Based Geometric Design of Highways, Safety of Roadway Infrastructure, Effects of Highway Infrastructure on Driver Behavior, Applications of Statistical Analysis in Transportation Engineering, Traffic Engineering",
+    "department": "Civil Engineering",
+    "photo_url": "http://ce.iiti.ac.in/faculty_pics/Gourab.jpg",
+    "profile_url": "https://sites.google.com/view/gourabsil/"
+  },
+  {
+    "name": "Dr. Priyansh Singh",
+    "designation": "Assistant Professor",
+    "email": "priyansh @ iiti.ac.in",
+    "website": "https://priyanshsingh.com/",
+    "research_interests": "Pavement Materials Characterization and Modeling, Pavement Design, Construction and Evaluation, Pavement Recycling, Innovative Materials and Technologies in Pavement Engineering, Rheology, Maintenance and Rehabilitation of Pavements",
+    "department": "Civil Engineering",
+    "photo_url": "http://ce.iiti.ac.in/faculty_pics/Priyansh.jpg",
+    "profile_url": "https://priyanshsingh.com/"
+  },
+  {
+    "name": "Dr. Ashootosh Mandpe",
+    "designation": "Assistant Professor",
+    "email": "as_mandpe @ iiti.ac.in",
+    "website": "https://sites.google.com/view/ashootoshmandpe",
+    "research_interests": "Bio-valorization of solid wastes, Municipal landfill remediation through biomining approaches, Advanced wastewater treatment technologies, Circular economy practices, Lifecycle and Social lifecycle assessment of environmental systems, Geospatial technologies for integrated waste management, Remediation of persistent organic pollutants",
+    "department": "Civil Engineering",
+    "photo_url": "http://ce.iiti.ac.in/faculty_pics/Ashootosh Passport_Dark Background.JPG",
+    "profile_url": "https://sites.google.com/view/ashootoshmandpe"
+  },
+  {
+    "name": "Dr. Priyank J. Sharma",
+    "designation": "Assistant Professor",
+    "email": "priyanksharma @ iiti.ac.in",
+    "website": "https://sites.google.com/view/priyank2306",
+    "research_interests": "Hydroclimatology and Climate Extremes, Climate Change Impact on Water Resources, Hydroinformatics, Improving Hydrologic Predictions using AI/ML, Hydrological and Flood Modelling",
+    "department": "Civil Engineering",
+    "photo_url": "http://ce.iiti.ac.in/faculty_pics/Dr. Priyank J Sharma.jpg",
+    "profile_url": "https://sites.google.com/view/priyank2306"
+  },
+  {
+    "name": "Dr. Mayur Shirish Jain",
+    "designation": "Assistant Professor",
+    "email": "mayur.jain @ iiti.ac.in",
+    "website": "https://sites.google.com/view/mayur-shirish-jain",
+    "research_interests": "Rapid Composting Techniques, Kinetic modelling of Bio-waste degradation, Circular economy in environmental engineering, Soil Revitalization via waste utilization, C&D Waste quantification and environmental risks, Techno-economic and sustainability assessment",
+    "department": "Civil Engineering",
+    "photo_url": "http://ce.iiti.ac.in/faculty_pics/M S JAIN.jpg",
+    "profile_url": "https://sites.google.com/view/mayur-shirish-jain"
+  },
+  {
+    "name": "Dr. Akshay Pratap Singh",
+    "designation": "Assistant Professor",
+    "email": "apsingh @ iiti.ac.in",
+    "website": "https://sites.google.com/view/apsingh/bio?authuser=0",
+    "research_interests": "Numerical Modeling in Geomechanics, Analysis of Slopes, Retaining walls, Sheet Piles, Shallow Foundations, Pile Foundations, Lower and Upper Bound Methods in Limit Analysis, Geotechnical Earthquake Engineering, Liquefaction",
+    "department": "Civil Engineering",
+    "photo_url": "http://ce.iiti.ac.in/faculty_pics/Dr. Akshay Photo.JPG",
+    "profile_url": "https://sites.google.com/view/apsingh/bio?authuser=0"
+  },
+  {
+    "name": "Dr. Baadiga Ramu",
+    "designation": "Assistant Professor",
+    "email": "baadigaramu @ iiti.ac.in",
+    "website": "https://sites.google.com/view/ramubaadiga/",
+    "research_interests": "Geosynthetic Engineering, Pavement Geotechnics, Ground Improvement, Geotechnical Engineering, AI-ML for Geotechnical Engineering, Nature Inspired Geotechnics",
+    "department": "Civil Engineering",
+    "photo_url": "http://ce.iiti.ac.in/faculty_pics/Dr Baadiga Ramu.jpg",
+    "profile_url": "https://sites.google.com/view/ramubaadiga/"
+  },
+  {
+    "name": "Dr. Ravinder",
+    "designation": "Assistant Professor",
+    "email": "ravinder @ iiti.ac.in",
+    "website": "https://ravinderbhattoo.github.io/",
+    "research_interests": "Structural Health Monitoring, Ballistic Impact and Fracture Simulations, Finite Element Modelling and Simulations, Generative Structural Design Using ML, System Identification, ML/AI for Structural Engineering",
+    "department": "Civil Engineering",
+    "photo_url": "http://ce.iiti.ac.in/faculty_pics/ravinder.png",
+    "profile_url": "https://ravinderbhattoo.github.io/"
+  },
+  {
+    "name": "Prof. Abhishek Srivastava",
+    "designation": "Professor",
+    "email": "asrivastava [AT] iiti [dot] ac [dot] in",
+    "website": "http://www.iiti.ac.in/people/~asrivastava",
+    "research_interests": "Service-Oriented Systems, Dynamic Systems, Geographically Distributed Development Environments, Agile Techniques, Software-as-a-Service",
+    "department": "Computer Science and Engineering",
+    "photo_url": "http://cse.iiti.ac.in/faculty_pics/abhishek.jpg",
+    "profile_url": "http://www.iiti.ac.in/people/~asrivastava"
+  },
+  {
+    "name": "Prof. Aruna Tiwari",
+    "designation": "Professor",
+    "email": "artiwari [AT] iiti [dot] ac [dot] in",
+    "website": "http://iiti.ac.in/people/~artiwari/",
+    "research_interests": "Machine Learning, Soft-computing, Big Data, Data Mining, Deep Learning",
+    "department": "Computer Science and Engineering",
+    "photo_url": "http://cse.iiti.ac.in/faculty_pics/AT.jpg",
+    "profile_url": "http://iiti.ac.in/people/~artiwari/"
+  },
+  {
+    "name": "Prof. Anirban Sengupta",
+    "designation": "Professor",
+    "email": "asengupt [AT] iiti [dot] ac [dot] in",
+    "website": "http://www.iiti.ac.in/people/~asengupt",
+    "research_interests": "CAD-VLSI, EDA, High Level Synthesis, IP core Security, Hardware Trojan, Fault Security, Digital Watermark in digital chip, Optimization of Hardware Accelerators, Design Automation",
+    "department": "Computer Science and Engineering",
+    "photo_url": "http://cse.iiti.ac.in/faculty_pics/anirban.jpg",
+    "profile_url": "http://www.iiti.ac.in/people/~asengupt"
+  },
+  {
+    "name": "Prof. Surya Prakash",
+    "designation": "Professor",
+    "email": "surya [AT] iiti [dot] ac [dot] in",
+    "website": "http://www.iiti.ac.in/people/~surya",
+    "research_interests": "Biometrics, Machine Learning, Deep Learning, Pattern Recognition, Computer Vision, Image Processing and Big Data",
+    "department": "Computer Science and Engineering",
+    "photo_url": "http://cse.iiti.ac.in/faculty_pics/surya.jpg",
+    "profile_url": "http://www.iiti.ac.in/people/~surya"
+  },
+  {
+    "name": "Prof. Somnath Dey",
+    "designation": "Professor",
+    "email": "somnathd [AT] iiti [dot] ac [dot] in",
+    "website": "http://www.iiti.ac.in/people/~somnathd",
+    "research_interests": "Human Computer Interaction, Image Processing, Computer Graphics, Biometric Security",
+    "department": "Computer Science and Engineering",
+    "photo_url": "http://cse.iiti.ac.in/faculty_pics/somnath.jpg",
+    "profile_url": "http://www.iiti.ac.in/people/~somnathd"
+  },
+  {
+    "name": "Prof. Kapil Ahuja",
+    "designation": "Professor",
+    "email": "kahuja [AT] iiti [dot] ac [dot] in",
+    "website": "http://www.iiti.ac.in/people/~kahuja/",
+    "research_interests": "Artificial Intelligence, Machine Learning, Soft Computing, Numerical Methods, Game Theory, and Optimization",
+    "department": "Computer Science and Engineering",
+    "photo_url": "http://cse.iiti.ac.in/faculty_pics/kapil.jpg",
+    "profile_url": "http://www.iiti.ac.in/people/~kahuja/"
+  },
+  {
+    "name": "Dr. Gourinath Banda",
+    "designation": "Associate Professor",
+    "email": "gourinath [AT] iiti [dot] ac [dot] in",
+    "website": "http://people.iiti.ac.in/~gourinath/",
+    "research_interests": "Embedded Systems (Cyber-physical systems, Internet-of-Things, Wireless Sensor Networks, etc.) and their Formal Verification (Model Checking, Abstract Interpretation, Program Transformation and Generation, Program Analysis),Semantics-based Emulation of Languages and Systems, Autonomous vehicles",
+    "department": "Computer Science and Engineering",
+    "photo_url": "http://cse.iiti.ac.in/faculty_pics/gourinath.jpg",
+    "profile_url": "http://people.iiti.ac.in/~gourinath/"
+  },
+  {
+    "name": "Prof. Neminath Hubballi",
+    "designation": "Professor",
+    "email": "neminath [AT] iiti [dot] ac [dot] in",
+    "website": "http://iiti.ac.in/people/~neminath/",
+    "research_interests": "Computer Networks, Network Security, System Security, Fault Detection in Networks",
+    "department": "Computer Science and Engineering",
+    "photo_url": "http://cse.iiti.ac.in/faculty_pics/neminath.jpg",
+    "profile_url": "http://iiti.ac.in/people/~neminath/"
+  },
+  {
+    "name": "Dr. Bodhisatwa Mazumdar",
+    "designation": "Associate Professor",
+    "email": "bodhisatwa [AT] iiti [dot] ac [dot] in",
+    "website": "http://iiti.ac.in/people/~bodhisatwa/",
+    "research_interests": "Hardware Security, Side-channel Analysis, Cryptography, Digital VLSI Design",
+    "department": "Computer Science and Engineering",
+    "photo_url": "http://cse.iiti.ac.in/faculty_pics/bodhi.jpg",
+    "profile_url": "http://iiti.ac.in/people/~bodhisatwa/"
+  },
+  {
+    "name": "Dr. Puneet Gupta",
+    "designation": "Associate Professor",
+    "email": "puneet [AT] iiti [dot] ac [dot] in",
+    "website": "http://www.iiti.ac.in/people/~puneet/",
+    "research_interests": "Computer Vision, Deep Learning, Image Processing",
+    "department": "Computer Science and Engineering",
+    "photo_url": "http://cse.iiti.ac.in/faculty_pics/puneet_img.jpg",
+    "profile_url": "http://www.iiti.ac.in/people/~puneet/"
+  },
+  {
+    "name": "Dr. Nagendra Kumar",
+    "designation": "Assistant Professor",
+    "email": "nagendra [AT] iiti [dot] ac [dot] in",
+    "website": "https://sites.google.com/view/nagendrak/",
+    "research_interests": "Natural Language Processing, Social Network Analysis, Deep Learning, Data Mining",
+    "department": "Computer Science and Engineering",
+    "photo_url": "http://cse.iiti.ac.in/faculty_pics/Nagendra_image.jpg",
+    "profile_url": "https://sites.google.com/view/nagendrak/"
+  },
+  {
+    "name": "Dr. Ranveer Singh",
+    "designation": "Assistant Professor and <b>Head</b>",
+    "email": "ranveer [AT] iiti [dot] ac [dot] in",
+    "website": "https://ranveeriit.github.io/",
+    "research_interests": "Algorithmic Graph Theory, Computational Complexity, Determinant vs. Permanent, Expanders and Ramanujan Graphs",
+    "department": "Computer Science and Engineering",
+    "photo_url": "http://cse.iiti.ac.in/faculty_pics/Ranveer_Singh.jpg",
+    "profile_url": "https://ranveeriit.github.io/"
+  },
+  {
+    "name": "Dr. Chandresh Kumar Maurya",
+    "designation": "Assistant Professor",
+    "email": "chandresh [AT] iiti [dot] ac [dot] in",
+    "website": "https://chandreshiit.github.io",
+    "research_interests": "Natural Langauge Processing, Information retrieval, Text Mining, Machine Learning, Data Mining, Deep Learning",
+    "department": "Computer Science and Engineering",
+    "photo_url": "http://cse.iiti.ac.in/faculty_pics/Chandresh.jpg",
+    "profile_url": "https://chandreshiit.github.io"
+  },
+  {
+    "name": "Dr. Ayan Mondal",
+    "designation": "Assistant Professor",
+    "email": "ayanm [AT] iiti [dot] ac [dot] in",
+    "website": "https://www.iiti.ac.in/people/~ayanm/",
+    "research_interests": "Internet of Things (IoT) Networks, Softwarized Networks, Edge Computing, Edge Intelligence, Edge-Cloud",
+    "department": "Computer Science and Engineering",
+    "photo_url": "http://cse.iiti.ac.in/faculty_pics/ayan_sm.jpg",
+    "profile_url": "https://www.iiti.ac.in/people/~ayanm/"
+  },
+  {
+    "name": "Dr. Aniruddha Singh Kushwaha",
+    "designation": "Assistant Professor",
+    "email": "aniruddha [AT] iiti [dot] ac [dot] in",
+    "website": "https://www.iiti.ac.in/people/~aniruddha/",
+    "research_interests": "Software Defined Networking, Network Programmability, Datacenter networks",
+    "department": "Computer Science and Engineering",
+    "photo_url": "http://cse.iiti.ac.in/faculty_pics/Aniruddha.JPG",
+    "profile_url": "https://www.iiti.ac.in/people/~aniruddha/"
+  },
+  {
+    "name": "Dr. Sidharth Sharma (on lien)",
+    "designation": "Assistant Professor",
+    "email": "sidharth [AT] iiti [dot] ac [dot] in",
+    "website": "http://people.iiti.ac.in/~sidharth/",
+    "research_interests": "Network Softwarization and Management, Performance Modeling, Machine Learning for Networks, Network Algorithms",
+    "department": "Computer Science and Engineering",
+    "photo_url": "http://cse.iiti.ac.in/faculty_pics/Sidharth.jpeg",
+    "profile_url": "http://people.iiti.ac.in/~sidharth/"
+  },
+  {
+    "name": "Dr. Soumi Chattopadhyay",
+    "designation": "Assistant Professor",
+    "email": "soumi [AT] iiti [dot] ac [dot] in",
+    "website": "https://sites.google.com/site/soumi61/home",
+    "research_interests": "Services Computing, Artificial Intelligence, Machine Learning, Logic and Automated Reasoning",
+    "department": "Computer Science and Engineering",
+    "photo_url": "http://cse.iiti.ac.in/faculty_pics/Soumi.jpg",
+    "profile_url": "https://sites.google.com/site/soumi61/home"
+  },
+  {
+    "name": "Dr. Subhra Mazumdar",
+    "designation": "Assistant Professor",
+    "email": "subhra.mazumdar[AT] iiti [dot] ac [dot] in",
+    "website": "https://sites.google.com/site/subhramazumdar1993/home ",
+    "research_interests": "Applied Cryptography, Blockchain &amp; Cryptocurrencies, Combinatorial Optimization",
+    "department": "Computer Science and Engineering",
+    "photo_url": "http://cse.iiti.ac.in/faculty_pics/subhra.jpg",
+    "profile_url": "https://sites.google.com/site/subhramazumdar1993/home "
+  },
+  {
+    "name": "Dr. Sasank Mouli",
+    "designation": "Assistant Professor",
+    "email": "sasankm[AT] iiti [dot] ac [dot] in",
+    "website": "https://sasanks-webpage.webflow.io/ ",
+    "research_interests": "Theoretical Computer Science, Proof complexity, Algebraic proof systems",
+    "department": "Computer Science and Engineering",
+    "photo_url": "http://cse.iiti.ac.in/faculty_pics/Sasank.jpg",
+    "profile_url": "https://sasanks-webpage.webflow.io/ "
+  },
+  {
+    "name": "Dr. Lawqueen Kanesh",
+    "designation": "Assistant Professor",
+    "email": "lawqueen[AT] iiti [dot] ac [dot] in",
+    "website": "https://sites.google.com/view/lawqueenkanesh/home",
+    "research_interests": "Parameterized/Approximation/Exact Algorithms, Graph Theory and Algorithms, Kernelization",
+    "department": "Computer Science and Engineering",
+    "photo_url": "http://cse.iiti.ac.in/faculty_pics/lawqueen.jpg",
+    "profile_url": "https://sites.google.com/view/lawqueenkanesh/home"
+  },
+  {
+    "name": "Prof. Amod C. Umarikar",
+    "designation": "Professor",
+    "email": "umarikar@iiti.ac.in",
+    "website": "http://poweriiti.weebly.com/",
+    "research_interests": "High step-up DC-DC converters, Integration of Renewable Energy sources to Grid, Power Quality analysis and monitoring",
+    "department": "Electrical Engineering",
+    "photo_url": "http://ee.iiti.ac.in/img/amod-umarikar.jpg",
+    "profile_url": "http://people.iiti.ac.in/~umarikar"
+  },
+  {
+    "name": "Prof. Ram Bilas Pachori",
+    "designation": "Professor",
+    "email": "pachori@iiti.ac.in",
+    "website": null,
+    "research_interests": "Signal and Image Processing, Biomedical Signal Processing, Non-stationary Signal Processing, Speech Signal Processing, Brain-Computer Interfacing, Machine Learning, Artificial Intelligence (AI) and Internet of Things (IoT) in Healthcare",
+    "department": "Electrical Engineering",
+    "photo_url": "http://ee.iiti.ac.in/img/DSC_2747.jpg",
+    "profile_url": "http://people.iiti.ac.in/~pachori"
+  },
+  {
+    "name": "Prof. Santosh Kumar Vishvakarma",
+    "designation": "Professor",
+    "email": "skvishvakarma@iiti.ac.in",
+    "website": "https://www.skvishvakarma.com/",
+    "research_interests": "Computing-in-Memory for AI Chips, AI Hardware Accelerators, Biomedical Circuits, Circuits and Systems Design for Electric Vehicle, Reliable and Secure Circuits, Silicon Photonics Circuits",
+    "department": "Electrical Engineering",
+    "photo_url": "http://ee.iiti.ac.in/img/SKV1.jpg",
+    "profile_url": "https://www.skvishvakarma.com/"
+  },
+  {
+    "name": "Prof. Shaibal Mukherjee",
+    "designation": "Professor",
+    "email": "shaibal@iiti.ac.in",
+    "website": null,
+    "research_interests": "2D TMD-based RRAMs for Medical Image Processing, Crop Health Monitoring, and Neuromorphic Computation, Artificial Intelligence / Machine Learning, Flexible and Low-cost Electrochemical Sensors for Environment, Medical, and Agriculture, UV and Solar-blind Photodetectors, HEMT-based Power Converters for Electric Vehicles, Opto-electronics, organic electronics, Nano-scale sensors, memory devices and Nanophotonics",
+    "department": "Electrical Engineering",
+    "photo_url": "http://ee.iiti.ac.in/img/Prof. Shaibal Mukherjee.jpg",
+    "profile_url": "http://people.iiti.ac.in/~shaibal"
+  },
+  {
+    "name": "Prof. Vipul Singh",
+    "designation": "Professor",
+    "email": "vipul@iiti.ac.in",
+    "website": null,
+    "research_interests": "MOSFET based sensors, Low power information processing circuits and RF-SET, Silicon nanodevices, Single electron devices, Bulk and SOI MOSFETs, Low frequency noise in MOSFETs, Organic electronic/photonic devices and their applications, Photo luminescence spectroscopy, novel sensors based on organic electronic devices",
+    "department": "Electrical Engineering",
+    "photo_url": "http://ee.iiti.ac.in/img/Dr. Vipul.jpg",
+    "profile_url": "http://people.iiti.ac.in/~vipul/"
+  },
+  {
+    "name": "Prof. Abhinav Kranti",
+    "designation": "Professor",
+    "email": "abhinav@iiti.ac.in",
+    "website": null,
+    "research_interests": "Solid-State Devices, Circuit Design and Nanotechnology, Low power circuit design with nanoscale devices, Design and analysis of GaN and ZnO based HEMTs",
+    "department": "Electrical Engineering",
+    "photo_url": "http://ee.iiti.ac.in/img/abhinav.jpg",
+    "profile_url": "http://people.iiti.ac.in/~akranti"
+  },
+  {
+    "name": "Prof. Srivathsan Vasudevan",
+    "designation": "Professor",
+    "email": "svasudevan@iiti.ac.in",
+    "website": "https://sites.google.com/view/svasudevan/",
+    "research_interests": "Photothermal response and photothermal imaging, Photoaccoustic microscopy for biomedical applications and Biophotonics",
+    "department": "Electrical Engineering",
+    "photo_url": "http://ee.iiti.ac.in/img/vasudevan2.jpg",
+    "profile_url": "https://sites.google.com/view/svasudevan/"
+  },
+  {
+    "name": "Prof. Prabhat Kumar Upadhyay",
+    "designation": "Professor",
+    "email": "pkupadhyay@iiti.ac.in",
+    "website": null,
+    "research_interests": "Wireless and Mobile Communications, Cooperative Relaying Systems, Cognitive Radio Techniques, Energy Harvesting and Green ICT, Molecular Communications",
+    "department": "Electrical Engineering",
+    "photo_url": "http://ee.iiti.ac.in/img/DSCN6022.jpg",
+    "profile_url": "http://people.iiti.ac.in/~pkupadhyay"
+  },
+  {
+    "name": "Prof. Trapti Jain",
+    "designation": "Professor",
+    "email": "traptij@iiti.ac.in",
+    "website": "http://poweriiti.weebly.com/",
+    "research_interests": "Data analytics in smart grid, Cyber security in smart grid, Artificial Intelligence Applications to Power Systems and Power Quality, Grid integration of Electric Vehicles, Microgrid stability and control",
+    "department": "Electrical Engineering",
+    "photo_url": "http://ee.iiti.ac.in/img/trapti_jain.png",
+    "profile_url": "http://people.iiti.ac.in/~traptij"
+  },
+  {
+    "name": "Prof. Vivek Kanhangad",
+    "designation": "Professor and Head of the Department",
+    "email": "kvivek@iiti.ac.in",
+    "website": "https://people.iiti.ac.in/~kvivek",
+    "research_interests": "Biometrics, Digital Signal and Image Processing",
+    "department": "Electrical Engineering",
+    "photo_url": "http://ee.iiti.ac.in/img/pic_vivek.jpg",
+    "profile_url": "https://people.iiti.ac.in/~kvivek"
+  },
+  {
+    "name": "Prof. Vimal Bhatia",
+    "designation": "Professor",
+    "email": "vbhatia@iiti.ac.in",
+    "website": null,
+    "research_interests": "Wireless Communications for B5G/6G, Quantum and Optical Communications, Artificial Intelligence and Machine Learning, Signal and Image Processing, Internet of Things (IoT)",
+    "department": "Electrical Engineering",
+    "photo_url": "http://ee.iiti.ac.in/img/vbhatia.jpg",
+    "profile_url": "http://people.iiti.ac.in/~vbhatia"
+  },
+  {
+    "name": "Prof. Mukesh Kumar",
+    "designation": "Professor",
+    "email": "mukesh.kr@iiti.ac.in",
+    "website": null,
+    "research_interests": "Integrated Optoelectronics, Nanophotonics, Semiconductor Optoelectronics, Nano-scale photonic devices, Optical Interconnects, Micro/Nano Fabrication Technologies",
+    "department": "Electrical Engineering",
+    "photo_url": "http://ee.iiti.ac.in/img/mukeshk.jpg",
+    "profile_url": "http://people.iiti.ac.in/~mukesh.kr/"
+  },
+  {
+    "name": "Dr. Saptarshi Ghosh",
+    "designation": "Assistant Professor",
+    "email": "sghosh@iiti.ac.in",
+    "website": null,
+    "research_interests": "Electromagnetics, Frequency selective surfaces, Metamaterials, Microwave absorbers, antennas",
+    "department": "Electrical Engineering",
+    "photo_url": "http://ee.iiti.ac.in/img/SaptarshiGhosh.JPG",
+    "profile_url": "http://people.iiti.ac.in/~sghosh/"
+  },
+  {
+    "name": "Dr. Swaminathan R.",
+    "designation": "Associate Professor",
+    "email": "swamiramabadran@iiti.ac.in",
+    "website": "https://swamiramabadran.wixsite.com/website",
+    "research_interests": "Cooperative Relay Systems, MIMO Wireless Communication, Hybrid FSO/RF Communication, Blind Code Parameter Estimation",
+    "department": "Electrical Engineering",
+    "photo_url": "http://ee.iiti.ac.in/img/swaminathan.JPG",
+    "profile_url": "https://swamiramabadran.wixsite.com/website"
+  },
+  {
+    "name": "Dr. Sumit Gautam",
+    "designation": "Assistant Professor",
+    "email": "sumit.gautam@iiti.ac.in",
+    "website": "https://sites.google.com/site/sumitgautamjbp/",
+    "research_interests": "Simultaneous Wireless Information and Power Transmission (SWIPT) systems, Precoding for Wireless Multigroup Multicasting systems, Wireless Edge-Caching networks, Intelligent Reflecting Surface (IRS) assisted Wireless Communications, Cooperative Relaying and/or Backscattering systems",
+    "department": "Electrical Engineering",
+    "photo_url": "http://ee.iiti.ac.in/img/IEEE_Sumit.jpg",
+    "profile_url": "https://sites.google.com/site/sumitgautamjbp/"
+  },
+  {
+    "name": "Dr. Vijay A. S.",
+    "designation": "Assistant Professor",
+    "email": "vijay_as@iiti.ac.in",
+    "website": null,
+    "research_interests": "Microgrids and Distributed generation, Design and Control of AC, DC and Hybrid Microgrids, Power electronic Emulation, Real-time simulations, Power Quality, Power electronic converter control",
+    "department": "Electrical Engineering",
+    "photo_url": "http://ee.iiti.ac.in/img/vijay_a_s.png",
+    "profile_url": "http://ee.iiti.ac.in/faculty.html"
+  },
+  {
+    "name": "Dr. Appina Balasubramanyam",
+    "designation": "Assistant Professor",
+    "email": "appina@iiti.ac.in",
+    "website": "https://sites.google.com/view/drbalasubramanyamappina/",
+    "research_interests": "Image and video processing, Multimedia quality assessment, Display technology",
+    "department": "Electrical Engineering",
+    "photo_url": "http://ee.iiti.ac.in/img/Balasubramanyam.jpg",
+    "profile_url": "https://sites.google.com/view/drbalasubramanyamappina/"
+  },
+  {
+    "name": "Dr. Subhadeep Paladhi",
+    "designation": "Assistant Professor",
+    "email": "spaladhi@iiti.ac.in",
+    "website": "https://sites.google.com/view/subhadeep-paladhi",
+    "research_interests": "Source-independent protection for power systems., Adaptive relaying using wide area monitoring data., System Integrity Protection Schemes (SIPS).",
+    "department": "Electrical Engineering",
+    "photo_url": "http://ee.iiti.ac.in/img/Subhadeep_Paladhi.jpg",
+    "profile_url": "https://sites.google.com/view/subhadeep-paladhi"
+  },
+  {
+    "name": "Dr. Rinkee Chopra",
+    "designation": "Assistant Professor",
+    "email": "rinkee@iiti.ac.in",
+    "website": null,
+    "research_interests": "Filtering Antenna and Arrays, Millimeter wave circuits and antennas, High gain and broadband 5G antennas and arrays, Multiband, broadband, Endfire and circularly polarized antennas, RF transceiver components- filters, couplers, oscillator etc.",
+    "department": "Electrical Engineering",
+    "photo_url": "http://ee.iiti.ac.in/img/Dr. Rinkee Chopra.jpg",
+    "profile_url": "http://ee.iiti.ac.in/faculty.html"
+  },
+  {
+    "name": "Dr. Dibbendu Roy",
+    "designation": "Assistant Professor",
+    "email": "droy@iiti.ac.in",
+    "website": "https://dibbend8.github.io/dibbendu/",
+    "research_interests": "6G Communication Networks, Extended Reality and AI, Causal Inference, Distributed Optimization, Network Calculus, Queuing and Game Theory",
+    "department": "Electrical Engineering",
+    "photo_url": "http://ee.iiti.ac.in/img/Dr. Dibbendu.jpg",
+    "profile_url": "https://dibbend8.github.io/dibbendu/"
+  },
+  {
+    "name": "Dr. Sharad Kumar Singh",
+    "designation": "Assistant Professor",
+    "email": "sharad@iiti.ac.in",
+    "website": "https://sites.google.com/iiti.ac.in/sharad-kumar-singh/",
+    "research_interests": "Game Theory, Control & Robotics, Optimization Techniques & Operations Research, Multi-agent Systems",
+    "department": "Electrical Engineering",
+    "photo_url": "http://ee.iiti.ac.in/img/Sharad_ee.jpg",
+    "profile_url": "https://sites.google.com/iiti.ac.in/sharad-kumar-singh/"
+  },
+  {
+    "name": "Dr. Lokesh Kumar Dewangan",
+    "designation": "Assistant Professor",
+    "email": "lokesh@iiti.ac.in",
+    "website": "https://sites.google.com/view/lokeshdewangan",
+    "research_interests": "Converter interaction analysis, Dynamics and control of hybrid AC/DC systems, Overlay of the HVDC grid, MMC interconnection to unbalanced and weak systems, Robust controller design for MMC",
+    "department": "Electrical Engineering",
+    "photo_url": "http://ee.iiti.ac.in/img/Lokesh.jpg",
+    "profile_url": "https://sites.google.com/view/lokeshdewangan"
+  },
+  {
+    "name": "Dr. Prathap Reddy B",
+    "designation": "Assistant Professor",
+    "email": "bprathap@iiti.ac.in",
+    "website": "https://sites.google.com/iiti.ac.in/bprathap?pli=1",
+    "research_interests": "Design of Magnet-less Machines, Multiphase Machines & Pole Phase Modulated Drives, Electric Vehicles, EV Charging Solutions, Battery Active Paralleling/Series, Power Electronics, Multilevel Inverters, Converter Design and Analysis",
+    "department": "Electrical Engineering",
+    "photo_url": "http://ee.iiti.ac.in/img/prathap_image_1.jpg",
+    "profile_url": "https://sites.google.com/iiti.ac.in/bprathap?pli=1"
+  },
+  {
+    "name": "Professor. Nirmala Menon",
+    "designation": "Professor",
+    "email": "nmenon@iiti.ac.in",
+    "website": "https://dhlabiitindore.com/about/",
+    "research_interests": "Digital Humanities,Postcolonial Literature and Theory,Globalization Studies,World literatures in other languages in translation,Institutionalization of Postcolonial Literature",
+    "department": "Humanities and Social Sciences",
+    "photo_url": "https://hss.iiti.ac.in/files_upload/faculty_images/d03764b01499cb7f11f056e02b5670e9.png",
+    "profile_url": "https://hss.iiti.ac.in/main/faculty"
+  },
+  {
+    "name": "Dr. C. Upendra",
+    "designation": "Associate Professor",
+    "email": "cupendra@iiti.ac.in",
+    "website": "http://people.iiti.ac.in/~cupendra/research%20int.html",
+    "research_interests": "Moral Philosophy (Epistemology), History of Ideas, Radical Philosophy, Philosophy of Film and Music",
+    "department": "Humanities and Social Sciences",
+    "photo_url": "https://hss.iiti.ac.in/files_upload/faculty_images/0c541f77eaddd1c4255becb8e1fb87c8.jpg",
+    "profile_url": "https://hss.iiti.ac.in/main/faculty"
+  },
+  {
+    "name": "Professor. Pritee Sharma",
+    "designation": "Professor",
+    "email": "psharma@iiti.ac.in",
+    "website": "https://sites.google.com/iiti.ac.in/sslab/home",
+    "research_interests": "Agricultural Economics (Economics of Land, Water and Forests),Development Economics (Rural Poverty and Trade Concerns of Developing Countries)",
+    "department": "Humanities and Social Sciences",
+    "photo_url": "https://hss.iiti.ac.in/files_upload/faculty_images/7fe4fe8c280011e3b98dc7c5fedfef49.png",
+    "profile_url": "https://hss.iiti.ac.in/main/faculty"
+  },
+  {
+    "name": "Professor. Ruchi Sharma",
+    "designation": "Professor & Head, SHSS",
+    "email": "ruchi@iiti.ac.in",
+    "website": "http://people.iiti.ac.in/~ruchi/",
+    "research_interests": "General Areas of Interest: Economics of Innovation; International Economics,Specific Areas of Interest: Patent Policy; Technology Transfer (FDI and licensing)",
+    "department": "Humanities and Social Sciences",
+    "photo_url": "https://hss.iiti.ac.in/files_upload/faculty_images/af81b165ea3a4c3a06f120e54a8fd501.jpg",
+    "profile_url": "https://hss.iiti.ac.in/main/faculty"
+  },
+  {
+    "name": "Professor Sanjram Premjit Khanganba",
+    "designation": "Professor",
+    "email": "sanjrampk@iiti.ac.in",
+    "website": "http://iiti.ac.in/people/~sanjrampk/publications.html",
+    "research_interests": "Cognitive Ergonomics,Medical and Healthcare Human Factors,Automotive and Transport Human Factors,Smart Environments and Systems,Virtual/Augmented Reality,Human Performance,Human-System Interaction,Media,Community Systems,User Experience",
+    "department": "Humanities and Social Sciences",
+    "photo_url": "https://hss.iiti.ac.in/files_upload/faculty_images/bc3a8134f92e2562e01de9c397e506a7.jpg",
+    "profile_url": "https://hss.iiti.ac.in/main/faculty"
+  },
+  {
+    "name": "Dr. Akshaya Kumar",
+    "designation": "Associate Professor",
+    "email": "akshaya.kumar@iiti.ac.in",
+    "website": "https://sites.google.com/view/dr-akshaya-kumar/",
+    "research_interests": "Bhojpuri Cinema, Hindi Cinema,Comparative Media Studies,Media & Logistics,Digital Platform Economy,Censorship / Disinformation",
+    "department": "Humanities and Social Sciences",
+    "photo_url": "https://hss.iiti.ac.in/files_upload/faculty_images/d08f8c0e1c29ba5c2eb6b0661a0de9f2.png",
+    "profile_url": "https://hss.iiti.ac.in/main/faculty"
+  },
+  {
+    "name": "Dr. Ashok Kumar Mocherla",
+    "designation": "Associate Professor",
+    "email": "ashokmocherla@iiti.ac.in",
+    "website": "http://iiti.irins.org/profile/93845/",
+    "research_interests": "Sociology of Religion, Caste and Indian Christians,Ethnic and Religious Minorities of India,Religion and Nationalism on Campuses,Faith Healing, Pentecostalism and Public Health",
+    "department": "Humanities and Social Sciences",
+    "photo_url": "https://hss.iiti.ac.in/files_upload/faculty_images/175e33c5be687827de508a78a9605413.jpeg",
+    "profile_url": "https://hss.iiti.ac.in/main/faculty"
+  },
+  {
+    "name": "Dr. Ananya Ghoshal",
+    "designation": "Assistant Professor",
+    "email": "aghoshal@iiti.ac.in",
+    "website": "http://iiti.irins.org/profile/93843",
+    "research_interests": "Literature and Other Arts (interrelations between literature and music),Narratives of the Anthropocene/Climate Change,William Blake: Poet and Printmaker,20th Century American and British Literature,Literature and Disability,Photography and Children's Literature/Picture Books,Parellel Cinema/The Indian New Wave,Performance Studies",
+    "department": "Humanities and Social Sciences",
+    "photo_url": "https://hss.iiti.ac.in/files_upload/faculty_images/8727b8f2d73708b7502e773ef8c9c25a.jpg",
+    "profile_url": "https://hss.iiti.ac.in/main/faculty"
+  },
+  {
+    "name": "Dr. Shomik Dasgupta",
+    "designation": "Assistant Professor",
+    "email": "shomikdasgupta@iiti.ac.in",
+    "website": "http://iiti.irins.org/profile/93841",
+    "research_interests": "Intellectual History,Governance, Local Administration and State in Modern India,Economic, Social and Business History",
+    "department": "Humanities and Social Sciences",
+    "photo_url": "https://hss.iiti.ac.in/files_upload/faculty_images/e77af609cffc30229d6f7b730e69df5f.JPG",
+    "profile_url": "https://hss.iiti.ac.in/main/faculty"
+  },
+  {
+    "name": "Ambassdor Gurjit Singh",
+    "designation": "Honorary Professor of International Relations Studies",
+    "email": "ambgurjitsingh@gmail.com",
+    "website": "https://biography.omicsonline.org/india/foreign-service-institute/gurjit-singh-327760",
+    "research_interests": "Indian Foreign Service, Diplomacy",
+    "department": "Humanities and Social Sciences",
+    "photo_url": "https://hss.iiti.ac.in/files_upload/faculty_images/43b92c6c403982c289754c90a6f7a4d6.jpg",
+    "profile_url": "https://hss.iiti.ac.in/main/faculty"
+  },
+  {
+    "name": "Dr. Kalandi Charan Pradhan",
+    "designation": "Assistant Professor",
+    "email": "kcpradhan@iiti.ac.in",
+    "website": "https://md.rg.iiti.ac.in/faculty/",
+    "research_interests": "Development Economics,Sustainable Development,Applied Econometrics,Migration Studies,Labour Economics,Socio-Economic Impacts of Climate Change",
+    "department": "Humanities and Social Sciences",
+    "photo_url": "https://hss.iiti.ac.in/files_upload/faculty_images/c5ec2f437d237cfa8c6fd855cf04e27b.png",
+    "profile_url": "https://hss.iiti.ac.in/main/faculty"
+  },
+  {
+    "name": "Dr. Mohanasundari Thangavel",
+    "designation": "Assistant Professor",
+    "email": "mohana@iiti.ac.in",
+    "website": "https://scholar.google.com/citations?hl=en&amp;view_op=list_works&amp;gmla=AJsN-F6RWdio6wKD6N0FqFMZoZ94BatDOkh2bwKkuAB4xDsXI3HuSTW3jg7J9D69MkZlhTha4xnBpro7rhAC4yslur_RNEfmqe4aFtwEPbc0zCg-B63POh8&amp;user=vBoX-1IAAAAJ",
+    "research_interests": "Agricultural Economics,Resource Economics: Energy, Water and Agroforestry,Environmental Economics: Climate Change Adaption and Impact Studies ,Urban and Rural Consumption Pattern,Farmer Producer Organizations ",
+    "department": "Humanities and Social Sciences",
+    "photo_url": "https://hss.iiti.ac.in/files_upload/faculty_images/255c6d9547f32e582fe407af285c6b97.jpg",
+    "profile_url": "https://hss.iiti.ac.in/main/faculty"
+  },
+  {
+    "name": "Dr. Thapasya J.",
+    "designation": "Assistant Professor",
+    "email": "thapasya@iiti.ac.in",
+    "website": "https://iiti.irins.org/profile/245963",
+    "research_interests": "Sociolinguistics,English Studies,Language Variations,Language and Identity,Cognitive Sociolinguistics,Applied Linguistics",
+    "department": "Humanities and Social Sciences",
+    "photo_url": "https://hss.iiti.ac.in/files_upload/faculty_images/a6db9b84b90d064cf2c8ca6566f8c161.jpg",
+    "profile_url": "https://hss.iiti.ac.in/main/faculty"
+  },
+  {
+    "name": "Dr. Aratrika Das ",
+    "designation": "Assistant Professor",
+    "email": "aratrika@iiti.ac.in",
+    "website": "https://mhrg.iiti.ac.in/team_leader.php",
+    "research_interests": "Nineteenth Century British Literature,Gothic,Medical Humanities.,Writing Pedagogy",
+    "department": "Humanities and Social Sciences",
+    "photo_url": "https://hss.iiti.ac.in/files_upload/faculty_images/9420a7509bf51c5c4a5628ad46439632.jpg",
+    "profile_url": "https://hss.iiti.ac.in/main/faculty"
+  },
+  {
+    "name": "Dr. Kedarmal Verma",
+    "designation": "Assistant Professor",
+    "email": "kverma@iiti.ac.in",
+    "website": "https://iiti.irins.org/profile/239569 ",
+    "research_interests": "Sleep and Cognition,False Memory,Cognitive Psychology",
+    "department": "Humanities and Social Sciences",
+    "photo_url": "https://hss.iiti.ac.in/files_upload/faculty_images/1a83189ddfb35bd5499401194ef89e8f.jpg",
+    "profile_url": "https://hss.iiti.ac.in/main/faculty"
+  },
+  {
+    "name": "Dr. Sansuma Brahma",
+    "designation": "Assistant Professor",
+    "email": "sansuma@iiti.ac.in",
+    "website": "https://iiti.irins.org/profile/367457",
+    "research_interests": "Phonetics,Phonology,Morphology,Syntax,Language Documentation,South Asian Languages",
+    "department": "Humanities and Social Sciences",
+    "photo_url": "https://hss.iiti.ac.in/files_upload/faculty_images/4dca88af8eed7d21f18de3c0c64ea4ab.jpeg",
+    "profile_url": "https://hss.iiti.ac.in/main/faculty"
+  },
+  {
+    "name": "Dr. Dishari Chattaraj",
+    "designation": "Assistant Professor",
+    "email": "dishari@iiti.ac.in",
+    "website": "https://sites.google.com/iiti.ac.in/disharichattaraj/bio",
+    "research_interests": "English Language Education,Higher Education,Curriculum and Pedagogy,Applied Linguistics,Critical Food Studies",
+    "department": "Humanities and Social Sciences",
+    "photo_url": "https://hss.iiti.ac.in/files_upload/faculty_images/8f068026f0dc350e37133aa9cd67d2cb.jpg",
+    "profile_url": "https://hss.iiti.ac.in/main/faculty"
+  },
+  {
+    "name": "Dr. Abhishek Yadav",
+    "designation": "Assistant Professor",
+    "email": "abhisheky@iiti.ac.in",
+    "website": "https://whyabhishek.wordpress.com ",
+    "research_interests": "Philosophy of Mind,Philosophy of Biology,Philosophy of AI and Techno-Philosophy",
+    "department": "Humanities and Social Sciences",
+    "photo_url": "https://hss.iiti.ac.in/files_upload/faculty_images/9d757e7aa82ab988bb6efe24429ccd3b.JPG",
+    "profile_url": "https://hss.iiti.ac.in/main/faculty"
+  },
+  {
+    "name": "Dr. Sk. Safique Ahmad",
+    "designation": "Professor",
+    "email": "safique@iiti.ac.in",
+    "website": "https://www.iiti.ac.in/people/~safique/",
+    "research_interests": "Numerical Linear Algebra",
+    "department": "Mathematics",
+    "photo_url": "https://math.iiti.ac.in/wp-content/uploads/2022/01/Dr.Sk_.Safique-Ahmad-1.png",
+    "profile_url": "https://math.iiti.ac.in/people/faculty"
+  },
+  {
+    "name": "Dr. Mohd. Arshad",
+    "designation": "Assistant Professor",
+    "email": "arshad@iiti.ac.in",
+    "website": "http://people.iiti.ac.in/~arshad/index.html",
+    "research_interests": "Ranking and Selection, Statistical Inference, Statistical Decision Theory",
+    "department": "Mathematics",
+    "photo_url": "https://math.iiti.ac.in/wp-content/uploads/2022/11/Arshad-795x1024.jpg",
+    "profile_url": "https://math.iiti.ac.in/people/faculty"
+  },
+  {
+    "name": "Dr. Charitha Cherugondi",
+    "designation": "Assistant Professor",
+    "email": "charithac@iiti.ac.in",
+    "website": "https://iiti.ac.in/people/~charithac/",
+    "research_interests": "Optimization theory",
+    "department": "Mathematics",
+    "photo_url": "https://math.iiti.ac.in/wp-content/uploads/2022/01/charitha.jpg",
+    "profile_url": "https://math.iiti.ac.in/people/faculty"
+  },
+  {
+    "name": "Dr. Bapan Ghosh",
+    "designation": "Associate Professor",
+    "email": "keshab.bapan@iiti.ac.in",
+    "website": "https://sites.google.com/view/bapanghosh/home?authuser=0",
+    "research_interests": "Dynamical Systems and Mathematical Biology",
+    "department": "Mathematics",
+    "photo_url": "https://math.iiti.ac.in/wp-content/uploads/2022/01/bapan.jpg",
+    "profile_url": "https://math.iiti.ac.in/people/faculty"
+  },
+  {
+    "name": "Dr. Vinay Kumar Gupta",
+    "designation": "Associate Professor",
+    "email": "vkg@iiti.ac.in",
+    "website": "https://vkg.profiles.iiti.ac.in",
+    "research_interests": "Mathematical modelling of gases, Kinetic theory",
+    "department": "Mathematics",
+    "photo_url": "https://math.iiti.ac.in/wp-content/uploads/2022/02/vinay.jpg",
+    "profile_url": "https://math.iiti.ac.in/people/faculty"
+  },
+  {
+    "name": "Dr. Md. Aquil Khan",
+    "designation": "Associate Professor",
+    "email": "aquilk@iiti.ac.in",
+    "website": "https://www.iiti.ac.in/people/~aquilk/",
+    "research_interests": "Rough Set Theory and Modal Logics",
+    "department": "Mathematics",
+    "photo_url": "https://math.iiti.ac.in/wp-content/uploads/2022/01/Dr.Md_.Aquil-Khan-1.jpg",
+    "profile_url": "https://math.iiti.ac.in/people/faculty"
+  },
+  {
+    "name": "Dr. Ashisha Kumar",
+    "designation": "Assistant Professor",
+    "email": "akumar@iiti.ac.in",
+    "website": "https://www.iiti.ac.in/people/~akumar/",
+    "research_interests": "Radon Transform",
+    "department": "Mathematics",
+    "photo_url": "https://math.iiti.ac.in/wp-content/uploads/2022/01/d15.png",
+    "profile_url": "https://math.iiti.ac.in/people/faculty"
+  },
+  {
+    "name": "Dr. Bibekananda Maji",
+    "designation": "Associate Professor",
+    "email": "bibekanandamaji@iiti.ac.in",
+    "website": "https://sites.google.com/site/bibekiithri87/",
+    "research_interests": "Number Theory",
+    "department": "Mathematics",
+    "photo_url": "https://math.iiti.ac.in/wp-content/uploads/2022/01/bibekananda.jpg",
+    "profile_url": "https://math.iiti.ac.in/people/faculty"
+  },
+  {
+    "name": "Dr. Santanu Manna ",
+    "designation": "Associate Professor",
+    "email": "santanu@iiti.ac.in",
+    "website": "https://people.iiti.ac.in/~santanu/leader.php",
+    "research_interests": "Applied PDE, Wave Propagation Aspects, Solid Mechanics",
+    "department": "Mathematics",
+    "photo_url": "https://math.iiti.ac.in/wp-content/uploads/2022/11/santanu22.jpeg",
+    "profile_url": "https://math.iiti.ac.in/people/faculty"
+  },
+  {
+    "name": "Dr. Sumit Chandra Mishra",
+    "designation": "Assistant Professor",
+    "email": null,
+    "website": "https://sites.google.com/site/sumitcmishra",
+    "research_interests": "Algebra, Algebraic  Geometry, Number Theory",
+    "department": "Mathematics",
+    "photo_url": "https://math.iiti.ac.in/wp-content/uploads/2024/03/Dr.-Sumit-Chandra-Mishra-1.jpg",
+    "profile_url": "https://math.iiti.ac.in/people/faculty"
+  },
+  {
+    "name": "Dr. Sourav Mitra",
+    "designation": "Assistant Professor",
+    "email": "souravmitra@iiti.ac.in",
+    "website": "https://sites.google.com/iiti.ac.in/dr-sourav-mitra/home?authuser=0&pli=1",
+    "research_interests": "Partial differential equations, fluid mechanics, control theory",
+    "department": "Mathematics",
+    "photo_url": "https://math.iiti.ac.in/wp-content/uploads/2023/05/sourav_photo_92.jpg",
+    "profile_url": "https://math.iiti.ac.in/people/faculty"
+  },
+  {
+    "name": "Dr. Dibyendu Mondal",
+    "designation": "Assistant Professor",
+    "email": "mdibyendu@iiti.ac.in",
+    "website": "https://sites.google.com/view/dibyendu-mondal/home",
+    "research_interests": "Commutative Algebra",
+    "department": "Mathematics",
+    "photo_url": "https://math.iiti.ac.in/wp-content/uploads/2024/04/Dr.-Dibyendu-Mondal.jpg",
+    "profile_url": "https://math.iiti.ac.in/people/faculty"
+  },
+  {
+    "name": "Dr. Debopriya Mukherjee",
+    "designation": null,
+    "email": "debopriya@iiti.ac.in",
+    "website": "https://debopriya249.wixsite.com/debopriya-mukherjee",
+    "research_interests": "Stochastic analysis of Partial Differential Equations (SPDEs), Probability Theory and Stochastic Processes, Stochastic Analysis, Stochastic (Partial) Differential Equations, Control Theory (Deterministic and stochastic), Mathematical Fluid Dynamics, Mathematical Aspects of Pattern Formation in Biological Systems, Study of Ferro-magnetism, Shape calculus approach for solving exterior boundary value problems.",
+    "department": "Mathematics",
+    "photo_url": "https://math.iiti.ac.in/wp-content/uploads/2023/03/debo-tue-905x1024.jpeg",
+    "profile_url": "https://math.iiti.ac.in/people/faculty"
+  },
+  {
+    "name": "Dr. Priyamvada",
+    "designation": "Assistant Professor",
+    "email": "priyamvada@iiti.ac.in",
+    "website": "https://sites.google.com/view/dr-priyamvada/home",
+    "research_interests": "Graph Theory, Algorithms, Graph Coloring",
+    "department": "Mathematics",
+    "photo_url": "https://math.iiti.ac.in/wp-content/uploads/2023/12/Dr.-Priyamavda-791x1024.jpg",
+    "profile_url": "https://math.iiti.ac.in/people/faculty"
+  },
+  {
+    "name": "Dr. Swadesh Kumar Sahoo",
+    "designation": "Professor",
+    "email": "swadesh@iiti.ac.in",
+    "website": "https://www.iiti.ac.in/people/~swadesh/",
+    "research_interests": "Geometric Function Theory",
+    "department": "Mathematics",
+    "photo_url": "https://math.iiti.ac.in/wp-content/uploads/2022/01/Dr.-Swadesh-Kumar-Sahoo-1.png",
+    "profile_url": "https://math.iiti.ac.in/people/faculty"
+  },
+  {
+    "name": "Dr. Niraj Kumar Shukla",
+    "designation": "Professor",
+    "email": "nirajshukla@iiti.ac.in, hodmaths@iiti.ac.in",
+    "website": "https://www.iiti.ac.in/people/~nirajshukla/",
+    "research_interests": "Frame and Wavelet Analysis",
+    "department": "Mathematics",
+    "photo_url": "https://math.iiti.ac.in/wp-content/uploads/2022/02/NirajKumarShukla.png",
+    "profile_url": "https://math.iiti.ac.in/people/faculty"
+  },
+  {
+    "name": "Dr. Sanjeev Singh",
+    "designation": "Associate Professor and Head of Department (HoD)",
+    "email": "snjvsngh@iiti.ac.in",
+    "website": "https://iiti.ac.in/people/~snjvsngh/",
+    "research_interests": "Special Functions and Geometric Function Theory",
+    "department": "Mathematics",
+    "photo_url": "https://math.iiti.ac.in/wp-content/uploads/2022/02/sanjeev.png",
+    "profile_url": "https://math.iiti.ac.in/people/faculty"
+  },
+  {
+    "name": "Dr. Vijay Kumar Sohani",
+    "designation": "Assistant Professor",
+    "email": "vsohani@iiti.ac.in",
+    "website": "http://www.iiti.ac.in/~vsohani",
+    "research_interests": "Harmonic Analysis & PDE",
+    "department": "Mathematics",
+    "photo_url": "https://math.iiti.ac.in/wp-content/uploads/2022/02/d7.png",
+    "profile_url": "https://math.iiti.ac.in/people/faculty"
+  },
+  {
+    "name": "Dr. M. Tanveer ",
+    "designation": "Professor",
+    "email": "mtanveer@iiti.ac.in",
+    "website": "https://www.iiti.ac.in/people/~mtanveer/",
+    "research_interests": "Optimization, AI and Machine Learning, Deep Learning",
+    "department": "Mathematics",
+    "photo_url": "https://math.iiti.ac.in/wp-content/uploads/2022/01/Tanveer2017.png",
+    "profile_url": "https://math.iiti.ac.in/people/faculty"
+  },
+  {
+    "name": "Dr. V. Antony Vijesh",
+    "designation": "Professor",
+    "email": "vijesh@iiti.ac.in",
+    "website": "https://www.iiti.ac.in/people/~antony/",
+    "research_interests": "Numerical Functional Analysis",
+    "department": "Mathematics",
+    "photo_url": "https://math.iiti.ac.in/wp-content/uploads/2022/01/Dr.AntonyVijesh-1.png",
+    "profile_url": "https://math.iiti.ac.in/people/faculty"
+  },
+  {
+    "name": "Dr. Suhas S. Joshi",
+    "designation": "Professor, Director",
+    "email": "ssjoshi@iiti.ac.in",
+    "website": null,
+    "research_interests": "Modeling machining of ‘difficult-to-machine’ materials (MMCs, Inconel, Titanium), Modeling and development of micro-machining processes., Laser micro-machining, LIGA and Nano-polishing.",
+    "department": "Mechanical Engineering",
+    "photo_url": "http://people.iiti.ac.in/~meiiti/wp-content/uploads/2022/02/Director-profile_pic.png",
+    "profile_url": "http://people.iiti.ac.in/~meiiti/index.php/2022/02/17/faculty-information-2/"
+  },
+  {
+    "name": "Dr. Anand Parey",
+    "designation": "Professor (HAG)",
+    "email": "anandp@iiti.ac.in",
+    "website": null,
+    "research_interests": "Condition monitoring, Noise and vibration isolation, Signal Processing of Mechanical Systems",
+    "department": "Mechanical Engineering",
+    "photo_url": "http://people.iiti.ac.in/~meiiti/wp-content/uploads/2018/01/anand.png",
+    "profile_url": "http://people.iiti.ac.in/~meiiti/index.php/2024/09/30/prof-anand-parey/"
+  },
+  {
+    "name": "Dr. Neelesh Kumar Jain",
+    "designation": "Professor (HAG)",
+    "email": "nkjain@iiti.ac.in",
+    "website": "http://iiti.ac.in/people/~nkjain/",
+    "research_interests": "Additive Manufacturing of High Melting Point Materials,, Surface Modification and Joining of Thin Sheets by µ-PTA Process, High Quality Gear Finishing by Advanced ECH, PECH, AFF, Sustainable and Green Manufacturing of Gears, Near Net-shape Manufacturing of Meso-sized Gears, Advanced and Hybrid Machining Processes,, Micromachining and Nano-finishing Processes, Process Selection, Modeling and Optimization of the Manufacturing Processes",
+    "department": "Mechanical Engineering",
+    "photo_url": "http://people.iiti.ac.in/~meiiti/wp-content/uploads/2022/01/Prof-NKJain-Photo1-1-300x294.jpg",
+    "profile_url": "http://people.iiti.ac.in/~nkjain/"
+  },
+  {
+    "name": "Dr. Bhupesh Kumar Lad",
+    "designation": "Professor",
+    "email": "bklad@iiti.ac.in",
+    "website": "http://bklad.webs.com/",
+    "research_interests": "Reliability Engineering, Assessment Management, Prognostics",
+    "department": "Mechanical Engineering",
+    "photo_url": "http://people.iiti.ac.in/~meiiti/wp-content/uploads/2018/01/bklad.png",
+    "profile_url": "http://people.iiti.ac.in/~meiiti/index.php/dr-bhupesh-kumar-lad/"
+  },
+  {
+    "name": "Dr. Devendra Deshmukh",
+    "designation": "Professor",
+    "email": "dldeshmukh@iiti.ac.in",
+    "website": null,
+    "research_interests": "Internal combustion engines, Biofuels, Spray and combustion diagnostics",
+    "department": "Mechanical Engineering",
+    "photo_url": "http://people.iiti.ac.in/~meiiti/wp-content/uploads/2018/01/Devendra_D-1-300x280.jpg",
+    "profile_url": "http://people.iiti.ac.in/~meiiti/index.php/dr-devendra-deshmukh/"
+  },
+  {
+    "name": "Dr. I. A. Palani",
+    "designation": "Professor",
+    "email": "palaniia@iiti.ac.in",
+    "website": "https://www.iiti.ac.in/people/~palaniia/",
+    "research_interests": "Optical instrumentation, Mechatronics System Design, Laser assisted synthesis and characterization of Nano structures for functional devices",
+    "department": "Mechanical Engineering",
+    "photo_url": "http://people.iiti.ac.in/~meiiti/wp-content/uploads/2020/09/Dr.-Palani-1.jpg",
+    "profile_url": "https://www.iiti.ac.in/people/~palaniia/"
+  },
+  {
+    "name": "Dr. Ritunesh Kumar",
+    "designation": "Professor",
+    "email": "ritunesh@iiti.ac.in",
+    "website": null,
+    "research_interests": "Desiccant Cooling Systems, Renewable Energy, Heat Transfer",
+    "department": "Mechanical Engineering",
+    "photo_url": "http://people.iiti.ac.in/~meiiti/wp-content/uploads/2018/01/ritunesh-kumar.jpg",
+    "profile_url": "http://people.iiti.ac.in/~meiiti/index.php/dr-ritunesh-kumar/"
+  },
+  {
+    "name": "Dr. Santosh K. Sahu",
+    "designation": "Professor",
+    "email": "santoshk@iiti.ac.in",
+    "website": "http://people.iiti.ac.in/~santosh/",
+    "research_interests": "Thermal Engineering, Thermal hydraulics, Multi phase flows",
+    "department": "Mechanical Engineering",
+    "photo_url": "http://people.iiti.ac.in/~meiiti/wp-content/uploads/2018/01/sk-sahu.jpg",
+    "profile_url": "http://people.iiti.ac.in/~meiiti/?page_id=254&preview=true"
+  },
+  {
+    "name": "Dr. Dhinakaran Shanmugam",
+    "designation": "Professor & HoD",
+    "email": "sdhina@iiti.ac.in",
+    "website": "http://people.iiti.ac.in/~sdhina/",
+    "research_interests": "Computational Fluid Dynamics (CFD), Biofluid Mechanics & Bioheat Transfer, Heat transfer in porous media, Nanofluids",
+    "department": "Mechanical Engineering",
+    "photo_url": "http://people.iiti.ac.in/~meiiti/wp-content/uploads/2024/08/Copy-of-jpeg-Dhinakaran-Photo-113kb.jpg",
+    "profile_url": "http://people.iiti.ac.in/~sdhina/"
+  },
+  {
+    "name": "Dr. Kazi Sabiruddin",
+    "designation": "Professor",
+    "email": "skazi@iiti.ac.in",
+    "website": null,
+    "research_interests": " Surface Engineering, Manufacturing",
+    "department": "Mechanical Engineering",
+    "photo_url": "http://people.iiti.ac.in/~meiiti/wp-content/uploads/2018/10/Dr.-Kazi-298x300.jpg",
+    "profile_url": "http://people.iiti.ac.in/~meiiti/index.php/dr-kazi-sabiruddin/"
+  },
+  {
+    "name": "Dr. Satyajit Chatterjee",
+    "designation": "Professor",
+    "email": "satyajit@iiti.ac.in",
+    "website": null,
+    "research_interests": "Surface Technology, Coatings Tribology, Solid Lubrication",
+    "department": "Mechanical Engineering",
+    "photo_url": "http://people.iiti.ac.in/~meiiti/wp-content/uploads/2018/10/Satyajit-Chatterjee.jpg",
+    "profile_url": "http://people.iiti.ac.in/~meiiti/?page_id=890&preview=true"
+  },
+  {
+    "name": "Dr. Shailesh I. Kundalwal",
+    "designation": "Professor",
+    "email": "kundalwal@iiti.ac.in",
+    "website": "https://shaileshkundalwal.com/",
+    "research_interests": "Computational Nanomechanics of Solids, Finite Element Analysis of Composites, Nanomechanics & Micromechanics of Composites, Nanotechnology in Engineering, Smart Materials and Structures",
+    "department": "Mechanical Engineering",
+    "photo_url": "http://people.iiti.ac.in/~meiiti/wp-content/uploads/2018/01/Shailesh-233x300.jpg",
+    "profile_url": "http://people.iiti.ac.in/~meiiti/index.php/dr-shailesh-i-kundalwal/"
+  },
+  {
+    "name": "Dr. Pavan Kumar Kankar",
+    "designation": "Professor",
+    "email": "pkankar@iiti.ac.in",
+    "website": "https://iiti.irins.org/profile/93831",
+    "research_interests": "Fault Diagnosis of Mechanical Components, Condition Based Maintenance, Machine Learning, Signal Processing",
+    "department": "Mechanical Engineering",
+    "photo_url": "http://people.iiti.ac.in/~meiiti/wp-content/uploads/2018/12/pkk-photo0001-236x300.jpg",
+    "profile_url": "https://iiti.irins.org/profile/93831"
+  },
+  {
+    "name": "Dr. Yuvraj Kumar Madhukar",
+    "designation": "Associate Professor",
+    "email": "yuvrajmadhukar@iiti.ac.in",
+    "website": null,
+    "research_interests": "Laser Material Processing, Water Assisted Laser Processing, Additive Manufacturing",
+    "department": "Mechanical Engineering",
+    "photo_url": "http://people.iiti.ac.in/~meiiti/wp-content/uploads/2018/01/Yuvraj-269x300.jpg",
+    "profile_url": "http://people.iiti.ac.in/~meiiti/index.php/dr-yuvraj-kumar-madhukar/"
+  },
+  {
+    "name": "Dr. Indrasen Singh",
+    "designation": "Associate Professor",
+    "email": "indrasen@iiti.ac.in",
+    "website": null,
+    "research_interests": "Computational solid mechanics, Metallic glass, Nanoglass, Frature mechanics, Mechanical behaviour of materials, Finite element methods",
+    "department": "Mechanical Engineering",
+    "photo_url": "http://people.iiti.ac.in/~meiiti/wp-content/uploads/2018/01/Indrasen-225x300.jpg",
+    "profile_url": "http://people.iiti.ac.in/~meiiti/?page_id=885&preview=true"
+  },
+  {
+    "name": "Dr. Girish Chandra Verma",
+    "designation": "Assistant Professor",
+    "email": "girish.verma@ iiti.ac.in",
+    "website": null,
+    "research_interests": "Machining processes,, Abrasive based finishing process,, Ultrasonic-assisted machining process and Additive manufacturing",
+    "department": "Mechanical Engineering",
+    "photo_url": "http://people.iiti.ac.in/~meiiti/wp-content/uploads/2019/09/DSC_7544-210x300.jpg",
+    "profile_url": "http://people.iiti.ac.in/~meiiti/index.php/dr-girish-chandra-verma-2/"
+  },
+  {
+    "name": "Dr. Harekrishna Yadav",
+    "designation": "Associate Professor",
+    "email": "krishnpme @ iiti.ac.in",
+    "website": null,
+    "research_interests": "Experimental Fluid Dynamics and Heat Transfer, Fluid Structure Interaction, Shear Flow, Flow and Turbulence Measurement using Optical Techniques, Heat Transfer Enhancement, Renewable and Sustainable Energy",
+    "department": "Mechanical Engineering",
+    "photo_url": "http://people.iiti.ac.in/~meiiti/wp-content/uploads/2019/12/Dr.-Harekrishna.jpg",
+    "profile_url": "http://people.iiti.ac.in/~meiiti/index.php/dr-harekrishna-yadav-2/"
+  },
+  {
+    "name": "Dr. Satyanarayan Patel",
+    "designation": "Associate Professor",
+    "email": "spatel @ iiti.ac.in",
+    "website": "https://sites.google.com/view/satyanarayan-patel/home?authuser=0",
+    "research_interests": "Energy conversion, storage and harvesting materials, Solid State Refrigeration, Piezoelectric, Pyroelectric and ferroelectric materials, Energy Engineering",
+    "department": "Mechanical Engineering",
+    "photo_url": "http://people.iiti.ac.in/~meiiti/wp-content/uploads/2019/12/Satyanarayan-Patel_photograph-1-233x300.jpg",
+    "profile_url": "https://sites.google.com/view/satyanarayan-patel/home?authuser=0"
+  },
+  {
+    "name": "Dr. Dan Sathiaraj",
+    "designation": "Associate Professor",
+    "email": "dansathiaraj @ iiti.ac.in",
+    "website": "https://sites.google.com/view/drdansathiaraj",
+    "research_interests": "Medium to High entropy alloys, Severe plastic deformation (SPD), Recrystallization and grain growth study, Micro, Nano- machining of MEAs and HEAs, Surface modification Engineering (SMAT, Laser Shot-peening, etc), Mechanical and functional property study",
+    "department": "Mechanical Engineering",
+    "photo_url": "http://people.iiti.ac.in/~meiiti/wp-content/uploads/2019/12/Dan-photo.jpg",
+    "profile_url": "https://sites.google.com/view/drdansathiaraj"
+  },
+  {
+    "name": "Dr. Ankur Miglani",
+    "designation": "Associate Professor",
+    "email": "amiglani@iiti.ac.in",
+    "website": null,
+    "research_interests": "Combustion of next-generation fuels: Gel fuels and nanoparticle laden fuels, Thermal management of power-dense electronics:  Flow boiling in microchannels, Microfluidics:  Flow freezing in microchannels, Soft-matter: Instabilities in drying colloidal droplets",
+    "department": "Mechanical Engineering",
+    "photo_url": "http://people.iiti.ac.in/~meiiti/wp-content/uploads/2020/02/Untitled-255x300.jpg",
+    "profile_url": "https://scholar.google.co.in/citations?user=6ABZdEoAAAAJ&hl=en"
+  },
+  {
+    "name": "Dr. Ashish Rajak",
+    "designation": "Assistant Professor",
+    "email": "a.rajak @ iiti.ac.in",
+    "website": null,
+    "research_interests": "High strain rate material processing, electromagnetic: forming, welding, crimping, cladding, hemming, powder compaction, explosive welding, vaporizing foil actuator.",
+    "department": "Mechanical Engineering",
+    "photo_url": "http://people.iiti.ac.in/~meiiti/wp-content/uploads/2020/11/IIT-Indore-Profile-Pic-Copy-204x300.jpg",
+    "profile_url": "https://scholar.google.com/citations?user=eHnsIccAAAAJ&hl=en&oi=ao"
+  },
+  {
+    "name": "Dr. Krishna Mohan Kumar",
+    "designation": "Assistant Professor",
+    "email": "kmkumar @ iiti.ac.in",
+    "website": null,
+    "research_interests": "Acoustics of Ducts and Mufflers;, Industrial Noise and Vibration Control;, Automotive Noise Control; and Designing for Quietness;",
+    "department": "Mechanical Engineering",
+    "photo_url": "http://people.iiti.ac.in/~meiiti/wp-content/uploads/2020/11/KMK-Picture-233x300.jpg",
+    "profile_url": "http://people.iiti.ac.in/~meiiti/index.php/2024/09/30/dr-krishna-mohan-kumar"
+  },
+  {
+    "name": "Dr. Sandeep Singh",
+    "designation": "Assistant Professor",
+    "email": "sandeeps @ iiti.ac.in",
+    "website": null,
+    "research_interests": "Solid mechanics and design, Finite element method, Theory of plates and shells, Computational material science, Multiscale modelling of nanomaterials",
+    "department": "Mechanical Engineering",
+    "photo_url": "http://people.iiti.ac.in/~meiiti/wp-content/uploads/2025/02/Photo_9-234x300.jpg",
+    "profile_url": "http://people.iiti.ac.in/~meiiti/index.php/profile/"
+  },
+  {
+    "name": "Dr. S Janakiraman",
+    "designation": "Assistant Professor",
+    "email": "janakiramans @ iiti.ac.in",
+    "website": "https://sites.google.com/iiti.ac.in/advanced-energy-materials-rese/home?authuser=0",
+    "research_interests": "Energy Storage Materials, Lithium & Sodium-ion Batteries, Polymer Electrolytes, Composites & Thin Film Batteries.",
+    "department": "Mechanical Engineering",
+    "photo_url": "http://people.iiti.ac.in/~meiiti/wp-content/uploads/2021/11/Original-IIT-KGP-passport-photo-DSC_7548-1-233x300.jpg",
+    "profile_url": "https://sites.google.com/iiti.ac.in/advanced-energy-materials-rese/home?authuser=0"
+  },
+  {
+    "name": "Dr. Vijai Laxmi",
+    "designation": "Assistant Professor",
+    "email": "vijai.laxmi @ iiti.ac.in",
+    "website": null,
+    "research_interests": "Microfluidics, Fluid mechanics, Development of lab-on-a-chip/organ-on-a-chip models for healthcare purposes",
+    "department": "Mechanical Engineering",
+    "photo_url": "http://people.iiti.ac.in/~meiiti/wp-content/uploads/2022/08/photo-vijai-4-245x300.jpg",
+    "profile_url": "https://iiti.irins.org/profile/305714"
+  },
+  {
+    "name": "Dr. Vibhor Pandhare",
+    "designation": "Assistant Professor",
+    "email": "vibhorpandhare @ iiti.ac.in",
+    "website": "https://sites.google.com/iiti.ac.in/vibhorpandhare/",
+    "research_interests": "Artificial Intelligence, Probability and Statistics, Smart Manufacturing, Cyber-Physical Systems, Prognostics and Health Management, Reliability Engineering",
+    "department": "Mechanical Engineering",
+    "photo_url": "http://people.iiti.ac.in/~meiiti/wp-content/uploads/2023/06/Vibhor_Pandhare-214x300.jpeg",
+    "profile_url": "https://sites.google.com/iiti.ac.in/vibhorpandhare/"
+  },
+  {
+    "name": "Dr. Aman Khurana",
+    "designation": "Assistant Professor",
+    "email": "amankhurana @ iiti.ac.in",
+    "website": "https://sites.google.com/view/aman-khurana/home?authuser=0",
+    "research_interests": "Mechanics of soft active materials, Nonlinear dynamics, Finite element methods for coupled field problems, Stability analysis of electrically driven mechanical structures.",
+    "department": "Mechanical Engineering",
+    "photo_url": "http://people.iiti.ac.in/~meiiti/wp-content/uploads/2023/12/02-1.jpg",
+    "profile_url": "https://sites.google.com/view/aman-khurana/home?authuser=0"
+  },
+  {
+    "name": "Dr. Mayank Chouksey",
+    "designation": "Assistant Professor",
+    "email": "mayank @ iiti.ac.in",
+    "website": "https://sites.google.com/iiti.ac.in/mayank",
+    "research_interests": "Computational Mechanics, Plasticity, Micromechanics, Non-linear Finite Element technique, Mechanics of Fracture, Damage Modelling",
+    "department": "Mechanical Engineering",
+    "photo_url": "http://people.iiti.ac.in/~meiiti/wp-content/uploads/2024/04/Mayank-266x300.jpg",
+    "profile_url": "https://sites.google.com/iiti.ac.in/mayank"
+  },
+  {
+    "name": "Abhijit Ghosh",
+    "designation": null,
+    "email": null,
+    "website": null,
+    "research_interests": null,
+    "department": "Metallurgical Engineering and Materials Science",
+    "photo_url": "http://mems.iiti.ac.in/faculty/images/profimages/ghosh.jpg",
+    "profile_url": "http://mems.iiti.ac.in/faculty/AbhijitGhosh"
+  },
+  {
+    "name": "Ajay Kumar Kushwaha",
+    "designation": null,
+    "email": null,
+    "website": null,
+    "research_interests": null,
+    "department": "Metallurgical Engineering and Materials Science",
+    "photo_url": "http://mems.iiti.ac.in/faculty/images/profimages/prof20.jpeg",
+    "profile_url": "http://mems.iiti.ac.in/faculty/AjayKumarKushwaha"
+  },
+  {
+    "name": "Chandan Halder",
+    "designation": null,
+    "email": null,
+    "website": null,
+    "research_interests": null,
+    "department": "Metallurgical Engineering and Materials Science",
+    "photo_url": "http://mems.iiti.ac.in/faculty/images/profimages/prof1.jpg",
+    "profile_url": "http://mems.iiti.ac.in/faculty/ChandanHalder"
+  },
+  {
+    "name": "Dhirendra Kumar Rai",
+    "designation": null,
+    "email": null,
+    "website": null,
+    "research_interests": null,
+    "department": "Metallurgical Engineering and Materials Science",
+    "photo_url": "http://mems.iiti.ac.in/faculty/images/profimages/prof3.jpg",
+    "profile_url": "http://mems.iiti.ac.in/faculty/DhirendraKumarRai"
+  },
+  {
+    "name": "Dudekula Althaf Basha",
+    "designation": null,
+    "email": null,
+    "website": null,
+    "research_interests": null,
+    "department": "Metallurgical Engineering and Materials Science",
+    "photo_url": "http://mems.iiti.ac.in/faculty/images/profimages/basha.jpg",
+    "profile_url": "http://mems.iiti.ac.in/faculty/DudekulaAlthafBasha"
+  },
+  {
+    "name": "Eswara Prasad Korimilli",
+    "designation": null,
+    "email": null,
+    "website": null,
+    "research_interests": null,
+    "department": "Metallurgical Engineering and Materials Science",
+    "photo_url": "http://mems.iiti.ac.in/faculty/images/profimages/prof6.jpg",
+    "profile_url": "http://mems.iiti.ac.in/faculty/EswarPrasadKormilli"
+  },
+  {
+    "name": "Hemant Borkar",
+    "designation": null,
+    "email": null,
+    "website": null,
+    "research_interests": null,
+    "department": "Metallurgical Engineering and Materials Science",
+    "photo_url": "http://mems.iiti.ac.in/faculty/images/profimages/hemanth.jpg",
+    "profile_url": "http://mems.iiti.ac.in/faculty/HemantBorkar"
+  },
+  {
+    "name": "Jayaprakash Murugesan",
+    "designation": null,
+    "email": null,
+    "website": null,
+    "research_interests": null,
+    "department": "Metallurgical Engineering and Materials Science",
+    "photo_url": "http://mems.iiti.ac.in/faculty/images/profimages/muru.jpg",
+    "profile_url": "http://mems.iiti.ac.in/faculty/JayaprakashMurugesan"
+  },
+  {
+    "name": "Khushubo Devi",
+    "designation": null,
+    "email": null,
+    "website": null,
+    "research_interests": null,
+    "department": "Metallurgical Engineering and Materials Science",
+    "photo_url": "http://mems.iiti.ac.in/faculty/images/profimages/kbu.jpg",
+    "profile_url": "http://mems.iiti.ac.in/faculty/KhushuboDevi"
+  },
+  {
+    "name": "Mrigendra Dubey",
+    "designation": null,
+    "email": null,
+    "website": null,
+    "research_interests": null,
+    "department": "Metallurgical Engineering and Materials Science",
+    "photo_url": "http://mems.iiti.ac.in/faculty/images/profimages/prof11.jpg",
+    "profile_url": "http://mems.iiti.ac.in/faculty/MrigendraDubey"
+  },
+  {
+    "name": "Nisheeth Kumar Prasad",
+    "designation": null,
+    "email": null,
+    "website": null,
+    "research_interests": null,
+    "department": "Metallurgical Engineering and Materials Science",
+    "photo_url": "http://mems.iiti.ac.in/faculty/images/profimages/nissi.jpg",
+    "profile_url": "http://mems.iiti.ac.in/faculty/NisheethKumarPrasad"
+  },
+  {
+    "name": "Parasharam M. Shirage",
+    "designation": null,
+    "email": null,
+    "website": null,
+    "research_interests": null,
+    "department": "Metallurgical Engineering and Materials Science",
+    "photo_url": "http://mems.iiti.ac.in/faculty/images/profimages/shirage.jpg",
+    "profile_url": "http://mems.iiti.ac.in/faculty/ParasharamShirage"
+  },
+  {
+    "name": "Ram Sajeevan Maurya",
+    "designation": null,
+    "email": null,
+    "website": null,
+    "research_interests": null,
+    "department": "Metallurgical Engineering and Materials Science",
+    "photo_url": "http://mems.iiti.ac.in/faculty/images/profimages/rsm.jpg",
+    "profile_url": "http://mems.iiti.ac.in/faculty/RamSajeevanMaurya"
+  },
+  {
+    "name": "Ranjith Kumar Poobalan",
+    "designation": null,
+    "email": null,
+    "website": null,
+    "research_interests": null,
+    "department": "Metallurgical Engineering and Materials Science",
+    "photo_url": "http://mems.iiti.ac.in/faculty/images/profimages/ranjit_sir.jpg",
+    "profile_url": "http://mems.iiti.ac.in/faculty/RanjithKumarPoobalan"
+  },
+  {
+    "name": "Rupesh Devan",
+    "designation": null,
+    "email": null,
+    "website": null,
+    "research_interests": null,
+    "department": "Metallurgical Engineering and Materials Science",
+    "photo_url": "http://mems.iiti.ac.in/faculty/images/profimages/prof2.jpg",
+    "profile_url": "http://mems.iiti.ac.in/faculty/RupeshDevan"
+  },
+  {
+    "name": "Santosh Hosmani",
+    "designation": null,
+    "email": null,
+    "website": null,
+    "research_interests": null,
+    "department": "Metallurgical Engineering and Materials Science",
+    "photo_url": "http://mems.iiti.ac.in/faculty/images/profimages/prof4.png",
+    "profile_url": "http://mems.iiti.ac.in/faculty/SantoshHosmani"
+  },
+  {
+    "name": "Sumanta Samal",
+    "designation": null,
+    "email": null,
+    "website": null,
+    "research_interests": null,
+    "department": "Metallurgical Engineering and Materials Science",
+    "photo_url": "http://mems.iiti.ac.in/faculty/images/profimages/samal.jpg",
+    "profile_url": "http://mems.iiti.ac.in/faculty/SumantaSamal"
+  },
+  {
+    "name": "Sunil Kumar",
+    "designation": null,
+    "email": null,
+    "website": null,
+    "research_interests": null,
+    "department": "Metallurgical Engineering and Materials Science",
+    "photo_url": "http://mems.iiti.ac.in/faculty/images/profimages/prof13.jpg",
+    "profile_url": "http://mems.iiti.ac.in/faculty/SunilKumar"
+  },
+  {
+    "name": "Venkata Vamsi Koruprolu",
+    "designation": null,
+    "email": null,
+    "website": null,
+    "research_interests": null,
+    "department": "Metallurgical Engineering and Materials Science",
+    "photo_url": "http://mems.iiti.ac.in/faculty/images/profimages/prof18.jpg",
+    "profile_url": "http://mems.iiti.ac.in/faculty/KVVamsi"
+  },
+  {
+    "name": "Vinod Kumar",
+    "designation": null,
+    "email": null,
+    "website": null,
+    "research_interests": null,
+    "department": "Metallurgical Engineering and Materials Science",
+    "photo_url": "http://mems.iiti.ac.in/faculty/images/profimages/vinod.jpg",
+    "profile_url": "http://mems.iiti.ac.in/faculty/VinodKumar"
+  },
+  {
+    "name": "Vivek Verma",
+    "designation": null,
+    "email": null,
+    "website": null,
+    "research_interests": null,
+    "department": "Metallurgical Engineering and Materials Science",
+    "photo_url": "http://mems.iiti.ac.in/faculty/images/profimages/vivek.jpeg",
+    "profile_url": "http://mems.iiti.ac.in/faculty/VivekVerma"
+  },
+  {
+    "name": "N B Ballal",
+    "designation": null,
+    "email": null,
+    "website": null,
+    "research_interests": null,
+    "department": "Metallurgical Engineering and Materials Science",
+    "photo_url": "http://mems.iiti.ac.in/faculty/images/profimages/prof19.jpg",
+    "profile_url": "http://mems.iiti.ac.in/faculty/bhallal"
+  },
+  {
+    "name": "Prof. Pankaj R Sagdeo",
+    "designation": "Professor",
+    "email": "prs@iiti.ac.in",
+    "website": "http://people.iiti.ac.in/~prs/",
+    "research_interests": "In house development of scientific instrument, Novel experimental technique and or methodology for material characterization",
+    "department": "Physics",
+    "photo_url": "https://physics.iiti.ac.in/wp-content/uploads/2022/01/Pankaj-300x300.jpg",
+    "profile_url": "https://physics.iiti.ac.in/faculty/"
+  },
+  {
+    "name": "Prof. Rajesh Kumar",
+    "designation": "Professor",
+    "email": "rajeshkumar@iiti.ac.in",
+    "website": "https://sites.google.com/view/madlabrk/",
+    "research_interests": "Experimental Solid State Physics, Organic and Inorganic Semiconductors, Nanostructures",
+    "department": "Physics",
+    "photo_url": "https://physics.iiti.ac.in/wp-content/uploads/2022/01/Rajesh.jpg",
+    "profile_url": "https://physics.iiti.ac.in/faculty/"
+  },
+  {
+    "name": "Prof. Somaditya Sen",
+    "designation": "Professor",
+    "email": "sens@iiti.ac.in",
+    "website": "https://sites.google.com/iiti.ac.in/smart-group-somaditya-sen/",
+    "research_interests": "Structure correlated physical properties, Ferroelectrics, magnetic materials, multiferroics, Magneto-dielectrics, Optoelectronic materials, Light/Gas Sensing materials, Nanomaterials to Single crystals, Simple and Complex oxides: Titanates, Manganites, Vanadates, Dielectric Resonator Antennas, Energy materials",
+    "department": "Physics",
+    "photo_url": "https://physics.iiti.ac.in/wp-content/uploads/2022/01/Somaditya.jpg",
+    "profile_url": "https://physics.iiti.ac.in/faculty/"
+  },
+  {
+    "name": "Prof. Krushna R Mavani",
+    "designation": "Professor",
+    "email": "krushna@iiti.ac.in",
+    "website": "https://pldthzthinfilm.wixsite.com/krushnarmavani",
+    "research_interests": "Structural, Electronic, Magnetic and optical properties and their correlations, Thin Films and Multilayers, Terahertz Spectroscopy, Nanomaterials",
+    "department": "Physics",
+    "photo_url": "https://physics.iiti.ac.in/wp-content/uploads/2022/01/Krushna-2.jpg",
+    "profile_url": "https://physics.iiti.ac.in/faculty/"
+  },
+  {
+    "name": "Prof. Sudeshna Chattopadhyay",
+    "designation": "Professor",
+    "email": "sudeshna@iiti.ac.in",
+    "website": "https://sudeshnahomepage.wixsite.com/sudeshna",
+    "research_interests": "Surface and Interface Science, Soft matter and nanomaterials, Organic/Inorganic hybrid materials, Energy conversion and storage research, Battery materials",
+    "department": "Physics",
+    "photo_url": "https://physics.iiti.ac.in/wp-content/uploads/2022/01/Sudeshna.jpg",
+    "profile_url": "https://physics.iiti.ac.in/faculty/"
+  },
+  {
+    "name": "Prof. Preeti A. Bhobe",
+    "designation": "Professor",
+    "email": "pbhobe@iiti.ac.in",
+    "website": "http://iiti.ac.in/people/~pbhobe/index.html",
+    "research_interests": "Study of crystal and electronic structure, Magnetic properties of functional materials, X-ray Absorption Fine Structure (XAFS), Photoemission Spectroscopy (PES)",
+    "department": "Physics",
+    "photo_url": "https://physics.iiti.ac.in/wp-content/uploads/2022/01/Preeti-1.jpg",
+    "profile_url": "https://physics.iiti.ac.in/faculty/"
+  },
+  {
+    "name": "Dr. Onkar Game",
+    "designation": "Assistant Professor",
+    "email": "ogame@iiti.ac.in",
+    "website": "https://sites.google.com/view/dr-onkar-game-iit-indore/home",
+    "research_interests": "Photovoltaics, Organic and inorganic semiconductors, Halide perovskites, Optoelectronics",
+    "department": "Physics",
+    "photo_url": "https://physics.iiti.ac.in/wp-content/uploads/2022/04/Onkar-Photo.jpg",
+    "profile_url": "https://physics.iiti.ac.in/faculty/"
+  },
+  {
+    "name": "Dr. Naresh Kumar Kumawat",
+    "designation": "Assistant Professor",
+    "email": "nkumawat@iiti.ac.in",
+    "website": "https://scholar.google.co.in/citations?user=69VqlgIAAAAJ&amp;hl=en",
+    "research_interests": "Metal Halide Perovskite (MHP) and Organic Semiconductors, Light-Emitting Diodes (PeLEDs) and Solar Cells, Device Characteristics, Device Physics",
+    "department": "Physics",
+    "photo_url": "https://physics.iiti.ac.in/wp-content/uploads/2022/08/Naresh-e1663745100377.png",
+    "profile_url": "https://physics.iiti.ac.in/faculty/"
+  },
+  {
+    "name": "Dr. Bivas Dutta",
+    "designation": "Assistant Professor",
+    "email": "bivas@iiti.ac.in",
+    "website": "https://scholar.google.fr/citations?user=CmjDQPkAAAAJ&amp;hl=en",
+    "research_interests": "Quantum heat transport and thermodynamics, Nano-electronic quantum devices: Quantum-Dots, Superconducting tunnel junctions local thermometry and heating, Quantum Hall thermal transport; Non-abelian Majorana edge modes; Quasiparticle interferometer",
+    "department": "Physics",
+    "photo_url": "https://physics.iiti.ac.in/wp-content/uploads/2024/02/15103F073-942x1024.jpg",
+    "profile_url": "https://physics.iiti.ac.in/faculty/"
+  },
+  {
+    "name": "Dr. Srimanta Pakhira",
+    "designation": "Associate Professor",
+    "email": "spakhira@iiti.ac.in",
+    "website": "https://spakhirafsu.wixsite.com/acmslab",
+    "research_interests": "Applications of Density Functional Theory (DFT), Strong Correlation Effects in Electronic Materials, Hybrid Organic-Inorganic Perovskites and Theory of Novel 2D Materials, Alkali-ion Battery, Novel Batteries Technology, Renewable Energy Materials, Solar Cells, Transition Metal Dichalcogenides (TMDs), H2 and O2 Evolution Reactions",
+    "department": "Physics",
+    "photo_url": "https://physics.iiti.ac.in/wp-content/uploads/2022/01/Srimanta2.jpg",
+    "profile_url": "https://physics.iiti.ac.in/faculty/"
+  },
+  {
+    "name": "Dr. Alestin Mawrie",
+    "designation": "Assistant Professor",
+    "email": "amawrie@iiti.ac.in",
+    "website": "https://sites.google.com/view/dr-alestin-mawrie",
+    "research_interests": "Mesoscale and Nanoscale Physics, Low Dimensional Systems, Topological Insulators",
+    "department": "Physics",
+    "photo_url": "https://physics.iiti.ac.in/wp-content/uploads/2022/01/Alestin-828x1024.jpg",
+    "profile_url": "https://physics.iiti.ac.in/faculty/"
+  },
+  {
+    "name": "Prof. Raghunath Sahoo",
+    "designation": "Professor",
+    "email": "raghunath@iiti.ac.in",
+    "website": "https://iiti.ac.in/people/~raghunath/index.html",
+    "research_interests": "Relativistic Heavy Ion Collisions: Quark-Gluon Plasma, Phenomenology of Quark-Gluon Plasma, Global Properties and Heavy Flavors",
+    "department": "Physics",
+    "photo_url": "https://physics.iiti.ac.in/wp-content/uploads/2022/01/Webp.net-resizeimage-1024x768.jpg",
+    "profile_url": "https://physics.iiti.ac.in/faculty/"
+  },
+  {
+    "name": "Prof. Ankhi Roy",
+    "designation": "Professor",
+    "email": "ankhi@iiti.ac.in",
+    "website": "https://sites.google.com/iiti.ac.in/drankhiroy/home",
+    "research_interests": "Heavy Flavours in Heavy Ion Collisions, Detector and Physics Simulation, QGP Phenomenology, Experiments: ALICE@CERN, CBM@GSI, EPIC@BNL",
+    "department": "Physics",
+    "photo_url": "https://physics.iiti.ac.in/wp-content/uploads/2022/01/Ankhi.jpg",
+    "profile_url": "https://physics.iiti.ac.in/faculty/"
+  },
+  {
+    "name": "Prof. Subhendu Rakshit",
+    "designation": "Professor",
+    "email": "rakshit@iiti.ac.in",
+    "website": "https://sites.google.com/iiti.ac.in/srakshit/home?authuser=1",
+    "research_interests": "Particle physics phenomenology, Neutrino physics, Higgs search at LHC, Dark matter",
+    "department": "Physics",
+    "photo_url": "https://physics.iiti.ac.in/wp-content/uploads/2022/01/Subhendu.jpg",
+    "profile_url": "https://physics.iiti.ac.in/faculty/"
+  },
+  {
+    "name": "Dr. Manvendra Mahato",
+    "designation": "Associate Professor",
+    "email": "manav@iiti.ac.in",
+    "website": "https://iiti.ac.in/people/~manav/",
+    "research_interests": "Gauge/gravity correspondence, String Theory, General relativity",
+    "department": "Physics",
+    "photo_url": "https://physics.iiti.ac.in/wp-content/uploads/2022/01/mahato-1.jpg",
+    "profile_url": "https://physics.iiti.ac.in/faculty/"
+  },
+  {
+    "name": "Dr. Debajyoti Sarkar",
+    "designation": "Assistant Professor",
+    "email": "dsarkar@iiti.ac.in",
+    "website": "http://people.iiti.ac.in/~dsarkar/",
+    "research_interests": "AdS/CFT duality and its applications in strongly coupled field theory, Quantum information, Topics in gravitational and black hole physics",
+    "department": "Physics",
+    "photo_url": "https://physics.iiti.ac.in/wp-content/uploads/2022/01/Debajyoti-873x1024.jpeg",
+    "profile_url": "https://physics.iiti.ac.in/faculty/"
+  },
+  {
+    "name": "Dr. Dipankar Das",
+    "designation": "Assistant Professor",
+    "email": "d.das@iiti.ac.in",
+    "website": "http://people.iiti.ac.in/~d.das/",
+    "research_interests": "Phenomenology of the Higgs boson, Flavor Physics, Interplay between Neutrino mass and Dark Matter",
+    "department": "Physics",
+    "photo_url": "https://physics.iiti.ac.in/wp-content/uploads/2022/01/Webp.net-resizeimage-1.jpg",
+    "profile_url": "https://physics.iiti.ac.in/faculty/"
+  },
+  {
+    "name": "Dr. Mritunjay Kumar Verma",
+    "designation": "Assistant Professor",
+    "email": "mritunjay@iiti.ac.in",
+    "website": "https://sites.google.com/view/mritunjay314/home?authuser=0",
+    "research_interests": "String theory, Holography, Conformal field theory, General relativity",
+    "department": "Physics",
+    "photo_url": "https://physics.iiti.ac.in/wp-content/uploads/2023/11/photo.jpg",
+    "profile_url": "https://physics.iiti.ac.in/faculty/"
+  },
+  {
+    "name": "Prof. Sarika Jalan",
+    "designation": "Professor",
+    "email": "sarika@iiti.ac.in",
+    "website": "https://iiti.ac.in/people/~sarika/",
+    "research_interests": "Complex Systems and nonlinear dynamics, Systems biology, Spectral graph theory, Applications of Random matrix theory to biological and social systems, Synchronization, Coupled chaotic, Delayed networks, Extreme events, Adaptation and Evolution",
+    "department": "Physics",
+    "photo_url": "https://physics.iiti.ac.in/wp-content/uploads/2022/01/Webp.net-resizeimage-1.png",
+    "profile_url": "https://physics.iiti.ac.in/faculty/"
+  },
+  {
+    "name": "Dr. Deepak Gupta",
+    "designation": "Assistant Professor",
+    "email": "deepak.gupta@iiti.ac.in",
+    "website": "https://sites.google.com/view/deepak-gupta",
+    "research_interests": "Nonequilibrium Statistical Physics., Biophysics., Stochastic Processes., Theoretical Ecology., Complex Systems",
+    "department": "Physics",
+    "photo_url": "https://physics.iiti.ac.in/wp-content/uploads/2024/02/Deepak_Gupta.jpg",
+    "profile_url": "https://physics.iiti.ac.in/faculty/"
+  }
+]
