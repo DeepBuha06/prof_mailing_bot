@@ -74,56 +74,82 @@ def load_all_faculty_data(folder_path="iitgn_faculty/faculty"):
 
     return all_faculty_data
 
-# Load faculty data
+
+
 load_all_faculty_data()
 
-# Create DataFrame
 df = pd.DataFrame(all_faculty_data)
-
-# COMPREHENSIVE FIX for research_interests column
-def ensure_research_interests_column(df):
-    """Ensure research_interests column exists with meaningful defaults"""
-    
-    if "research_interests" in df.columns:
-        # Column exists, just fill NaN values
-        df["research_interests"] = df["research_interests"].fillna("General Research")
-        print("[INFO] research_interests column found, filled NaN values")
-        return df
-    
-    # Column doesn't exist, try alternatives
-    alternative_fields = [
-        "research_interest", "interests", "research_areas", 
-        "specialization", "research_focus", "expertise", "fields"
-    ]
-    
-    for alt_field in alternative_fields:
-        if alt_field in df.columns:
-            df["research_interests"] = df[alt_field].fillna("General Research")
-            print(f"[INFO] Using '{alt_field}' as research_interests")
-            return df
-    
-    # No alternatives found, create intelligent defaults
-    if "department" in df.columns:
-        df["research_interests"] = df["department"].apply(
-            lambda dept: f"{dept} Research" if pd.notna(dept) and str(dept).strip() != "" else "General Research"
-        )
-        print("[INFO] Created research_interests based on department")
-    else:
-        df["research_interests"] = "General Research"
-        print("[INFO] Created generic research_interests column")
-    
-    return df
-
-# Apply the fix
-df = ensure_research_interests_column(df)
-
-# Remove duplicates
+if "research_interests" not in df.columns:
+    df["research_interests"] = ""
+# print(df.shape)
 df = df.drop_duplicates(subset=["name", "department"])
 
-print(f"DataFrame shape: {df.shape}")
-print(f"Sample research_interests: {df['research_interests'].head().tolist()}")
+# print(df.shape)
 
-# Now safe to proceed with factorization
+# ax = plt.axes()
+
+# sns.heatmap(df.isnull(), cbar=False, ax=ax)
+# plt.title("Missing Values Heatmap")
+# plt.xticks(rotation=45, fontsize=6)
+# plt.yticks(fontsize=6)
+# plt.show()
+# def extract_useful_features(df):
+#     df["missing_interests"] = df["research_interests"].isnull().astype(int)
+
+#     df["has_website"] = df["website"].notnull().astype(int)
+
+#     df["has_photo"] = df["photo"].notnull().astype(int)
+
+#     df["num_keywords"] = df["research_interests"].apply(
+#         lambda x: len(x.split(",")) if pd.notnull(x) else 0
+#     )
+
+#     df["profile_url_valid"] = df["profile_url"].apply(
+#         lambda x: str(x).startswith("http")
+#     ).astype(int)
+
+#     def encode_designation(desig):
+#         if not isinstance(desig, str):
+#             return -1
+#         d = desig.lower()
+#         if "assistant" in d:
+#             return 0
+#         elif "associate" in d:
+#             return 1
+#         elif "professor" in d:
+#             return 2
+#         return -1
+
+#     df["designation_level"] = df["designation"].apply(encode_designation)
+
+#     return df
+# df = extract_useful_features(df)
+
+# column_of_interest = [
+#     "missing_interests",
+#     "has_website",
+#     "has_photo",
+#     "num_keywords",
+#     "profile_url_valid",
+#     "designation_level"
+# ]
+
+
+# correlation_matrix = df[column_of_interest].corr(method='spearman')
+
+# sns.set_theme(style="white")
+# plt.figure(figsize=(8, 10))
+
+# heatmap = sns.heatmap(correlation_matrix, annot=True, fmt=".2f", cmap="coolwarm", cbar_kws={"label": "Spearman Correlation"})
+# heatmap.set_title("Correlation Heatmap of Faculty Data", fontdict={"fontsize": 16}, pad=12)
+# plt.xticks(rotation=45, fontsize=10)
+# plt.yticks(fontsize=10)
+# plt.tight_layout()
+# plt.show()
+
+
+print(df.shape)
+
 df["tag_id"], _ = pd.factorize(df["research_interests"])
 df["tagged_research_interests"] = df["tag_id"].astype(str) + " " + df["research_interests"].fillna("")
 df["tagged_research_interests"] = df["tagged_research_interests"].str.replace(r"\\,", ",", regex=True)
@@ -131,7 +157,7 @@ df["tagged_research_interests"] = df["tagged_research_interests"].str.replace(r"
 from langchain_core.documents import Document
 
 raw_documents = [
-    Document(page_content=text if text.strip() else "General Research")
+    Document(page_content=text)
     for text in df["tagged_research_interests"].tolist()
 ]
 text_splitter = CharacterTextSplitter(chunk_size=1000000, chunk_overlap=0, separator="\n")
@@ -140,64 +166,56 @@ documents = text_splitter.split_documents(raw_documents)
 import tempfile
 from langchain.vectorstores import Chroma as ChromaBase
 import shutil
+import streamlit as st
 
 CHROMA_PATH = "./.chroma_index"
 
 @st.cache_resource
 def load_vectorstore():
-    try:
-        if not os.path.exists(CHROMA_PATH):
-            os.makedirs(CHROMA_PATH)
-            chroma = ChromaBase.from_documents(
-                documents=documents,
-                embedding=embedding_model,
-                persist_directory=CHROMA_PATH
-            )
-            chroma.persist()
-        else:
-            chroma = ChromaBase(
-                embedding_function=embedding_model,
-                persist_directory=CHROMA_PATH
-            )
-        return chroma
-    except Exception as e:
-        print(f"[ERROR] Failed to load vectorstore: {e}")
-        return None
+    if not os.path.exists(CHROMA_PATH):
+        os.makedirs(CHROMA_PATH)
+        chroma = ChromaBase.from_documents(
+            documents=documents,
+            embedding=embedding_model,
+            persist_directory=CHROMA_PATH
+        )
+        chroma.persist()
+    else:
+        chroma = ChromaBase(
+            embedding_function=embedding_model,
+            persist_directory=CHROMA_PATH
+        )
+    return chroma
 
 db_df = load_vectorstore()
 
+
+# query = "Sensor networks, Machine learning with sustainibility"
+# docs = db_df.similarity_search(query, k=10)
+
+# tag_ids = [int(doc.page_content.split()[0]) for doc in docs]
+# data = df[df["tag_id"].isin(tag_ids)]
+
 def retrieve_symantic_recommendations(query: str, top_k: int = 10) -> list[dict]:
-    if db_df is None:
-        print("[WARN] Vectorstore not available, returning empty results")
-        return []
-    
-    try:
-        recs = db_df.similarity_search(query, k=top_k * 10)  
+    recs = db_df.similarity_search(query, k=top_k * 10)  
 
-        prof_ids = []
-        seen = set()
+    prof_ids = []
+    seen = set()
 
-        for doc in recs:
-            try:
-                content = doc.page_content.strip('"')
-                if not content:
-                    continue
-                    
-                tag = int(content.split()[0])
-                if tag not in seen:
-                    prof_ids.append(tag)
-                    seen.add(tag)
-                if len(prof_ids) >= top_k:
-                    break
-            except (ValueError, IndexError) as e:
-                print(f"[WARN] Could not parse tag from document: {doc.page_content[:50]}...")
-                continue
+    for doc in recs:
+        tag = int(doc.page_content.strip('"').split()[0])
+        if tag not in seen:
+            prof_ids.append(tag)
+            seen.add(tag)
+        if len(prof_ids) >= top_k:
+            break
 
-        result_df = df[df["tag_id"].isin(prof_ids)]
-        result_df = result_df.drop(columns=["tag_id", "tagged_research_interests"], errors="ignore")
+    result_df = df[df["tag_id"].isin(prof_ids)]
+    result_df = result_df.drop(columns=["tag_id", "tagged_research_interests"], errors="ignore")
 
-        return result_df.to_dict(orient="records")
-    
-    except Exception as e:
-        print(f"[ERROR] Error in retrieve_symantic_recommendations: {e}")
-        return []
+    return result_df.to_dict(orient="records")
+
+
+
+
+
