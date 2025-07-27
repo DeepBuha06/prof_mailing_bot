@@ -85,8 +85,17 @@ def load_all_faculty_data(folder_path="iitgn_faculty/faculty"):
 load_all_faculty_data()
 
 df = pd.DataFrame(all_faculty_data)
-# print(df.shape)
-df = df.drop_duplicates(subset=["name", "department"])
+
+# If no data was loaded, create a dataframe with the expected columns
+if df.empty:
+    df = pd.DataFrame(columns=["name", "department", "research_interests"])
+
+# Make sure the column exists even if partially missing
+if "research_interests" not in df.columns:
+    df["research_interests"] = ""
+
+df = df.drop_duplicates(subset=["name", "department"], errors="ignore")
+
 
 # print(df.shape)
 
