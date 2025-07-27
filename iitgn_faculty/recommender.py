@@ -161,7 +161,7 @@ df = df.drop_duplicates(subset=["name", "department"], errors="ignore")
 
 print(df.shape)
 
-df["cleaned_interests"] = df["research_interests"].replace("", "no interests")
+df["cleaned_interests"] = df["research_interests"].replace("", "-1 no interests")
 df["tag_id"], _ = pd.factorize(df["cleaned_interests"])
 
 df["tagged_research_interests"] = df["tag_id"].astype(str) + " " + df["cleaned_interests"]
