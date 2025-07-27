@@ -60,6 +60,8 @@ def load_all_faculty_data(folder_path="iitgn_faculty/faculty"):
 
                     college_name = infer_college_name(file)
                     for prof in data:
+                        if not isinstance(prof, dict):
+                            continue
                         prof["college_name"] = college_name
                         prof["profile_url"] = prof.get("profile_url", "#")
                         prof["photo"] = prof.get("photo", "")
@@ -67,6 +69,9 @@ def load_all_faculty_data(folder_path="iitgn_faculty/faculty"):
                         prof["work_experience"] = prof.get("work_experience", "")
                         prof["selected_publications"] = prof.get("selected_publications", "")
                         prof["research_interests"] = prof.get("research_interests", "")
+
+                        all_faculty_data.append(prof)
+
 
                     all_faculty_data.extend(data)
 
