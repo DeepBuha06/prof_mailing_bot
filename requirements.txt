@@ -21,4 +21,6 @@ python-dotenv
 matplotlib
 seaborn
 numpy
-langchain_chroma
+pysqlite3-binary
+chromadb
+langchain-chroma
