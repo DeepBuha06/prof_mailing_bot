@@ -66,6 +66,7 @@ def load_all_faculty_data(folder_path="iitgn_faculty/faculty"):
                         prof["academic_background"] = prof.get("academic_background", "")
                         prof["work_experience"] = prof.get("work_experience", "")
                         prof["selected_publications"] = prof.get("selected_publications", "")
+                        prof["research_interests"] = prof.get("research_interests", "")
 
                     all_faculty_data.extend(data)
 
@@ -79,8 +80,6 @@ def load_all_faculty_data(folder_path="iitgn_faculty/faculty"):
 load_all_faculty_data()
 
 df = pd.DataFrame(all_faculty_data)
-if "research_interests" not in df.columns:
-    df["research_interests"] = "research_interests"
 # print(df.shape)
 df = df.drop_duplicates(subset=["name", "department"])
 
