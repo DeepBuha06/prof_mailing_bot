@@ -9,7 +9,6 @@ from langchain_community.document_loaders import TextLoader
 from langchain_text_splitters import CharacterTextSplitter
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from langchain_google_genai import GoogleGenerativeAI
-from langchain_chroma import Chroma  
 
 import streamlit as st
 
@@ -158,7 +157,6 @@ text_splitter = CharacterTextSplitter(chunk_size=0, chunk_overlap=0, separator="
 documents = text_splitter.split_documents(raw_documents)
 
 import tempfile
-from langchain_chroma import Chroma
 from langchain.vectorstores import Chroma as ChromaBase
 import shutil
 import streamlit as st
