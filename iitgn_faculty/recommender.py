@@ -66,6 +66,8 @@ def load_all_faculty_data(folder_path="iitgn_faculty/faculty"):
                         prof["academic_background"] = prof.get("academic_background", "")
                         prof["work_experience"] = prof.get("work_experience", "")
                         prof["selected_publications"] = prof.get("selected_publications", "")
+                        # Ensure research_interests exists in each prof record
+                        prof["research_interests"] = prof.get("research_interests", "")
 
                     all_faculty_data.extend(data)
 
@@ -74,85 +76,31 @@ def load_all_faculty_data(folder_path="iitgn_faculty/faculty"):
 
     return all_faculty_data
 
-
-
 load_all_faculty_data()
 
 df = pd.DataFrame(all_faculty_data)
+
+# FIX: Ensure research_interests column exists before using it
 if "research_interests" not in df.columns:
+    print("[INFO] research_interests column not found, creating empty column")
     df["research_interests"] = ""
-# print(df.shape)
+
+# Remove duplicates
 df = df.drop_duplicates(subset=["name", "department"])
-
-# print(df.shape)
-
-# ax = plt.axes()
-
-# sns.heatmap(df.isnull(), cbar=False, ax=ax)
-# plt.title("Missing Values Heatmap")
-# plt.xticks(rotation=45, fontsize=6)
-# plt.yticks(fontsize=6)
-# plt.show()
-# def extract_useful_features(df):
-#     df["missing_interests"] = df["research_interests"].isnull().astype(int)
-
-#     df["has_website"] = df["website"].notnull().astype(int)
-
-#     df["has_photo"] = df["photo"].notnull().astype(int)
-
-#     df["num_keywords"] = df["research_interests"].apply(
-#         lambda x: len(x.split(",")) if pd.notnull(x) else 0
-#     )
-
-#     df["profile_url_valid"] = df["profile_url"].apply(
-#         lambda x: str(x).startswith("http")
-#     ).astype(int)
-
-#     def encode_designation(desig):
-#         if not isinstance(desig, str):
-#             return -1
-#         d = desig.lower()
-#         if "assistant" in d:
-#             return 0
-#         elif "associate" in d:
-#             return 1
-#         elif "professor" in d:
-#             return 2
-#         return -1
-
-#     df["designation_level"] = df["designation"].apply(encode_designation)
-
-#     return df
-# df = extract_useful_features(df)
-
-# column_of_interest = [
-#     "missing_interests",
-#     "has_website",
-#     "has_photo",
-#     "num_keywords",
-#     "profile_url_valid",
-#     "designation_level"
-# ]
-
-
-# correlation_matrix = df[column_of_interest].corr(method='spearman')
-
-# sns.set_theme(style="white")
-# plt.figure(figsize=(8, 10))
-
-# heatmap = sns.heatmap(correlation_matrix, annot=True, fmt=".2f", cmap="coolwarm", cbar_kws={"label": "Spearman Correlation"})
-# heatmap.set_title("Correlation Heatmap of Faculty Data", fontdict={"fontsize": 16}, pad=12)
-# plt.xticks(rotation=45, fontsize=10)
-# plt.yticks(fontsize=10)
-# plt.tight_layout()
-# plt.show()
-
 
 print(df.shape)
 
-df["tag_id"], _ = pd.factorize(df["research_interests"])
-df["tagged_research_interests"] = df["tag_id"].astype(str) + " " + df["research_interests"].fillna("")
-df["tagged_research_interests"] = df["tagged_research_interests"].str.replace(r"\\,", ",", regex=True)
+# FIX: Check if research_interests column exists before factorizing
+if "research_interests" in df.columns:
+    df["tag_id"], _ = pd.factorize(df["research_interests"])
+    df["tagged_research_interests"] = df["tag_id"].astype(str) + " " + df["research_interests"].fillna("")
+    df["tagged_research_interests"] = df["tagged_research_interests"].str.replace(r"\\,", ",", regex=True)
+else:
+    # Fallback: create dummy data if research_interests is missing
+    print("[WARN] research_interests column still missing, creating dummy data")
+    df["research_interests"] = ""
+    df["tag_id"] = range(len(df))  # Create unique IDs
+    df["tagged_research_interests"] = df["tag_id"].astype(str) + " "
 
 from langchain_core.documents import Document
 
@@ -189,13 +137,6 @@ def load_vectorstore():
 
 db_df = load_vectorstore()
 
-
-# query = "Sensor networks, Machine learning with sustainibility"
-# docs = db_df.similarity_search(query, k=10)
-
-# tag_ids = [int(doc.page_content.split()[0]) for doc in docs]
-# data = df[df["tag_id"].isin(tag_ids)]
-
 def retrieve_symantic_recommendations(query: str, top_k: int = 10) -> list[dict]:
     recs = db_df.similarity_search(query, k=top_k * 10)  
 
@@ -203,19 +144,18 @@ def retrieve_symantic_recommendations(query: str, top_k: int = 10) -> list[dict]
     seen = set()
 
     for doc in recs:
-        tag = int(doc.page_content.strip('"').split()[0])
-        if tag not in seen:
-            prof_ids.append(tag)
-            seen.add(tag)
-        if len(prof_ids) >= top_k:
-            break
+        try:
+            tag = int(doc.page_content.strip('"').split()[0])
+            if tag not in seen:
+                prof_ids.append(tag)
+                seen.add(tag)
+            if len(prof_ids) >= top_k:
+                break
+        except (ValueError, IndexError) as e:
+            print(f"[WARN] Could not parse tag from document: {doc.page_content[:50]}...")
+            continue
 
     result_df = df[df["tag_id"].isin(prof_ids)]
     result_df = result_df.drop(columns=["tag_id", "tagged_research_interests"], errors="ignore")
 
     return result_df.to_dict(orient="records")
-
-
-
-
-
