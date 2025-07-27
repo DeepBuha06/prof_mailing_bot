@@ -39,10 +39,15 @@ def infer_college_name(filename: str) -> str:
             return val
     return "Unknown"
 
-def load_all_faculty_data(folder_path=r"iitgn_faculty/faculty"):
+def load_all_faculty_data(folder_path="iitgn_faculty/faculty"):
     global all_faculty_data
     if all_faculty_data:  # Already loaded
         return all_faculty_data
+
+    # Handle missing directory gracefully
+    if not os.path.exists(folder_path):
+        print(f"[WARN] Faculty data folder not found: {folder_path}")
+        return []
 
     for file in os.listdir(folder_path):
         if file.endswith(".json"):
@@ -54,7 +59,6 @@ def load_all_faculty_data(folder_path=r"iitgn_faculty/faculty"):
                         data = [data]
 
                     college_name = infer_college_name(file)
-
                     for prof in data:
                         prof["college_name"] = college_name
                         prof["profile_url"] = prof.get("profile_url", "#")
@@ -71,7 +75,6 @@ def load_all_faculty_data(folder_path=r"iitgn_faculty/faculty"):
     return all_faculty_data
 
 
-load_all_faculty_data()
 
 df = pd.DataFrame(all_faculty_data)
 # print(df.shape)
