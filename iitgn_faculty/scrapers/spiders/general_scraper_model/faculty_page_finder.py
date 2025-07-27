@@ -4,10 +4,8 @@ import json
 from urllib.parse import urljoin
 from playwright.sync_api import sync_playwright
 import google.generativeai as genai
-from dotenv import load_dotenv
 import streamlit as st
 
-load_dotenv()
 genai.configure(api_key=os.getenv(st.secrets["GEMINI_API_KEY1"]))
 model = genai.GenerativeModel("gemini-2.0-flash")
 

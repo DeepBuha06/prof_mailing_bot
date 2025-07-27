@@ -3,7 +3,6 @@ import os
 from playwright.sync_api import sync_playwright
 import google.generativeai as genai
 import re
-from dotenv import load_dotenv
 
 
 def clean_html(raw_html):
@@ -13,7 +12,7 @@ def clean_html(raw_html):
     raw_html = re.sub(r"\s{2,}", " ", raw_html) 
     return raw_html.strip() 
 import streamlit as st
-load_dotenv()
+
 genai.configure(api_key=os.getenv(st.secrets["GEMINI_API_KEY"]))
 model = genai.GenerativeModel("gemini-2.0-flash")
 

@@ -3,14 +3,13 @@ import json
 import re
 import time
 import traceback
-from dotenv import load_dotenv
 from serpapi import GoogleSearch
 import google.generativeai as genai
 import concurrent.futures
 import streamlit as st
 
 # Load API keys
-load_dotenv()
+
 SERP_API_KEY = os.getenv("SERP_API_KEY")
 GEMINI_API_KEY = os.getenv(st.secrets["GEMINI_API_KEY"])
 

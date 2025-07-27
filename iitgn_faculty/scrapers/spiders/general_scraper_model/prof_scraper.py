@@ -5,8 +5,7 @@ import json
 import re
 import os
 import sys
-from dotenv import load_dotenv
-load_dotenv()
+
 import streamlit as st
 genai.configure(api_key=os.getenv(st.secrets["GEMINI_API_KEY1"]))
 model = genai.GenerativeModel("gemini-2.0-flash")

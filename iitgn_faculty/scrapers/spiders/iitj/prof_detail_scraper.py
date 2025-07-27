@@ -5,14 +5,13 @@ import json
 import re
 import os
 import sys
-from dotenv import load_dotenv
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from general_scraper_model.dept_link_scraper import find_dept_links
 from general_scraper_model.prof_scraper import extract_professor_info, clean_html
 
 import streamlit as st
-load_dotenv()
+
 genai.configure(api_key=os.getenv(st.secrets["GEMINI_API_KEY1"]))
 model = genai.GenerativeModel("gemini-2.0-flash")
 

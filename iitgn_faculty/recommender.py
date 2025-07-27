@@ -10,8 +10,7 @@ from langchain_text_splitters import CharacterTextSplitter
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from langchain_google_genai import GoogleGenerativeAI
 from langchain_chroma import Chroma  
-from dotenv import load_dotenv
-load_dotenv()
+
 import streamlit as st
 
 embedding_model = GoogleGenerativeAIEmbeddings(

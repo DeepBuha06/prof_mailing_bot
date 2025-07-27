@@ -1,7 +1,5 @@
 import google.generativeai as genai
 import os
-from dotenv import load_dotenv
-load_dotenv()
 import sys
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from just_backup_data.interaction_logger import plan_followup, log_interaction
