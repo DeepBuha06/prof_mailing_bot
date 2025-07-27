@@ -76,6 +76,8 @@ def load_all_faculty_data(folder_path="iitgn_faculty/faculty"):
 
 
 
+load_all_faculty_data()
+
 df = pd.DataFrame(all_faculty_data)
 # print(df.shape)
 df = df.drop_duplicates(subset=["name", "department"])
@@ -156,7 +158,7 @@ raw_documents = [
     Document(page_content=text)
     for text in df["tagged_research_interests"].tolist()
 ]
-text_splitter = CharacterTextSplitter(chunk_size=100000, chunk_overlap=0, separator="\n")
+text_splitter = CharacterTextSplitter(chunk_size=1000000, chunk_overlap=0, separator="\n")
 documents = text_splitter.split_documents(raw_documents)
 
 import tempfile
