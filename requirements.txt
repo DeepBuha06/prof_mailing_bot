@@ -10,3 +10,6 @@ protobuf
 google-generativeai
 chromadb
 langchain
+seaborn
+matplotlib
+numpy
