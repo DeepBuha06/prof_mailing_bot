@@ -21,3 +21,4 @@ python-dotenv
 matplotlib
 seaborn
 numpy
+langchain_chroma
