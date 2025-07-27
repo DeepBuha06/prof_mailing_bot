@@ -82,11 +82,6 @@ def load_all_faculty_data(folder_path="iitgn_faculty/faculty"):
 load_all_faculty_data()
 
 df = pd.DataFrame(all_faculty_data)
-# Ensure 'research_interests' exists for all records
-if "research_interests" not in df.columns:
-    df["research_interests"] = ""
-else:
-    df["research_interests"] = df["research_interests"].fillna("")
 
 
 # If no data was loaded, create a dataframe with the expected columns
@@ -166,8 +161,10 @@ df = df.drop_duplicates(subset=["name", "department"], errors="ignore")
 
 print(df.shape)
 
-df["tag_id"], _ = pd.factorize(df["research_interests"])
-df["tagged_research_interests"] = df["tag_id"].astype(str) + " " + df["research_interests"].fillna("")
+df["cleaned_interests"] = df["research_interests"].replace("", "no interests")
+df["tag_id"], _ = pd.factorize(df["cleaned_interests"])
+
+df["tagged_research_interests"] = df["tag_id"].astype(str) + " " + df["cleaned_interests"]
 df["tagged_research_interests"] = df["tagged_research_interests"].str.replace(r"\\,", ",", regex=True)
 
 from langchain_core.documents import Document
