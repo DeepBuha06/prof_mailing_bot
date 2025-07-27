@@ -39,7 +39,7 @@ def infer_college_name(filename: str) -> str:
             return val
     return "Unknown"
 
-def load_all_faculty_data(folder_path=r"iitgn_faculty\faculty"):
+def load_all_faculty_data(folder_path=r"C:\Users\deep\summer siege\iitgn_faculty\faculty"):
     global all_faculty_data
     if all_faculty_data:  # Already loaded
         return all_faculty_data
