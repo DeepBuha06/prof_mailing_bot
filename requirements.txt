@@ -13,3 +13,11 @@ langchain
 seaborn
 matplotlib
 numpy
+streamlit
+langchain
+langchain-community
+langchain-google-genai
+python-dotenv
+matplotlib
+seaborn
+numpy
