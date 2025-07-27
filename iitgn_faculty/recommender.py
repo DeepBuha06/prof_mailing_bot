@@ -43,87 +43,37 @@ def load_all_faculty_data(folder_path="iitgn_faculty/faculty"):
     global all_faculty_data
     if all_faculty_data:  # Already loaded
         return all_faculty_data
-    
-    # Debug: Print current directory and file structure
-    print(f"Current working directory: {os.getcwd()}")
-    print(f"Files in current directory: {os.listdir('.')}")
-    print(f"Looking for folder: {folder_path}")
-    
-    # Try multiple possible paths
-    possible_paths = [
-        folder_path,                       # Original path
-        "iitgn_faculty/faculty",          # Default relative path
-        "./iitgn_faculty/faculty",        # Explicit relative
-        "faculty",                        # If faculty folder is in root
-        os.path.join(".", "iitgn_faculty", "faculty"),  # Built path
-    ]
-    
-    actual_folder_path = None
-    for path in possible_paths:
-        if os.path.exists(path):
-            actual_folder_path = path
-            print(f"✅ Found faculty data at: {path}")
-            break
-        else:
-            print(f"❌ Path not found: {path}")
-    
-    if not actual_folder_path:
-        print(f"[ERROR] Faculty data folder not found in any of these locations: {possible_paths}")
-        # List what directories ARE available
-        try:
-            available_dirs = [d for d in os.listdir('.') if os.path.isdir(d)]
-            print(f"Available directories: {available_dirs}")
-        except:
-            pass
+
+    if not os.path.exists(folder_path):
+        print(f"[WARN] Faculty data folder not found: {folder_path}")
         return []
-    
-    print(f"Loading faculty data from: {actual_folder_path}")
-    
-    # Load files from the found directory
-    json_files = [f for f in os.listdir(actual_folder_path) if f.endswith(".json")]
-    print(f"Found {len(json_files)} JSON files: {json_files}")
-    
-    if not json_files:
-        print("[WARN] No JSON files found in faculty directory")
-        return []
-    
-    for file in json_files:
-        full_path = os.path.join(actual_folder_path, file)
-        print(f"Processing file: {file}")
-        
-        with open(full_path, "r", encoding="utf-8") as f:
-            try:
-                data = json.load(f)
-                if not isinstance(data, list):
-                    data = [data]
-                
-                college_name = infer_college_name(file)
-                print(f"  - College: {college_name}, Professors: {len(data)}")
-                
-                for prof in data:
-                    if not isinstance(prof, dict):
-                        continue
-                    
-                    # Ensure all required fields exist
-                    prof["college_name"] = college_name
-                    prof["profile_url"] = prof.get("profile_url", "#")
-                    prof["photo"] = prof.get("photo", "")
-                    prof["academic_background"] = prof.get("academic_background", "")
-                    prof["work_experience"] = prof.get("work_experience", "")
-                    prof["selected_publications"] = prof.get("selected_publications", "")
-                    prof["research_interests"] = prof.get("research_interests", "")
-                    prof["name"] = prof.get("name", "Unknown")
-                    prof["department"] = prof.get("department", "Unknown")
-                    prof["designation"] = prof.get("designation", "")
-                    
-                    all_faculty_data.append(prof)
-                    
-            except Exception as e:
-                print(f"Failed to load {file}: {e}")
-                import traceback
-                traceback.print_exc()
-    
-    print(f"Total faculty loaded: {len(all_faculty_data)}")
+
+    for file in os.listdir(folder_path):
+        if file.endswith(".json"):
+            full_path = os.path.join(folder_path, file)
+            with open(full_path, "r", encoding="utf-8") as f:
+                try:
+                    data = json.load(f)
+                    if not isinstance(data, list):
+                        data = [data]
+
+                    college_name = infer_college_name(file)
+                    for prof in data:
+                        if not isinstance(prof, dict):
+                            continue
+                        prof["college_name"] = college_name
+                        prof["profile_url"] = prof.get("profile_url", "#")
+                        prof["photo"] = prof.get("photo", "")
+                        prof["academic_background"] = prof.get("academic_background", "")
+                        prof["work_experience"] = prof.get("work_experience", "")
+                        prof["selected_publications"] = prof.get("selected_publications", "")
+                        prof["research_interests"] = prof.get("research_interests", "")
+
+                        all_faculty_data.append(prof)  # ✅ Only cleaned ones
+
+                except Exception as e:
+                    print(f"Failed to load {file}: {e}")
+
     return all_faculty_data
 
 
