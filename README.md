@@ -1,6 +1,5 @@
-# Professor Mailing Bot
+# **[Professor Mailing Bot](https://prof-mailing-bot.streamlit.app/)**
 
- **[Launch the App](https://prof-mailing-bot.streamlit.app/)**
 An intelligent faculty outreach system that enables students to discover and contact professors across multiple IITs using semantic search, AI-powered scraping, and automated email logging.
 
 ---
