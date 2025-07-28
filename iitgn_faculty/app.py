@@ -218,6 +218,8 @@ with st.sidebar:
                         st.warning("No suggestions found.")
                     else:
                         st.session_state["suggested_profs"] = suggested_names
+                        st.experimental_rerun()  
+
         st.markdown("---")
 
 
