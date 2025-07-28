@@ -262,11 +262,12 @@ with st.sidebar:
 
 filtered = [
     p for p in data_to_filter
-    if (st.session_state.selected_dept == "All" or p.get("department", "").strip().lower() == st.session_state.selected_dept.strip().lower())
-    and st.session_state.search_name.strip().lower() in (p.get("name", "").strip().lower())
-    and st.session_state.search_interest.strip().lower() in (p.get("research_interests", "").strip().lower())
-    and st.session_state.search_college.strip().lower() in (p.get("college_name", "").strip().lower())
+    if (st.session_state.get("selected_dept", "All") == "All" or (p.get("department", "").strip().lower() == st.session_state.get("selected_dept", "").strip().lower()))
+    and (st.session_state.get("search_name") or "").strip().lower() in (p.get("name", "") or "").strip().lower()
+    and (st.session_state.get("search_interest") or "").strip().lower() in (p.get("research_interests", "") or "").strip().lower()
+    and (st.session_state.get("search_college") or "").strip().lower() in (p.get("college_name", "") or "").strip().lower()
 ]
+
 
 MAX_PROFS_TO_SHOW = 200
 filtered = filtered[:MAX_PROFS_TO_SHOW]
