@@ -44,7 +44,7 @@ Write the email accordingly.
     response = model.generate_content(prompt)
     email_text = response.text.strip()
 
-    now = datetime.now()
+    now = datetime.datetime.now()
     followup = plan_followup(now)
 
     log_entry = {
