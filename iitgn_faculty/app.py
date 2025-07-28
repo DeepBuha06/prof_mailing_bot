@@ -9,7 +9,6 @@ import requests
 from PIL import Image
 from io import BytesIO
 import certifi
-from dotenv import load_dotenv
 import os
 import urllib.parse
 from recommender import retrieve_symantic_recommendations
@@ -229,7 +228,9 @@ with st.sidebar:
             departments = sorted(set(p.get("department", "UNKNOWN") for p in data if p.get("department")))
             st.selectbox("Select Department", ["All"] + departments, key="selected_dept")
             st.text_input("Search by Name", key="search_name").strip()
-            st.text_input("Search by college", key="search_college").strip()
+            college_options = sorted(set(p.get("college_name", "Unknown") for p in data))
+            st.selectbox("Select College", [""] + college_options, key="search_college")
+
             st.text_input("Search by Research Interest", key="search_interest").strip()
         st.markdown("---")
 
@@ -261,10 +262,10 @@ with st.sidebar:
 
 filtered = [
     p for p in data_to_filter
-    if (st.session_state.selected_dept == "All" or p["department"] == st.session_state.selected_dept)
-    and st.session_state.search_name.lower() in (p.get("name") or "").lower()
-    and st.session_state.search_interest.lower() in (p.get("research_interests") or "").lower()
-    and st.session_state.search_college.strip().lower() in (p.get("college_name") or "").strip().lower()
+    if (st.session_state.selected_dept == "All" or p.get("department", "").strip().lower() == st.session_state.selected_dept.strip().lower())
+    and st.session_state.search_name.strip().lower() in (p.get("name", "").strip().lower())
+    and st.session_state.search_interest.strip().lower() in (p.get("research_interests", "").strip().lower())
+    and st.session_state.search_college.strip().lower() in (p.get("college_name", "").strip().lower())
 ]
 
 MAX_PROFS_TO_SHOW = 200
