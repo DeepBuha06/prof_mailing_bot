@@ -172,7 +172,7 @@ documents = text_splitter.split_documents(raw_documents)
 
 import tempfile
 from langchain_chroma import Chroma
-from langchain.vectorstores import Chroma as ChromaBase
+from langchain_community.vectorstores import Chroma as ChromaBase
 import shutil
 import streamlit as st
 
