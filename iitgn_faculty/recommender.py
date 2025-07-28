@@ -44,34 +44,43 @@ def infer_college_name(filename: str) -> str:
             return val
     return "Unknown"
 
-def load_all_faculty_data(folder_path=r"iitgn_faculty\faculty"):
+def load_all_faculty_data(folder_path=None):
     global all_faculty_data
+
     if all_faculty_data:  # Already loaded
         return all_faculty_data
 
-    for file in os.listdir(folder_path):
-        if file.endswith(".json"):
-            full_path = os.path.join(folder_path, file)
-            with open(full_path, "r", encoding="utf-8") as f:
-                try:
-                    data = json.load(f)
-                    if not isinstance(data, list):
-                        data = [data]
+    # Dynamically resolve the absolute path of the 'faculty' folder
+    if folder_path is None:
+        current_dir = os.path.dirname(os.path.abspath(__file__))
+        folder_path = os.path.join(current_dir, "faculty")
 
-                    college_name = infer_college_name(file)
+    try:
+        for file in os.listdir(folder_path):
+            if file.endswith(".json"):
+                full_path = os.path.join(folder_path, file)
+                with open(full_path, "r", encoding="utf-8") as f:
+                    try:
+                        data = json.load(f)
+                        if not isinstance(data, list):
+                            data = [data]
 
-                    for prof in data:
-                        prof["college_name"] = college_name
-                        prof["profile_url"] = prof.get("profile_url", "#")
-                        prof["photo"] = prof.get("photo", "")
-                        prof["academic_background"] = prof.get("academic_background", "")
-                        prof["work_experience"] = prof.get("work_experience", "")
-                        prof["selected_publications"] = prof.get("selected_publications", "")
+                        college_name = infer_college_name(file)
 
-                    all_faculty_data.extend(data)
+                        for prof in data:
+                            prof["college_name"] = college_name
+                            prof["profile_url"] = prof.get("profile_url", "#")
+                            prof["photo"] = prof.get("photo", "")
+                            prof["academic_background"] = prof.get("academic_background", "")
+                            prof["work_experience"] = prof.get("work_experience", "")
+                            prof["selected_publications"] = prof.get("selected_publications", "")
 
-                except Exception as e:
-                    print(f"Failed to load {file}: {e}")
+                        all_faculty_data.extend(data)
+
+                    except Exception as e:
+                        print(f"Failed to load {file}: {e}")
+    except FileNotFoundError:
+        print(f"Faculty folder not found at: {folder_path}")
 
     return all_faculty_data
 
