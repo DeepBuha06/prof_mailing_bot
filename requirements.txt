@@ -1,29 +1,32 @@
+# Core app
 streamlit
 streamlit-pills
-pandas
-requests
+python-dotenv
+
+# Google APIs
 google-api-python-client
 google-auth
 google-auth-oauthlib
 google-auth-httplib2
 protobuf
 google-generativeai
+
+# Langchain + Chroma
+pysqlite3-binary           # Must come BEFORE chromadb
 chromadb
 langchain
-seaborn
-matplotlib
-numpy
-streamlit
-langchain
+langchain-chroma
 langchain-community
 langchain-google-genai
-python-dotenv
-matplotlib
-seaborn
-numpy
-pysqlite3-binary
-chromadb
-langchain-chroma
+
+# Web backend
 fastapi
 uvicorn
 pydantic
+
+# Data & Visualization
+pandas
+requests
+numpy
+matplotlib
+seaborn
