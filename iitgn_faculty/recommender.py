@@ -9,14 +9,13 @@ from langchain_community.document_loaders import TextLoader
 from langchain_text_splitters import CharacterTextSplitter
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from langchain_google_genai import GoogleGenerativeAI
-
-import streamlit as st
+from langchain_chroma import Chroma  
 
 embedding_model = GoogleGenerativeAIEmbeddings(
     model="models/embedding-001",
-    google_api_key=os.getenv(st.secrets["GEMINI_API_KEY2"])
+    google_api_key=os.getenv("GEMINI_API_KEY2")
 )
-genai.configure(api_key=os.getenv(st.secrets["GEMINI_API_KEY2"]))
+genai.configure(api_key=os.getenv("GEMINI_API_KEY2"))
 gemini_model = genai.GenerativeModel("gemini-2.0-flash")
 
 all_faculty_data = []
@@ -157,6 +156,7 @@ text_splitter = CharacterTextSplitter(chunk_size=0, chunk_overlap=0, separator="
 documents = text_splitter.split_documents(raw_documents)
 
 import tempfile
+from langchain_chroma import Chroma
 from langchain.vectorstores import Chroma as ChromaBase
 import shutil
 import streamlit as st
