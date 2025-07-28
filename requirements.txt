@@ -24,3 +24,6 @@ numpy
 pysqlite3-binary
 chromadb
 langchain-chroma
+fastapi
+uvicorn
+pydantic
