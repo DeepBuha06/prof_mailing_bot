@@ -13,7 +13,7 @@ google-generativeai
 
 # Langchain + Chroma
 pysqlite3-binary           # Must come BEFORE chromadb
-chromadb
+chromadb==0.4.15
 langchain
 langchain-chroma
 langchain-community
