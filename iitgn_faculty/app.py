@@ -219,14 +219,24 @@ with st.sidebar:
                 st.error("Please provide background, interests, and year for suggestions.")
             else:
                 with st.spinner("Asking Gemini for suggestions..."):
-                    suggested_names = retrieve_symantic_recommendations(
-                        query=f"{student_background} {student_interest}",
-                        top_k=top_k_value
-                    )
-                    if not suggested_names:
-                        st.warning("No suggestions found.")
-                    else:
-                        st.session_state["suggested_profs"] = suggested_names
+                    try:
+                        suggested_names = retrieve_symantic_recommendations(
+                            query=f"{student_background} {student_interest}",
+                            top_k=top_k_value
+                        )
+                        # DEBUG: Add these lines
+                        st.write(f"DEBUG: API Key exists: {bool(os.getenv('GEMINI_API_KEY2'))}")
+                        st.write(f"DEBUG: Suggestions type: {type(suggested_names)}")
+                        st.write(f"DEBUG: Suggestions length: {len(suggested_names) if suggested_names else 'None'}")
+                        st.write(f"DEBUG: First suggestion: {suggested_names[0] if suggested_names else 'None'}")
+                        
+                        if not suggested_names:
+                            st.warning("No suggestions found.")
+                        else:
+                            st.session_state["suggested_profs"] = suggested_names
+                            st.success(f"Found {len(suggested_names)} suggestions!")
+                    except Exception as e:
+                        st.error(f"Error generating suggestions: {str(e)}")
         st.markdown("---")
 
 
