@@ -199,29 +199,22 @@ db_df = load_vectorstore()
 # data = df[df["tag_id"].isin(tag_ids)]
 
 def retrieve_symantic_recommendations(query: str, top_k: int = 10) -> list[dict]:
-    recs = db_df.similarity_search(query, k=top_k * 10)
-    
-    print(f"Found {len(recs)} documents")  # DEBUG
-    
+    recs = db_df.similarity_search(query, k=top_k * 10)  
+
     prof_ids = []
     seen = set()
 
-    for i, doc in enumerate(recs):
-        try:
-            print(f"Doc {i}: '{doc.page_content[:50]}...'")  # DEBUG
-            tag = int(doc.page_content.strip('"').split()[0])
-            if tag not in seen:
-                prof_ids.append(tag)
-                seen.add(tag)
-            if len(prof_ids) >= top_k:
-                break
-        except (ValueError, IndexError) as e:
-            print(f"Error parsing doc {i}: {e}")  # DEBUG
-            continue
+    for doc in recs:
+        tag = int(doc.page_content.strip('"').split()[0])
+        if tag not in seen:
+            prof_ids.append(tag)
+            seen.add(tag)
+        if len(prof_ids) >= top_k:
+            break
 
-    print(f"Final prof_ids: {prof_ids}")  # DEBUG
-    
     result_df = df[df["tag_id"].isin(prof_ids)]
+    result_df = result_df.drop(columns=["tag_id", "tagged_research_interests"], errors="ignore")
+
     return result_df.to_dict(orient="records")
 
 
