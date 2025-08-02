@@ -1,12 +1,3 @@
-import sys
-import os
-try:
-    import pysqlite3
-    sys.modules["sqlite3"] = pysqlite3
-    sys.modules["sqlite3.dbapi2"] = pysqlite3.dbapi2
-except ImportError:
-    pass
-
 import streamlit as st
 import json
 import re
@@ -18,9 +9,11 @@ import requests
 from PIL import Image
 from io import BytesIO
 import certifi
+from dotenv import load_dotenv
 import os
 import urllib.parse
 from recommender import retrieve_symantic_recommendations
+
 
 
 def proxy_image_url(url: str) -> str:
@@ -46,9 +39,8 @@ def safe_load_image(url):
 @st.cache_data
 def load_data():
     all_data = []
-    base_dir = os.path.dirname(__file__)
 
-    with open(os.path.join(base_dir, "faculty/iitgn_faculty.json"), "r", encoding="utf-8") as f:
+    with open("./faculty/iitgn_faculty.json", "r", encoding="utf-8") as f:
         gn_data = json.load(f)
         for prof in gn_data:
             match = re.search(r'/faculty/([^/]+)', prof.get("profile_url", ""))
@@ -56,7 +48,7 @@ def load_data():
             prof["college_name"] = "IIT Gandhinagar"
         all_data.extend(gn_data)
     
-    with open(os.path.join(base_dir, "faculty/iitj_faculty.json"), "r", encoding="utf-8") as f:
+    with open("./faculty/iitj_faculty.json", "r", encoding="utf-8") as f:
         j_data = json.load(f)
 
         for prof in j_data:
@@ -67,14 +59,14 @@ def load_data():
         all_data.extend(j_data)
 
 
-    with open(os.path.join(base_dir, "faculty/iitg_faculty.json"), "r", encoding="utf-8") as f:
+    with open("./faculty/iitg_faculty.json", "r", encoding="utf-8") as f:
         g_data = json.load(f)
         for prof in g_data:
             prof["department"] = prof.get("department", "UNKNOWN").strip()
             prof["college_name"] = "IIT Guwahati"
         all_data.extend(g_data)
 
-    with open(os.path.join(base_dir, "faculty/iitr_faculty.json"), "r", encoding="utf-8") as f:
+    with open("./faculty/iitr_faculty.json", "r", encoding="utf-8") as f:
         r_data = json.load(f)
         for prof in r_data:
             prof["department"] = prof.get("department", "UNKNOWN").strip()
@@ -82,7 +74,7 @@ def load_data():
             prof["college_name"] = "IIT Roorkee"
         all_data.extend(r_data)
 
-    with open(os.path.join(base_dir, "faculty/iitbhu_faculty.json"), "r", encoding="utf-8") as f:
+    with open("./faculty/iitbhu_faculty.json", "r", encoding="utf-8") as f:
         bhu_data = json.load(f)
         for prof in bhu_data:
             prof["department"] = prof.get("department", "UNKNOWN").strip()
@@ -90,7 +82,7 @@ def load_data():
             prof["college_name"] = "IIT BHU (Varanasi)"
         all_data.extend(bhu_data)
 
-    with open(os.path.join(base_dir, "faculty/iith_faculty.json"), "r", encoding="utf-8") as f:
+    with open("./faculty/iith_faculty.json", "r", encoding="utf-8") as f:
         h_data = json.load(f)
         for prof in h_data:
             prof["department"] = prof.get("department", "UNKNOWN").strip()
@@ -98,7 +90,7 @@ def load_data():
             prof["college_name"] = "IIT Hyderabad"
         all_data.extend(h_data)
 
-    with open(os.path.join(base_dir, "faculty/iiti_faculty.json"), "r", encoding="utf-8") as f:
+    with open("./faculty/iiti_faculty.json", "r", encoding="utf-8") as f:
         i_data = json.load(f)
         for prof in i_data:
             prof["department"] = prof.get("department", "UNKNOWN").strip()
@@ -106,7 +98,7 @@ def load_data():
             prof["college_name"] = "IIT Indore"
         all_data.extend(i_data)
 
-    with open(os.path.join(base_dir, "faculty/iitd_faculty.json"), "r", encoding="utf-8") as f:
+    with open("./faculty/iitd_faculty.json", "r", encoding="utf-8") as f:
         d_data = json.load(f)
         for prof in d_data:
             prof["department"] = prof.get("department", "UNKNOWN").strip()
@@ -237,9 +229,7 @@ with st.sidebar:
             departments = sorted(set(p.get("department", "UNKNOWN") for p in data if p.get("department")))
             st.selectbox("Select Department", ["All"] + departments, key="selected_dept")
             st.text_input("Search by Name", key="search_name").strip()
-            college_options = sorted(set(p.get("college_name", "Unknown") for p in data))
-            st.selectbox("Select College", [""] + college_options, key="search_college")
-
+            st.text_input("Search by college", key="search_college").strip()
             st.text_input("Search by Research Interest", key="search_interest").strip()
         st.markdown("---")
 
@@ -271,12 +261,11 @@ with st.sidebar:
 
 filtered = [
     p for p in data_to_filter
-    if (st.session_state.get("selected_dept", "All") == "All" or (p.get("department", "").strip().lower() == st.session_state.get("selected_dept", "").strip().lower()))
-    and (st.session_state.get("search_name") or "").strip().lower() in (p.get("name", "") or "").strip().lower()
-    and (st.session_state.get("search_interest") or "").strip().lower() in (p.get("research_interests", "") or "").strip().lower()
-    and (st.session_state.get("search_college") or "").strip().lower() in (p.get("college_name", "") or "").strip().lower()
+    if (st.session_state.selected_dept == "All" or p["department"] == st.session_state.selected_dept)
+    and st.session_state.search_name.lower() in (p.get("name") or "").lower()
+    and st.session_state.search_interest.lower() in (p.get("research_interests") or "").lower()
+    and st.session_state.search_college.strip().lower() in (p.get("college_name") or "").strip().lower()
 ]
-
 
 MAX_PROFS_TO_SHOW = 200
 filtered = filtered[:MAX_PROFS_TO_SHOW]
