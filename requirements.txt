@@ -12,8 +12,8 @@ protobuf
 google-generativeai
 
 # Langchain + Chroma
-pysqlite3-binary           # Must come BEFORE chromadb
-chromadb==0.4.15
+pysqlite3-binary>=0.5.1     # Must come BEFORE chromadb
+chromadb>=0.4.24
 langchain
 langchain-chroma
 langchain-community
