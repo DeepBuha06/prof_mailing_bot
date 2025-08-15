@@ -182,6 +182,7 @@ import shutil
 import streamlit as st
 
 CHROMA_PATH = "./.chroma_index"
+COLLECTION_NAME = "faculty_research"
 
 @st.cache_resource
 def load_vectorstore():
@@ -190,13 +191,15 @@ def load_vectorstore():
         chroma = ChromaBase.from_documents(
             documents=documents,
             embedding=embedding_model,
-            persist_directory=CHROMA_PATH
+            persist_directory=CHROMA_PATH,
+            collection_name=COLLECTION_NAME
         )
         chroma.persist()
     else:
         chroma = ChromaBase(
             embedding_function=embedding_model,
-            persist_directory=CHROMA_PATH
+            persist_directory=CHROMA_PATH,
+            collection_name=COLLECTION_NAME
         )
     return chroma
 
@@ -216,7 +219,15 @@ def retrieve_symantic_recommendations(query: str, top_k: int = 10) -> list[dict]
     seen = set()
 
     for doc in recs:
-        tag = int(doc.page_content.strip('"').split()[0])
+        try:
+            content = doc.page_content.strip().strip('"')
+            parts = content.split()
+            if parts and parts[0].isdigit():
+                tag = int(parts[0])
+            else:
+                continue
+        except (ValueError, IndexError):
+            continue
         if tag not in seen:
             prof_ids.append(tag)
             seen.add(tag)
