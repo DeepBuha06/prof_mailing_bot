@@ -1,3 +1,14 @@
+import sys
+import os
+
+try:
+    import pysqlite3 as sqlite3
+    sys.modules['sqlite3'] = sqlite3
+    print("Successfully overrode sqlite3 with pysqlite3")
+except ImportError:
+    print("pysqlite3 not available, using system sqlite3")
+    pass
+
 import pandas as pd
 import os
 import json
