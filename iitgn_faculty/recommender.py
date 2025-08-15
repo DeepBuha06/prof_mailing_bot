@@ -172,7 +172,7 @@ raw_documents = [
     Document(page_content=text)
     for text in df["tagged_research_interests"].tolist()
 ]
-text_splitter = CharacterTextSplitter(chunk_size=1000000, chunk_overlap=0, separator="\n")
+text_splitter = CharacterTextSplitter(chunk_size=1000, chunk_overlap=0, separator="\n")
 documents = text_splitter.split_documents(raw_documents)
 
 import tempfile
