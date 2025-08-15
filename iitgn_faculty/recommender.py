@@ -186,22 +186,41 @@ COLLECTION_NAME = "faculty_research"
 
 @st.cache_resource
 def load_vectorstore():
-    if not os.path.exists(CHROMA_PATH):
-        os.makedirs(CHROMA_PATH)
-        chroma = ChromaBase.from_documents(
-            documents=documents,
-            embedding=embedding_model,
-            persist_directory=CHROMA_PATH,
-            collection_name=COLLECTION_NAME
-        )
-        chroma.persist()
-    else:
-        chroma = ChromaBase(
-            embedding_function=embedding_model,
-            persist_directory=CHROMA_PATH,
-            collection_name=COLLECTION_NAME
-        )
-    return chroma
+    try:
+        if not os.path.exists(CHROMA_PATH):
+            os.makedirs(CHROMA_PATH)
+            chroma = ChromaBase.from_documents(
+                documents=documents,
+                embedding=embedding_model,
+                persist_directory=CHROMA_PATH,
+                collection_name=COLLECTION_NAME
+            )
+            chroma.persist()
+        else:
+            chroma = ChromaBase(
+                embedding_function=embedding_model,
+                persist_directory=CHROMA_PATH,
+                collection_name=COLLECTION_NAME
+            )
+        return chroma
+    except Exception as e:
+        # If loading fails, recreate the index
+        try:
+            import shutil
+            if os.path.exists(CHROMA_PATH):
+                shutil.rmtree(CHROMA_PATH)
+            os.makedirs(CHROMA_PATH)
+            chroma = ChromaBase.from_documents(
+                documents=documents,
+                embedding=embedding_model,
+                persist_directory=CHROMA_PATH,
+                collection_name=COLLECTION_NAME
+            )
+            chroma.persist()
+            return chroma
+        except Exception as e2:
+            print(f"Failed to recreate vectorstore: {e2}")
+            return None
 
 db_df = load_vectorstore()
 
