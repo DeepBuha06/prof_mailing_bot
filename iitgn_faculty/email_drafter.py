@@ -1,4 +1,4 @@
-import google.generativeai as genai
+from google import genai
 import os
 import sys
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
@@ -20,8 +20,7 @@ def suggest_optimal_time():
 from dotenv import load_dotenv
 load_dotenv(os.path.join(os.path.dirname(__file__), "..", ".env"))
 api_key = os.getenv("GEMINI_API_KEY") or os.getenv("GEMINI_API_KEY2")
-genai.configure(api_key=api_key)
-model = genai.GenerativeModel("gemini-2.0-flash")
+client = genai.Client(api_key=api_key)
 
 def draft_email(prof_name, prof_interest, student_name, student_academic_year, student_background, student_interest, goal, extra="", scraped_context=""):
     prompt = f"""
@@ -46,7 +45,10 @@ Rules:
 Write the email accordingly.
 """
 
-    response = model.generate_content(prompt)
+    response = client.models.generate_content(
+        model="gemini-2.5-flash",
+        contents=prompt
+    )
     email_text = response.text.strip()
 
     now = datetime.datetime.now()

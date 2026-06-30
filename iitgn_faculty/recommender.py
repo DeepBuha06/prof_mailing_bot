@@ -12,7 +12,7 @@ except ImportError:
 import pandas as pd
 import os
 import json
-import google.generativeai as genai
+
 import seaborn as sns
 import matplotlib.pyplot as plt
 import numpy as np
@@ -24,8 +24,6 @@ load_dotenv(os.path.join(os.path.dirname(__file__), "..", ".env"))
 API_KEY = os.getenv("GEMINI_API_KEY") or os.getenv("GEMINI_API_KEY2")
 
 embedding_model = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
-genai.configure(api_key=API_KEY)
-gemini_model = genai.GenerativeModel("gemini-2.0-flash")
 
 all_faculty_data = []
 
