@@ -112,70 +112,15 @@ with st.spinner("Loading faculty data..."):
 
 st.title("IIT Faculty Hub")
 if "suggested_profs" in st.session_state and st.session_state["suggested_profs"]:
-    st.markdown("## Suggested Professors")
-    for prof in st.session_state["suggested_profs"]:
-        with st.container():
-            col1, col2 = st.columns([4, 1])
-            with col1:
-                st.markdown(f"### {prof.get('name', 'N/A')}")
-                st.markdown(f"College: {prof.get('college_name', 'N/A')}")
-                st.markdown(f"Designation: {prof.get('designation', 'N/A')}")
-                st.markdown(f"Department: {prof.get('department', 'N/A')}")
-                st.markdown(f"Email: `{prof.get('email', 'N/A')}`")
-
-                if prof.get("website"):
-                    st.markdown(f"[Website]({prof['website']})")
-
-                research_raw = prof.get("research_interests") or ""
-                interests = [s.strip(" ●,|") for s in re.split(r"[●•,|]", research_raw) if s.strip()]
-                if interests:
-                    st.markdown("Research Interests:")
-                    for i in interests:
-                        st.markdown(f"- {i}")
-                else:
-                    st.markdown("Research Interests: N/A")
-
-                st.markdown(f"Academic Background: {prof.get('academic_background', 'N/A')}")
-                st.markdown(f"Work Experience: {prof.get('work_experience', 'N/A')}")
-
-                if prof.get("selected_publications"):
-                    with st.expander("Selected Publications"):
-                        pubs = prof["selected_publications"]
-                        if isinstance(pubs, list):
-                            for pub in pubs:
-                                st.markdown(f"- {pub}")
-                        else:
-                            st.markdown(pubs)
-
-                st.markdown(f"[🔗 Profile Link]({prof.get('profile_url', '#')})")
-
-            with col2:
-                if prof.get("photo"):
-                    st.image(proxy_image_url(prof["photo"]), use_container_width=True)
-            st.markdown("---")
-
-if "suggested_profs" in st.session_state and st.session_state["suggested_profs"]:
-    if st.button("Clear Suggestions"):
+    st.markdown("## AI Recommended Matches")
+    if st.button("Clear AI Suggestions (Return to Directory)"):
         st.session_state["suggested_profs"] = []
-        st.success("Suggestions cleared!")
-
-allow_filtering_ui = True
-
-# Determine what data to filter: suggestions or all
-if "suggested_profs" in st.session_state and st.session_state["suggested_profs"]:
+        st.rerun()
     data_to_filter = st.session_state["suggested_profs"]
-    show_filtered = False  # Don't show full filtered list again
 else:
+    st.markdown("## Faculty Directory")
+    st.markdown("Draft professional emails to professors for research, doubts, emergencies, or other interactions.")
     data_to_filter = data
-    show_filtered = True
-
-
-
-
-st.markdown("Draft professional emails to professors for research, doubts, emergencies, or other interactions.")
-
-with st.sidebar:
-    view_mode = st.selectbox("🔽 Choose View", ["📧 Email Generator", "🔍 Filter Professors"])
 
 filter_keys = {
     "selected_dept": "All",
@@ -183,163 +128,163 @@ filter_keys = {
     "search_interest": "",
     "search_college": "",
     "search_department": "",
+    "student_name": "",
+    "student_background": "",
+    "student_interest": "",
+    "student_academic_year": "1st Year",
+    "top_k_value": 5,
+    "use_ai_goal": False,
+    "intent_note": "",
+    "selected_goal": "Internship",
+    "goal": "Internship",
+    "extra_note": "",
 }
 for key, default in filter_keys.items():
     if key not in st.session_state:
         st.session_state[key] = default
 
 with st.sidebar:
-    if view_mode == "📧 Email Generator":
-        st.header("Your Details")
-        student_name = st.text_input("Your Name*", "")
-        student_background = st.text_area("Academic Background*", "", placeholder="CGPA(depends), some research you did about the project which you are going to work under certain professor,some background of yours like knowledge of libraries")
-        student_interest = st.text_input("Research/Academic Interests*", "")
-        student_academic_year = st.selectbox("Current Academic Year*", [
-            "1st Year",
-            "2nd Year",
-            "3rd Year",
-            "4th Year",
-            "5th Year",
-            "Postgraduate",
-            "PhD"
-        ], index=0)
-        st.markdown("---")
-        top_k_value = st.number_input("🔍 Number of Suggestions", min_value=1, max_value=20, value=5, step=1)
-        if st.button("🔍 Generate Suggestions"):
-            if not (student_background and student_interest and student_academic_year):
-                st.error("Please provide background, interests, and year for suggestions.")
-            else:
-                with st.spinner("Asking Gemini for suggestions..."):
-                    suggested_names = retrieve_symantic_recommendations(
-                        query=f"{student_background} {student_interest}",
-                        top_k=top_k_value
-                    )
-                    if not suggested_names:
-                        st.warning("No suggestions found.")
-                    else:
-                        st.session_state["suggested_profs"] = suggested_names
-        st.markdown("---")
+    st.header("1. Filter Directory")
+    departments = sorted(set(p.get("department", "UNKNOWN") for p in data if p.get("department")))
+    st.selectbox("Select Department", ["All"] + departments, key="selected_dept")
+    st.text_input("Search by Name", key="search_name").strip()
+    college_options = sorted(set(p.get("college_name", "Unknown") for p in data))
+    st.selectbox("Select College", ["All"] + college_options, key="search_college")
+    st.text_input("Search by Research Interest", key="search_interest").strip()
 
-
-
-        filter_mode = st.checkbox("🔍 Show Filters", value=False)
-        if filter_mode:
-            st.header("🎯 Search Professors")
-            departments = sorted(set(p.get("department", "UNKNOWN") for p in data if p.get("department")))
-            st.selectbox("Select Department", ["All"] + departments, key="selected_dept")
-            st.text_input("Search by Name", key="search_name").strip()
-            college_options = sorted(set(p.get("college_name", "Unknown") for p in data))
-            st.selectbox("Select College", [""] + college_options, key="search_college")
-
-            st.text_input("Search by Research Interest", key="search_interest").strip()
-        st.markdown("---")
-
-        use_ai_goal = st.checkbox("🎯 Let AI detect my intent from a short note")
-        if use_ai_goal:
-            goal = "AI_DETECT"
-            intent_note = st.text_area("Describe your intent (AI will detect goal)*", "")
+    st.markdown("---")
+    
+    st.header("2. AI Matchmaker")
+    st.caption("Let AI find the perfect professors for you based on your background.")
+    student_background = st.text_area("Academic Background*", placeholder="CGPA, previous research, technical skills...", key="student_background")
+    student_interest = st.text_input("Research/Academic Interests*", key="student_interest")
+    student_academic_year = st.selectbox("Current Academic Year*", [
+        "1st Year", "2nd Year", "3rd Year", "4th Year", "5th Year", "Postgraduate", "PhD"
+    ], key="student_academic_year")
+    top_k_value = st.number_input("Number of Suggestions", min_value=1, max_value=20, step=1, key="top_k_value")
+    
+    if st.button("Generate AI Suggestions"):
+        if not (st.session_state.student_background and st.session_state.student_interest and st.session_state.student_academic_year):
+            st.error("Please provide background, interests, and year for suggestions.")
         else:
-            selected_goal = st.selectbox("Choose Purpose*", [
-                "Internship",
-                "Research guidance",
-                "Project collaboration",
-                "Clarify a doubt",
-                "Request a meeting",
-                "Thank you / appreciation",
-                "Personal/emergency concern",
-                "Other"
-            ])
-            goal = st.text_input("If 'Other', describe your goal:", "") if selected_goal == "Other" else selected_goal
-            intent_note = ""
+            with st.spinner("Asking Gemini for suggestions..."):
+                suggested_names = retrieve_symantic_recommendations(
+                    query=f"{st.session_state.student_background} {st.session_state.student_interest}",
+                    top_k=st.session_state.top_k_value
+                )
+                if not suggested_names:
+                    st.warning("No suggestions found.")
+                else:
+                    st.session_state["suggested_profs"] = suggested_names
 
-        extra_note = st.text_area("Additional message (optional)")
+    st.markdown("---")
+    
+    st.header("3. Email Generator")
+    student_name = st.text_input("Your Name*", key="student_name")
+    
+    use_ai_goal = st.checkbox("Let AI detect my intent from a short note", key="use_ai_goal")
+    if use_ai_goal:
+        goal = "AI_DETECT"
+        intent_note = st.text_area("Describe your intent (AI will detect goal)*", key="intent_note")
     else:
-        st.header("🎯 Search Professors")
-        departments = sorted(set(p.get("department", "UNKNOWN") for p in data if p.get("department")))
-        st.selectbox("Select Department", ["All"] + departments, key="selected_dept")
-        st.text_input("Search by Name", key="search_name").strip()
-        st.text_input("Search by Research Interest", key="search_interest").strip()
+        selected_goal = st.selectbox("Choose Purpose*", [
+            "Internship", "Research guidance", "Project collaboration", "Clarify a doubt",
+            "Request a meeting", "Thank you / appreciation", "Personal/emergency concern", "Other"
+        ], key="selected_goal")
+        goal = st.text_input("If 'Other', describe your goal:", key="goal") if st.session_state.selected_goal == "Other" else st.session_state.selected_goal
+        intent_note = ""
+
+    extra_note = st.text_area("Additional message (optional)", key="extra_note")
 
 filtered = [
     p for p in data_to_filter
-    if (st.session_state.get("selected_dept", "All") == "All" or (p.get("department", "").strip().lower() == st.session_state.get("selected_dept", "").strip().lower()))
-    and (st.session_state.get("search_name") or "").strip().lower() in (p.get("name", "") or "").strip().lower()
-    and (st.session_state.get("search_interest") or "").strip().lower() in (p.get("research_interests", "") or "").strip().lower()
-    and (st.session_state.get("search_college") or "").strip().lower() in (p.get("college_name", "") or "").strip().lower()
+    if (st.session_state.get("selected_dept") in ["All", "", None] or (p.get("department", "") or "").strip().lower() == st.session_state.get("selected_dept", "").strip().lower())
+    and (st.session_state.get("search_name", "") or "").strip().lower() in (p.get("name", "") or "").strip().lower()
+    and (st.session_state.get("search_interest", "") or "").strip().lower() in (p.get("research_interests", "") or "").strip().lower()
+    and (st.session_state.get("search_college") in ["All", "", None] or (p.get("college_name", "") or "").strip().lower() == st.session_state.get("search_college", "").strip().lower())
 ]
-
-
-MAX_PROFS_TO_SHOW = 200
-filtered = filtered[:MAX_PROFS_TO_SHOW]
 
 email = None
 selected_prof_name = None
 
-if view_mode == "📧 Email Generator":
-    with st.sidebar:
-        st.markdown("---")
-        st.header("✉️ Draft Email")
-        if not filtered:
-            st.info("No professors to choose from.")
-        else:
-            selected_prof_name = st.selectbox(
-                "Choose a Professor",
-                options=[prof["name"] for prof in filtered],
-                index=0
-            )
+with st.sidebar:
+    if not filtered:
+        st.info("No professors match current filters.")
+    else:
+        selected_prof_name = st.selectbox(
+            "Choose a Professor to Email",
+            options=[prof["name"] for prof in filtered],
+            index=0
+        )
 
-            if st.button("Generate Email"):
-                if not (student_name and student_background and student_academic_year and student_interest and (goal or intent_note)):
-                    st.error("Please complete all required fields.")
-                else:
-                    selected_prof = next((p for p in filtered if p["name"] == selected_prof_name), None)
-                    if selected_prof:
-                        final_goal = intent_note if use_ai_goal else goal
-                        email = draft_email(
-                            prof_name=selected_prof['name'],
-                            prof_interest=selected_prof.get('research_interests', ''),
-                            student_name=student_name,
-                            student_academic_year=student_academic_year,
-                            student_background=student_background,
-                            student_interest=student_interest,
-                            goal=final_goal,
-                            extra=extra_note
+        if st.button("Generate Draft Email"):
+            if not (st.session_state.student_name and st.session_state.student_background and st.session_state.student_academic_year and st.session_state.student_interest and (goal or intent_note)):
+                st.error("Please complete your Student Details above.")
+            else:
+                selected_prof = next((p for p in filtered if p["name"] == selected_prof_name), None)
+                if selected_prof:
+                    final_goal = intent_note if use_ai_goal else goal
+                    email = draft_email(
+                        prof_name=selected_prof['name'],
+                        prof_interest=selected_prof.get('research_interests', ''),
+                        student_name=st.session_state.student_name,
+                        student_academic_year=st.session_state.student_academic_year,
+                        student_background=st.session_state.student_background,
+                        student_interest=st.session_state.student_interest,
+                        goal=final_goal,
+                        extra=extra_note
+                    )
+                    with st.expander("View Generated Email", expanded=True):
+                        st.markdown(email)
+
+                    prof_email = selected_prof.get('email', 'N/A')
+                    subject = f"Inquiry from {st.session_state.student_name}"
+                    safe_body = email if len(email) < 1800 else email[:1800] + "\n\n[Trimmed for URL]"
+                    encoded_subject = urllib.parse.quote(subject)
+                    encoded_body = urllib.parse.quote(safe_body)
+
+                    mailto_link = f"mailto:{prof_email}?subject={encoded_subject}&body={encoded_body}"
+                    gmail_link = (
+                        "https://accounts.google.com/AccountChooser?"
+                        + "continue=" + urllib.parse.quote(
+                            f"https://mail.google.com/mail/?view=cm&fs=1&to={prof_email}&su={encoded_subject}&body={encoded_body}"
                         )
-                        with st.expander("📧 View Generated Email", expanded=True):
-                            st.markdown(email)
+                    )
 
-                        prof_email = selected_prof.get('email', 'N/A')
-                        subject = f"Inquiry from {student_name}"
-                        safe_body = email if len(email) < 1800 else email[:1800] + "\n\n[Trimmed for URL]"
-                        encoded_subject = urllib.parse.quote(subject)
-                        encoded_body = urllib.parse.quote(safe_body)
-
-                        mailto_link = f"mailto:{prof_email}?subject={encoded_subject}&body={encoded_body}"
-                        gmail_link = (
-                            "https://accounts.google.com/AccountChooser?"
-                            + "continue=" + urllib.parse.quote(
-                                f"https://mail.google.com/mail/?view=cm&fs=1&to={prof_email}&su={encoded_subject}&body={encoded_body}"
-                            )
-                        )
+                    st.markdown("### Send Email:")
+                    st.markdown(f"""
+                        <a href="{mailto_link}">
+                            <button style='margin:5px;'>Open in Mail App</button>
+                        </a>
+                        <a href="{gmail_link}" target="_blank">
+                            <button style='margin:5px;'>Open in Gmail</button>
+                        </a>
+                    """, unsafe_allow_html=True)
 
 
-                        st.markdown("### 📤 Send Email:")
-                        st.markdown(f"""
-                            <a href="{mailto_link}">
-                                <button style='margin:5px;'>📨 Open in Mail App</button>
-                            </a>
-                            <a href="{gmail_link}" target="_blank">
-                                <button style='margin:5px;'>📬 Open in Gmail</button>
-                            </a>
-                        """, unsafe_allow_html=True)
-
-
-if show_filtered:
+if True:
     if not filtered:
         st.warning("No matching faculty found.")
     else:
+        total_results = len(filtered)
+        page_size = 20
+        total_pages = max(1, (total_results - 1) // page_size + 1)
+        
+        st.markdown(f"### Found {total_results} matching faculty")
+        
+        if total_pages > 1:
+            col1, col2, col3 = st.columns([1, 2, 1])
+            with col2:
+                page_number = st.number_input("Page", min_value=1, max_value=total_pages, value=1)
+        else:
+            page_number = 1
+            
+        start_idx = (page_number - 1) * page_size
+        end_idx = start_idx + page_size
+        paged_filtered = filtered[start_idx:end_idx]
+        
         grouped = defaultdict(list)
-        for prof in filtered:
+        for prof in paged_filtered:
             grouped[prof["department"]].append(prof)
 
         for dept, profs in sorted(grouped.items()):
@@ -382,7 +327,7 @@ if show_filtered:
 <p style="margin: 0; font-size: 14px; line-height: 1.5;">{research_html}</p>
 </div>
 <div style="margin-top: 16px; display: flex; align-items: center;">
-<a href="{prof.get('profile_url', '#')}" target="_blank" style="background: rgba(128,128,128,0.2); padding: 8px 16px; border-radius: 6px; text-decoration: none; font-size: 13px; font-weight: 600; color: inherit;">🔗 View Full Profile</a>
+<a href="{prof.get('profile_url', '#')}" target="_blank" style="background: rgba(128,128,128,0.2); padding: 8px 16px; border-radius: 6px; text-decoration: none; font-size: 13px; font-weight: 600; color: inherit;">View Full Profile</a>
 {website_html}
 </div>
 </div>
@@ -399,7 +344,7 @@ if show_filtered:
                             else:
                                 st.markdown(pubs)
 
-                    if view_mode == "📧 Email Generator" and prof["name"] == selected_prof_name and email:
+                    if prof["name"] == selected_prof_name and email:
                         subject = f"Inquiry from {student_name}"
                         safe_body = email if len(email) < 1800 else email[:1800] + "\n\n[Trimmed for URL]"
                         encoded_subject = urllib.parse.quote(subject)
@@ -410,9 +355,9 @@ if show_filtered:
 
                         st.markdown(f"""
 <a href="{mailto_link}">
-<button style='margin:5px;'>📨 Open in Mail App</button>
+<button style='margin:5px;'>Open in Mail App</button>
 </a>
 <a href="{gmail_link}" target="_blank">
-<button style='margin:5px;'>📬 Open in Gmail</button>
+<button style='margin:5px;'>Open in Gmail</button>
 </a>
                         """, unsafe_allow_html=True)
