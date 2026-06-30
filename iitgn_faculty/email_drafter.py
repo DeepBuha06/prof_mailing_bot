@@ -17,10 +17,13 @@ def suggest_optimal_time():
     else:
         return now  
 
-genai.configure(api_key=os.getenv(st.secrets["GEMINI_API_KEY"]))
+from dotenv import load_dotenv
+load_dotenv(os.path.join(os.path.dirname(__file__), "..", ".env"))
+api_key = os.getenv("GEMINI_API_KEY") or os.getenv("GEMINI_API_KEY2")
+genai.configure(api_key=api_key)
 model = genai.GenerativeModel("gemini-2.0-flash")
 
-def draft_email(prof_name, prof_interest, student_name, student_academic_year, student_background, student_interest, goal, extra=""):
+def draft_email(prof_name, prof_interest, student_name, student_academic_year, student_background, student_interest, goal, extra="", scraped_context=""):
     prompt = f"""
 You are an academic email assistant. Write a polite, professional email from a student to a professor.
 
@@ -28,6 +31,8 @@ Context:
 - Student Name: {student_name}
 - Student academic year: {student_academic_year}
 - Professor Name: {prof_name}
+- Professor Research Interests: {prof_interest}
+- Agent Scraped Context (Recent Publication): {scraped_context}
 - Intent: {goal}
 - Additional Info (optional): {extra if extra else "None"}
 

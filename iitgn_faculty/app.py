@@ -345,58 +345,74 @@ if show_filtered:
         for dept, profs in sorted(grouped.items()):
             for prof in profs:
                 with st.container():
-                    col1, col2 = st.columns([4, 1])
-                    with col1:
-                        st.markdown(f"###{prof.get('name', 'N/A')}")
-                        st.markdown(f"College: {prof.get('college_name', 'N/A')}")
-                        st.markdown(f"Designation:{prof.get('designation', 'N/A')}")
-                        st.markdown(f"Department:{prof.get('department', 'N/A')}")
-                        prof_email = prof.get('email', 'N/A')
-                        st.markdown(f"Email:`{prof_email}`")
-                        if prof.get("website"):
-                            st.markdown(f"[Website]({prof['website']})")
+                    prof_name = prof.get('name', 'Unknown')
+                    prof_email = prof.get('email', 'N/A')
+                    designation = prof.get('designation', 'N/A')
+                    department = prof.get('department', 'N/A')
+                    college = prof.get('college_name', 'N/A')
+                    
+                    # Formatting research interests cleanly
+                    research_raw = prof.get("research_interests") or "N/A"
+                    interests = [s.strip(" ●,|") for s in re.split(r"[●•,|]", research_raw) if s.strip()]
+                    research_html = " &bull; ".join(interests) if interests else "N/A"
+                    
+                    # Formatting image and Instagram-style fallback
+                    encoded_name = urllib.parse.quote(prof_name)
+                    # Use a subtle grayish background with white text for the avatar so it looks professional in any theme
+                    fallback_img = f"https://ui-avatars.com/api/?name={encoded_name}&background=333333&color=ffffff&rounded=true&size=200"
+                    image_url = proxy_image_url(prof.get("photo", "")) if prof.get("photo") else fallback_img
+                    
+                    website_html = f"<a href='{prof.get('website')}' target='_blank' style='color: #0d6efd; text-decoration: none; margin-left: 15px; font-weight: 500;'>🌐 Website</a>" if prof.get("website") else ""
+                    
+                    # UNINDENTED HTML TO PREVENT STREAMLIT FROM RENDERING AS CODE BLOCK
+                    html_card = f"""
+<div style="border-radius: 12px; padding: 20px; margin-bottom: 20px; border: 1px solid rgba(128,128,128,0.2); background-color: rgba(128,128,128,0.05); display: flex; gap: 20px;">
+<div style="flex-shrink: 0; display: flex; flex-direction: column; align-items: center;">
+<img src="{image_url}" onerror="this.onerror=null; this.src='{fallback_img}';" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover; border: 2px solid rgba(128,128,128,0.2);">
+</div>
+<div style="flex-grow: 1;">
+<h3 style="margin: 0 0 8px 0; font-size: 22px;">{prof_name}</h3>
+<div style="margin-bottom: 12px;">
+<span style="background: rgba(128,128,128,0.2); padding: 4px 12px; border-radius: 20px; font-size: 13px; font-weight: 600;">{designation}</span>
+<span style="border: 1px solid rgba(128,128,128,0.4); padding: 3px 11px; border-radius: 20px; font-size: 13px; font-weight: 600; margin-left: 8px;">{department}</span>
+</div>
+<p style="margin: 0 0 8px 0; font-size: 14px;"><strong>College:</strong> {college} &nbsp;|&nbsp; <strong>Email:</strong> <a href="mailto:{prof_email}" style="color: #0d6efd; text-decoration: none;">{prof_email}</a></p>
+<div style="margin-top: 12px; background: rgba(128,128,128,0.1); padding: 12px; border-radius: 8px; border-left: 3px solid rgba(128,128,128,0.5);">
+<p style="margin: 0 0 4px 0; font-size: 13px; font-weight: 700; text-transform: uppercase;">Research Interests</p>
+<p style="margin: 0; font-size: 14px; line-height: 1.5;">{research_html}</p>
+</div>
+<div style="margin-top: 16px; display: flex; align-items: center;">
+<a href="{prof.get('profile_url', '#')}" target="_blank" style="background: rgba(128,128,128,0.2); padding: 8px 16px; border-radius: 6px; text-decoration: none; font-size: 13px; font-weight: 600; color: inherit;">🔗 View Full Profile</a>
+{website_html}
+</div>
+</div>
+</div>
+"""
+                    st.markdown(html_card, unsafe_allow_html=True)
 
-                        research_raw = prof.get("research_interests") or ""
-                        interests = [s.strip(" ●,|") for s in re.split(r"[●•,|]", research_raw) if s.strip()]
-                        if interests:
-                            st.markdown("Research Interests:")
-                            for i in interests:
-                                st.markdown(f"- {i}")
-                        else:
-                            st.markdown("Research Interests: N/A")
+                    if prof.get("selected_publications"):
+                        with st.expander("Selected Publications"):
+                            pubs = prof["selected_publications"]
+                            if isinstance(pubs, list):
+                                for pub in pubs:
+                                    st.markdown(f"- {pub}")
+                            else:
+                                st.markdown(pubs)
 
-                        st.markdown(f"Academic Background: {prof.get('academic_background', 'N/A')}")
-                        st.markdown(f"Work Experience: {prof.get('work_experience', 'N/A')}")
+                    if view_mode == "📧 Email Generator" and prof["name"] == selected_prof_name and email:
+                        subject = f"Inquiry from {student_name}"
+                        safe_body = email if len(email) < 1800 else email[:1800] + "\n\n[Trimmed for URL]"
+                        encoded_subject = urllib.parse.quote(subject)
+                        encoded_body = urllib.parse.quote(safe_body)
 
-                        if prof.get("selected_publications"):
-                            with st.expander("Selected Publications"):
-                                pubs = prof["selected_publications"]
-                                if isinstance(pubs, list):
-                                    for pub in pubs:
-                                        st.markdown(f"- {pub}")
-                                else:
-                                    st.markdown(pubs)
+                        mailto_link = f"mailto:{prof_email}?subject={encoded_subject}&body={encoded_body}"
+                        gmail_link = f"https://mail.google.com/mail/?view=cm&fs=1&to={prof_email}&su={encoded_subject}&body={encoded_body}"
 
-                        st.markdown(f"[🔗 Profile Link]({prof.get('profile_url', '#')})")
-
-                        if view_mode == "📧 Email Generator" and prof["name"] == selected_prof_name and email:
-                            subject = f"Inquiry from {student_name}"
-                            safe_body = email if len(email) < 1800 else email[:1800] + "\n\n[Trimmed for URL]"
-                            encoded_subject = urllib.parse.quote(subject)
-                            encoded_body = urllib.parse.quote(safe_body)
-
-                            mailto_link = f"mailto:{prof_email}?subject={encoded_subject}&body={encoded_body}"
-                            gmail_link = f"https://mail.google.com/mail/?view=cm&fs=1&to={prof_email}&su={encoded_subject}&body={encoded_body}"
-
-                            st.markdown(f"""
-                                <a href="{mailto_link}">
-                                    <button style='margin:5px;'>📨 Open in Mail App</button>
-                                </a>
-                                <a href="{gmail_link}" target="_blank">
-                                    <button style='margin:5px;'>📬 Open in Gmail</button>
-                                </a>
-                            """, unsafe_allow_html=True)
-                    with col2:
-                        if prof.get("photo"):
-                            image_url = proxy_image_url(prof.get("photo", ""))
-                            st.image(image_url, use_container_width=True)
+                        st.markdown(f"""
+<a href="{mailto_link}">
+<button style='margin:5px;'>📨 Open in Mail App</button>
+</a>
+<a href="{gmail_link}" target="_blank">
+<button style='margin:5px;'>📬 Open in Gmail</button>
+</a>
+                        """, unsafe_allow_html=True)

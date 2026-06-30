@@ -18,15 +18,13 @@ import matplotlib.pyplot as plt
 import numpy as np
 from langchain_community.document_loaders import TextLoader
 from langchain_text_splitters import CharacterTextSplitter
-from langchain_google_genai import GoogleGenerativeAIEmbeddings
-from langchain_google_genai import GoogleGenerativeAI
-from langchain_chroma import Chroma  
+from langchain_huggingface import HuggingFaceEmbeddings
+from dotenv import load_dotenv
+load_dotenv(os.path.join(os.path.dirname(__file__), "..", ".env"))
+API_KEY = os.getenv("GEMINI_API_KEY") or os.getenv("GEMINI_API_KEY2")
 
-embedding_model = GoogleGenerativeAIEmbeddings(
-    model="models/embedding-001",
-    google_api_key=os.getenv("GEMINI_API_KEY2")
-)
-genai.configure(api_key=os.getenv("GEMINI_API_KEY2"))
+embedding_model = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
+genai.configure(api_key=API_KEY)
 gemini_model = genai.GenerativeModel("gemini-2.0-flash")
 
 all_faculty_data = []
@@ -181,7 +179,7 @@ from langchain_community.vectorstores import Chroma as ChromaBase
 import shutil
 import streamlit as st
 
-CHROMA_PATH = "./.chroma_index"
+CHROMA_PATH = os.path.join(os.path.dirname(__file__), ".chroma_db_v7")
 COLLECTION_NAME = "faculty_research"
 
 @st.cache_resource
@@ -204,23 +202,8 @@ def load_vectorstore():
             )
         return chroma
     except Exception as e:
-        # If loading fails, recreate the index
-        try:
-            import shutil
-            if os.path.exists(CHROMA_PATH):
-                shutil.rmtree(CHROMA_PATH)
-            os.makedirs(CHROMA_PATH)
-            chroma = ChromaBase.from_documents(
-                documents=documents,
-                embedding=embedding_model,
-                persist_directory=CHROMA_PATH,
-                collection_name=COLLECTION_NAME
-            )
-            chroma.persist()
-            return chroma
-        except Exception as e2:
-            print(f"Failed to recreate vectorstore: {e2}")
-            return None
+        print(f"Failed to load vectorstore: {e}")
+        return None
 
 db_df = load_vectorstore()
 
