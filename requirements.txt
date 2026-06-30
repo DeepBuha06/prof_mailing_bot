@@ -11,13 +11,19 @@ google-auth-httplib2
 protobuf
 google-generativeai
 
-# Langchain + Chroma (order matters!)
+# Langchain + Chroma + Local Embeddings (order matters!)
 pysqlite3-binary==0.5.2        # Must come BEFORE chromadb
 chromadb>=0.4.24
-langchain
-langchain-chroma
-langchain-community
-langchain-google-genai
+langchain>=0.2.0
+langchain-chroma>=0.1.1
+langchain-community>=0.2.0
+langchain-google-genai>=1.0.6
+google-generativeai>=0.5.4
+sentence-transformers>=3.0.0
+langchain-huggingface>=0.0.3
+
+# Autonomous Agent (Scraping)
+playwright>=1.44.0
 
 # Web backend
 fastapi
