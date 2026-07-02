@@ -44,7 +44,8 @@ Rules for a 10/10 Academic Email:
 4. CONCISE REQUEST: Do not say "I am eager to gain practical research experience and contribute to the field" (everyone says this). Instead, cleanly state your request. 
    - Good Example: "I was wondering if you might be accepting undergraduate interns for the upcoming semester or summer. If so, I would be grateful for an opportunity to contribute to your research."
 5. If the intent is NOT about research (e.g., a minor issue), keep it extremely short and focused, ignoring the rules above.
-6. Always begin with "Dear Prof. {prof_name}," and end with "Sincerely, \n{student_name}".
+6. The VERY FIRST line of your response MUST be a dynamic, professional subject line tailored to the context (e.g., "Subject: Inquiry regarding summer research in [Topic] / [Your Name]").
+7. Leave a blank line after the subject, and always begin the body with "Dear Prof. {prof_name}," and end with "Sincerely, \n{student_name}".
 
 Write the email accordingly.
 """
@@ -54,6 +55,14 @@ Write the email accordingly.
         contents=prompt
     )
     email_text = response.text.strip()
+    
+    subject = f"Inquiry from {student_name}"
+    body = email_text
+    
+    if email_text.lower().startswith("subject:"):
+        parts = email_text.split("\n", 1)
+        subject = parts[0][8:].strip()
+        body = parts[1].strip()
 
     now = datetime.datetime.now()
     followup = plan_followup(now)
@@ -65,12 +74,13 @@ Write the email accordingly.
         "professor_email": "UNKNOWN",  # fill in from UI
         "goal": goal,
         "extra_note": extra,
-        "email_text": email_text,
+        "subject": subject,
+        "email_text": body,
         "sent_time": now.isoformat(),
         "followup_time": followup.isoformat(),
         "responded": False,
     }
     log_interaction(log_entry)
-    return email_text
+    return subject, body
 
 

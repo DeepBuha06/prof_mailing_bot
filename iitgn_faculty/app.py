@@ -331,35 +331,40 @@ with tab3:
             st.markdown("---")
             st.markdown("#### 3. Agentic Configuration & Launchpad")
             
-            # Manual Paper Override UI
-            st.write("**Manual Override (Optional)**")
+            mode = st.radio("Execution Mode", ["Fully Autonomous (Recommended)", "Manual Override"], horizontal=True)
+            
             cache_key = f"papers_{selected_prof_name}"
             if cache_key not in st.session_state:
                 st.session_state[cache_key] = []
                 
-            col_a, col_b = st.columns([1, 2])
-            with col_a:
-                if st.button("Fetch Papers (Web Surfer Only)"):
-                    with st.spinner("Fetching papers..."):
-                        papers = scrape_scholar_list(selected_prof['name'], selected_prof.get('college_name', ''))
-                        st.session_state[cache_key] = papers
+            manual_btn = False
+            auto_btn = False
+            selected_paper_title = "None (Do not mention any specific paper)"
             
-            with col_b:
-                papers_list = st.session_state.get(cache_key, [])
-                paper_options = ["None (Do not mention any specific paper)"]
-                if papers_list:
-                    paper_options.extend([p["title"] for p in papers_list])
-                    
-                selected_paper_title = st.selectbox("Manual Selection:", paper_options)
-            
-            st.markdown("<br>", unsafe_allow_html=True)
-            
-            # Launch Buttons
-            col1, col2 = st.columns(2)
-            with col1:
-                manual_btn = st.button("Generate Draft (Manual Paper)", use_container_width=True)
-            with col2:
+            if mode == "Fully Autonomous (Recommended)":
+                st.info("The Web Surfer will fetch papers, and the Evaluator Agent will autonomously select the best one based on your profile.")
                 auto_btn = st.button("Run Fully Autonomous Agent", type="primary", use_container_width=True)
+            else:
+                st.write("**Manual Paper Selection**")
+                
+                col_a, col_b = st.columns([1, 2])
+                with col_a:
+                    st.markdown("<div style='margin-top: 28px;'></div>", unsafe_allow_html=True)
+                    if st.button("Fetch Papers (Web Surfer Only)", use_container_width=True):
+                        with st.spinner("Fetching papers..."):
+                            papers = scrape_scholar_list(selected_prof['name'], selected_prof.get('college_name', ''))
+                            st.session_state[cache_key] = papers
+                
+                with col_b:
+                    papers_list = st.session_state.get(cache_key, [])
+                    paper_options = ["None (Do not mention any specific paper)"]
+                    if papers_list:
+                        paper_options.extend([p["title"] for p in papers_list])
+                        
+                    selected_paper_title = st.selectbox("Manual Selection:", paper_options)
+                
+                st.markdown("<br>", unsafe_allow_html=True)
+                manual_btn = st.button("Generate Draft (Manual Paper)", use_container_width=True)
 
             if manual_btn or auto_btn:
                 if not (st.session_state.student_name and st.session_state.student_background and st.session_state.student_academic_year and st.session_state.student_interest and (goal or intent_note)):
@@ -383,7 +388,7 @@ with tab3:
                                 
                         status.write("`Email Drafter:` Crafting contextual email with Gemini 2.5...")
 
-                    email = draft_email(
+                    subject, email = draft_email(
                         prof_name=selected_prof['name'],
                         prof_interest=selected_prof.get('research_interests', ''),
                         student_name=st.session_state.student_name,
@@ -394,6 +399,7 @@ with tab3:
                         extra=extra_note,
                         scraped_context=selected_paper_context
                     )
+                    st.session_state.generated_subject = subject
                     st.session_state.generated_email = email
                     status.update(label="Agentic Workflow Complete!", state="complete", expanded=False)
 
@@ -401,13 +407,15 @@ with tab3:
             if st.session_state.generated_email:
                 st.markdown("---")
                 st.markdown("### Final Output")
-                st.markdown("<div style='background-color: rgba(128,128,128,0.1); padding: 20px; border-radius: 10px; border-left: 4px solid #0d6efd;'>", unsafe_allow_html=True)
-                st.markdown(st.session_state.generated_email)
-                st.markdown("</div>", unsafe_allow_html=True)
+                
+                with st.container(border=True):
+                    display_subj = st.session_state.get('generated_subject', f"Inquiry from {st.session_state.student_name}")
+                    st.markdown(f"**Subject:** {display_subj}<hr style='margin: 10px 0px 15px 0px;'>", unsafe_allow_html=True)
+                    st.write(st.session_state.generated_email)
                 
                 # Send Buttons
                 prof_email = selected_prof.get('email', 'N/A')
-                subject = f"Inquiry from {st.session_state.student_name}"
+                subject = display_subj
                 safe_body = st.session_state.generated_email if len(st.session_state.generated_email) < 1800 else st.session_state.generated_email[:1800] + "\n\n[Trimmed for URL limits]"
                 
                 encoded_subject = urllib.parse.quote(subject)
@@ -416,8 +424,6 @@ with tab3:
                 gmail_link = f"https://mail.google.com/mail/?view=cm&fs=1&to={prof_email}&su={encoded_subject}&body={encoded_body}"
 
                 st.markdown("<br>", unsafe_allow_html=True)
-                col_btn1, col_btn2, _ = st.columns([1, 1, 3])
+                col_btn1, _ = st.columns([1, 3])
                 with col_btn1:
-                    st.markdown(f'<a href="{mailto_link}" style="text-decoration: none;"><div style="background-color: #0d6efd; color: white; padding: 10px; text-align: center; border-radius: 5px; font-weight: bold;">Open Mail App</div></a>', unsafe_allow_html=True)
-                with col_btn2:
-                    st.markdown(f'<a href="{gmail_link}" target="_blank" style="text-decoration: none;"><div style="background-color: #ea4335; color: white; padding: 10px; text-align: center; border-radius: 5px; font-weight: bold;">Open in Gmail</div></a>', unsafe_allow_html=True)
+                    st.link_button("Open in Gmail", gmail_link, type="primary", use_container_width=True)
