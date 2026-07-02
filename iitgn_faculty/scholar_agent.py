@@ -1,7 +1,7 @@
 import json
 import os
-import time
-from playwright.sync_api import sync_playwright
+import requests
+import urllib.parse
 
 MEMORY_FILE = os.path.join(os.path.dirname(__file__), "agent_memory.json")
 
@@ -18,62 +18,67 @@ def save_memory(memory_data):
     with open(MEMORY_FILE, "w", encoding="utf-8") as f:
         json.dump(memory_data, f, indent=4)
 
-def scrape_scholar(prof_name, college_name, status_placeholder=None):
+def scrape_scholar_list(prof_name, college_name, status_placeholder=None):
     """
-    Uses Playwright to autonomously search Google Scholar for the professor's latest paper.
-    Returns the title and abstract (or empty string if not found).
+    Uses the Crossref API to robustly fetch the professor's latest 5 papers.
+    Avoids Google Scholar CAPTCHA blocks.
     """
     memory = load_memory()
-    prof_key = f"{prof_name} - {college_name}"
+    prof_key = f"{prof_name} - {college_name}_list"
     
     if prof_key in memory:
         if status_placeholder:
-            status_placeholder.markdown("`Agent Memory:` Found cached context for this professor.")
+            status_placeholder.write("`Agent Memory:` Found cached context for this professor.")
         return memory[prof_key]
 
     if status_placeholder:
-        status_placeholder.markdown("`Agent Memory:` No cache found. Initializing headless browser...")
+        status_placeholder.write("`Agent Memory:` No cache found. Connecting to Global Publication Database...")
 
-    scraped_context = ""
+    scraped_papers = []
     try:
-        with sync_playwright() as p:
-            browser = p.chromium.launch(headless=True)
-            page = browser.new_page()
+        query_general = urllib.parse.quote(f"{prof_name} {college_name}")
+        url = f"https://api.crossref.org/works?query={query_general}&select=title,abstract,author,published-print&rows=5"
+        
+        if status_placeholder:
+            status_placeholder.write(f"`Web Surfer:` Fetching recent publications for {prof_name} via CrossRef API...")
             
-            # Step 1: Search Google Scholar
-            search_query = f"{prof_name} {college_name} research papers"
-            if status_placeholder:
-                status_placeholder.markdown(f"`Web Surfer:` Navigating to Google Scholar for '{search_query}'...")
+        headers = {'User-Agent': 'mailto:deep.buha@iitgn.ac.in (IITGN Scholar Agent)'}
+        r = requests.get(url, headers=headers, timeout=10)
+        
+        if r.status_code == 200:
+            data = r.json()
+            items = data.get('message', {}).get('items', [])
             
-            page.goto(f"https://scholar.google.com/scholar?q={search_query}")
-            time.sleep(2) # Prevent rate limiting
-            
-            # Step 2: Extract top result title and snippet
-            # Scholar results are usually in elements with class 'gs_ri'
-            first_result = page.query_selector('.gs_ri')
-            if first_result:
+            if items:
                 if status_placeholder:
-                    status_placeholder.markdown("`Web Surfer:` Successfully extracted top publication data.")
+                    status_placeholder.write(f"`Web Surfer:` Successfully extracted {len(items)} publications.")
                 
-                title_elem = first_result.query_selector('.gs_rt')
-                snippet_elem = first_result.query_selector('.gs_rs')
-                
-                title = title_elem.inner_text() if title_elem else "Unknown Title"
-                snippet = snippet_elem.inner_text() if snippet_elem else "No abstract available."
-                
-                scraped_context = f"Recent Publication: {title}\nAbstract/Snippet: {snippet}"
+                for item in items:
+                    title = item.get('title', ['Unknown Title'])[0]
+                    context_str = f"Recent Publication Title: {title}"
+                    
+                    abstract = item.get('abstract')
+                    if abstract:
+                        abstract_clean = abstract.replace("<jats:p>", "").replace("</jats:p>", "").replace("<jats:title>", "").replace("</jats:title>", "")
+                        context_str += f"\nAbstract/Snippet: {abstract_clean[:500]}..."
+                        
+                    scraped_papers.append({
+                        "title": title,
+                        "context_str": context_str
+                    })
             else:
                 if status_placeholder:
-                    status_placeholder.markdown("`Web Surfer:` No recent publications found on Scholar.")
-            
-            browser.close()
+                    status_placeholder.write("`Web Surfer:` No recent publications found.")
+        else:
+            if status_placeholder:
+                status_placeholder.write(f"`Web Surfer:` API returned status {r.status_code}")
+                
     except Exception as e:
         if status_placeholder:
-            status_placeholder.markdown(f"`Error:` Web scraping failed: {str(e)}")
+            status_placeholder.write(f"`Error:` Web scraping failed: {str(e)}")
 
-    # Update Memory
-    if scraped_context:
-        memory[prof_key] = scraped_context
+    if scraped_papers:
+        memory[prof_key] = scraped_papers
         save_memory(memory)
         
-    return scraped_context
+    return scraped_papers

@@ -35,12 +35,16 @@ Context:
 - Intent: {goal}
 - Additional Info (optional): {extra if extra else "None"}
 
-Rules:
-- If the goal is about a minor issue (like submission mistake or confirmation), keep the email short and focused. Avoid research interests or background info.
-- If the goal is about collaboration (like research/project/internship), include a short self-introduction, interests, and a formal request.
-- Always begin with "Dear Prof. {prof_name},"
-- Use clear and professional language.
-- End with a thank you and the student's name.
+Rules for a 10/10 Academic Email:
+1. NO GENERIC FLUFF: Do NOT use template phrases like "I have been following your work with great fascination" or "deeply resonated with my growing interest".
+2. NO EMPTY ADJECTIVES: Strictly avoid words like "keen interest", "great fascination", "incredibly insightful", "particularly captivated". Be direct and concise.
+3. SHOW, DON'T TELL (THE PAPER DISCUSSION): If 'Agent Scraped Context' is provided, do NOT just say "I read your paper and found it insightful". You MUST extract one concrete, technical takeaway or question from the abstract and mention it directly. 
+   - Good Example: "I found the idea of using [technique] to study [topic] particularly interesting because it connects [concept A] with [concept B]." 
+   - It MUST sound like intellectual curiosity, NOT praise.
+4. CONCISE REQUEST: Do not say "I am eager to gain practical research experience and contribute to the field" (everyone says this). Instead, cleanly state your request. 
+   - Good Example: "I was wondering if you might be accepting undergraduate interns for the upcoming semester or summer. If so, I would be grateful for an opportunity to contribute to your research."
+5. If the intent is NOT about research (e.g., a minor issue), keep it extremely short and focused, ignoring the rules above.
+6. Always begin with "Dear Prof. {prof_name}," and end with "Sincerely, \n{student_name}".
 
 Write the email accordingly.
 """

@@ -212,8 +212,8 @@ db_df = load_vectorstore()
 # tag_ids = [int(doc.page_content.split()[0]) for doc in docs]
 # data = df[df["tag_id"].isin(tag_ids)]
 
-def retrieve_symantic_recommendations(query: str, top_k: int = 10) -> list[dict]:
-    recs = db_df.similarity_search(query, k=top_k * 10)  
+def retrieve_symantic_recommendations(query: str, top_k: int = 10, college_filter: str = "All", dept_filter: str = "All") -> list[dict]:
+    recs = db_df.similarity_search(query, k=top_k * 50)  
 
     prof_ids = []
     seen = set()
@@ -231,11 +231,23 @@ def retrieve_symantic_recommendations(query: str, top_k: int = 10) -> list[dict]
         if tag not in seen:
             prof_ids.append(tag)
             seen.add(tag)
-        if len(prof_ids) >= top_k:
-            break
 
-    result_df = df[df["tag_id"].isin(prof_ids)]
-    result_df = result_df.drop(columns=["tag_id", "tagged_research_interests"], errors="ignore")
+    mask = pd.Series(True, index=df.index)
+    if college_filter and college_filter != "All":
+        mask = mask & (df["college_name"].str.strip().str.lower() == college_filter.strip().lower())
+    if dept_filter and dept_filter != "All":
+        mask = mask & (df["department"].str.strip().str.lower() == dept_filter.strip().lower())
+        
+    filtered_df = df[mask]
+    
+    valid_tags = set(filtered_df["tag_id"].tolist())
+    final_tags = [tag for tag in prof_ids if tag in valid_tags][:top_k]
+    
+    if not final_tags:
+        return []
+        
+    result_df = filtered_df.set_index("tag_id").loc[final_tags].reset_index()
+    result_df = result_df.drop(columns=["tagged_research_interests"], errors="ignore")
 
     return result_df.to_dict(orient="records")
 
